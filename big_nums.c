@@ -36,7 +36,7 @@ static void parce_int(const char *num, bdouble_t *pint)
 static void parce_double(const char *num, bdouble_t *pdouble)
 {
     size_t zeros_after_dot = 0, zeros_before_dot = 0;
-    size_t i = 0, digits = 0;
+    size_t i = 0;
     if (num[i] == '-' || num[i] == '+')
         i++;
     
@@ -49,11 +49,19 @@ static void parce_double(const char *num, bdouble_t *pdouble)
     pdouble->exponent = dot_pos;
     while(dot_pos--)
     {
-        pdouble->mantissa[digits++] = num[i++] - '0';
-        pdouble->man_length++;
+        pdouble->mantissa[pdouble->man_length++] = num[i++] - '0';
         zeros_before_dot++;
         if (num[i] == 'E' && dot_pos != 1)
+        {
+            size_t i = pdouble->man_length - 1;
+            while(pdouble->mantissa[i] == 0)
+            {
+                pdouble->exponent++;
+                pdouble->man_length--;
+                i--;
+            }
             break;
+        }
     }
     if (num[i] == '.')
         i++; //Пропуск самой точки
@@ -64,12 +72,11 @@ static void parce_double(const char *num, bdouble_t *pdouble)
     {
         if (num[i] - '0' != 0)
             digit = true;
-        if (num[i] - '0' == 0 && digit && !digits)
+        if (num[i] - '0' == 0 && digit && !pdouble->man_length)
             zeros_after_dot++;
         else if (digit)
         { 
-            pdouble->mantissa[digits++] = num[i] - '0';
-            pdouble->man_length++;
+            pdouble->mantissa[pdouble->man_length++] = num[i] - '0';
         }
         i++;
     }
@@ -104,9 +111,20 @@ int parce_numbers(char *int_num, char *real_num, bdouble_t *pint, bdouble_t *pre
 
 void print_bdouble(const bdouble_t *num)
  {
-    printf("%c0.", num->sign);
-    for (size_t i = 0; i < num->man_length; ++i)
-        printf("%d", num->mantissa[i]);
+    if (num->exponent > 99999)
+        printf("Достигнута машинная бесконечность!\n");
+    else if (num->exponent < -99999)
+        printf("Достигнут машинный ноль!\n");
+    
+    else 
+    {
+        printf("%c0.", num->sign);
+        for (size_t i = 0; i < num->man_length; ++i)
+            printf("%d", num->mantissa[i]);
 
-    printf("E%d\n", num->exponent);
+        if (num->exponent > 0)
+            printf("E+%d\n", num->exponent);
+        else
+            printf("E%d\n", num->exponent);
+    }
 }

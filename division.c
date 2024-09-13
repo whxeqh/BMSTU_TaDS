@@ -1,4 +1,5 @@
 #include "division.h"
+#include <stdio.h>
 #include <string.h>
 #include <stddef.h>
 #include <assert.h>
@@ -72,11 +73,15 @@ static int cmp_mantissa(int *man1, const size_t len1, int *man2, const size_t le
  * @param divisor Делимое
  * @return Неполное делимое / (10 ^ (k - 1)), где k - длина делителя (мантиссы)
 */
-static size_t incomplete_dividend(size_t *len, bdouble_t *divident, const bdouble_t *divisor)
+static size_t incomplete_dividend(size_t *len, bdouble_t *divident, const bdouble_t *divisor, exp_t *exp)
 {
+    static short cnt = 0;
+    cnt++;
+
     size_t digit = 0, i = 0;
     size_t divisor_len = divisor->man_length;
     size_t divident_len = divisor_len;
+    size_t old_divident_len = divident->man_length;
 
     if (divident->man_length < divisor_len)
     {
@@ -102,6 +107,22 @@ static size_t incomplete_dividend(size_t *len, bdouble_t *divident, const bdoubl
 
     *len = divident_len;
 
+    if (exp->flag == false && cnt == 1 && *len > old_divident_len)
+    {
+        exp->exp -=(*len - (old_divident_len + 1));
+        exp->flag = true;
+    }
+    else if (exp->flag == false)
+    {
+        if (cnt > 0 && *len == old_divident_len)
+        {
+            exp->exp = cnt;
+            exp->flag = true;
+        }
+        else if (cnt > 1)
+            exp->exp = (cnt - 1);
+    }
+
     if (divident_len > divisor_len)
         return digit = (divident->mantissa[0] * 10 + divident->mantissa[1]) / divisor->mantissa[0];
     else 
@@ -116,7 +137,7 @@ static size_t incomplete_dividend(size_t *len, bdouble_t *divident, const bdoubl
  * @param divisor Делитель
  * @return очередная цифра частного
 */
-static int get_sub(size_t *len, bdouble_t *subtrahend, bdouble_t *divident,  const bdouble_t *divisor)
+static int get_sub(size_t *len, bdouble_t *subtrahend, bdouble_t *divident,  const bdouble_t *divisor, exp_t *exp)
 {
     //size_t divident_len = divident->man_length;
     size_t divisor_len = divisor->man_length;
@@ -129,7 +150,7 @@ static int get_sub(size_t *len, bdouble_t *subtrahend, bdouble_t *divident,  con
 
     memcpy(tmp_divisor.mantissa, divisor->mantissa, divisor_len * sizeof(int));
 
-    size_t digit = incomplete_dividend(len, divident, divisor);
+    size_t digit = incomplete_dividend(len, divident, divisor, exp);
 
     mul_big_small(&tmp_divisor, digit, BASE);
 
@@ -185,37 +206,80 @@ static void subtraction(bdouble_t *tmp_divident, int len, bdouble_t *subtrahend,
 
 bdouble_t div_big_numbers(const bdouble_t *divident, bdouble_t *divisor)
 {
-    size_t ostatok = 0;
+    exp_t exp, fake_exp;
+    size_t ostatok = 0, len;
     bdouble_t ostatok_t;
     bdouble_t ans, subtrahend, tmp_divident = *divident, all_zeros;
     memset(&all_zeros, 0, sizeof(bdouble_t));
     memset(&ans, 0, sizeof(bdouble_t));
+    memset(&exp, 0, sizeof(exp_t));
+
+    ans.exponent = -1 * divisor->exponent + divisor->man_length;
 
     do
     {
         //incomplete_dividend(&tmp_divident, divisor);
         memset(&subtrahend, 0, sizeof(bdouble_t));
         memset(&ostatok_t, 0, sizeof(bdouble_t));
-        size_t len;
 
-        ans.mantissa[ans.man_length++] = get_sub(&len, &subtrahend, &tmp_divident, divisor);
+        ans.mantissa[ans.man_length++] = get_sub(&len, &subtrahend, &tmp_divident, divisor, &exp);
 
         subtraction(&tmp_divident, len, &subtrahend, &ostatok, BASE);
-        
+    
+
         ostatok++;
 
         while(ostatok < divisor->man_length)
         {
+            if (exp.flag == false && tmp_divident.man_length < divisor->man_length)
+                ans.exponent++;
             ostatok++;
             ans.mantissa[ans.man_length++] = 0;
         }
 
         memcpy(&ostatok_t.mantissa, &tmp_divident.mantissa, ostatok * sizeof(int));
 
-        if (ostatok == divisor->man_length && cmp_mantissa(ostatok_t.mantissa, ostatok, divisor->mantissa, ostatok) < 0)
+        if (ostatok == divisor->man_length && cmp_mantissa(ostatok_t.mantissa, ostatok, divisor->mantissa, ostatok) < 0 && cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN) != 0)
+        {
+            if (exp.flag == false)
+                ans.exponent++;
             ans.mantissa[ans.man_length++] = 0;
+        }
 
-      } while (cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN) != 0 && ans.man_length < MANTISA_LEN);
+    } while (cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN) != 0 && ans.man_length < MANTISA_LEN);
+
+    size_t i = ans.man_length - 1;
+    while(ans.mantissa[i] == 0)
+    {
+        ans.man_length--;
+        ans.exponent--;
+        i--;
+    }
+
+    if (ans.man_length == MANTISA_LEN)
+    {
+        memset(&subtrahend, 0, sizeof(bdouble_t));
+        memset(&ostatok_t, 0, sizeof(bdouble_t));
+        memset(&fake_exp, 0, sizeof(exp_t));
+
+        int digit = get_sub(&len, &subtrahend, &tmp_divident, divisor, &fake_exp);
+        if (digit >= 5)
+            ans.mantissa[MANTISA_LEN - 1]++;
+    }
+
+    ans.exponent += exp.exp;
+
+    if (ans.man_length > MANTISA_LEN)
+    {
+        if (ans.mantissa[MANTISA_LEN] >= 5)
+            ans.mantissa[MANTISA_LEN - 1]++;
+        ans.man_length--;
+    }
+
+    if ((divident->sign == '+' && divisor->sign == '-') || (divident->sign == '-' && divisor->sign == '+'))
+        ans.sign = '-';
+    else
+        ans.sign = '+';
 
     return ans;
 }

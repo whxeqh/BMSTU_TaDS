@@ -2,7 +2,13 @@
 #define __DIVISION_H__
 
 #include "big_nums.h"
+#include <stdbool.h>
 
+typedef struct
+{
+    bool flag;
+    short exp;
+} exp_t;
 
 /** 
  * @brief Основная функция деления

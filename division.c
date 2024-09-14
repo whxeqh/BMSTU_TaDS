@@ -6,14 +6,6 @@
 
 #define MAX(A, B) (A > B ? A : B)
 
-static void delete_first_zeros(bdouble_t *num, const size_t len)
-{
-    for (size_t i = len; i < num->man_length; i++)
-        num->mantissa[i - len] = num->mantissa[i];
-    for (size_t i = num->man_length - len; i < num->man_length + len; i++)
-        num->mantissa[i] = 0;
-}
-
 /** 
  * @brief Умножение длинного числа на короткое
  * 
@@ -206,7 +198,7 @@ static void subtraction(bdouble_t *tmp_divident, int len, bdouble_t *subtrahend,
 
 bdouble_t div_big_numbers(const bdouble_t *divident, bdouble_t *divisor)
 {
-    exp_t exp, fake_exp;
+    exp_t exp;
     size_t ostatok = 0, len;
     bdouble_t ostatok_t;
     bdouble_t ans, subtrahend, tmp_divident = *divident, all_zeros;
@@ -214,7 +206,7 @@ bdouble_t div_big_numbers(const bdouble_t *divident, bdouble_t *divisor)
     memset(&ans, 0, sizeof(bdouble_t));
     memset(&exp, 0, sizeof(exp_t));
 
-    ans.exponent = -1 * divisor->exponent + divisor->man_length;
+    ans.exponent = (-1 * divisor->exponent + divisor->man_length) + (divident->exponent - divident->man_length);
 
     do
     {
@@ -228,53 +220,61 @@ bdouble_t div_big_numbers(const bdouble_t *divident, bdouble_t *divisor)
     
 
         ostatok++;
-
+        int end = cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN);
         while(ostatok < divisor->man_length)
         {
+            if (end == 0)
+                break;
             if (exp.flag == false && tmp_divident.man_length < divisor->man_length)
                 ans.exponent++;
             ostatok++;
-            ans.mantissa[ans.man_length++] = 0;
+            if (ans.man_length < MANTISA_LEN)
+                ans.mantissa[ans.man_length++] = 0;
         }
 
         memcpy(&ostatok_t.mantissa, &tmp_divident.mantissa, ostatok * sizeof(int));
 
-        if (ostatok == divisor->man_length && cmp_mantissa(ostatok_t.mantissa, ostatok, divisor->mantissa, ostatok) < 0 && cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN) != 0)
+        if (end != 0 && ostatok == divisor->man_length && cmp_mantissa(ostatok_t.mantissa, ostatok, divisor->mantissa, ostatok) < 0 && cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN) != 0)
         {
             if (exp.flag == false)
                 ans.exponent++;
-            ans.mantissa[ans.man_length++] = 0;
+            if (ans.man_length < MANTISA_LEN)
+                ans.mantissa[ans.man_length++] = 0;
         }
 
     } while (cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN) != 0 && ans.man_length < MANTISA_LEN);
 
-    size_t i = ans.man_length - 1;
+    /*size_t i = ans.man_length - 1;
     while(ans.mantissa[i] == 0)
     {
         ans.man_length--;
         ans.exponent--;
         i--;
-    }
+    }*/
 
     if (ans.man_length == MANTISA_LEN)
-    {
-        memset(&subtrahend, 0, sizeof(bdouble_t));
-        memset(&ostatok_t, 0, sizeof(bdouble_t));
-        memset(&fake_exp, 0, sizeof(exp_t));
+    {  
+        size_t cur = MANTISA_LEN - 1;
+        if (ans.mantissa[cur] >= 5)
+            ans.mantissa[--cur]++;
 
-        int digit = get_sub(&len, &subtrahend, &tmp_divident, divisor, &fake_exp);
-        if (digit >= 5)
-            ans.mantissa[MANTISA_LEN - 1]++;
+        while (ans.mantissa[cur] == 10)
+        {
+            ans.mantissa[--cur]++;
+            ans.man_length--;
+        }
+        //if (ans.man_length == MANTISA_LEN)
+        ans.man_length--;
     }
 
     ans.exponent += exp.exp;
 
-    if (ans.man_length > MANTISA_LEN)
+    /*if (ans.man_length > MANTISA_LEN)
     {
         if (ans.mantissa[MANTISA_LEN] >= 5)
             ans.mantissa[MANTISA_LEN - 1]++;
         ans.man_length--;
-    }
+    }*/
 
     if ((divident->sign == '+' && divisor->sign == '-') || (divident->sign == '-' && divisor->sign == '+'))
         ans.sign = '-';

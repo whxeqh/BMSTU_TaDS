@@ -7,19 +7,23 @@
 #include "errors.h"
 #include "input_output.h"
 
+#ifdef DEBUG
 static void ent_int_num(void)
 {
     printf("Введите целое число:\n");
     printf("1---5----10---15---20---25---30---35---40---45---50\n");
     printf("|   |    |    |    |    |    |    |    |    |    |\n");
 }
+#endif
 
+#ifdef DEBUG
 static void ent_real_num(void)
 {
     printf("Введите действительное число:\n");
     printf("1---5----10---15---20---25---30---35---40---45---50\n");
     printf("|   |    |    |    |    |    |    |    |    |    |\n");
 }
+#endif
 
 static bool check_real_num(char *num)
 {
@@ -83,7 +87,7 @@ static bool check_real_num(char *num)
             return false;
     }
 
-    if ((second_sign && !second_digit) || (!dot && !exp))
+    if (second_sign && !second_digit)
         return false;
         
     return true;
@@ -121,18 +125,21 @@ static bool check_int_num(char *num)
     return true;
 }
 
+#ifdef DEBUG
 void print_start_info(FILE *file)
 {
     fprintf(file, "\n\nАвтор: Палладий Евгений ИУ7-31Б. 16 вариант по списку, 4 вариант в ЛР\n \
 Программа выполняет деления целого числа до 40 десятичных цифр на действительное число в форме \
 +-m.n E +-K\nДлина мантиссы (m+n) - до 40 значащих цифр, а величина порядка K - до 5 цифр\n\n");
 }
-
+#endif
 
 int input_nums(char *str_int, char *str_real, FILE *file)
 {
     char tmp1[100];
+    #ifdef DEBUG
     ent_int_num();
+    #endif
 
     if (!fgets(tmp1, sizeof(tmp1), file))
         return ERR_IO;
@@ -140,7 +147,10 @@ int input_nums(char *str_int, char *str_real, FILE *file)
         return ERR_INPUT_INT;  
 
     char tmp2[100];
+
+    #ifdef DEBUG
     ent_real_num();
+    #endif
 
     if (!fgets(tmp2, sizeof(tmp2), file))
         return ERR_IO;

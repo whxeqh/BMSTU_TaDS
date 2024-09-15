@@ -212,48 +212,39 @@ bdouble_t div_big_numbers(bdouble_t *divident, bdouble_t *divisor)
                     ans.exponent--;
             }
             else 
-                ans.exponent += ans.man_length;
+                ans.exponent += ans.man_length + tmp_divident.man_length - ostatok;
             flag = true;
         }
 
         ostatok++;
         int end = cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN);
+        //bool not_dot = flag;
         while(ostatok < divisor->man_length)
         {
             if (end == 0)
                 break;
-            /*if (exp.flag == false && tmp_divident.man_length < divisor->man_length)
-                ans.exponent++;
-            */
             ostatok++;
-            if (ans.man_length < MANTISA_LEN)
+            if (ans.man_length < MANTISA_LEN - 1)
+            {
                 ans.mantissa[ans.man_length++] = 0;
+            //    if (!not_dot)
+            //        ans.exponent++;
+            }
         }
 
         memcpy(&ostatok_t.mantissa, &tmp_divident.mantissa, ostatok * sizeof(int));
 
         if (end != 0 && ostatok == divisor->man_length && cmp_mantissa(ostatok_t.mantissa, ostatok, divisor->mantissa, ostatok) < 0 && cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN) != 0)
         {
-            /*if (exp.flag == false)
-                ans.exponent++;
-            */
-            if (ans.man_length < MANTISA_LEN)
+            if (ans.man_length < MANTISA_LEN - 1)
                 ans.mantissa[ans.man_length++] = 0;
         }
 
     } while (cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN) != 0 && ans.man_length < MANTISA_LEN);
 
-    /*size_t i = ans.man_length - 1;
-    while(ans.mantissa[i] == 0)
-    {
-        ans.man_length--;
-        ans.exponent--;
-        i--;
-    }*/
-
-    if (ans.man_length == MANTISA_LEN)
+    if (ans.man_length == MANTISA_LEN - 1)
     {  
-        size_t cur = MANTISA_LEN - 1;
+        size_t cur = MANTISA_LEN - 2;
         if (ans.mantissa[cur] >= 5)
             ans.mantissa[--cur]++;
 
@@ -262,18 +253,8 @@ bdouble_t div_big_numbers(bdouble_t *divident, bdouble_t *divisor)
             ans.mantissa[--cur]++;
             ans.man_length--;
         }
-        //if (ans.man_length == MANTISA_LEN)
         ans.man_length--;
     }
-
-    //ans.exponent += exp.exp;
-
-    /*if (ans.man_length > MANTISA_LEN)
-    {
-        if (ans.mantissa[MANTISA_LEN] >= 5)
-            ans.mantissa[MANTISA_LEN - 1]++;алгоритмом 
-        ans.man_length--;
-    }*/
 
     if ((divident->sign == '+' && divisor->sign == '-') || (divident->sign == '-' && divisor->sign == '+'))
         ans.sign = '-';

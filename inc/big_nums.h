@@ -1,7 +1,7 @@
 #ifndef BIG_NUMS_H__
 #define BIG_NUMS_H__
 
-#define MANTISA_LEN     43
+#define MANTISA_LEN     42
 #define EXPONENTA_LEN   5
 
 #define BASE 10

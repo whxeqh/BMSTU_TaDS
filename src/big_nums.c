@@ -35,10 +35,8 @@ static void parce_int(const char *num, bdouble_t *pint)
 
 static void parce_double(const char *num, bdouble_t *pdouble)
 {
-    bool dot = false;
     bdouble_t tmp;
     memset(&tmp, 0, sizeof(bdouble_t)); 
-    size_t zeros_before_dot = 0;
     size_t i = 0;
     if (num[i] == '-' || num[i] == '+')
         i++;
@@ -46,55 +44,50 @@ static void parce_double(const char *num, bdouble_t *pdouble)
     tmp.sign = (i ? '-' : '+');
     
     while(num[i] == '0')
-        ++i;
-
-    size_t dot_pos = strcspn(&num[i], ".");
-    tmp.exponent = dot_pos;
-    while(dot_pos--)
-    {
-        tmp.mantissa[tmp.man_length++] = num[i++] - '0';
-        zeros_before_dot++;
-        if (num[i] == 'E' && dot_pos != 1)
-        {
-            size_t i = tmp.man_length - 1;
-            while(tmp.mantissa[i] == 0)
-            {
-                tmp.exponent++;
-                tmp.man_length--;
-                i--;
-            }
-            break;
-        }
-    }
-    if (num[i] == '.')
-    {
-        dot = true;
-        i++; //Пропуск самой точки
-    }
-    if (dot && (num[i] == '+' || num[i] == '-'))
         i++;
 
-    size_t exp_pos = strcspn(&num[i], "E");
-    size_t j = 0;
-    bool flag = false;
-    while(exp_pos--)
+    char *dot_exist = strchr(num, '.');
+    if (dot_exist)
     {
-        tmp.mantissa[tmp.man_length++] = num[i] - '0';
-        if (num[i] - '0' != 0)
-            flag = true;
-        j++, i++;
+        bool digit = false;
+        size_t dot_pos = strcspn(&num[i], ".");
+        tmp.exponent = dot_pos;
+        while(dot_pos--)
+        {
+            tmp.mantissa[tmp.man_length++] = num[i++] - '0';
+            if (num[i] - '0' != 0)
+                digit = true;
+        }
+        i++; //Пропуск точки
+
+        size_t exp_pos = strcspn(&num[i], "E");
+        while(exp_pos--)
+        {
+            if (num[i] - '0' == 0 && !digit)
+                tmp.exponent--; 
+            else if (num[i] - '0' != 0 || digit)
+            {
+                tmp.mantissa[tmp.man_length++] = num[i] - '0';
+                digit = true;
+            }
+            i++;
+        }
     }
-    if (!flag)
+
+    else
     {
-        tmp.man_length -= j; 
-        tmp.exponent += j;
-        delete_first_zeros(&tmp, j);
+        size_t exp_pos = strcspn(&num[i], "E");
+        tmp.exponent = exp_pos;
+        while(exp_pos--)
+            tmp.mantissa[tmp.man_length++] = num[i++] - '0';
+        
     }
+
     if (tmp.man_length == 0)
         tmp.man_length++;
 
     i++; // Пропуск экспоненты
-    tmp.exponent = atoi(&num[i]) + zeros_before_dot;
+    tmp.exponent += atoi(&num[i]);
 
     memcpy(pdouble, &tmp, sizeof(bdouble_t));
 }
@@ -110,6 +103,8 @@ void delete_first_zeros(bdouble_t *num, const size_t len)
 
 void reverse_mantissa(int *mantissa, const size_t len)
 {
+    if (len == 0)
+        return;
     for(size_t i = 0, j = len - 1; i < j; ++i, --j)
         swap_nums(&mantissa[i], &mantissa[j]);
 }

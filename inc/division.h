@@ -16,6 +16,6 @@ typedef struct
  * @param divisor делитель
  * @return частное 
 */
-bdouble_t div_big_numbers(const bdouble_t *divident, bdouble_t *divisor);
+bdouble_t div_big_numbers(bdouble_t *divident, bdouble_t *divisor);
 
 #endif

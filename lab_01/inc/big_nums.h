@@ -11,7 +11,7 @@
 typedef struct 
 {
     char sign;                          // Знак числа
-    int mantissa[MANTISA_LEN];      // Массив мантиссы 
+    int mantissa[MANTISA_LEN];          // Массив мантиссы 
     int exponent;                       // Экспонента
     size_t man_length;                  // Количество заполненных цифр в мантиссе
 } bdouble_t;

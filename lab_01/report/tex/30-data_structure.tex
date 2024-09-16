@@ -1,0 +1,21 @@
+\chapter{Описание структуры данных}
+
+\begin{lstlisting}[
+	caption={Структура хранения длинного числа},
+	label=lst:example,
+	]
+	typedef struct 
+	{
+		char sign;     
+		int mantissa[MANTISA_LEN];
+		int exponent;         
+		size_t man_length; 
+	} bdouble_t;
+\end{lstlisting}
+\textbf{Объяснение полей:}
+\begin{enumerate}
+	\item sign - Знак числа (+ или -)
+	\item mantissa - Мантисса числа. Массив целых чисел, каждый элемент - одна цифры
+	\item exponent - Порядок числа
+	\item man\_length - Колиество значемых элементов в мантиссе
+\end{enumerate}

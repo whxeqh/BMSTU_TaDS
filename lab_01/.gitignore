@@ -1,0 +1,24 @@
+# Временные файлы LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Файлы, создаваемые BibTeX
+*.bib.bak
+*.bbl
+*.blg
+
+# Файлы компиляции dvips
+*.dvi
+*.ps
+
+# Файлы PDF-вывода
+*.pdf

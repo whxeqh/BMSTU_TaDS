@@ -242,9 +242,10 @@ bdouble_t div_big_numbers(bdouble_t *divident, bdouble_t *divisor)
 
     } while (cmp_mantissa(tmp_divident.mantissa, MANTISA_LEN, all_zeros.mantissa, MANTISA_LEN) != 0 && ans.man_length < MANTISA_LEN);
 
-    if (ans.man_length == MANTISA_LEN - 1)
+    if (ans.man_length >= MANTISA_LEN - 1)
     {  
         size_t cur = MANTISA_LEN - 2;
+        ans.man_length = cur;
         if (ans.mantissa[cur] >= 5)
             ans.mantissa[--cur]++;
 
@@ -253,7 +254,6 @@ bdouble_t div_big_numbers(bdouble_t *divident, bdouble_t *divisor)
             ans.mantissa[--cur]++;
             ans.man_length--;
         }
-        ans.man_length--;
     }
 
     if ((divident->sign == '+' && divisor->sign == '-') || (divident->sign == '-' && divisor->sign == '+'))

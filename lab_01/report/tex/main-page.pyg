@@ -1,0 +1,6 @@
+^^I{
+^^I^^Ichar sign;                          // Знак числа
+^^I^^Iint mantissa[MANTISA_LEN];          // Массив мантиссы
+^^I^^Iint exponent;                       // Экспонента
+^^I^^Isize_t man_length;                  // Количество заполненных цифр в мантиссе
+^^I} bdouble_t;

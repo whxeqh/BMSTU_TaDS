@@ -30,19 +30,20 @@ int main(void)
     //Парсинг числа из строки в структуру
     parce_numbers(str1, str2, &big_int, &big_double);
 
-    printf("\nИсходные числа:\n");
+    /* printf("\nИсходные числа:\n");
     printf("-------------------------------------------------------------------------------\n");
 
     print_bdouble(&big_int);
     print_bdouble(&big_double);
+
+    printf("-------------------------------------------------------------------------------\n\n");
+    */
 
     if (big_double.man_length == 1 && big_double.mantissa[0] == 0)
     {
         printf("ОШИБКА ДЕЛЕНИЯ НА 0\n");
         return 1;
     }
-
-    printf("-------------------------------------------------------------------------------\n\n");
 
     big_ans = div_big_numbers(&big_int, &big_double);
 

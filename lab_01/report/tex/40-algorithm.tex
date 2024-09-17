@@ -24,3 +24,46 @@
 	\end{itemize}
 \end{enumerate}
 
+\textbf{Основные функции:}
+\begin{enumerate}
+	\item bdouble\_t (div\_big\_numbers(bdouble\_t *divident, bdouble\_t *divisor)
+	\begin{itemize}
+		\item Функция делит два длинных числа, представленных в виде структуры bdouble\_t. Возвращает результат деления, записанный в структуре bdouble\_t 
+		\item divident: Делимое.
+		\item divisor: Делитель.
+	\end{itemize}
+	
+	\item size\_t incomplete\_dividend(size\_t *len, bdouble\_t *divident, const bdouble\_t *divisor)
+	\begin{itemize}
+		\item Функция определяет частное неполного делимого и делителя, и первым параметром изменяет длину неполного делимого.
+		\item len: Длина неполного делимого.
+		\item divident: Делимое.
+		\item divisor: Делитель.
+	\end{itemize}
+	
+	\item void mul\_big\_small(bdouble\_t *big, const int digit, const size\_t base)
+	\begin{itemize}
+		\item Функция умножает длинное число на цифру
+		\item big: Длинное число
+		\item digit: Цифра 
+		\item base: Система счисления
+	\end{itemize}
+	
+	\item int cmp\_mantissa(int *man1, const size\_t len1, int *man2, const size\_t len2)
+	\begin{itemize}
+		\item Функция сравнивает мантиссы двух длинных чисел
+		\item man1: Мантисса первого числа
+		\item len1: Длина мантиссы первого числа
+		\item man2: Мантисса второго числа
+		\item len2: Длина мантиссы второго числа
+	\end{itemize}
+	
+	\item  int get\_sub(size\_t *len, bdouble\_t *subtrahend, bdouble\_t *divident, const bdouble\_t *divisor)
+	\begin{itemize}
+		\item Функция находит вычитаемое для неполного делимого. Возвращает очередную цифру частного делимого и делителя
+		\item len: Длина неполного делимого
+		\item subtrahend: Вычитаемое
+		\item divident: Делимое
+		\item divisor: Делитель
+	\end{itemize}
+\end{enumerate}

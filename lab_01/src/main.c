@@ -29,7 +29,9 @@ int main(void)
 
     //Парсинг числа из строки в структуру
     parce_numbers(str1, str2, &big_int, &big_double);
-
+  
+    // Для дебага
+    /*
     printf("\nИсходные числа:\n");
     printf("-------------------------------------------------------------------------------\n");
 
@@ -37,11 +39,17 @@ int main(void)
     print_bdouble(&big_double);
 
     printf("-------------------------------------------------------------------------------\n\n");
-    
+    */
 
     if (big_double.man_length == 1 && big_double.mantissa[0] == 0)
     {
         printf("ОШИБКА ДЕЛЕНИЯ НА 0\n");
+        return 1;
+    }
+
+    if (big_double.exponent > 99999 || big_double.exponent < -99999)
+    {
+        printf("ПЕРЕПОЛНЕНИЕ ПОРЯДКА\n");
         return 1;
     }
 

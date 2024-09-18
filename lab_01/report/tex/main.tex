@@ -1,17 +1,18 @@
-\documentclass[a4paper,14pt,russian]{extreport}
-
 \input{preambule.inc}
 
-\addbibresource{ref-lib.bib}
-
 \begin{document}
-	\renewcommand{\contentsname}{\centerline{СОДЕРЖАНИЕ}}
 	
 	\include{00-title}
 	
+	\normalsize
 	\setcounter{page}{1}
 	
+	\renewcommand{\contentsname}{\normalsize\bfseries\centering СОДЕРЖАНИЕ}
+	\small
 	\tableofcontents
+	\normalsize
+	
+	\pagebreak
 	
 	\include{10-task}
 	

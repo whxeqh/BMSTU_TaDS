@@ -1,14 +1,9 @@
-\chapter{Тестовые данные}
+\section{Тестовые данные}
 {\noindent \textbf {Позитивные тесты}}
 \begin{longtable}{|c|c|c|c|}
 	\hline
-	\textbf{Тест}& \textbf{Целое число} & \textbf{Вещественное число} & \textbf{Вывод} \\
+	\textbf{Тест}& \textbf{Целое число} & \textbf{\makecell{Вещественно\\число}} & \textbf{Вывод} \\
 	\hline
-	\endfirsthead
-	\hline
-	\textbf{Тест}& \textbf{Целое число} & \textbf{Вещественное число} & \textbf{Вывод} \\
-	\hline
-	\endhead
 	\makecell{Числа равны\\обычная запись} & 123 & 123 & +0.1E1 \\
 	\hline
 	\makecell{Числа равны\\экспоненциальная\\запись} & 123 & 1.23e2 & +0.1E1 \\
@@ -39,16 +34,12 @@
 	\hline
 \end{longtable}
 
+\newpage
 {\noindent \textbf {Негативные тесты}}
 \begin{longtable}{|c|c|c|c|}
 	\hline
-	\textbf{Тест} & \textbf{Целое число} & \textbf{Вещественное число} & \textbf{Вывод} \\
+	\textbf{Тест}& \textbf{Целое число} & \textbf{\makecell{Вещественно\\число}} & \textbf{Вывод} \\
 	\hline
-	\endfirsthead
-	\hline
-	\textbf{Тест} & \textbf{Целое число} & \textbf{Вещественное число} & \textbf{Вывод} \\
-	\hline
-	\endhead
 	\makecell{Нет значащих цифр\\в вещественном\\числе} & 123 & . & \makecell{Ошибка при вводе\\действительного\\числа} \\
 	\hline
 	\makecell{Две точки\\в вещественном\\числе} & 123 & 1.1.1 & \makecell{Ошибка при вводе\\действительного\\числа} \\

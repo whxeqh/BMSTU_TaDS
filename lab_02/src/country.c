@@ -4,8 +4,16 @@
 #include "country.h"
 #include "errors.h"
 
+static void clear_input_buffer(void)
+{
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF);
+}
+
 static int read_string(FILE *file_in, char *string, const size_t max_buf_size)
 {
+    //clear_input_buffer();
+
     if (!fgets(string, max_buf_size, file_in))
         return ERR_IO;
     
@@ -30,6 +38,8 @@ static int read_bool(FILE *file_in, bool *visa)
         return ERR_RANGE; 
     
     *visa = tmp;
+    clear_input_buffer();
+
     return OK;
 }
 
@@ -43,6 +53,8 @@ static int read_unsigned_num(FILE *file_in, uint32_t *flying_time)
         return ERR_RANGE; 
     
     *flying_time = tmp;
+    clear_input_buffer();
+
     return OK;
 }
 
@@ -56,6 +68,8 @@ static int read_short_num(FILE *file_in, short *flying_time)
         return ERR_RANGE; 
     
     *flying_time = tmp;
+    clear_input_buffer();
+
     return OK;
 }
 
@@ -69,6 +83,8 @@ static int read_tourism_enum(FILE *file_in, type_of_tourism *type)
         return ERR_RANGE;
 
     *type = tmp;
+    clear_input_buffer();
+
     return OK;
 }
 
@@ -82,6 +98,8 @@ static int read_object_enum(FILE *file_in, type_of_objects *type)
         return ERR_RANGE;
 
     *type = tmp;
+    clear_input_buffer();
+    
     return OK;
 }
 
@@ -95,6 +113,8 @@ static int read_sport_enum(FILE *file_in, type_of_sport *type)
         return ERR_RANGE;
 
     *type = tmp;
+    clear_input_buffer();
+
     return OK;
 }
 
@@ -112,7 +132,7 @@ static int read_sightseeing_t(FILE *file_in, sightseeing_t *ref)
 
     if (file_in == stdin)
         fprintf(stdout, "Введите основной вид объектов (1 - природа, 2 - искусство, 3 - история): ");    
-    rc = read_object_enum(file_in, &tmp.type);
+    rc = read_object_enum(file_in, &tmp.objects_type);
 
     if (rc == OK)
         *ref = tmp;
@@ -156,7 +176,7 @@ static int read_sport_t(FILE *file_in, sport_t *sport)
 
     if (file_in == stdin)
         fprintf(stdout, "Введите Вид спорта (1 - Горные лыжи, 2- Сёрфинг, 3 - Восхождения): ");    
-    rc = read_sport_enum(file_in, &tmp.type);
+    rc = read_sport_enum(file_in, &tmp.sport_type);
 
     *sport = tmp;
     return rc;

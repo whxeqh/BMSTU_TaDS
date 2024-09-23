@@ -7,8 +7,8 @@ CFLAGS = -std=c99 -Wall -Werror -Wpedantic -Wextra -g3 -I$(INC_DIR)
 
 EXEC = app.exe
 
-OBJS = $(OBJS_DIR)/main.o $(OBJS_DIR)/country.o $(OBJS_DIR)/print.o $(OBJS_DIR)/errors.o
-DEPS =  $(INC_DIR)/country.h $(INC_DIR)/print.h $(INC_DIR)/structures.h $(INC_DIR)/errors.h
+OBJS = $(OBJS_DIR)/main.o $(OBJS_DIR)/country.o $(OBJS_DIR)/UI.o $(OBJS_DIR)/errors.o $(OBJS_DIR)/countries_array.o
+DEPS =  $(INC_DIR)/country.h $(INC_DIR)/UI.h $(INC_DIR)/structures.h $(INC_DIR)/errors.h $(INC_DIR)/countries_array.h
 
 .PHONY: debug clean
 

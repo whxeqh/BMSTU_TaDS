@@ -4,9 +4,9 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define MAX_COUNTRY_NAME_LENGTH (30 + 1)
-#define MAX_MAINLAND_LENGTH (15 + 1)
-#define MAX_CAPITAL_LENGTH (30 + 1)
+#define MAX_COUNTRY_NAME_LENGTH (20 + 1)
+#define MAX_MAINLAND_LENGTH (13 + 1)
+#define MAX_CAPITAL_LENGTH (13 + 1)
 #define MAX_SEASON_LENGTH (10 + 1)
 
 //Вид туризма
@@ -22,7 +22,7 @@ typedef enum
 {
     NATURE = 1,           // История
     ART,              // Природа
-    HOSTORY                  // Искусство 
+    HISTORY                  // Искусство 
 } type_of_objects;
 
 //Вид спорта
@@ -37,7 +37,7 @@ typedef enum
 typedef struct
 {
     uint32_t objects_amount;               // Количество объектов
-    type_of_objects type;                  // Вид объекта
+    type_of_objects objects_type;                  // Вид объекта
 } sightseeing_t;   
 
 
@@ -52,7 +52,7 @@ typedef struct
 // Спорттивный вид отдыха
 typedef struct
 {
-    type_of_sport type;
+    type_of_sport sport_type;
 } sport_t;
 
 // Объединение видов туризма

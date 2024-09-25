@@ -5,9 +5,11 @@
 #include <stdbool.h>
 
 #define MAX_COUNTRY_NAME_LENGTH (20 + 1)
-#define MAX_MAINLAND_LENGTH (13 + 1)
-#define MAX_CAPITAL_LENGTH (13 + 1)
+#define MAX_MAINLAND_LENGTH (14 + 1)
+#define MAX_CAPITAL_LENGTH (14 + 1)
 #define MAX_SEASON_LENGTH (10 + 1)
+#define MAX_VISA_LENGTH (11 + 1)
+#define MAX_MAIN_TOURISM_LENGTH (37 + 1)
 
 //Вид туризма
 typedef enum 

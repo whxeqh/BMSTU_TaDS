@@ -7,15 +7,22 @@
 
 int main(void)
 {
-    setbuf(stdout, NULL);
+    //setbuf(stdout, NULL);
     int rc = OK, action;
+    size_t length = 0;
+    country_t countries[MAX_LENGTH];
+    memset(countries, 0, sizeof(countries));
+    
     do
     {
         print_menu();
         rc = select_from_menu(&action);
         if (rc == EXIT)
             break;
-        rc = execute_action(action);
+        //int c;
+        //while ((c = getchar()) != '\n' && c != EOF);
+        if (rc == OK)
+            rc = execute_action(action, countries, &length);
     } while (rc == OK);
     
     if (rc != OK && rc != EXIT)

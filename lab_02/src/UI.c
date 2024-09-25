@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
 #include "UI.h"
 #include "errors.h"
 #include "country.h"
@@ -9,6 +11,23 @@ static void clear_input_buffer(void)
 {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
+}
+
+static int get_file(FILE **file, const char *mode)
+{
+    char file_name[100];
+    printf("Введите название файла: ");
+    if (!fgets(file_name, sizeof(file_name), stdin))
+        return ERR_IO;
+
+    // Удаляем символ новой строки, если он есть
+    file_name[strcspn(file_name, "\n")] = '\0';
+
+    *file = fopen(file_name, mode);
+    if (!*file)
+        return ERR_FILE;
+    
+    return OK;
 }
 
 void print_start_info(void)
@@ -25,7 +44,7 @@ void print_menu(void)
         4) Добавить страну в конец массива\n\
         5) Удалить страну\n\
         6) Вывести список ключей\n\
-        7) \n\
+        7) Сохранить массив в файл\n\
         8) \n\
         9) \n\
         10) \n\
@@ -39,7 +58,9 @@ int select_from_menu(int *action)
     int tmp, rc = OK;
 
     printf("Ваш ввод: ");
-    scanf("%d", &tmp);
+    char buf[10];
+    fgets(buf, 10, stdin);
+    tmp = atoi(buf);
     while (rc != EXIT && (tmp < 0 || tmp > 12))
     {
         printf("Ошибка ввода. Число должно быть от 0 до 12\n  Если хотите завершить программу, введите -1\n  Ваш ввод: ");
@@ -55,13 +76,11 @@ int select_from_menu(int *action)
     return rc;
 }
 
-int execute_action(const int action)
+int execute_action(const int action, country_t *countries, size_t *length)
 {
+    FILE *file = NULL;
+    country_t country;
     int rc = OK;
-    size_t length = 0;
-    country_t countries[MAX_LENGTH], country;
-    memset(countries, 0, sizeof(countries));
-    memset(&country, 0, sizeof(country));
 
     switch (action)
     {
@@ -71,13 +90,19 @@ int execute_action(const int action)
         case ACT_LOAD_FROM_FILE:
             break;
         case ACT_PRINT_COUNTRIES:
-            print_countries(stdout, countries, length);
+            print_countries(stdout, countries, *length);
             break;
         case ACT_ADD_COUNTRY:
+            memset(&country, 0, sizeof(country));
             rc = read_country(stdin, &country);
             if (rc == OK)
-                rc = add_country_top(countries, country, &length);
+                rc = add_country_top(countries, country, length);
             break;
+        case ACT_PRINT_IN_FILE:
+            rc = get_file(&file, "w");
+            if (rc != OK)
+                return rc;
+            print_countries(file, countries, *length);
         case ACT_DELETE_COUNTRY:
             break;
         case ACT_PRINT_KEYS:

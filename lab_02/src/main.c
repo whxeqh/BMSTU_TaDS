@@ -17,13 +17,11 @@ int main(void)
     {
         print_menu();
         rc = select_from_menu(&action);
-        if (rc == EXIT)
-            break;
-        //int c;
-        //while ((c = getchar()) != '\n' && c != EOF);
         if (rc == OK)
             rc = execute_action(action, countries, &length);
-    } while (rc == OK);
+        if (rc != OK)
+            print_error(rc);
+    } while (rc != EXIT);
     
     if (rc != OK && rc != EXIT)
         print_error(rc);

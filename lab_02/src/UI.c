@@ -7,10 +7,31 @@
 #include "country.h"
 #include "countries_array.h"
 
-static void clear_input_buffer(void)
+static void clear_input_buffer(FILE *file)
 {
     int c;
-    while ((c = getchar()) != '\n' && c != EOF);
+    do
+    {
+        c = fgetc(file);
+    } while (isspace(c));
+    ungetc(c, file);
+}
+
+static bool get_num(int *num)
+{
+    char buf[10];
+    fgets(buf, 10, stdin);
+    char *p = strchr(buf, '\n');
+    if (!p)
+        return ERR_IO;
+    *p = '\0';
+
+    char *endtpr;
+    int tmp = strtol(buf, &endtpr, 10);
+    if (*endtpr != '\0' || (tmp < 0 || tmp > 12))
+        return false;
+    *num = tmp;
+    return true;
 }
 
 static int get_file(FILE **file, const char *mode)
@@ -20,8 +41,11 @@ static int get_file(FILE **file, const char *mode)
     if (!fgets(file_name, sizeof(file_name), stdin))
         return ERR_IO;
 
-    // Удаляем символ новой строки, если он есть
-    file_name[strcspn(file_name, "\n")] = '\0';
+    char *p = strchr(file_name, '\n');
+    if (p)
+        *p = '\0';
+    else
+        return ERR_IO;
 
     *file = fopen(file_name, mode);
     if (!*file)
@@ -45,7 +69,7 @@ void print_menu(void)
         5) Удалить страну\n\
         6) Вывести список ключей\n\
         7) Сохранить массив в файл\n\
-        8) \n\
+        8) Вывести фильмы из файла\n\
         9) \n\
         10) \n\
         11) \n\
@@ -58,20 +82,15 @@ int select_from_menu(int *action)
     int tmp, rc = OK;
 
     printf("Ваш ввод: ");
-    char buf[10];
-    fgets(buf, 10, stdin);
-    tmp = atoi(buf);
-    while (rc != EXIT && (tmp < 0 || tmp > 12))
+    while(!get_num(&tmp))
     {
-        printf("Ошибка ввода. Число должно быть от 0 до 12\n  Если хотите завершить программу, введите -1\n  Ваш ввод: ");
-        scanf("%d", &tmp);
-        if (tmp == -1 || tmp == 0)
-            rc = EXIT;
-    }
-
+        printf("Повторите ввод: ");
+        clear_input_buffer(stdin);
+    }   
+    
+    printf("\n");
     if (rc != EXIT)
         *action = tmp;
-    clear_input_buffer();
     
     return rc;
 }
@@ -88,6 +107,20 @@ int execute_action(const int action, country_t *countries, size_t *length)
             print_start_info();
             break;
         case ACT_LOAD_FROM_FILE:
+            rc = get_file(&file, "r");
+            if (rc != OK)
+                return rc;
+            do
+            {
+                rc = read_country(file, &country);
+                clear_input_buffer(file);
+                if (rc == OK)
+                    rc = add_country_top(countries, country, length);
+                //fprintf(file, "\n");
+            } while (rc == OK && !feof(file));
+    
+            fclose(file);
+            printf((rc == OK ? "\033[32mДанные успешно загружены\033[0m\n\n" : "\033[31mОшибка при загрузке\033[0m\n\n"));
             break;
         case ACT_PRINT_COUNTRIES:
             print_countries(stdout, countries, *length);
@@ -103,12 +136,13 @@ int execute_action(const int action, country_t *countries, size_t *length)
             if (rc != OK)
                 return rc;
             print_countries(file, countries, *length);
+            fclose(file);
         case ACT_DELETE_COUNTRY:
             break;
         case ACT_PRINT_KEYS:
             break;
         default:
-            printf("UNKNOWN_ACT (%d)", action);
+            printf("\033[31mUNKNOWN_ACT (%d)\033[0m", action);
             return ERR_ACT;
     }
 

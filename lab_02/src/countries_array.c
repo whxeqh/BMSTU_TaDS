@@ -71,7 +71,7 @@ static void print_country(FILE *file_out, const country_t *country)
                         write_to_str(output_str, strlen(output_str), "History");
                         break;
                     default:
-                        fprintf(stderr, "ERR SIGHTSEEING OBJECT TYPE = %d\n", country->type.sightseeing.objects_type);
+                        fprintf(stderr, "\033[31mERR SIGHTSEEING OBJECT TYPE = \033[0m%d\n", country->type.sightseeing.objects_type);
                         exit(EXIT_FAILURE);
                 }
                 print_centered_str(output_str, sizeof(output_str));
@@ -105,13 +105,13 @@ static void print_country(FILE *file_out, const country_t *country)
                         write_to_str(output_str, strlen(output_str), "Climbing");
                         break;
                     default:
-                        fprintf(stderr, "ERR SPORT TYPE = %d\n", country->type.sport.sport_type);
+                        fprintf(stderr, "\033[31mERR SPORT TYPE = \033[0m%d\n", country->type.sport.sport_type);
                         exit(EXIT_FAILURE);
                 }
                 print_centered_str(output_str, sizeof(output_str));
                 break;
             default:
-                fprintf(stderr, "ERR COUNTRY TOURISM TYPE\n");
+                fprintf(stderr, "\033[31mERR COUNTRY TOURISM TYPE\033[0m\n");
                 exit(EXIT_FAILURE);
         }
         //printf("\n        ________________________________________________________________________________________________________________________________________________\n");
@@ -132,7 +132,7 @@ static void print_country(FILE *file_out, const country_t *country)
                 fprintf(file_out, "%d %d", SPORT, country->type.sport.sport_type);
                 break;
             default:
-                fprintf(stderr, "ERR COUNTRY TOURISM TYPE\n");
+                fprintf(stderr, "\033[31mERR COUNTRY TOURISM TYPE\033[0m\n");
                 exit(EXIT_FAILURE);
         }
     }
@@ -161,5 +161,11 @@ void print_countries(FILE *file_out, const country_t countries[], const size_t l
     }
 
     for (size_t i = 0; i < length; ++i)
+    {
         print_country(file_out, &countries[i]);
+        if (i != length - 1 || file_out != stdout)
+            fprintf(file_out, "\n");
+    }
+    if (file_out == stdout)
+        fprintf(file_out, "        |________________________________________________________________________________________________________________________________________________|\n\n");
 }

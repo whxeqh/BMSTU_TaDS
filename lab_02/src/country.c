@@ -1,30 +1,48 @@
 #include <stdio.h>
 #include <string.h>
 #include <limits.h>
+#include <ctype.h>
 #include "country.h"
 #include "errors.h"
 
-static void clear_input_buffer(void)
-{
+void clear_stdin() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 }
 
+
 static int read_string(FILE *file_in, char *string, const size_t max_buf_size)
 {
-    //clear_input_buffer();
+    if (file_in == stdin)
+    {
+        if (!fgets(string, max_buf_size, file_in))
+            return ERR_IO;
+        
+        char *p = strchr(string, '\n');
+        if (!p)
+        {
+            clear_stdin();
+            return ERR_BUF_OVERFLOW;
+        }
+        *p = '\0';
 
-    if (!fgets(string, max_buf_size, file_in))
-        return ERR_IO;
-    
-    char *p = strchr(string, '\n');
-    if (!p)
-        return ERR_BUF_OVERFLOW;
-    *p = '\0';
+        if (strlen(string) == 0)
+            return ERR_EMPTY_STRING;
+    }
+    else 
+    {
+        char word[100];
+         if (fscanf(file_in, "%99s", word) != 1)
+            return ERR_IO; 
 
-    if (strlen(string) == 0)
-        return ERR_EMPTY_STRING;
-    
+        if (strlen(word) >= max_buf_size)
+            return ERR_BUF_OVERFLOW;
+
+        strcpy(string, word);
+
+        if (strlen(string) == 0)
+            return ERR_EMPTY_STRING;
+    }
     return OK;
 }
 
@@ -34,12 +52,14 @@ static int read_bool(FILE *file_in, bool *visa)
     if (!fscanf(file_in, "%d", &tmp))
         return ERR_IO;
     
+    if (file_in == stdin)
+        clear_stdin();
+
     if (tmp != 0 && tmp != 1)
         return ERR_RANGE; 
-    
+        
     *visa = tmp;
-    clear_input_buffer();
-
+    
     return OK;
 }
 
@@ -49,12 +69,14 @@ static int read_unsigned_num(FILE *file_in, uint32_t *flying_time)
     if (!fscanf(file_in, "%d", &tmp))
         return ERR_IO;
     
+    if (file_in == stdin)
+        clear_stdin();
+    
     if (tmp < 0)
         return ERR_RANGE; 
     
     *flying_time = tmp;
-    clear_input_buffer();
-
+    
     return OK;
 }
 
@@ -64,12 +86,14 @@ static int read_short_num(FILE *file_in, short *flying_time)
     if (!fscanf(file_in, "%d", &tmp))
         return ERR_IO;
     
+    if (file_in == stdin)
+        clear_stdin();
+
     if (tmp < SHRT_MIN || tmp > SHRT_MAX)
         return ERR_RANGE; 
     
     *flying_time = tmp;
-    clear_input_buffer();
-
+    
     return OK;
 }
 
@@ -83,7 +107,8 @@ static int read_tourism_enum(FILE *file_in, type_of_tourism *type)
         return ERR_RANGE;
 
     *type = tmp;
-    clear_input_buffer();
+    if (file_in == stdin)
+        clear_stdin();
 
     return OK;
 }
@@ -94,12 +119,14 @@ static int read_object_enum(FILE *file_in, type_of_objects *type)
     if (!fscanf(file_in, "%d", &tmp))
         return ERR_IO;
 
+    if (file_in == stdin)
+        clear_stdin();
+
     if (tmp < 1 || tmp > 3)
         return ERR_RANGE;
 
     *type = tmp;
-    clear_input_buffer();
-    
+
     return OK;
 }
 
@@ -109,12 +136,14 @@ static int read_sport_enum(FILE *file_in, type_of_sport *type)
     if (!fscanf(file_in, "%d", &tmp))
         return ERR_IO;
 
+    if (file_in == stdin)
+        clear_stdin();
+
     if (tmp < 1 || tmp > 3) 
         return ERR_RANGE;
 
     *type = tmp;
-    clear_input_buffer();
-
+    
     return OK;
 }
 

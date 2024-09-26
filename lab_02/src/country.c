@@ -5,13 +5,13 @@
 #include "country.h"
 #include "errors.h"
 
-void clear_stdin() {
+void clear_stdin(void) 
+{
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 }
 
-
-static int read_string(FILE *file_in, char *string, const size_t max_buf_size)
+int read_string(FILE *file_in, char *string, const size_t max_buf_size)
 {
     if (file_in == stdin)
     {
@@ -63,7 +63,7 @@ static int read_bool(FILE *file_in, bool *visa)
     return OK;
 }
 
-static int read_unsigned_num(FILE *file_in, uint32_t *flying_time)
+int read_unsigned_num(FILE *file_in, uint32_t *flying_time)
 {
     int tmp;
     if (!fscanf(file_in, "%d", &tmp))
@@ -130,7 +130,7 @@ static int read_object_enum(FILE *file_in, type_of_objects *type)
     return OK;
 }
 
-static int read_sport_enum(FILE *file_in, type_of_sport *type)
+int read_sport_enum(FILE *file_in, type_of_sport *type)
 {
     int tmp;
     if (!fscanf(file_in, "%d", &tmp))
@@ -197,7 +197,7 @@ static int read_beach_t(FILE *file_in, beach_t *ref)
     return rc;
 }
 
-static int read_sport_t(FILE *file_in, sport_t *sport)
+int read_sport_t(FILE *file_in, sport_t *sport)
 {
     int rc = OK;
     sport_t tmp;

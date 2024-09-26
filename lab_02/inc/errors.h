@@ -9,6 +9,7 @@
 #define ERR_EMPTY_STRING 4
 #define ERR_ACT 5
 #define ERR_FILE 6
+#define ERR_NOT_FOND 7
 
 void print_error(const int rc);
 

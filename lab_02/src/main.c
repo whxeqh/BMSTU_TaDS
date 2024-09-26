@@ -9,17 +9,17 @@ int main(void)
 {
     //setbuf(stdout, NULL);
     int rc = OK, action;
-    size_t length = 0;
+    size_t length;
     country_t countries[MAX_LENGTH];
-    memset(countries, 0, sizeof(countries));
+    key_t keys[MAX_LENGTH];
     
     do
     {
         print_menu();
         rc = select_from_menu(&action);
         if (rc == OK)
-            rc = execute_action(action, countries, &length);
-        if (rc != OK)
+            rc = execute_action(action, countries, &length, keys);
+        if (rc != OK && rc != EXIT)
             print_error(rc);
     } while (rc != EXIT);
     

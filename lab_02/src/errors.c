@@ -23,6 +23,9 @@ void print_error(const int rc)
         case ERR_FILE:
             fprintf(stderr, "\033[31mERR WITH FILE\033[0m\n\n");
             break;
+        case ERR_NOT_FOND:
+            fprintf(stderr, "\033[31mERR COUNTRY NOT FOUND\033[0m\n\n");
+            break;
         default:
             fprintf(stderr, "\033[31mUNKNOWN ERROR (%d)\n\n\033[0m", rc);
             break;

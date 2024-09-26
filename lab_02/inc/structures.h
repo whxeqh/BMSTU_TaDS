@@ -9,6 +9,7 @@
 #define MAX_CAPITAL_LENGTH (14 + 1)
 #define MAX_SEASON_LENGTH (10 + 1)
 #define MAX_VISA_LENGTH (11 + 1)
+#define MAX_SPORT_LENGTH (15 + 1)
 #define MAX_MAIN_TOURISM_LENGTH (37 + 1)
 
 //Вид туризма
@@ -78,5 +79,12 @@ typedef struct
     type_of_tourism tourism;                // Перечисление туризма
     type_t type;                            // Union со структурой туризма
 } country_t;
+
+typedef struct
+{
+    size_t ind;
+    char capital[MAX_CAPITAL_LENGTH];
+} key_t;
+
 
 #endif // __STRUCTURES_H__

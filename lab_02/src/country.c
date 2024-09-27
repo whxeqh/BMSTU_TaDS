@@ -215,6 +215,7 @@ int read_sport_t(FILE *file_in, sport_t *sport)
 
 int read_country(FILE *file_in, country_t *country)
 {
+    //printf("\nREAD!\n");
     int rc = OK;
     country_t tmp;
     memset(&tmp, 0, sizeof(country_t));

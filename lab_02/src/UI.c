@@ -103,7 +103,6 @@ int execute_action(const int action, country_t *countries, size_t *length, key_t
     char field[MAX_COUNTRY_NAME_LENGTH];
     size_t pos;
 
-    fill_keys(countries, *length, keys);
     switch (action)
     {
         case ACT_EXIT:
@@ -175,11 +174,11 @@ int execute_action(const int action, country_t *countries, size_t *length, key_t
             printf("\033[32m\nСписок стран по списку ключей успешно выведен!\033[0m\n\n");
             break;
         case ACT_SORT_KEYS:
-            buble_sort_keys(keys, *length);
+            flag_bubble_sort_keys(keys, *length);
             printf("\033[32m\nСписок стран по списку ключей успешно отсортирован по столицам!\033[0m\n\n");
             break;
         case ACT_SORT_COUNTRIES:
-            buble_sort_countries(countries, *length);
+            flag_bubble_sort_countries(countries, *length);
             printf("\033[32m\nСписок стран успешно отсортирован по столицам!\033[0m\n\n");
             break;
         default:
@@ -187,5 +186,7 @@ int execute_action(const int action, country_t *countries, size_t *length, key_t
             return ERR_ACT;
     }
 
+    if (action == ACT_DELETE_COUNTRY || action == ACT_ADD_COUNTRY || action == ACT_LOAD_FROM_FILE || action == ACT_SORT_COUNTRIES)
+        fill_keys(countries, *length, keys);
     return rc;
 }

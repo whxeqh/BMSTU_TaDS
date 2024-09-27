@@ -6,13 +6,13 @@
 
 typedef void (*uni_cmp_t)(void *left, void *right);
 
-void buble_sort_countries(country_t *countries, const size_t len);
+void bubble_sort_countries(country_t *countries, const size_t len);
 
-void buble_sort_keys(key_t *keys, const size_t len);
+void bubble_sort_keys(key_t *keys, const size_t len);
 
-void flag_buble_sort_countries(country_t *countries, const size_t len);
+void flag_bubble_sort_countries(country_t *countries, const size_t len);
 
-void flag_buble_sort_keys(key_t *keys, const size_t len);
+void flag_bubble_sort_keys(key_t *keys, const size_t len);
 
 void insertion_countries(country_t *countries, const size_t len);
 

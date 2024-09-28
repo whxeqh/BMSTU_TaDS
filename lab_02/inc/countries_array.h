@@ -6,7 +6,7 @@
 
 #include "structures.h"
 
-#define MAX_LENGTH 8192
+#define MAX_LENGTH 10001
 
 int add_country_top(country_t countries[], const country_t country, size_t *length);
 

@@ -17,6 +17,7 @@ typedef enum
     ACT_TASK,
     ACT_SORT_KEYS,
     ACT_SORT_COUNTRIES,
+    ACT_RESEARCH,
     ACT_UNKNOWN
 } action_t;
 

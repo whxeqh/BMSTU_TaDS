@@ -1,5 +1,8 @@
 #include "sort.h"
+#include "country.h"
+#include "countries_array.h"
 #include <string.h>
+
 
 static void uni_swap(void *left, void *right, const size_t el_size)
 {
@@ -74,6 +77,8 @@ void flag_bubble_sort_keys(key_t *keys, const size_t len)
         --i;
     } while (flag);
 }
+
+
 /*
 void insertion_countries(country_t *countries, const size_t len)
 {

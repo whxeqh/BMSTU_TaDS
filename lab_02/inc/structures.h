@@ -1,6 +1,7 @@
 #ifndef __STRUCTURES_H__
 #define __STRUCTURES_H__
 
+#include <stddef.h>
 #include <stdint.h>
 #include <stdbool.h>
 

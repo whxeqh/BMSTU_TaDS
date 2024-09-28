@@ -1,5 +1,6 @@
 import random
 import sys
+import os
 
 '''
 Передаваемые аргументы: 
@@ -94,11 +95,22 @@ def get_country():
     return f"{name} {capital} {mainland} {visa} {flying_time} {min_price} {type_of_tourism} {tourism_str}\n"
 
 if __name__ == "__main__":
-    file_path = sys.argv[1]
+    file_name = sys.argv[1]
     reps = int(sys.argv[2])
+
+    print(sys.argv)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    output_dir = os.path.join(current_dir, "..", "research") if sys.argv[3] == "-r" else os.path.join(current_dir, "..", "out")
+
+    print(output_dir)
+
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    file_path = os.path.join(output_dir, file_name)
 
     with open(file_path, "w") as file:
         while reps:
             country = get_country()
-            file.write(country) 
+            file.write(country)
             reps -= 1

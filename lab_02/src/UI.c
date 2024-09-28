@@ -2,21 +2,13 @@
 #include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
+#include <time.h>
+#include "research.h"
 #include "sort.h"
 #include "UI.h"
 #include "errors.h"
 #include "country.h"
 #include "countries_array.h"
-
-static void clear_input_buffer(FILE *file)
-{
-    int c;
-    do
-    {
-        c = fgetc(file);
-    } while (isspace(c));
-    ungetc(c, file);
-}
 
 static bool get_num(int *num)
 {
@@ -55,6 +47,16 @@ static int get_file(FILE **file, const char *mode)
     return OK;
 }
 
+void clear_input_buffer(FILE *file)
+{
+    int c;
+    do
+    {
+        c = fgetc(file);
+    } while (isspace(c));
+    ungetc(c, file);
+}
+
 void print_start_info(void)
 {
     fprintf(stdout, "Автор: Палладий Евгений ИУ7-31Б. Вариант по списку: 16. Вариант по заданию: 2\n\n");
@@ -74,6 +76,7 @@ void print_menu(void)
         9) Вывести список стран на выбранном материке, где можно заняться указанным видом спорта, со стоимостью отдыха меньше указанной\n\
         10) Отсортировать список ключей по столице\n\
         11) Отсортировать список фильмов по столице\n\
+        12) Произвести и вывести исследование\n\
         0) Выход\n\n");
 }
 
@@ -180,6 +183,14 @@ int execute_action(const int action, country_t *countries, size_t *length, key_t
         case ACT_SORT_COUNTRIES:
             flag_bubble_sort_countries(countries, *length);
             printf("\033[32m\nСписок стран успешно отсортирован по столицам!\033[0m\n\n");
+            break;
+        case ACT_RESEARCH:
+            rc = make_research();
+            if (rc == OK)
+                printf("\033[32m\nИследование проведено успешно. Графики построены в папке resear!\033[0m\n\n");
+            else
+                printf("\033[33m\nЧто-то пошло не так!(\033[0m\n\n");
+
             break;
         default:
             printf("\033[31mUNKNOWN_ACT (%d)\033[0m", action);

@@ -98,11 +98,11 @@ if __name__ == "__main__":
     file_name = sys.argv[1]
     reps = int(sys.argv[2])
 
-    print(sys.argv)
+    #print(sys.argv)
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    output_dir = os.path.join(current_dir, "..", "research") if sys.argv[3] == "-r" else os.path.join(current_dir, "..", "out")
+    output_dir = os.path.join(current_dir, "..", "research/data/countries") if sys.argv[3] == "-r" else os.path.join(current_dir, "..", "out")
 
-    print(output_dir)
+    #print(output_dir)
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)

@@ -169,7 +169,7 @@ int execute_action(const int action, country_t *countries, size_t *length, key_t
             printf("\033[32m\nВсе подходящие страны успешно выведены!\033[0m\n\n");
             break;
         case ACT_PRINT_KEYS:
-            print_keys(keys, *length);
+            print_keys(stdout, keys, *length);
             printf("\033[32m\nСписок ключей успешно выведен!\033[0m\n\n");
             break;
         case ACT_PRINT_COUNTRIES_BY_KEYS:
@@ -187,7 +187,7 @@ int execute_action(const int action, country_t *countries, size_t *length, key_t
         case ACT_RESEARCH:
             rc = make_research();
             if (rc == OK)
-                printf("\033[32m\nИследование проведено успешно. Графики построены в папке resear!\033[0m\n\n");
+                printf("\033[32m\nИследование проведено успешно! Все файлы отсортированы!\033[0m\n\n");
             else
                 printf("\033[33m\nЧто-то пошло не так!(\033[0m\n\n");
 

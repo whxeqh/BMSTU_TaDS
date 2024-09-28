@@ -269,15 +269,16 @@ void print_countries_by_keys(const country_t *countries, const size_t length, co
 
 }
 
-void print_keys(key_t *keys, const size_t keys_length)
+void print_keys(FILE *file_out, key_t *keys, const size_t keys_length)
 {
-    fprintf(stdout, \
-        "\
-         _______________________________________________________\n\
-        |   №   |    Индекс исходной таблицы    |    Столица    |\n\
-        |_______________________________________________________|\n\n");
+    if (file_out == stdout)
+        fprintf(stdout, \
+            "\
+            _______________________________________________________\n\
+            |   №   |    Индекс исходной таблицы    |    Столица    |\n\
+            |_______________________________________________________|\n\n");
 
-    
+        
     for (size_t i = 0; i < keys_length; ++i)
     {
         print_key(stdout, &keys[i], i);

@@ -52,6 +52,8 @@ static void print_key(FILE *file_out, const key_t *key, const size_t id)
         print_centered_number(key->ind, 30);
         print_centered_str(key->capital, MAX_CAPITAL_LENGTH);
     }
+    else 
+        fprintf(file_out, "%ld %ld %s", id, key->ind, key->capital);
 }
 
 static void print_country(FILE *file_out, const country_t *country)
@@ -278,13 +280,15 @@ void print_keys(FILE *file_out, key_t *keys, const size_t keys_length)
             |   №   |    Индекс исходной таблицы    |    Столица    |\n\
             |_______________________________________________________|\n\n");
 
-        
+
     for (size_t i = 0; i < keys_length; ++i)
     {
-        print_key(stdout, &keys[i], i);
-        printf("\n");
+        print_key(file_out, &keys[i], i);
+        if (i != keys_length - 1 || file_out != stdout)
+            fprintf(file_out, "\n");
     }
-    fprintf(stdout, "        |_______________________________________________________|\n\n");
+    if (file_out == stdout)
+        fprintf(stdout, "        |_______________________________________________________|\n\n");
 }
 
 

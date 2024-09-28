@@ -42,9 +42,9 @@ int make_research(void)
     int rc = OK;
     srand(time(NULL));
     struct timespec t_beg_country, t_beg_key, t_end_country, t_end_key;
-    country_t countries[MAX_LENGTH], country;
+    country_t countries[MAX_LENGTH];
     key_t keys[MAX_LENGTH];
-    size_t length;
+    int length;
 
     char *file_name_data_countries = "research/data/countries/data.txt";
     FILE *file_data_countries = fopen(file_name_data_countries, "w"); 
@@ -56,7 +56,7 @@ int make_research(void)
     char *file_name_flag_data_keys = "research/data/keys/flag_data.txt";
     FILE *file_flag_data_keys = fopen(file_name_flag_data_keys, "w"); 
 
-    unsigned int reps[] = {100, 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000};
+    int reps[] = {100, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000};
     
     for (size_t i = 0; rc == OK && i < sizeof(reps) / sizeof(reps[0]); ++i)
     {
@@ -66,58 +66,93 @@ int make_research(void)
         unsigned long long total_time_flag_countries = 0;
         unsigned long long total_time_flag_keys = 0;
 
-        for (unsigned int j = 0; j < ITERATIONS; ++j)
+        //Выходной файл сортировки стран
+        char file_name_countries_out[50];
+        sprintf(file_name_countries_out, "research/data/countries/%u_out.txt", reps[i]);
+        FILE *file_out_countries = fopen(file_name_countries_out, "w");
+
+        //Выходной файл сортировки стран
+        char file_name_countries_flag_out[50];
+        sprintf(file_name_countries_flag_out, "research/data/countries/%u_flag_out.txt", reps[i]);
+        FILE *file_out_countries_flag = fopen(file_name_countries_flag_out, "w");
+
+        //Выходной файл сортировки ключей
+        char file_name_keys_out[50];
+        sprintf(file_name_keys_out, "research/data/keys/%u_out.txt", reps[i]);
+        FILE *file_out_keys = fopen(file_name_keys_out, "w");
+
+        //Выходной файл сортировки ключей
+        char file_name_keys_flag_out[50];
+        sprintf(file_name_keys_flag_out, "research/data/keys/%u_flag_out.txt", reps[i]);
+        FILE *file_out_keys_flag = fopen(file_name_keys_flag_out, "w");
+
+        //Запуск скрипта для генерации данных
+        char script[100];
+        sprintf(script, "python3 src/make_data.py %u_in.txt %u -r", reps[i], reps[i]);
+        system(script);
+        
+        //Входной файл для работы со странами
+        char file_name_countries_in[50];
+        sprintf(file_name_countries_in, "research/data/countries/%u_in.txt", reps[i]);
+        FILE *file_in_countries = fopen(file_name_countries_in, "r");
+
+        //Входной файл сортировки ключей
+        char file_name_keys_in[50];
+        sprintf(file_name_keys_in, "research/data/keys/%u_in.txt", reps[i]);
+        FILE *file_in_keys = fopen(file_name_keys_in, "w");
+        for (size_t  j = 0; j < ITERATIONS; ++j)
         {
-            memset(&country, 0, sizeof(country));
-            memset(countries, 0, sizeof(countries));
-            memset(keys, 0, sizeof(keys));
-
-            // Запуск скрипта для генерации данных
-            char script[100];
-            sprintf(script, "python3 src/make_data.py %u_in.txt %u -r", reps[i], reps[i]);
-            system(script);
-
-            //Файлы для работы со странами
-            char file_name_countries_in[50];
-            sprintf(file_name_countries_in, "research/data/countries/%u_in.txt", reps[i]);
-            FILE *file_in_countries = fopen(file_name_countries_in, "r");
+            rewind(file_in_countries);
             fill_countries(countries, file_in_countries);
-            if (rc != OK)
-                return rc;
-            fclose(file_in_countries);
-
-            //Файлы для работы с ключами
             fill_keys(countries, length, keys);
 
             // Измерение времени обычной сортировки стран
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg_country);
             bubble_sort_countries(countries, length);
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_country);
-            total_time_countries += calc_elapsed_time(&t_beg_country, &t_end_country);
+            //if (j > 1)
+                total_time_countries += calc_elapsed_time(&t_beg_country, &t_end_country);
+            //printf("BASE: %lld\n", calc_elapsed_time(&t_beg_country, &t_end_country));
 
             // Измерение времени обычной сортировки ключей
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg_key);
             bubble_sort_keys(keys, length);
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_key);
-            total_time_keys += calc_elapsed_time(&t_beg_key, &t_end_key);
+            //if (j > 1)
+                total_time_keys += calc_elapsed_time(&t_beg_key, &t_end_key);
 
-            // Измерение времени сортировки стран с флагом
-            memset(countries, 0, sizeof(countries));
-            memset(keys, 0, sizeof(keys));
-            fill_countries(countries, fopen(file_name_countries_in, "r"));
+            rewind(file_in_countries);
+            fill_countries(countries, file_in_countries);
             fill_keys(countries, length, keys);
             
+            // Измерение времени сортировки стран с флагом
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg_country);
             flag_bubble_sort_countries(countries, length);
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_country);
-            total_time_flag_countries += calc_elapsed_time(&t_beg_country, &t_end_country);
+            //printf("FLAG: %lld\n", calc_elapsed_time(&t_beg_country, &t_end_country));
+            //if (j > 1)
+                total_time_flag_countries += calc_elapsed_time(&t_beg_country, &t_end_country);
 
             // Измерение времени сортировки ключей с флагом
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg_key);
             flag_bubble_sort_keys(keys, length);
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_key);
-            total_time_flag_keys += calc_elapsed_time(&t_beg_key, &t_end_key);
+            //if (j > 1)
+                total_time_flag_keys += calc_elapsed_time(&t_beg_key, &t_end_key);
         }
+        
+        print_countries(file_out_countries, countries, length);
+        print_keys(file_out_keys, keys, length);
+        print_countries(file_out_countries_flag, countries, length);
+        print_keys(file_out_keys_flag, keys, length);
+        print_keys(file_in_keys, keys, length);
+
+        fclose(file_out_countries);
+        fclose(file_out_keys);
+        fclose(file_out_countries_flag);
+        fclose(file_out_keys_flag);
+        fclose(file_in_keys);
+        fclose(file_in_countries);
 
         // Записываем среднее время для сортировки стран и ключей
         unsigned long long avg_time_countries = total_time_countries / ITERATIONS;

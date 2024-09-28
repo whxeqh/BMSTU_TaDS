@@ -1,14 +1,31 @@
+#define _POSIX_C_SOURCE 199309L
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stddef.h>
+#include <string.h>
+#include <time.h>
+#include <math.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stdio.h>
 #include "research.h"
 #include "sort.h"
 #include "UI.h"
 #include "errors.h"
 #include "country.h"
 #include "countries_array.h"
+
+// Функция подсчитывает время между двумя моментами в микросекундах
+/*static unsigned long long calc_elapsed_time(const struct timespec *beg, const struct timespec *end)
+{
+    return ((unsigned long long)
+        (end->tv_sec - beg->tv_sec) * 1000 * 1000 * 1000 +
+                        (end->tv_nsec - beg->tv_nsec)) / 1000; 
+}
+*/
 
 static bool get_num(int *num)
 {
@@ -100,6 +117,8 @@ int select_from_menu(int *action)
 
 int execute_action(const int action, country_t *countries, size_t *length, key_t *keys)
 {
+
+    //struct timespec t_beg_country, t_end_country;
     FILE *file = NULL;
     country_t country;
     int rc = OK;
@@ -177,11 +196,24 @@ int execute_action(const int action, country_t *countries, size_t *length, key_t
             printf("\033[32m\nСписок стран по списку ключей успешно выведен!\033[0m\n\n");
             break;
         case ACT_SORT_KEYS:
-            flag_bubble_sort_keys(keys, *length);
+            //clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg_country);
+            bubble_sort_keys(keys, (int) *length);
+            //clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_country);
+            //if (j > 1)
+            //unsigned long long now = calc_elapsed_time(&t_beg_country, &t_end_country);
+            //printf("DADADA: %lld\n", now);
+
             printf("\033[32m\nСписок стран по списку ключей успешно отсортирован по столицам!\033[0m\n\n");
             break;
         case ACT_SORT_COUNTRIES:
-            flag_bubble_sort_countries(countries, *length);
+            //clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg_country);
+            bubble_sort_countries(countries, (int) *length);
+            //clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_country);
+            //if (j > 1)
+            //now = calc_elapsed_time(&t_beg_country, &t_end_country);
+            //printf("DADADA: %lld\n", now);
+
+            //bubble_sort_countries(countries, (int) *length);
             printf("\033[32m\nСписок стран успешно отсортирован по столицам!\033[0m\n\n");
             break;
         case ACT_RESEARCH:

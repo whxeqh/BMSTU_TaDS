@@ -3,7 +3,6 @@
 #include "countries_array.h"
 #include <string.h>
 
-
 static void uni_swap(void *left, void *right, const size_t el_size)
 {
     char tmp[el_size];
@@ -12,81 +11,57 @@ static void uni_swap(void *left, void *right, const size_t el_size)
     memcpy(right, tmp, el_size);
 }
 
-static int uni_cmp(const void *left, const void *right, const size_t el_size)
+// Сравнение строк через strcmp
+void bubble_sort_countries(country_t *countries, const int len)
 {
-    const char *l = left;
-    const char *r = right;
-    for (size_t i = 0; i < el_size; ++i)
-    {
-        if (*l != *r)
-            return *l - *r;
-        l++;
-        r++;
-    }
-
-    return 0;
+    for (int i = 0; i < len; ++i)
+        for (int j = 0; j < len - 1; ++j)
+            if (strcmp(countries[j].capital, countries[j + 1].capital) > 0)
+                uni_swap(&countries[j], &countries[j + 1], sizeof(country_t));
 }
 
-void bubble_sort_countries(country_t *countries, const size_t len)
+void bubble_sort_keys(key_t *keys, const int len)
 {
-    for (size_t i = 0; i < len; ++i)
-        for (size_t j = i + 1; j < len; ++j)
-            if (uni_cmp(&countries[i].capital, &countries[j].capital, sizeof(countries[i].capital)) > 0)
-                uni_swap(&countries[i], &countries[j], sizeof(country_t));
+    for (int i = 0; i < len; ++i)
+        for (int j = 0; j < len - 1; ++j)
+            if (strcmp(keys[j].capital, keys[j + 1].capital) > 0)
+                uni_swap(&keys[j], &keys[j + 1], sizeof(key_t));
 }
 
-void bubble_sort_keys(key_t *keys, const size_t len)
-{
-    for (size_t i = 0; i < len; ++i)
-        for (size_t j = i + 1; j < len; ++j)
-            if (uni_cmp(keys[i].capital, &keys[j].capital, sizeof(keys[i].capital)) > 0)
-                uni_swap(&keys[i], &keys[j], sizeof(key_t));
-}
-
-void flag_bubble_sort_countries(country_t *countries, const size_t len)
-{
-    bool flag = false;
-    for (size_t i = 0; i < len; ++i)
-    {
-        for (size_t j = i + 1; j < len; ++j)
-            if (uni_cmp(countries[i].capital, &countries[j].capital, sizeof(countries[i].capital)) > 0)
-            {
-                flag = true;
-                uni_swap(&countries[i], &countries[j], sizeof(country_t));
-            }  
-        if (!flag)
-            return;
-    }    
-}
-
-void flag_bubble_sort_keys(key_t *keys, const size_t len)
+void flag_bubble_sort_keys(key_t *keys, const int len)
 {
     bool flag;
-    int i = len - 1;
+    int i = 0;
     do
     {
         flag = false;
-        for (int j = 0; j < i; ++j)
+        for (int j = 0; j < len - i - 1; ++j)
         {
-            if (uni_cmp(keys[j].capital, &keys[j + 1].capital, sizeof(keys[j].capital)) > 0)
+            if (strcmp(keys[j].capital, keys[j + 1].capital) > 0)
             {
                 flag = true;
                 uni_swap(&keys[j], &keys[j + 1], sizeof(key_t));
             }
         }
-        --i;
+        i++;
     } while (flag);
 }
 
-
-/*
-void insertion_countries(country_t *countries, const size_t len)
+void flag_bubble_sort_countries(country_t *countries, const int len)
 {
-    
+    bool flag;
+    int i = 0;
+    do
+    {
+        flag = false;
+        for (int j = 0; j < len - i - 1; ++j) // Исправлено
+        {
+            if (strcmp(countries[j].capital, countries[j + 1].capital) > 0)
+            {
+                flag = true;
+                uni_swap(&countries[j], &countries[j + 1], sizeof(country_t));
+            }
+        }
+        i++;
+    } while (flag); 
 }
-
-void insertion_sort_keys(key_t *keys, const size_t len)
-{
-    
-}
-*/

@@ -1,5 +1,5 @@
 #include <string.h>
-#include <stdlib.h>  // Для exit()
+#include <stdlib.h> 
 #include <assert.h>
 #include <ctype.h>
 #include "errors.h"

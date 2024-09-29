@@ -37,6 +37,53 @@ static int fill_countries(country_t *countries, FILE *file_in)
     return rc;
 }
 
+static void make_stats(const size_t length, const unsigned long long time_countries, const long long time_keys, const unsigned long long time_countries_flag, const long long time_keys_flag)
+{
+    size_t size_countries = length * sizeof(country_t);
+    size_t size_keys = length * sizeof(key_t);
+
+    printf(BOLD GREEN "Статистика на основе массива длиной %zu:\n\n" RESET, length);
+    printf("-----------------------------------------------------------------------------------------------------------------------------------------\n");
+    printf(BOLD CYAN "Общие данные:\n\n" RESET);
+    long memory_diff = size_countries - size_keys;
+    double memory_percent = ((double) memory_diff / size_countries) * 100;
+    printf(YELLOW "Массив ключей занимает меньше памяти на " RESET BOLD "%ld байт" RESET YELLOW ", что дает выйгрыш в " RESET BOLD "%.2f процентов\n" RESET, memory_diff, memory_percent);
+
+    long long time_diff = time_countries - time_keys;
+    double time_percent = ((double) time_diff / time_countries) * 100;
+    printf(YELLOW "Массив ключей сортируется быстрее на " RESET BOLD "%lld микросекунд" RESET YELLOW ", что дает выйгрыш в " RESET BOLD "%.2f процентов\n\n" RESET, time_diff, time_percent);
+
+    printf(BOLD CYAN "Данные по сортировкам:\n" RESET);
+
+    printf(GREEN "Сортировка пузырьком:\n" RESET);
+    printf(MAGENTA "Массив структур:\n" RESET);
+    printf("   _______________________________________\n");
+    printf("  | " BOLD "Время, мкс" RESET "  | " BOLD "Занимаемая память, байт" RESET " |\n");
+    printf("  |   %llu    |          %zu         |\n", time_countries, size_countries);
+    printf("  |_______________________________________|\n\n");
+
+    printf(MAGENTA "Массив ключей:\n" RESET);
+    printf("   _______________________________________\n");
+    printf("  | " BOLD "Время, мкс" RESET "  | " BOLD "Занимаемая память, байт" RESET " |\n");
+    printf("  |   %lld    |          %zu         |\n", time_keys, size_keys);
+    printf("  |_______________________________________|\n\n");
+
+    printf(GREEN "Сортировка пузырьком с флагом:\n" RESET);
+    printf(MAGENTA "Массив структур:\n" RESET);
+    printf("   _______________________________________\n");
+    printf("  | " BOLD "Время, мкс" RESET "  | " BOLD "Занимаемая память, байт" RESET " |\n");
+    printf("  |   %llu    |         %zu          |\n", time_countries_flag, size_countries);
+    printf("  |_______________________________________|\n\n");
+    
+    printf(MAGENTA "Массив ключей:\n" RESET);
+    printf("   _______________________________________\n");
+    printf("  | " BOLD "Время, мкс" RESET "  | " BOLD "Занимаемая память, байт" RESET " |\n");
+    printf("  |   %lld    |         %zu          |\n", time_keys_flag, size_keys);
+    printf("  |_______________________________________|\n\n");
+    printf("-----------------------------------------------------------------------------------------------------------------------------------------\n");
+}
+
+
 int make_research(void)
 {   
     int rc = OK;
@@ -46,6 +93,12 @@ int make_research(void)
     key_t keys[MAX_LENGTH];
     int length;
 
+    unsigned long long avg_time_countries;
+    unsigned long long avg_time_keys;
+    unsigned long long avg_time_flag_countries;
+    unsigned long long avg_time_flag_keys;
+
+    
     char *file_name_data_countries = "research/data/countries/data.txt";
     FILE *file_data_countries = fopen(file_name_data_countries, "w"); 
     char *file_name_data_keys = "research/data/keys/data.txt";
@@ -57,7 +110,6 @@ int make_research(void)
     FILE *file_flag_data_keys = fopen(file_name_flag_data_keys, "w"); 
 
     int reps[] = {100, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000};
-    
     for (size_t i = 0; rc == OK && i < sizeof(reps) / sizeof(reps[0]); ++i)
     {
         length = reps[i];
@@ -103,7 +155,10 @@ int make_research(void)
         for (size_t  j = 0; j < ITERATIONS; ++j)
         {
             rewind(file_in_countries);
-            fill_countries(countries, file_in_countries);
+            rc = fill_countries(countries, file_in_countries);
+            if (rc != OK)
+                return rc;
+                
             fill_keys(countries, length, keys);
 
             // Измерение времени обычной сортировки стран
@@ -155,14 +210,14 @@ int make_research(void)
         fclose(file_in_countries);
 
         // Записываем среднее время для сортировки стран и ключей
-        unsigned long long avg_time_countries = total_time_countries / ITERATIONS;
-        unsigned long long avg_time_keys = total_time_keys / ITERATIONS;
+        avg_time_countries = total_time_countries / ITERATIONS;
+        avg_time_keys = total_time_keys / ITERATIONS;
 
-        unsigned long long avg_time_flag_countries = total_time_flag_countries / ITERATIONS;
-        unsigned long long avg_time_flag_keys = total_time_flag_keys / ITERATIONS;
+        avg_time_flag_countries = total_time_flag_countries / ITERATIONS;
+        avg_time_flag_keys = total_time_flag_keys / ITERATIONS;
 
-        printf("Среднее время для %u элементов: страны = %llu, ключи = %llu\n", reps[i], avg_time_countries, avg_time_keys);
-        printf("Среднее время с флагом для %u элементов: страны = %llu, ключи = %llu\n\n", reps[i], avg_time_flag_countries, avg_time_flag_keys);
+        printf("Среднее время для %u элементов: структуры = " BOLD "%llu" RESET ", ключи = " BOLD "%llu" RESET "\n", reps[i], avg_time_countries, avg_time_keys);
+        printf("Среднее время с флагом для %u элементов: структуры = " BOLD "%llu" RESET ", ключи = " BOLD "%llu" RESET "\n\n", reps[i], avg_time_flag_countries, avg_time_flag_keys);
 
         // Запись данных в файлы
         fprintf(file_data_countries, "%u %llu\n", reps[i], avg_time_countries);
@@ -181,5 +236,13 @@ int make_research(void)
     fclose(file_data_keys);
     fclose(file_flag_data_countries);
     fclose(file_flag_data_keys);
+
+
+    //Запуск скрипта для генерации данных
+    //char plots[100];
+    //sprintf(plots, "gnuplot research/src/*.sh");
+    //system(plots);
+
+    make_stats(11000, avg_time_countries, avg_time_keys, avg_time_flag_countries, avg_time_flag_keys);
     return rc;
 }

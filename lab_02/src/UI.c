@@ -185,7 +185,8 @@ int execute_action(const int action, country_t *countries, size_t *length, key_t
             break;
         case ACT_TASK:
             rc = print_task_countries(countries, *length);
-            printf("\033[32m\nВсе подходящие страны успешно выведены!\033[0m\n\n");
+            if (rc == OK)
+                printf("\033[32m\nВсе подходящие страны успешно выведены!\033[0m\n\n");
             break;
         case ACT_PRINT_KEYS:
             print_keys(stdout, keys, *length);

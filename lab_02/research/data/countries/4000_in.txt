@@ -1,0 +1,4000 @@
+Sweden London Europe 0 13 885 1 69 2
+SouthKorea Oslo NorthAmerica 0 315 168 3 1
+France London Europe 1 977 281 1 526 3
+Russia Canberra Europe 0 529 281 3 3
+Vietnam Warsaw Asia 0 31 83 2 Spring 378 -450
+France Tokyo NorthAmerica 0 116 218 2 Fall -988 -813
+Turkey Berlin Asia 1 485 675 1 218 3
+SouthKorea Brasilia Asia 0 479 580 3 1
+Malaysia Madrid Europe 0 633 972 1 542 2
+Philippines Madrid SouthAmerica 0 270 670 1 589 2
+Argentina Hanoi Europe 0 483 271 1 72 2
+Vietnam Cairo Europe 1 928 226 3 2
+Spain Brasilia NorthAmerica 1 277 896 2 Winter 128 259
+Philippines Ankara NorthAmerica 0 590 157 3 2
+Argentina Lisbon Europe 1 360 636 2 Spring 791 39
+Germany BuenosAires Europe 0 122 237 2 Spring 742 -783
+USA Stockholm Australia 0 684 798 3 2
+France KualaLumpur Africa 1 332 509 2 Fall -206 -143
+USA Madrid Europe 0 882 321 3 1
+Belgium Seoul SouthAmerica 1 902 887 2 Spring -133 -44
+Ethiopia Oslo Asia 0 370 389 2 Summer -21 944
+Poland Abuja Asia 1 783 782 3 1
+Belgium Rome Europe 0 449 155 2 Winter -718 570
+SouthKorea Kyiv Europe 0 769 827 3 3
+Sweden Helsinki Asia 0 980 302 3 3
+Japan Ankara NorthAmerica 1 750 398 3 1
+France Athens Asia 0 262 443 2 Winter -654 -415
+SouthAfrica Lisbon Europe 1 203 395 3 2
+Canada London Europe 1 663 480 3 3
+SaudiArabia Kyiv Europe 0 761 794 1 444 1
+Russia Warsaw Europe 1 609 954 1 17 3
+Ukraine Cairo Europe 1 973 565 1 512 3
+Australia Pretoria Asia 1 943 254 1 228 3
+Belgium Warsaw Australia 1 278 816 2 Fall 680 -30
+Belgium Bangkok Asia 0 686 367 2 Winter -30 831
+Russia Brussels Europe 0 53 517 2 Fall -50 671
+Sweden Ankara Europe 1 386 109 2 Fall 948 -444
+Egypt Warsaw Europe 1 437 917 1 363 3
+Portugal Warsaw Africa 1 273 369 1 801 2
+Philippines BuenosAires Europe 0 601 941 2 Winter -535 676
+Mexico BuenosAires Europe 0 493 894 2 Summer 264 -705
+Brazil Pretoria Europe 1 223 754 1 753 2
+Poland BuenosAires Europe 0 978 948 2 Fall -569 826
+Philippines London SouthAmerica 1 139 327 3 2
+UnitedKingdom Cairo Australia 1 881 408 1 962 1
+Australia Pretoria Australia 1 30 661 2 Spring -372 -115
+Finland Manila Africa 1 262 734 2 Winter -50 753
+India Paris Europe 1 993 39 2 Winter -774 -792
+Portugal Bangkok Asia 0 932 17 1 517 3
+Germany Brussels Europe 1 472 378 3 1
+India Amsterdam Europe 1 30 596 1 617 1
+Ukraine Bern Asia 1 507 83 1 40 1
+Spain Riyadh Africa 1 733 923 1 479 2
+UnitedKingdom Wellington Europe 1 417 793 3 2
+Turkey Paris Europe 0 140 445 1 716 1
+Japan Paris Europe 0 708 646 2 Fall 836 -455
+Indonesia Nairobi Asia 0 362 184 2 Summer 218 -678
+France Manila Asia 0 0 102 1 841 3
+Portugal Beijing Africa 1 608 912 1 812 2
+France Rome Asia 0 374 218 3 3
+Ukraine Jakarta Africa 0 859 192 3 1
+Sweden Berlin NorthAmerica 0 740 934 1 8 2
+France Moscow Asia 0 681 539 1 587 1
+Finland Manila Europe 0 655 3 3 2
+Netherlands Warsaw Europe 0 162 852 2 Winter -647 -910
+SouthKorea Oslo Europe 0 244 497 1 773 2
+Egypt Riyadh Europe 0 794 782 3 3
+Netherlands Rome Asia 1 574 780 2 Spring 665 -726
+China Cairo Europe 1 180 159 2 Summer 758 420
+Vietnam Washington Europe 0 575 582 3 1
+Denmark Nairobi Europe 1 956 33 2 Winter 195 215
+Mexico Stockholm Asia 0 722 341 1 595 2
+Portugal Ankara Europe 1 268 309 3 1
+Poland Pretoria Africa 0 89 336 3 1
+Ethiopia Amsterdam Europe 0 787 145 3 1
+Denmark Tokyo Australia 0 819 936 3 1
+Philippines Washington Europe 0 989 124 3 1
+UnitedKingdom Abuja Europe 1 455 152 1 77 2
+Turkey KualaLumpur Europe 0 773 472 2 Summer 104 407
+USA Rome Asia 0 473 860 2 Summer 747 -88
+China Canberra Africa 0 181 632 2 Spring 510 240
+SouthKorea AddisAbaba SouthAmerica 0 514 770 3 1
+Switzerland Ottawa Asia 1 226 182 1 887 3
+France Stockholm Africa 0 587 617 1 269 2
+Germany Brussels Europe 0 199 323 1 498 2
+Denmark BuenosAires Australia 1 76 910 2 Fall 265 -507
+Denmark Nairobi SouthAmerica 0 455 409 2 Fall 433 91
+SaudiArabia Cairo Europe 1 656 359 1 32 2
+SouthAfrica NewDelhi Asia 1 971 799 2 Summer -541 -251
+Vietnam Oslo Africa 1 439 451 2 Fall 561 676
+USA NewDelhi Asia 0 55 276 2 Fall 591 490
+Brazil Warsaw NorthAmerica 1 804 63 2 Fall -531 -552
+Mexico Jakarta Europe 0 815 890 3 2
+India Riyadh Europe/Asia 0 636 399 3 1
+Finland Rome Africa 0 99 449 1 355 1
+Turkey Bangkok Africa 0 513 350 3 3
+Kenya Jakarta Europe 0 856 372 1 4 2
+Australia Seoul SouthAmerica 1 875 547 3 2
+Thailand Pretoria Asia 1 335 163 1 50 1
+Brazil Helsinki Asia 1 8 235 2 Summer -103 -168
+Nigeria Tokyo NorthAmerica 1 621 100 3 1
+India Ankara Europe 1 576 301 1 584 1
+France AddisAbaba Africa 0 849 429 2 Fall -696 153
+Canada NewDelhi Australia 0 203 791 3 3
+Russia Warsaw Europe 1 119 99 3 2
+Greece Seoul Asia 1 946 59 2 Summer 818 453
+USA Moscow SouthAmerica 1 6 309 1 929 3
+Argentina Washington Asia 1 785 284 2 Fall 913 123
+Germany Bern Asia 0 425 628 1 720 1
+Netherlands Warsaw Asia 1 757 136 3 1
+Netherlands Lisbon Europe 0 328 791 2 Summer 852 -962
+Indonesia Abuja Asia 1 22 548 2 Winter 623 712
+Thailand Hanoi Asia 1 727 956 1 441 1
+Egypt BuenosAires Europe 0 581 810 1 628 2
+India Tokyo Europe 0 604 970 2 Spring 251 274
+Sweden Oslo Asia 0 931 884 1 392 1
+Egypt Nairobi Europe 0 651 923 3 1
+Canada Stockholm Europe/Asia 1 695 553 2 Spring -16 103
+Thailand Brussels Asia 0 784 456 3 2
+SouthKorea Madrid Africa 1 332 838 1 507 2
+Portugal Paris Europe/Asia 1 782 577 1 185 2
+SouthKorea Riyadh Europe 0 674 899 2 Winter -881 941
+Canada Copenhagen Europe 0 156 771 3 2
+Germany Athens Asia 1 163 504 1 570 2
+Brazil Amsterdam Asia 1 556 832 3 3
+Argentina Oslo Asia 0 998 868 2 Summer -458 505
+Mexico Moscow Asia 1 371 949 1 36 2
+Australia Berlin Europe 0 778 926 3 2
+Finland Ankara Europe 0 7 865 1 947 1
+Turkey Oslo Africa 1 728 670 3 3
+Nigeria Helsinki Asia 0 108 342 1 734 3
+Italy Madrid Europe 0 616 560 1 172 2
+Thailand Brussels Europe/Asia 1 297 194 2 Winter 986 34
+Japan Manila SouthAmerica 1 770 109 2 Winter -257 471
+Turkey Seoul Europe 1 5 983 3 3
+Philippines Bern Africa 1 33 296 2 Winter 199 333
+Turkey Wellington NorthAmerica 0 236 873 3 1
+Netherlands Ottawa SouthAmerica 0 372 47 1 365 3
+Malaysia Moscow Europe 1 990 198 2 Fall -496 -862
+Germany Jakarta Asia 0 180 3 1 968 2
+Indonesia Bern Asia 1 608 628 3 1
+Spain Manila Asia 1 709 595 1 31 1
+Indonesia MexicoCity Europe 0 238 383 2 Fall -285 -361
+Kenya Helsinki Asia 1 396 450 1 780 1
+Ukraine Athens Asia 0 305 505 3 2
+SouthKorea Paris Asia 1 432 373 1 887 1
+Nigeria Bern Africa 0 812 534 2 Winter 138 -517
+Indonesia Madrid Asia 0 534 93 2 Spring 602 191
+Russia Hanoi Europe 0 775 11 1 339 3
+Malaysia Berlin Africa 0 486 760 1 928 1
+Egypt Pretoria Asia 1 751 747 3 1
+Norway Oslo NorthAmerica 1 16 922 2 Summer -392 634
+Russia Ottawa Asia 1 593 558 1 73 1
+Ethiopia Ankara Asia 1 799 171 3 3
+Ukraine Warsaw Asia 0 141 347 2 Spring -240 -354
+Philippines Ottawa Africa 1 535 786 1 895 2
+NewZealand Jakarta Europe 0 16 5 1 634 3
+France Athens NorthAmerica 0 766 773 2 Summer -105 -713
+SouthAfrica Stockholm Asia 1 474 977 2 Spring -324 -24
+Vietnam Seoul Asia 0 771 313 1 250 1
+Kenya Rome Asia 0 423 373 1 334 2
+SouthKorea Amsterdam Asia 1 486 945 1 611 3
+China Ottawa Europe/Asia 0 731 208 1 265 1
+France Oslo Europe 0 926 241 3 3
+Denmark Stockholm Asia 1 742 692 1 753 2
+Philippines Canberra Europe 0 225 642 2 Winter 52 -353
+SouthKorea Lisbon Europe 0 51 794 1 588 2
+Ethiopia Bern NorthAmerica 0 542 956 3 3
+Turkey Cairo Asia 1 718 440 1 877 2
+Ethiopia BuenosAires Europe 0 957 244 2 Fall -360 -548
+Norway Seoul Europe 0 438 94 2 Summer 686 -210
+Japan Manila Asia 0 648 689 1 201 1
+Netherlands Helsinki Europe 0 80 293 3 1
+Ukraine AddisAbaba Europe 1 328 65 1 206 3
+Thailand Nairobi Europe 0 306 424 1 886 3
+Denmark Washington SouthAmerica 0 752 88 1 29 1
+SaudiArabia Oslo Europe 1 501 256 1 820 1
+Russia Helsinki NorthAmerica 0 964 990 3 2
+SouthAfrica Copenhagen Europe 0 824 517 3 3
+SouthKorea Helsinki Europe 1 425 502 2 Winter 488 705
+Turkey Athens Europe 0 130 920 2 Winter 217 708
+Germany Washington Asia 1 682 771 2 Summer 927 992
+Greece Jakarta Europe 0 93 917 3 2
+Denmark Berlin Asia 1 540 707 1 213 2
+SouthKorea Madrid Australia 1 778 780 1 615 1
+France Ankara Europe 0 315 12 3 2
+Canada AddisAbaba Europe 0 866 849 2 Summer -384 204
+Finland Hanoi Europe 0 496 950 1 715 1
+Italy Helsinki Asia 0 487 293 3 2
+Canada Jakarta Asia 0 442 944 3 1
+Norway Moscow Europe 1 40 466 3 1
+Russia Abuja Asia 1 124 833 2 Fall -628 492
+Belgium Beijing Europe 1 306 750 2 Winter -598 -352
+Portugal Ottawa Africa 1 744 916 3 1
+SouthKorea MexicoCity Asia 0 558 79 1 257 1
+Netherlands Bangkok Europe 0 908 29 1 690 2
+Poland Nairobi Asia 1 492 804 3 3
+Japan Ottawa Asia/Europe 1 416 761 3 2
+Ukraine Copenhagen Europe 1 785 331 1 901 1
+Japan BuenosAires SouthAmerica 0 405 273 1 563 3
+Sweden Warsaw NorthAmerica 1 248 612 3 1
+Turkey Hanoi NorthAmerica 1 271 418 3 1
+Argentina Abuja Asia 0 952 418 2 Summer -824 88
+Japan Kyiv SouthAmerica 1 774 351 3 1
+SouthAfrica Lisbon NorthAmerica 0 367 571 3 3
+Vietnam Paris Africa 0 297 437 3 3
+Philippines Riyadh Europe 1 376 971 3 2
+Nigeria Brussels Europe 0 240 913 2 Summer -152 228
+Portugal Berlin Asia 0 906 343 3 2
+Brazil Athens Africa 0 337 457 3 1
+NewZealand Cairo Africa 1 489 236 3 3
+Finland Stockholm Europe 0 98 694 2 Winter 373 -383
+Finland Pretoria Europe/Asia 1 546 141 3 1
+Canada Seoul Africa 0 404 890 1 940 1
+Egypt Riyadh Africa 1 434 528 2 Fall 409 679
+Portugal Paris Europe 1 598 154 2 Spring 921 458
+India Athens Europe 0 749 198 2 Fall -638 -271
+China NewDelhi Australia 1 386 627 3 3
+Malaysia Brasilia Asia/Europe 1 667 87 2 Winter -905 -635
+Russia Cairo Asia 0 373 844 3 1
+NewZealand Hanoi Africa 0 440 372 2 Summer -781 380
+SouthKorea Jakarta Asia 0 638 344 2 Fall -138 -971
+Thailand Hanoi Africa 1 703 843 3 3
+Netherlands Brasilia Europe 1 85 882 2 Spring 437 891
+Poland London NorthAmerica 1 765 721 1 231 2
+Malaysia Seoul Europe 1 544 906 1 644 2
+Nigeria Warsaw NorthAmerica 1 525 232 1 35 1
+Turkey London SouthAmerica 1 359 171 3 1
+UnitedKingdom Lisbon Asia 1 775 495 3 1
+SaudiArabia AddisAbaba NorthAmerica 0 579 780 3 1
+Germany Stockholm Europe 0 601 281 3 3
+Russia Brasilia Australia 1 203 683 1 575 3
+Ukraine Oslo Africa 0 112 598 1 864 1
+Canada Paris Africa 0 330 385 1 690 2
+Philippines London Europe 1 433 423 2 Winter -657 -28
+Belgium Hanoi Europe 0 256 476 3 3
+NewZealand Stockholm Europe 1 51 207 1 674 3
+Nigeria KualaLumpur Africa 0 105 345 1 321 1
+Argentina KualaLumpur Asia 1 807 255 3 1
+Turkey MexicoCity Africa 0 562 924 1 831 3
+Australia KualaLumpur Africa 1 917 864 3 3
+Turkey Cairo Europe 1 91 233 1 716 2
+Belgium Bern Europe/Asia 1 957 146 3 2
+China Cairo Africa 0 424 349 3 2
+Indonesia Brussels Asia 0 733 180 2 Fall -66 422
+Indonesia Beijing Europe 1 502 127 3 2
+France Hanoi Europe/Asia 0 474 350 2 Summer -985 682
+Ethiopia Ottawa Australia 0 162 188 2 Fall 678 638
+Australia Athens SouthAmerica 0 795 125 2 Spring 358 78
+Italy Athens Europe 0 466 702 1 665 2
+Ukraine Moscow Europe 0 572 8 1 73 3
+Denmark AddisAbaba Australia 1 39 633 1 639 3
+Switzerland Hanoi Africa 0 477 532 2 Spring 624 497
+Switzerland London Europe 0 141 132 1 296 2
+Ethiopia Oslo Europe 0 57 599 2 Winter 665 -89
+Ukraine Ottawa Asia 0 417 192 1 335 1
+Poland Ankara NorthAmerica 0 975 205 3 2
+Ethiopia AddisAbaba Europe 1 132 640 2 Winter -181 762
+Netherlands Berlin Europe 1 2 640 3 2
+SouthAfrica Rome Europe 1 493 197 2 Fall 92 -802
+Denmark Athens Australia 1 509 331 1 101 1
+Canada Paris Asia 0 750 417 2 Winter 384 101
+NewZealand Lisbon Europe 1 93 924 1 741 2
+Japan Athens Asia/Europe 1 334 212 2 Winter -218 961
+China Paris Europe 0 934 909 3 1
+UnitedKingdom Warsaw Africa 0 257 630 1 706 3
+Australia Ottawa Europe 1 94 372 1 475 3
+Germany Tokyo Asia 0 79 991 3 1
+SaudiArabia Nairobi Europe 1 685 323 3 3
+Netherlands Riyadh Europe 1 65 692 3 3
+Nigeria Cairo Europe 1 876 414 2 Summer 788 0
+Japan Bern Europe 1 609 802 3 1
+Portugal Ankara Europe 0 919 746 2 Winter -440 -798
+China Riyadh Europe 1 470 660 2 Winter -868 -180
+UnitedKingdom Jakarta Europe 1 235 491 3 2
+France Seoul Australia 1 868 802 1 45 2
+Malaysia Lisbon Europe 0 497 275 3 2
+Poland Riyadh Europe 1 518 754 1 643 2
+Switzerland Hanoi Europe 0 746 442 2 Winter 262 -543
+Finland Copenhagen Australia 1 526 272 2 Summer 456 508
+Indonesia NewDelhi Asia 1 116 119 1 816 3
+Switzerland Nairobi Europe 0 795 607 1 526 2
+Vietnam Abuja Asia 0 830 677 3 2
+SouthKorea Amsterdam Australia 0 157 293 3 2
+Ukraine Lisbon Asia 1 920 281 2 Summer 94 608
+Poland Stockholm Asia 0 624 271 1 994 2
+China Ankara Asia 0 958 915 2 Fall 511 855
+India London Africa 0 590 717 1 815 2
+Malaysia Madrid NorthAmerica 0 423 457 2 Fall 44 -485
+Spain Riyadh Australia 0 10 126 2 Winter 801 -559
+Japan Jakarta Europe 1 201 182 1 667 1
+Spain Brasilia Asia 1 220 143 2 Spring 243 393
+Brazil MexicoCity Europe 1 720 270 2 Summer -731 921
+Japan Pretoria Europe 1 540 647 3 1
+Switzerland Berlin Australia 1 271 576 1 560 3
+Finland Moscow Europe/Asia 1 549 837 3 3
+Indonesia Bangkok Asia 0 429 186 1 144 1
+China Amsterdam Asia 0 500 251 2 Winter 192 60
+Denmark Paris Asia 0 272 104 3 3
+Netherlands Brussels Europe 1 210 545 3 1
+Spain London Europe 0 734 277 1 263 2
+Japan Riyadh Asia 1 65 935 3 3
+Turkey Ankara Europe 0 249 430 3 3
+Indonesia MexicoCity Europe 1 398 559 2 Winter 859 -644
+Kenya Tokyo Asia 1 69 21 2 Summer 370 -577
+Thailand Paris Africa 1 23 851 2 Fall 711 532
+UnitedKingdom Beijing Asia 1 253 911 2 Spring -766 -599
+Philippines Pretoria Asia 1 471 652 2 Spring 654 -707
+Germany Oslo Asia 0 743 146 1 23 2
+Germany Seoul SouthAmerica 0 833 120 1 98 1
+UnitedKingdom London Europe 0 689 517 3 3
+Sweden Moscow Asia 1 660 550 3 1
+Indonesia Lisbon Europe 0 666 498 1 78 1
+Netherlands Kyiv NorthAmerica 1 759 634 2 Winter -27 675
+SaudiArabia Nairobi Europe 1 684 700 1 226 2
+Greece Moscow Asia 0 51 16 3 1
+India Moscow Asia 1 685 796 2 Summer -389 -239
+Philippines Seoul Africa 0 735 579 2 Winter 849 544
+Norway Ottawa Asia 0 299 212 3 2
+Belgium AddisAbaba Europe 0 556 850 1 964 2
+Ukraine Rome Africa 0 991 734 2 Spring 211 543
+Argentina Stockholm Europe 1 474 995 1 145 3
+Sweden AddisAbaba Europe/Asia 1 80 912 3 1
+Malaysia Paris Africa 1 617 779 3 1
+Argentina Paris Europe/Asia 1 576 269 2 Fall 562 232
+Kenya Bangkok Africa 1 938 475 3 2
+Thailand Beijing Europe 0 348 965 2 Fall -64 411
+Indonesia Bangkok Australia 1 563 240 3 2
+SaudiArabia Seoul Asia 0 804 889 2 Winter 130 723
+India BuenosAires Asia 1 615 698 1 461 2
+Sweden Abuja Europe 1 33 620 1 357 2
+Nigeria Berlin Asia 0 737 544 3 2
+UnitedKingdom Nairobi Europe 1 458 843 2 Spring 929 938
+Spain Abuja Europe 1 584 837 1 326 2
+Vietnam Pretoria Asia 0 134 218 1 582 2
+Portugal Moscow Africa 1 173 849 1 95 3
+Philippines BuenosAires Europe 0 217 723 3 1
+Germany Cairo Europe 1 652 208 1 784 1
+Norway NewDelhi NorthAmerica 1 154 508 3 3
+Belgium Hanoi Asia 0 715 327 1 643 1
+Sweden BuenosAires Asia 1 775 28 2 Fall -182 336
+Poland Washington Asia 1 396 677 1 329 2
+Brazil Beijing Asia 1 79 983 3 1
+Canada MexicoCity Asia 1 657 948 1 193 1
+Philippines Wellington Europe 0 479 111 3 2
+Argentina Berlin Europe 0 288 287 1 594 3
+Vietnam Seoul Europe 0 946 598 3 1
+Canada Ottawa Europe 0 328 226 3 2
+Nigeria Jakarta Europe 0 959 768 2 Winter 172 905
+Netherlands Bern Europe 0 917 156 2 Winter -643 730
+Kenya Moscow Asia/Europe 1 585 392 3 2
+Argentina Copenhagen Asia 1 88 545 1 85 2
+Ukraine Wellington Asia 1 779 420 2 Spring -562 813
+India MexicoCity Europe 1 243 573 3 2
+Egypt KualaLumpur Europe 0 171 169 2 Spring 795 -196
+Ethiopia Lisbon Africa 1 779 62 1 998 3
+Netherlands Moscow Europe 1 575 450 2 Winter -233 -790
+SouthKorea Canberra Africa 0 468 813 1 576 2
+Ethiopia AddisAbaba Asia 1 408 70 3 2
+Indonesia Nairobi Europe 1 773 186 1 971 2
+UnitedKingdom Bangkok Europe 0 653 921 2 Winter 206 199
+SaudiArabia Berlin Europe 1 180 541 1 581 3
+Vietnam Jakarta NorthAmerica 0 296 989 2 Winter 634 630
+Turkey BuenosAires Europe 0 399 902 1 425 2
+Malaysia BuenosAires Asia 1 927 32 1 412 1
+Mexico Brussels Africa 0 36 807 3 1
+Mexico Seoul Europe 1 895 143 2 Summer 642 682
+Ethiopia NewDelhi Asia 1 15 638 1 594 3
+SaudiArabia Tokyo Asia 1 628 755 2 Winter -248 243
+Brazil MexicoCity Europe 1 408 426 2 Fall 666 729
+Greece Oslo Australia 1 623 491 1 719 2
+Vietnam Seoul Europe 1 850 338 1 53 3
+Malaysia Beijing Europe 1 504 582 1 892 3
+Indonesia Beijing NorthAmerica 0 163 622 3 1
+Poland Warsaw Europe 1 502 933 2 Fall 380 995
+UnitedKingdom Athens Africa 1 286 391 2 Winter 169 406
+Greece Washington NorthAmerica 0 576 283 2 Winter 489 -49
+Norway Helsinki Australia 0 840 518 1 820 1
+Norway Ankara Asia 1 818 486 1 246 3
+Kenya Lisbon Europe 0 39 885 1 173 3
+SouthAfrica Wellington Europe 1 301 892 2 Summer -262 -187
+Finland Athens Asia 1 313 160 3 1
+Norway Stockholm Asia 1 99 690 3 3
+Brazil Rome Australia 1 840 141 1 319 2
+USA Paris Europe 1 575 178 3 3
+Brazil Stockholm Asia 1 948 186 2 Spring -195 -224
+Denmark Ankara Europe 0 842 394 2 Fall -863 -554
+Kenya Ottawa SouthAmerica 0 529 106 3 1
+Ukraine Ottawa Europe 0 241 297 3 2
+USA Copenhagen Europe 1 114 40 1 410 2
+Turkey Ankara Europe 0 728 697 1 608 3
+Belgium Cairo Europe 1 641 995 1 600 1
+Poland Riyadh NorthAmerica 0 610 980 3 3
+Poland Jakarta Asia 0 843 945 2 Summer -867 674
+Norway Kyiv Europe 0 963 620 2 Spring -427 579
+Ethiopia Washington Australia 0 281 785 3 1
+Brazil Manila NorthAmerica 1 806 555 2 Winter 802 709
+Norway Ottawa SouthAmerica 1 251 886 1 864 3
+USA Jakarta Australia 1 849 419 1 307 2
+Nigeria AddisAbaba SouthAmerica 0 3 558 1 976 3
+Sweden London Europe 0 165 805 3 3
+Sweden Brasilia Asia 1 533 331 1 515 1
+SaudiArabia Nairobi Asia 0 208 41 3 1
+Malaysia Oslo Europe 1 680 134 3 3
+Malaysia Abuja Asia 0 112 502 2 Spring 969 -885
+Thailand Pretoria Europe 1 470 834 2 Spring 67 232
+Netherlands Lisbon Africa 0 720 790 2 Summer 282 -748
+Canada Bern Asia 1 803 370 3 1
+India Warsaw Asia 0 847 181 1 236 1
+Kenya Helsinki Europe 0 119 833 2 Summer 863 81
+Poland AddisAbaba Europe 0 196 404 3 2
+Japan London NorthAmerica 0 135 116 1 40 1
+Canada Pretoria Asia 1 167 786 2 Fall 574 -307
+NewZealand BuenosAires Asia 1 866 533 2 Fall -432 663
+Kenya Berlin Africa 1 948 587 3 1
+Italy Jakarta NorthAmerica 0 933 473 1 154 3
+Mexico Abuja Europe/Asia 1 94 362 3 3
+France KualaLumpur Asia 0 278 301 2 Fall 704 -228
+NewZealand Canberra Europe 0 48 868 3 3
+Indonesia Pretoria Asia 1 982 691 1 790 1
+Nigeria Washington Europe 0 23 145 3 3
+Denmark Washington SouthAmerica 0 720 22 1 434 1
+Switzerland KualaLumpur Asia 0 520 985 2 Winter -770 47
+SaudiArabia Oslo Europe 0 297 276 2 Summer 169 -329
+Indonesia London Africa 1 568 485 1 802 2
+SouthAfrica Pretoria Europe 0 479 281 3 1
+SaudiArabia Riyadh Asia 1 212 936 2 Fall 45 -345
+Switzerland Pretoria Asia 0 217 518 3 2
+Mexico Washington Europe 1 515 654 2 Winter 720 -480
+Switzerland KualaLumpur Australia 1 634 559 3 1
+Finland Copenhagen Europe 1 391 571 1 542 3
+SaudiArabia Manila Australia 1 485 59 1 823 3
+Argentina Jakarta Asia 0 803 647 1 380 2
+Switzerland Abuja Europe 0 298 126 1 13 3
+Greece London Asia 0 12 522 3 3
+Indonesia Amsterdam Africa 0 513 630 3 1
+Denmark Rome Europe 0 729 542 1 181 2
+Switzerland Stockholm Europe 1 980 671 2 Winter -423 -525
+Poland London Asia/Europe 1 990 571 2 Winter 107 -240
+Mexico AddisAbaba NorthAmerica 1 155 741 3 1
+Ukraine Moscow Europe 0 941 811 1 711 1
+Poland Hanoi Asia 0 29 475 2 Spring 241 77
+SaudiArabia Berlin Africa 0 367 909 2 Fall -865 289
+Malaysia Abuja Africa 0 302 577 3 3
+Russia Warsaw Asia 1 391 391 1 571 1
+Indonesia Manila Asia 0 671 427 3 3
+Netherlands Amsterdam Asia 1 477 873 1 102 2
+Egypt Ankara Asia 0 167 309 2 Spring 350 -601
+Egypt Wellington Europe 1 757 209 3 2
+Vietnam Moscow Europe 1 914 63 3 1
+Spain Berlin Australia 0 80 486 3 2
+Portugal AddisAbaba Asia 1 197 861 2 Spring 448 -15
+Mexico Paris Europe 1 215 443 2 Spring -423 -513
+Italy NewDelhi Europe 0 306 551 1 148 2
+Greece Seoul Europe 1 960 102 3 1
+Belgium Madrid Asia 1 382 741 2 Summer -353 844
+UnitedKingdom MexicoCity Europe 0 775 65 1 514 1
+Australia Rome NorthAmerica 1 758 946 1 51 1
+Australia Hanoi Europe 0 172 592 1 930 2
+Netherlands Wellington Australia 0 645 772 1 533 2
+Turkey KualaLumpur Asia 1 213 26 2 Fall -528 612
+India Ottawa Europe 0 607 500 3 1
+Kenya Kyiv NorthAmerica 1 562 251 3 2
+Norway Hanoi Europe 1 985 945 3 2
+Belgium AddisAbaba Europe 1 214 12 3 3
+UnitedKingdom Stockholm Asia 1 785 778 1 315 2
+Argentina Brussels Europe 1 693 817 1 925 3
+USA AddisAbaba Asia 0 958 952 2 Spring 259 38
+Russia Manila Africa 0 224 785 1 563 1
+Italy Wellington Europe 0 320 608 1 360 2
+Nigeria Manila Europe/Asia 0 0 546 3 2
+Malaysia Stockholm Europe 1 270 904 1 166 3
+Germany Oslo Europe 0 468 363 1 902 1
+Australia NewDelhi Europe 1 712 824 2 Winter -637 210
+NewZealand Ottawa Europe 1 240 919 3 1
+USA KualaLumpur SouthAmerica 0 860 466 3 3
+Vietnam Pretoria Africa 1 2 334 3 1
+Germany Warsaw SouthAmerica 0 477 56 1 483 2
+Spain Riyadh Africa 0 735 81 1 529 2
+Turkey Rome Asia 1 339 613 2 Fall -362 561
+China Brussels SouthAmerica 1 707 48 3 2
+Philippines Moscow Europe 1 652 119 3 2
+Germany Beijing Africa 0 197 655 1 394 3
+SaudiArabia Rome Africa 0 931 130 1 397 3
+Portugal Cairo SouthAmerica 1 425 262 3 1
+USA Hanoi Europe 1 807 638 1 10 3
+Ukraine Canberra SouthAmerica 0 231 540 3 1
+Nigeria Paris Europe 0 616 318 3 2
+Switzerland Abuja Europe 1 105 917 3 2
+Philippines Tokyo Asia 0 462 264 1 500 2
+Thailand KualaLumpur Asia 1 822 234 1 637 1
+SouthKorea BuenosAires Africa 1 516 684 2 Spring 637 -49
+Japan Oslo Europe 1 208 392 3 1
+USA Jakarta Asia 0 554 924 2 Fall 380 -941
+Denmark Ottawa Europe 1 790 456 3 1
+Mexico Lisbon Asia 1 892 117 2 Winter 925 -582
+Egypt Seoul Europe/Asia 1 704 406 3 1
+Italy Tokyo Asia 1 695 412 1 518 2
+China Madrid Africa 0 375 792 2 Winter 551 -839
+Nigeria Ankara Asia 1 843 395 3 3
+Kenya Helsinki Europe 1 481 205 1 499 1
+Egypt Jakarta Asia 1 744 409 1 853 3
+Thailand Wellington Europe 1 586 752 1 180 1
+Australia Canberra Asia 0 505 432 1 113 2
+Thailand Madrid Asia 1 592 446 3 1
+Italy Brasilia Asia 1 454 65 3 2
+Switzerland Copenhagen NorthAmerica 1 867 246 3 3
+Egypt Washington Europe 0 43 599 2 Spring -702 945
+Canada NewDelhi Asia/Europe 1 691 269 3 3
+Poland Kyiv Asia 1 732 633 2 Summer -322 -708
+Egypt Ottawa Asia 0 546 55 3 1
+Italy Seoul Europe 0 754 84 2 Fall -402 -905
+Egypt Oslo Europe 0 101 191 2 Summer 895 707
+Egypt London NorthAmerica 0 617 60 1 900 3
+UnitedKingdom Amsterdam Europe 0 54 648 1 211 1
+Portugal Rome Asia 1 561 738 2 Winter -790 -222
+Ukraine Pretoria Europe 0 257 815 2 Winter 298 772
+SaudiArabia KualaLumpur Europe 1 797 447 3 1
+Japan Berlin Europe 1 79 812 2 Spring -863 -337
+Denmark AddisAbaba SouthAmerica 1 958 689 3 2
+NewZealand Ottawa Asia 1 175 490 1 373 3
+Mexico Athens Europe 1 140 621 1 920 2
+Australia Amsterdam Australia 0 782 977 3 2
+Spain Cairo Europe/Asia 1 630 523 1 324 1
+Brazil Copenhagen Africa 0 524 653 3 3
+Vietnam Jakarta Asia 0 801 427 3 1
+Italy Abuja Europe 1 71 87 3 1
+Germany Oslo Europe 0 504 430 2 Spring -616 105
+Canada Jakarta Asia 0 409 921 1 741 1
+USA Paris Europe/Asia 1 221 634 3 1
+Switzerland Moscow Europe 1 380 449 1 203 2
+Switzerland Bangkok Asia 1 382 948 2 Winter 232 157
+Finland Bern Europe 0 1000 526 1 661 1
+Denmark Tokyo Europe 0 205 748 1 641 3
+Vietnam Copenhagen Africa 0 178 664 3 1
+Finland Helsinki Europe 0 793 980 2 Fall -459 -204
+Poland Bangkok Europe 0 770 125 1 854 3
+Portugal Brussels Europe/Asia 1 228 318 1 733 2
+NewZealand AddisAbaba Europe 0 276 857 1 778 2
+Spain Brussels Australia 1 660 705 2 Winter -507 886
+Italy MexicoCity Europe 0 424 215 2 Spring -777 65
+Kenya Abuja Europe/Asia 1 527 526 1 908 3
+India Washington Europe 1 947 137 3 3
+Argentina Lisbon Africa 0 403 543 1 16 2
+Japan Madrid Europe/Asia 1 214 714 3 3
+Vietnam Madrid Asia 1 521 255 3 2
+Poland Pretoria NorthAmerica 0 654 742 1 993 1
+Brazil Abuja Europe 0 462 527 1 702 3
+Japan Hanoi Australia 1 963 353 1 350 2
+Denmark Jakarta Europe 0 245 471 2 Summer 74 -178
+Netherlands Nairobi Europe 1 169 331 1 319 2
+Nigeria Athens Asia 0 779 621 3 1
+Argentina AddisAbaba Europe 0 57 739 3 3
+Indonesia Copenhagen Europe 0 786 43 1 771 2
+USA MexicoCity Asia 0 872 717 3 1
+Ukraine Kyiv Asia 0 183 295 2 Spring -678 355
+Thailand Paris Asia/Europe 1 493 743 3 3
+Switzerland Stockholm Europe 1 813 228 3 2
+Malaysia Nairobi Europe/Asia 1 151 847 3 2
+Indonesia Nairobi NorthAmerica 0 966 619 2 Winter 231 -618
+Russia Abuja Asia 0 190 982 3 3
+Philippines Athens Australia 1 326 385 1 908 2
+India Wellington Europe 0 159 312 2 Summer 143 941
+Mexico Cairo Asia 0 301 137 3 2
+Italy Stockholm Europe 1 992 587 3 2
+Finland Manila SouthAmerica 1 813 859 2 Fall 130 -381
+Indonesia Copenhagen Europe 1 318 156 2 Fall 417 -995
+Australia Hanoi Africa 1 582 963 3 1
+Sweden Brasilia Europe 1 550 633 1 687 2
+Sweden Wellington SouthAmerica 0 979 574 1 758 3
+India Brasilia Asia 1 854 934 1 478 3
+Sweden Riyadh Australia 1 625 635 2 Summer -740 -573
+Ethiopia Amsterdam NorthAmerica 1 509 430 1 575 1
+Spain Oslo Europe/Asia 1 992 410 2 Fall -939 -319
+Japan Bangkok Africa 0 826 685 3 3
+Russia Manila Europe 0 19 612 1 733 1
+Portugal Canberra Europe 1 590 429 1 225 3
+Denmark London Europe/Asia 1 431 31 3 2
+SouthKorea Berlin Europe 0 962 638 3 1
+Belgium Moscow Europe/Asia 0 131 922 2 Winter 180 -87
+Sweden Helsinki SouthAmerica 0 253 62 3 3
+Finland NewDelhi Asia 0 503 463 1 726 1
+Spain Rome Europe 0 397 720 1 125 1
+Malaysia Brasilia Africa 0 204 563 3 3
+SouthAfrica Hanoi Europe 0 746 312 3 3
+Australia Cairo Asia 0 419 415 2 Fall -58 919
+India Manila Europe 1 957 540 3 3
+Australia Ankara Europe 0 972 953 2 Fall -973 -375
+USA Helsinki Africa 1 630 92 1 660 2
+France Moscow Europe/Asia 1 364 766 1 689 3
+Greece Ankara Asia 1 470 896 1 389 1
+Nigeria Oslo Asia 0 720 676 2 Spring -323 -694
+Vietnam Lisbon Africa 0 107 167 2 Fall 797 393
+Australia Canberra Asia 1 617 623 3 2
+Malaysia Washington Asia 1 835 490 2 Spring -138 -668
+Netherlands BuenosAires Europe/Asia 0 203 914 3 3
+NewZealand Hanoi Asia 1 335 427 3 2
+Nigeria Seoul SouthAmerica 0 892 284 1 695 2
+Malaysia Stockholm Europe 0 621 451 3 2
+Australia Washington Australia 0 689 632 3 2
+Norway AddisAbaba Africa 0 877 106 2 Summer 676 16
+Norway Washington Asia 1 899 183 3 1
+SouthAfrica Amsterdam Africa 0 460 515 1 16 2
+Egypt Bangkok Europe/Asia 0 982 694 3 1
+Australia AddisAbaba Europe 1 36 901 1 672 3
+Ukraine Washington Asia/Europe 0 211 986 1 548 2
+Poland Madrid Asia 0 934 449 1 302 3
+Portugal Athens Asia 1 283 105 2 Spring 631 -512
+SaudiArabia Riyadh NorthAmerica 0 498 740 3 1
+SouthAfrica BuenosAires Africa 1 426 153 1 471 2
+Switzerland Kyiv Europe 1 918 686 1 607 3
+Norway Bangkok Asia 0 579 155 1 364 3
+Germany Brussels Asia 0 393 803 1 335 1
+Ethiopia Berlin Asia 0 24 96 1 858 2
+China Ottawa Europe 0 233 789 1 668 3
+Finland Beijing Asia 1 104 37 1 146 2
+Canada Jakarta Europe/Asia 1 821 354 3 1
+SaudiArabia Kyiv Asia 0 565 997 2 Winter -266 994
+Sweden Bangkok Asia 1 542 666 3 1
+Ukraine Stockholm Asia 0 142 995 3 3
+Netherlands Moscow Europe 0 955 629 2 Spring 985 -635
+Norway Riyadh Europe 1 197 673 1 227 2
+France Paris Asia 0 686 799 1 321 2
+Philippines Bangkok Australia 1 855 174 3 2
+Brazil Beijing Europe 1 287 903 1 599 1
+Argentina AddisAbaba NorthAmerica 1 596 893 2 Spring 199 -510
+China Kyiv Europe 0 149 625 2 Summer -898 -77
+Norway Seoul Africa 1 452 650 3 3
+Switzerland Brussels Africa 1 407 970 2 Spring -465 -594
+India Manila Asia 0 1000 711 2 Winter 753 589
+Indonesia Rome Asia 1 446 355 3 3
+Greece Copenhagen Europe 1 180 773 2 Winter -357 686
+USA Athens Asia 1 594 935 2 Fall -81 883
+USA Moscow Australia 1 378 364 3 3
+Brazil Wellington Europe 0 579 115 2 Fall -719 97
+Argentina KualaLumpur Europe 1 657 761 1 919 1
+Portugal Paris Europe 1 466 710 1 906 3
+Australia Riyadh Europe 1 480 824 2 Winter 770 -349
+Kenya Washington Asia 1 867 349 2 Fall 428 -546
+Belgium Brussels NorthAmerica 1 367 123 2 Fall 752 42
+Belgium Helsinki Europe 1 504 868 1 255 3
+Indonesia Beijing Asia 0 409 44 3 2
+Vietnam NewDelhi Europe 0 805 971 2 Spring 77 32
+Switzerland Beijing NorthAmerica 0 588 421 1 208 1
+Egypt Washington Europe 0 898 209 1 919 1
+Switzerland Riyadh Europe 1 886 966 3 3
+Finland BuenosAires Asia 0 874 834 1 22 3
+Spain Brasilia Europe 0 637 462 2 Fall -914 895
+Mexico Brussels SouthAmerica 1 889 339 3 1
+Poland MexicoCity Europe 0 906 515 1 487 1
+Italy Jakarta Asia 1 927 646 3 1
+Japan Moscow Asia 1 611 704 2 Winter 599 -546
+Canada Seoul Asia 0 782 654 3 1
+Finland Warsaw Europe 0 874 523 2 Summer 638 720
+Egypt Seoul NorthAmerica 0 986 575 2 Spring -401 78
+Philippines Manila Europe 1 213 551 1 648 1
+Italy Pretoria Asia 0 832 990 1 819 2
+Japan London Asia 0 427 39 1 329 2
+Egypt Rome Asia 1 197 934 3 3
+China Abuja Africa 0 630 367 1 360 1
+Sweden Bangkok SouthAmerica 0 519 988 3 3
+Malaysia Ankara Asia 0 819 371 3 1
+Canada MexicoCity Europe 1 452 388 1 124 3
+SouthKorea Abuja SouthAmerica 1 655 565 1 176 3
+Indonesia Amsterdam Asia 1 626 87 1 238 3
+Kenya Rome Asia 0 422 139 1 33 3
+Kenya Amsterdam Europe 1 33 276 2 Winter -773 280
+Finland Abuja NorthAmerica 1 94 865 3 1
+Ethiopia Oslo Africa 0 285 59 1 85 2
+Sweden London Europe 0 852 459 2 Winter 980 -730
+Ethiopia Riyadh Asia 1 151 732 1 368 3
+Vietnam Ankara SouthAmerica 0 532 904 2 Summer 529 -316
+Russia Stockholm Europe 0 920 354 1 192 3
+Vietnam Helsinki Asia 1 479 98 3 2
+Indonesia Pretoria Europe 1 726 870 2 Spring -726 -713
+Vietnam Nairobi Europe 1 195 553 1 982 2
+China AddisAbaba Europe 0 345 414 2 Spring -553 -995
+Mexico Kyiv NorthAmerica 1 754 71 3 2
+Japan Tokyo Europe/Asia 0 360 961 3 2
+Canada Warsaw SouthAmerica 0 416 468 1 47 1
+USA Manila Asia 0 157 223 2 Summer 430 255
+USA Cairo Africa 1 441 305 1 782 3
+SouthKorea Amsterdam NorthAmerica 1 721 175 3 3
+Australia Warsaw Asia 1 337 85 3 2
+Japan Copenhagen Europe 1 603 900 2 Summer -330 -276
+Portugal Bangkok Asia 0 904 585 3 2
+Greece MexicoCity Europe 0 217 346 3 3
+India Oslo NorthAmerica 1 437 283 1 176 3
+Vietnam Brasilia Asia/Europe 1 402 32 3 1
+Brazil Manila Europe 0 841 781 2 Summer 141 -960
+Nigeria Helsinki Europe 0 363 274 3 1
+Vietnam Paris Europe 1 476 28 3 2
+Turkey Brasilia Europe 1 907 596 2 Spring 931 757
+Belgium Washington Europe 0 625 252 3 2
+NewZealand Wellington Asia 0 13 401 2 Fall 52 919
+Ethiopia Abuja Europe 0 522 949 3 2
+Ethiopia NewDelhi Europe 0 726 156 2 Winter 342 -663
+Spain Ottawa Asia 1 501 583 2 Summer -351 895
+India Bangkok Africa 1 119 714 3 2
+Sweden Brussels Europe 1 562 21 1 384 3
+Belgium Ottawa Europe 0 112 642 3 2
+USA NewDelhi Europe 0 551 502 2 Winter 402 470
+Finland Canberra Africa 1 998 476 3 1
+Vietnam Nairobi NorthAmerica 1 307 504 1 655 1
+Ukraine Berlin Europe 1 864 276 3 1
+Australia Ottawa Australia 0 738 433 3 2
+Belgium Rome Asia 0 649 669 3 3
+Netherlands Canberra Africa 0 82 734 3 1
+Brazil Pretoria Asia/Europe 0 937 754 2 Summer 84 22
+France London Europe 0 274 208 2 Summer -706 -844
+Australia Ottawa Europe 1 73 397 1 523 2
+Germany Berlin Europe 1 789 490 1 2 3
+China Cairo NorthAmerica 1 380 674 1 427 3
+India Manila Europe 0 353 502 1 505 2
+India Rome Europe/Asia 1 576 911 1 302 2
+Nigeria Kyiv NorthAmerica 0 710 270 3 1
+SouthKorea Paris Europe 0 597 807 1 562 2
+Turkey Ankara Europe 1 982 819 2 Summer 176 822
+Sweden Madrid Asia 1 695 412 1 82 2
+Argentina Stockholm NorthAmerica 1 318 387 1 347 3
+Poland Bangkok Asia 0 534 988 1 680 2
+USA Riyadh Asia 0 725 287 3 3
+Philippines MexicoCity Africa 0 997 349 3 1
+Spain Canberra Africa 0 233 460 3 3
+Mexico Jakarta Europe 0 331 333 1 668 3
+China Pretoria Africa 1 406 392 3 1
+Belgium Pretoria Europe 1 325 18 2 Winter -928 -516
+Spain Jakarta Europe 0 908 145 3 3
+Canada Stockholm Europe 1 557 940 2 Winter -220 78
+Germany Rome NorthAmerica 1 990 113 3 3
+SouthKorea Oslo Africa 0 482 909 3 2
+Finland Kyiv Europe/Asia 0 264 548 3 2
+Belgium London Africa 1 1000 583 1 461 3
+Vietnam Moscow Europe 1 630 441 1 74 2
+Ukraine Manila SouthAmerica 1 698 329 2 Spring 674 -158
+Thailand Kyiv Europe 0 37 871 1 324 2
+Denmark Madrid Asia 1 806 634 2 Winter 96 -123
+Nigeria Paris Africa 0 165 862 3 2
+Thailand Helsinki Europe 1 483 459 3 3
+Greece Madrid Europe 1 633 376 1 177 3
+Canada BuenosAires SouthAmerica 0 879 479 1 78 1
+Norway Cairo Europe 1 753 528 1 476 2
+Thailand Warsaw Europe 1 436 962 1 433 3
+Egypt AddisAbaba Europe 1 704 516 3 3
+Ukraine London Asia 0 307 90 1 472 2
+Ethiopia Warsaw SouthAmerica 0 253 555 3 1
+India Bern Europe 0 899 956 2 Fall -341 -695
+Poland Stockholm Asia 1 903 18 1 43 2
+Malaysia Riyadh Africa 1 891 231 1 303 2
+Malaysia NewDelhi Europe/Asia 0 607 281 3 1
+Ukraine Rome Asia 0 187 198 3 3
+Portugal NewDelhi NorthAmerica 1 947 230 1 684 2
+Egypt Lisbon Europe 0 680 234 3 1
+Greece Ottawa Europe 0 163 360 3 3
+Thailand Berlin Africa 1 932 244 2 Summer 474 -166
+Turkey Kyiv NorthAmerica 0 940 999 2 Fall 440 373
+Ukraine Pretoria SouthAmerica 0 318 198 1 675 1
+UnitedKingdom NewDelhi Europe 0 673 118 1 504 2
+Philippines Cairo Asia 0 151 484 3 1
+China Paris Europe 0 846 952 3 3
+Belgium Oslo Australia 1 774 857 1 229 1
+Norway Copenhagen Africa 1 99 644 3 2
+NewZealand Warsaw Asia 0 397 786 3 2
+Brazil Jakarta NorthAmerica 0 920 221 2 Fall -920 879
+USA Jakarta Europe 1 652 118 1 919 1
+Denmark Riyadh Europe 1 783 87 2 Spring 640 152
+Japan Brasilia Europe 1 495 574 3 3
+Thailand Canberra Europe 1 984 850 3 3
+Belgium BuenosAires Africa 1 851 183 3 1
+Greece Abuja Europe 0 676 193 2 Spring -815 665
+Turkey Moscow Europe 1 900 922 2 Winter 538 887
+Spain Wellington Australia 0 117 516 1 972 1
+Ethiopia Ankara Europe 1 983 624 3 3
+Denmark Seoul NorthAmerica 0 284 496 1 869 3
+Philippines Hanoi Asia 1 749 917 3 3
+Australia Madrid Europe 1 851 209 3 3
+Vietnam Abuja Asia 0 926 8 2 Winter 341 -332
+Italy Copenhagen Africa 1 306 949 1 87 3
+Thailand AddisAbaba Africa 0 306 756 3 3
+Italy Washington Asia 0 957 510 2 Summer -201 -450
+Malaysia Jakarta SouthAmerica 1 278 297 3 3
+Vietnam Copenhagen Asia/Europe 1 160 178 2 Spring 616 -171
+SaudiArabia Rome Australia 1 901 167 1 886 1
+China Berlin Asia 1 82 456 1 820 1
+Italy KualaLumpur Asia 1 869 479 1 870 1
+India Helsinki NorthAmerica 1 62 844 1 379 2
+Ukraine Warsaw Europe 1 177 723 3 3
+Japan Pretoria NorthAmerica 0 943 727 2 Winter -212 -498
+NewZealand Canberra Africa 0 473 74 1 229 3
+Portugal London NorthAmerica 0 171 839 2 Fall -984 908
+Australia KualaLumpur Europe 1 461 978 3 1
+Ukraine Kyiv Asia 1 603 277 2 Fall -949 380
+France Washington Europe 0 56 797 3 2
+Thailand Warsaw Asia 1 835 616 3 2
+Poland London Asia 0 349 767 2 Summer 208 854
+Spain Abuja Europe 1 925 533 2 Fall -418 24
+Poland Tokyo Australia 1 771 35 3 1
+Netherlands Cairo Europe 0 371 430 2 Summer -606 997
+Australia Kyiv Europe 1 348 356 2 Winter 906 -1000
+Philippines Berlin Europe/Asia 1 44 320 1 409 1
+France Madrid Asia 0 820 687 1 431 2
+Sweden Brussels Europe 0 484 943 1 57 3
+Germany Paris Africa 0 171 739 1 846 2
+SaudiArabia Ankara Asia 1 569 611 3 3
+Sweden Pretoria Europe 0 133 953 3 2
+Spain Abuja Australia 1 536 940 1 6 2
+Malaysia Riyadh Europe 1 818 175 3 2
+Netherlands Washington SouthAmerica 1 681 627 1 299 3
+Ethiopia Madrid Africa 1 822 323 2 Winter 242 250
+Portugal BuenosAires SouthAmerica 1 242 771 3 3
+Malaysia Canberra Asia 0 539 787 2 Summer -220 -302
+NewZealand Paris Asia 1 205 350 1 190 3
+Germany Warsaw Europe 0 266 697 1 183 3
+Turkey AddisAbaba Asia 1 406 982 3 2
+Belgium Kyiv Europe 0 995 493 2 Winter -17 404
+Ukraine Brussels Europe 0 480 723 3 3
+Turkey Pretoria Asia 0 899 750 1 58 1
+Egypt Beijing Asia 0 757 806 2 Winter 335 930
+Kenya Manila Europe 1 475 381 1 986 3
+Turkey Brussels Asia 0 193 136 3 3
+Poland MexicoCity Europe 0 656 195 3 2
+Netherlands Copenhagen Africa 1 746 516 1 370 1
+USA NewDelhi NorthAmerica 1 957 346 1 105 1
+Finland Bangkok Africa 0 756 394 3 1
+India Manila Europe 1 791 774 2 Winter 563 52
+UnitedKingdom MexicoCity Europe 1 846 751 1 141 3
+Spain BuenosAires Asia 0 573 706 1 149 2
+Poland Kyiv Europe 1 500 228 1 806 2
+France Rome Africa 0 979 341 1 571 2
+SaudiArabia Brasilia Africa 0 653 321 3 3
+Russia Copenhagen Europe 1 377 514 1 181 3
+Netherlands Athens NorthAmerica 1 807 703 1 962 2
+Italy Berlin Africa 0 180 440 3 2
+Japan Cairo Europe 1 781 85 2 Summer -100 -844
+Nigeria Brasilia NorthAmerica 1 359 554 1 844 2
+Netherlands Seoul Europe 1 179 257 2 Summer 328 387
+Netherlands Amsterdam Europe 1 182 736 2 Winter -725 49
+Russia Washington Europe 1 877 664 1 582 1
+Ukraine Pretoria Europe 0 656 78 1 971 2
+Russia Copenhagen Asia 0 594 777 3 1
+Switzerland Brasilia NorthAmerica 1 58 703 3 2
+Spain Madrid Europe 0 92 158 2 Winter 9 -107
+Germany Manila Asia 0 416 694 3 2
+NewZealand Washington Asia 1 972 381 1 602 3
+Indonesia Amsterdam NorthAmerica 1 124 251 1 187 2
+Spain NewDelhi Asia/Europe 0 571 639 1 812 1
+Philippines Cairo Europe 0 165 294 2 Summer -461 361
+Switzerland Hanoi Europe 1 410 99 3 3
+Nigeria Tokyo Europe 0 535 547 1 167 3
+Russia Bern NorthAmerica 0 75 324 2 Winter 806 -257
+India Paris Africa 0 496 775 2 Fall -556 -531
+Greece Bern Europe 0 353 808 3 1
+Belgium Seoul Asia 0 91 56 1 347 2
+Nigeria Cairo Asia 1 202 593 2 Summer -294 581
+SaudiArabia Helsinki Africa 0 823 61 1 476 3
+Kenya Bangkok Asia 0 482 77 3 3
+Poland MexicoCity Asia 0 841 60 2 Spring 25 -222
+Japan Jakarta Australia 0 704 814 1 862 3
+India Oslo Europe 1 582 619 1 415 2
+Turkey Madrid Asia 0 498 104 3 2
+Argentina Wellington Asia 0 121 745 3 3
+Philippines BuenosAires Europe/Asia 0 132 817 2 Spring 556 397
+Ethiopia Jakarta Europe 0 204 846 1 524 2
+Vietnam Bangkok Europe 1 577 20 1 735 1
+Denmark London Asia 0 69 999 3 1
+Russia Warsaw Europe 0 240 839 3 3
+Sweden Rome Europe 1 157 86 1 110 3
+Greece London Europe 0 238 636 3 1
+SouthAfrica Brussels Europe 0 497 330 1 400 2
+Russia Ankara Asia 0 524 328 1 588 2
+Ukraine Moscow Asia 0 37 355 1 157 2
+Ukraine Brasilia SouthAmerica 1 567 578 2 Fall 989 -644
+Nigeria Rome Asia 0 786 925 1 519 1
+USA Manila Australia 1 451 920 1 216 2
+USA London Asia 0 591 280 3 1
+SouthAfrica Pretoria Europe 1 635 795 1 237 1
+Norway Cairo Europe 0 239 711 2 Summer 929 -4
+Netherlands AddisAbaba Europe 1 699 537 3 3
+Norway Cairo Europe 1 764 904 1 443 2
+Spain Brasilia Asia 1 987 192 3 1
+Russia Brussels Europe 1 534 854 2 Fall -25 -220
+Norway BuenosAires Asia 0 940 522 2 Fall -448 649
+Poland Ankara Australia 1 459 764 1 565 1
+SouthKorea Copenhagen Africa 1 235 869 3 2
+Switzerland Stockholm Africa 1 810 854 2 Winter -142 -173
+Germany Oslo Europe 1 72 133 2 Winter 205 622
+Egypt MexicoCity Europe 0 964 417 2 Spring 682 840
+UnitedKingdom Rome Asia 0 48 354 2 Summer 726 0
+Germany Rome Africa 0 879 329 3 3
+Vietnam Bern Asia 0 160 174 3 3
+Netherlands Kyiv Europe 0 973 646 1 349 3
+Vietnam Rome Europe 1 234 867 1 703 2
+Germany Paris Europe 1 490 202 2 Fall 755 763
+Argentina Bangkok Europe/Asia 0 951 273 3 3
+Ukraine Rome Asia 1 157 89 3 2
+SouthKorea Bangkok Europe 0 355 36 3 2
+UnitedKingdom Ottawa Australia 1 327 651 2 Winter -423 -266
+Finland Kyiv Europe 0 573 933 3 2
+SouthAfrica Bangkok Asia 1 820 607 2 Fall -435 392
+Vietnam Copenhagen Asia 0 819 298 3 2
+NewZealand NewDelhi Asia 1 145 96 2 Spring -204 141
+Netherlands Pretoria NorthAmerica 0 334 245 3 3
+Switzerland Brasilia Asia 1 543 864 3 3
+France Brasilia Africa 1 263 56 1 631 3
+Thailand London Europe 0 161 908 1 487 3
+Malaysia Canberra NorthAmerica 1 875 67 3 1
+Sweden Kyiv Europe 1 946 286 3 1
+UnitedKingdom Lisbon Europe 0 691 735 1 912 3
+India Ankara Asia 0 188 487 3 1
+Australia Canberra Asia 1 740 956 1 994 1
+Netherlands Jakarta Europe 1 975 903 2 Winter 215 645
+Russia Oslo Europe 1 105 857 3 3
+SouthKorea Manila SouthAmerica 1 53 10 1 404 3
+Italy Kyiv NorthAmerica 1 369 78 2 Winter -834 -794
+Nigeria Copenhagen Africa 1 988 935 3 1
+Japan MexicoCity Asia 0 623 847 3 2
+Switzerland Seoul Australia 0 93 872 3 3
+Russia Athens SouthAmerica 0 340 973 1 680 2
+Egypt Ankara Asia 1 442 903 1 207 1
+Sweden Cairo Asia 1 929 258 2 Summer 74 -343
+Thailand MexicoCity Europe 0 315 308 3 1
+China Brasilia Africa 0 503 686 3 3
+Denmark Cairo Europe 1 714 488 2 Winter 854 -464
+France Kyiv NorthAmerica 0 717 256 2 Fall 978 193
+SouthKorea Berlin Africa 0 983 570 2 Summer -316 -996
+Kenya Madrid SouthAmerica 0 580 196 2 Fall -196 188
+Spain Amsterdam Europe 1 930 907 2 Spring -655 658
+Argentina Abuja Asia/Europe 0 575 706 2 Winter 102 199
+China Pretoria Europe 0 109 366 3 1
+Canada Warsaw Europe 0 208 48 3 2
+Turkey London Asia 1 182 169 1 993 1
+France Canberra NorthAmerica 1 742 912 2 Summer 141 303
+India Seoul Africa 0 125 896 3 3
+Belgium Brasilia Africa 1 383 691 2 Fall 1 472
+Vietnam Helsinki Africa 0 608 170 2 Winter -311 -631
+Spain Seoul Europe 1 267 213 3 3
+Egypt Warsaw Europe/Asia 1 879 125 1 511 3
+Finland London Europe 1 309 12 2 Summer -509 -68
+Ukraine Madrid Asia 0 559 128 3 3
+Canada Tokyo Europe 1 353 900 1 962 1
+Vietnam NewDelhi Asia 1 52 570 1 500 3
+UnitedKingdom Madrid Africa 0 109 813 2 Fall 699 74
+Philippines Abuja Africa 0 332 67 1 951 1
+Sweden Rome Europe 0 927 515 1 572 3
+Switzerland Athens Europe 0 965 792 2 Summer 470 108
+France Wellington Europe 0 27 726 2 Spring 355 795
+Poland Bern NorthAmerica 0 524 662 1 871 1
+Switzerland Brasilia Europe 1 432 673 1 406 3
+SouthKorea AddisAbaba Africa 0 224 255 1 471 2
+SouthAfrica Rome Asia 0 905 998 2 Summer 712 740
+SouthKorea Cairo Europe 1 486 317 3 1
+Indonesia Canberra Europe 0 388 992 1 266 1
+Greece Warsaw Asia 0 606 105 1 374 3
+Malaysia Oslo Europe 1 474 641 2 Winter 204 755
+Egypt Tokyo Europe 0 606 896 1 957 3
+Thailand BuenosAires Asia 1 872 867 3 1
+Canada London SouthAmerica 0 228 418 1 358 3
+Japan Paris Europe 0 471 217 2 Spring -247 -843
+Ukraine Bangkok Africa 1 508 608 1 434 2
+Denmark Bangkok Asia 0 751 831 3 3
+Poland Moscow Africa 0 789 532 1 85 3
+Greece Ottawa SouthAmerica 1 506 214 3 3
+Vietnam Bern Africa 0 537 584 1 542 2
+Vietnam NewDelhi Europe 1 243 798 1 814 3
+Belgium Beijing Europe 1 526 196 3 3
+SouthKorea Stockholm Europe 1 803 468 2 Fall 581 479
+Netherlands Cairo Europe 1 372 953 1 271 2
+UnitedKingdom KualaLumpur Europe 0 145 533 2 Fall 153 742
+SouthAfrica Washington Africa 1 771 566 2 Summer 396 -388
+Denmark Stockholm Europe 1 399 772 2 Summer -354 954
+SouthKorea Paris Asia 1 772 3 2 Spring -620 -706
+Portugal Helsinki Europe 1 115 999 2 Winter 503 174
+Nigeria Manila NorthAmerica 1 377 175 2 Spring 905 -743
+Egypt Washington Asia 0 949 95 3 1
+Germany Warsaw Asia 1 200 49 3 1
+Canada Stockholm Asia 0 296 516 3 3
+Greece Amsterdam Asia 1 894 351 3 2
+Japan Paris Asia 1 346 120 2 Spring -183 988
+Argentina Tokyo Europe 0 828 660 3 2
+Switzerland Lisbon Africa 1 0 175 3 2
+Germany MexicoCity Asia 1 18 465 2 Spring -224 -518
+Canada Pretoria Europe 0 763 223 1 393 3
+China NewDelhi Europe 1 773 201 2 Fall -580 -222
+Turkey Manila Europe 0 68 402 3 1
+Ukraine Washington Europe 0 484 795 1 70 1
+Brazil Brasilia Africa 0 844 68 3 2
+Turkey Helsinki Europe 1 783 788 2 Fall 911 651
+Denmark Rome Europe 0 496 948 3 3
+Germany Canberra Australia 0 847 495 1 504 3
+Brazil Oslo Asia 1 841 382 3 1
+Germany Riyadh Africa 1 222 518 2 Fall 710 995
+Belgium Seoul Asia 1 934 948 1 633 2
+Brazil Canberra Europe 1 29 712 3 3
+Argentina Wellington Australia 0 55 137 1 368 1
+Ethiopia Tokyo Europe 1 170 834 3 3
+Brazil BuenosAires Europe 1 744 696 3 2
+SouthKorea Washington SouthAmerica 1 457 60 2 Fall -236 162
+Germany Amsterdam Europe 1 627 65 2 Summer -849 -893
+SouthKorea Seoul Africa 0 915 847 2 Summer 629 41
+France Canberra Africa 0 637 924 2 Winter 117 901
+UnitedKingdom Seoul Europe 0 331 941 2 Summer 325 -894
+Australia Helsinki Europe 1 835 500 1 553 2
+Brazil Copenhagen Africa 1 8 322 3 1
+Nigeria Moscow Asia 1 376 359 1 166 1
+Finland Moscow Europe 0 72 958 3 1
+Malaysia Hanoi Europe 0 653 906 2 Spring 913 700
+Australia BuenosAires Europe 0 569 259 1 709 3
+Italy Washington Africa 0 112 94 1 648 3
+Greece Abuja Europe 0 661 615 2 Fall -466 451
+Poland Berlin Asia 0 913 385 2 Winter 123 763
+Canada Beijing NorthAmerica 1 809 210 1 200 1
+SouthKorea Lisbon SouthAmerica 1 769 939 3 2
+Brazil Athens Europe 0 981 403 3 3
+Brazil Oslo Australia 0 160 326 1 797 3
+Russia Tokyo Europe 0 820 26 1 118 1
+Brazil Pretoria Europe 1 511 904 3 2
+Russia Berlin SouthAmerica 0 484 259 1 455 2
+Russia Athens Europe 1 952 771 3 2
+Finland Washington Europe 1 857 24 2 Fall 157 -12
+Italy London Asia 1 709 511 2 Summer -733 354
+Vietnam Oslo SouthAmerica 1 856 244 3 2
+India Amsterdam Asia 1 939 724 2 Fall -52 7
+Belgium Washington Africa 0 997 862 2 Fall -762 -858
+Poland Paris Africa 1 32 179 2 Summer 40 -797
+Finland Seoul Europe 0 12 451 1 633 1
+Russia Amsterdam Europe 0 865 174 2 Summer 665 -117
+Brazil Wellington Europe 0 850 990 3 2
+SouthAfrica Oslo Europe 0 542 416 1 323 1
+China Stockholm Asia 1 808 410 2 Summer -490 631
+Philippines Kyiv Asia 1 346 874 3 1
+Nigeria Bern Africa 0 846 893 3 3
+India Cairo Australia 1 271 46 3 2
+China Manila Asia 0 211 201 3 1
+Turkey Oslo Europe 1 539 499 1 370 3
+Mexico London Asia 1 57 78 3 3
+Germany AddisAbaba Europe 0 436 827 1 649 2
+Ukraine Helsinki Europe 0 253 921 2 Summer -130 226
+China Moscow Australia 0 660 520 3 2
+Philippines Copenhagen NorthAmerica 1 94 447 3 2
+Spain Canberra Asia 0 67 644 3 3
+Italy Paris Africa 0 276 194 1 16 3
+SaudiArabia MexicoCity NorthAmerica 0 228 368 1 765 2
+Malaysia Ankara Asia 1 449 65 2 Summer -679 280
+Greece Bangkok Europe 0 890 203 3 3
+Kenya Moscow Asia 0 513 36 1 261 3
+Mexico Ankara Europe 1 965 684 1 349 2
+Thailand Bangkok Europe 1 185 954 1 535 1
+Kenya Cairo Europe 0 902 986 2 Summer 902 571
+Ukraine Washington Africa 1 838 688 2 Spring 907 -597
+Belgium Cairo Asia 1 0 764 2 Fall 233 261
+China Amsterdam Africa 1 668 604 2 Summer 802 944
+Indonesia Berlin Europe 1 67 552 3 1
+Russia KualaLumpur NorthAmerica 1 857 77 1 547 2
+Vietnam Tokyo Europe 1 448 480 3 3
+Japan Wellington Europe 1 51 847 3 2
+Sweden KualaLumpur Asia 0 546 652 3 3
+Kenya Hanoi Asia 1 406 784 2 Summer -967 239
+SouthKorea Amsterdam Africa 0 898 90 3 3
+Argentina Abuja Europe 1 353 315 1 964 1
+Ukraine London SouthAmerica 1 499 0 1 786 2
+Kenya Copenhagen Asia 1 311 517 2 Fall -497 -89
+Ukraine Bangkok Europe 1 743 599 1 254 3
+Indonesia Ottawa Asia 1 670 719 3 1
+UnitedKingdom Wellington Australia 1 964 855 1 835 3
+Indonesia Tokyo Australia 0 133 573 3 1
+USA Lisbon Europe 0 2 612 2 Summer -129 -753
+Indonesia Stockholm Africa 0 294 622 1 449 3
+Greece Brasilia Europe 0 824 910 2 Fall -794 188
+NewZealand AddisAbaba Europe 0 612 909 1 872 1
+Japan Moscow Asia 0 855 226 2 Winter 464 -74
+Indonesia Athens NorthAmerica 0 497 781 1 370 3
+Russia Brasilia Asia 1 763 931 1 536 3
+Belgium NewDelhi Asia 0 183 577 1 559 3
+Spain London Europe 0 287 849 1 727 1
+Germany Madrid Europe 0 659 594 2 Fall 795 -684
+India Seoul SouthAmerica 1 750 548 1 532 1
+Vietnam Beijing Europe 0 566 740 3 2
+Australia Kyiv Asia 1 489 339 2 Summer -633 571
+Mexico Jakarta Asia 1 201 503 2 Spring 534 761
+SaudiArabia Seoul Africa 0 413 713 2 Fall -707 44
+Egypt London Asia 1 15 799 3 2
+China Jakarta NorthAmerica 0 658 152 3 3
+Argentina Seoul Africa 1 303 738 1 581 3
+Ethiopia Tokyo Africa 1 954 511 2 Spring 850 -59
+Malaysia Canberra NorthAmerica 1 500 464 3 3
+Portugal Bangkok Africa 1 510 644 2 Fall 267 968
+Japan Bern Europe 1 856 180 2 Winter 643 317
+Russia MexicoCity SouthAmerica 1 997 909 2 Winter 401 -943
+USA Jakarta Europe 1 319 425 1 546 3
+Japan Brasilia Europe 1 723 472 3 1
+Philippines Madrid NorthAmerica 0 291 534 2 Summer -252 -792
+Malaysia Wellington SouthAmerica 0 238 549 1 875 1
+Philippines BuenosAires SouthAmerica 0 26 900 2 Winter 345 -221
+China Nairobi Asia/Europe 0 554 729 2 Fall -484 -996
+Kenya Lisbon Europe 0 382 479 2 Winter -472 -19
+NewZealand AddisAbaba Europe 1 760 184 1 356 1
+Vietnam Warsaw Europe 1 367 692 1 937 3
+Brazil Berlin Africa 0 209 370 1 347 1
+Italy Oslo Europe 0 313 34 2 Fall 643 -401
+SaudiArabia Berlin Asia 1 782 77 1 485 3
+USA Bangkok Asia/Europe 0 364 648 2 Winter 857 -540
+Indonesia Seoul Europe/Asia 1 590 170 2 Fall 366 783
+Switzerland Seoul SouthAmerica 1 812 582 1 623 3
+USA Madrid Europe 1 19 406 3 3
+Denmark NewDelhi Europe 1 286 50 1 862 1
+SouthAfrica Manila Europe 0 932 998 1 456 3
+Canada NewDelhi Europe 1 921 600 1 538 2
+Germany BuenosAires Asia 0 440 670 1 446 3
+Turkey Lisbon Africa 0 846 992 1 654 1
+Egypt BuenosAires Asia 0 26 778 3 1
+Indonesia Lisbon Africa 0 719 234 3 3
+Ethiopia Warsaw Asia 0 707 651 3 2
+Indonesia Rome SouthAmerica 0 296 144 1 892 2
+Nigeria AddisAbaba Asia 0 878 976 1 69 2
+Argentina Copenhagen Europe 0 705 422 2 Winter 860 -960
+Netherlands Copenhagen Asia 0 504 778 2 Winter -350 -293
+UnitedKingdom Canberra Europe 1 400 95 2 Spring 384 -383
+Argentina Cairo Australia 1 928 19 2 Spring 930 -762
+China Berlin Europe 0 52 29 1 875 3
+Canada Warsaw Asia 1 790 600 3 1
+Russia BuenosAires Europe 1 606 580 3 3
+India Amsterdam Europe 0 51 830 2 Spring -603 166
+Philippines AddisAbaba Africa 0 788 562 3 2
+Australia Canberra Asia 1 516 36 3 3
+Brazil Oslo Europe 0 213 5 2 Fall -914 673
+Thailand Tokyo NorthAmerica 0 814 849 3 1
+Norway KualaLumpur Asia 0 98 286 3 2
+Spain Bangkok Europe 1 82 374 3 1
+Philippines Abuja Asia 0 593 368 3 2
+Canada Moscow Asia 1 523 976 3 3
+Denmark Helsinki Europe 1 779 799 1 88 3
+Ukraine KualaLumpur Asia 0 890 622 3 1
+Japan Oslo Asia 1 338 499 2 Spring 45 -145
+Finland Beijing Asia 1 275 671 1 749 2
+Japan Abuja Africa 1 727 119 3 2
+SouthKorea Berlin Europe 0 701 355 3 3
+China Bangkok Asia 1 366 943 3 3
+Egypt Wellington Australia 0 553 558 2 Winter 776 -548
+Mexico MexicoCity Asia/Europe 1 50 720 2 Spring -44 366
+Vietnam Helsinki Asia 1 763 714 1 194 3
+Turkey Washington Asia 0 427 704 3 1
+Norway KualaLumpur NorthAmerica 1 49 155 3 3
+UnitedKingdom Rome Asia 0 84 176 3 1
+Australia Wellington Asia 1 384 497 2 Spring 689 -740
+Kenya Berlin Africa 0 229 970 2 Summer -314 741
+Indonesia Hanoi Europe 0 41 318 2 Spring 532 -961
+Denmark Beijing Europe 0 147 266 2 Summer -295 610
+Philippines Pretoria Africa 1 374 809 3 1
+Greece Riyadh NorthAmerica 0 654 367 3 3
+Japan Athens SouthAmerica 1 780 25 3 3
+Canada London Asia 0 844 953 2 Spring 982 435
+SouthAfrica Amsterdam Europe 0 277 554 1 412 1
+Argentina Bangkok Europe 1 72 988 2 Fall 51 944
+Australia Manila Europe 0 957 629 3 1
+Portugal Brasilia Europe 0 262 983 1 461 3
+Italy Washington Asia 0 338 963 1 178 3
+Russia Cairo Asia 1 363 210 2 Winter -119 -30
+Japan Tokyo Asia 1 251 163 1 940 3
+Mexico Stockholm Europe 0 516 522 1 896 2
+Italy Rome Asia 1 347 843 2 Spring 230 983
+Malaysia Oslo Asia 0 642 720 3 3
+Thailand Brussels Asia 1 483 613 1 221 1
+Australia Manila Asia 0 870 267 1 983 3
+Denmark Brussels Africa 1 977 457 1 299 3
+Sweden Paris Asia 0 754 50 2 Fall -341 -48
+NewZealand Cairo Africa 0 394 133 3 1
+Malaysia Manila Europe 1 696 479 1 229 2
+Canada Lisbon Europe 1 953 202 2 Fall 130 587
+Denmark AddisAbaba NorthAmerica 0 339 737 1 859 3
+Greece Copenhagen Europe 0 336 361 1 528 3
+UnitedKingdom Bangkok Europe 1 737 971 1 113 1
+Mexico Madrid Europe 1 803 463 2 Fall -213 -20
+Portugal Moscow Europe 0 332 653 1 689 1
+Netherlands Rome Europe 0 985 544 1 503 1
+Egypt Berlin Africa 1 493 982 3 1
+Japan Abuja Europe 0 647 96 1 205 2
+SouthKorea Canberra NorthAmerica 1 906 63 3 1
+Norway Warsaw Africa 0 749 620 2 Winter 6 659
+Norway Bern Africa 1 412 46 1 105 2
+Norway Paris Europe 0 302 425 1 259 3
+Germany BuenosAires Europe 1 663 327 2 Fall -517 -285
+Canada Manila Europe 0 474 777 3 2
+Poland Copenhagen SouthAmerica 0 213 428 1 120 3
+Vietnam Ottawa Asia 0 678 179 2 Summer -69 140
+Finland Wellington Africa 0 616 381 2 Fall 341 697
+Belgium Canberra SouthAmerica 0 405 395 1 366 3
+Japan Amsterdam Europe 1 850 655 3 2
+Philippines Nairobi Europe 1 141 115 2 Summer 748 -726
+India BuenosAires SouthAmerica 0 187 70 2 Winter 474 528
+Nigeria Cairo Africa 1 515 966 3 2
+Greece Athens Europe 0 492 978 1 65 2
+Ukraine Copenhagen SouthAmerica 1 308 597 1 778 2
+Australia KualaLumpur Asia 0 192 587 1 713 3
+Belgium Riyadh Asia 0 113 31 3 2
+Ethiopia Manila Europe/Asia 0 367 321 3 1
+China Stockholm Europe 0 431 256 3 3
+NewZealand Copenhagen Europe 0 190 997 3 1
+Portugal Cairo Asia 0 787 362 3 2
+Indonesia Lisbon Asia 0 480 63 2 Fall 655 -819
+Philippines Washington Africa 0 925 803 2 Fall 259 882
+Turkey Berlin Europe 1 963 255 3 3
+Belgium Hanoi Asia 1 652 1000 3 2
+Ethiopia BuenosAires Europe 1 475 201 2 Spring -101 645
+Canada BuenosAires Asia 0 876 219 3 2
+SaudiArabia NewDelhi SouthAmerica 1 53 597 2 Spring -374 -694
+Ukraine Bern Asia 1 41 948 3 1
+UnitedKingdom Rome NorthAmerica 1 689 942 3 1
+Norway Beijing Asia 0 348 853 1 991 1
+SaudiArabia Amsterdam Europe 1 63 702 3 3
+SouthAfrica Rome Europe 1 825 679 1 9 3
+France Tokyo Europe 1 428 424 2 Spring 476 589
+Australia Ankara NorthAmerica 0 843 285 1 99 1
+SaudiArabia Rome Africa 1 993 165 3 2
+Finland Bangkok Africa 0 941 772 2 Summer 732 112
+Turkey Bangkok Asia 0 421 754 3 2
+Portugal Nairobi Europe 0 676 950 3 3
+SouthAfrica Helsinki Africa 1 436 144 2 Winter -800 -165
+NewZealand Ottawa NorthAmerica 0 356 510 2 Summer 544 365
+Malaysia London Europe 0 899 699 3 1
+Indonesia Stockholm Africa 0 249 769 1 389 1
+SouthAfrica Bern NorthAmerica 1 918 381 1 833 1
+SouthKorea Abuja Europe 0 785 627 1 194 3
+Indonesia Kyiv Australia 0 756 636 2 Winter 428 130
+China Bangkok NorthAmerica 0 879 315 2 Spring -238 573
+Sweden Beijing Europe 1 952 723 1 805 3
+Argentina Stockholm Asia 1 804 782 1 940 3
+SouthAfrica Bangkok Africa 1 641 997 1 315 2
+UnitedKingdom Stockholm Europe 1 473 5 1 810 2
+Canada Ottawa Africa 1 953 795 2 Fall 4 420
+Nigeria Oslo Africa 0 123 727 1 120 3
+Australia Lisbon Africa 1 68 189 1 784 3
+Thailand Brasilia Africa 1 437 232 1 578 2
+Mexico Lisbon Asia 0 292 247 2 Winter 72 -193
+Brazil Brussels NorthAmerica 0 526 566 1 426 1
+Switzerland Stockholm Africa 0 20 132 3 2
+Norway Tokyo Europe 0 991 238 2 Fall -574 452
+Egypt Washington Europe 1 916 258 3 1
+Switzerland Abuja Australia 0 325 602 2 Spring 240 -981
+Argentina Brasilia Asia/Europe 0 441 660 2 Summer -134 87
+Switzerland Bangkok Europe 0 304 120 1 669 1
+Denmark Kyiv Asia 0 120 152 1 245 2
+Egypt BuenosAires Africa 1 858 571 2 Summer 242 387
+Germany Madrid Asia 1 739 861 1 323 2
+Philippines Brasilia Asia 0 673 618 2 Fall -629 -75
+Finland Seoul Africa 1 509 388 3 1
+Brazil Nairobi Asia 1 416 162 2 Spring 395 -331
+Finland Copenhagen Africa 0 14 80 3 3
+Germany Nairobi Europe 1 953 273 3 2
+Philippines Ankara Europe 1 41 271 1 173 2
+Germany Washington Asia 0 289 441 3 2
+Kenya Helsinki Europe 1 831 608 2 Fall 934 -246
+Ukraine Moscow NorthAmerica 0 375 944 2 Summer -333 428
+Turkey Bern SouthAmerica 1 261 93 2 Winter 578 206
+USA Beijing Asia 1 645 256 2 Winter -162 -979
+Kenya Moscow Europe 0 346 455 3 1
+Netherlands Paris Asia 0 622 734 2 Fall -111 189
+Finland Ottawa Asia 0 718 613 1 221 3
+Ukraine Seoul Europe 1 254 506 1 578 1
+Mexico Nairobi SouthAmerica 0 465 170 1 79 3
+Malaysia Manila Europe 1 955 643 1 634 3
+France Canberra Europe/Asia 1 823 832 3 2
+Canada Seoul NorthAmerica 1 531 576 1 113 3
+Finland Brussels NorthAmerica 1 617 197 2 Fall -768 322
+Vietnam Berlin Europe 0 790 400 3 3
+Russia Madrid Europe 0 109 87 3 1
+Mexico Amsterdam Asia 0 981 897 2 Winter -73 -604
+Poland Warsaw Europe 0 950 311 1 974 3
+China AddisAbaba Europe 0 757 657 3 3
+Ethiopia Brasilia Asia 1 678 293 3 3
+Malaysia Ottawa Europe 0 561 635 2 Winter -904 26
+Vietnam Copenhagen Asia 1 642 435 2 Summer 559 394
+Australia Warsaw Asia 1 1 804 1 450 3
+Ukraine KualaLumpur Asia 0 22 96 3 1
+Switzerland Pretoria Asia 1 107 799 1 297 2
+China Ankara SouthAmerica 0 476 301 1 855 2
+Vietnam Amsterdam Europe 1 289 668 1 274 2
+Mexico Jakarta Europe 0 634 501 1 65 1
+Norway Rome Europe 1 407 374 3 1
+USA Canberra Europe 0 188 42 3 2
+Japan Oslo SouthAmerica 0 592 879 1 342 1
+India Manila Africa 1 214 745 3 2
+Thailand Ankara Africa 0 409 123 3 2
+Philippines London Australia 0 588 766 3 2
+Netherlands Rome Asia 0 794 758 2 Summer -694 486
+Thailand Pretoria Asia 0 673 899 3 1
+Argentina Washington Asia 1 908 554 2 Fall -377 892
+Ukraine Seoul Africa 1 150 527 1 212 2
+China Paris Asia 0 616 113 2 Fall -581 536
+NewZealand Paris Europe 1 16 478 3 2
+Finland Helsinki Asia 1 339 528 3 2
+Portugal Brasilia Africa 0 447 450 3 3
+Denmark Amsterdam Europe 1 497 262 1 880 1
+Ethiopia Pretoria NorthAmerica 0 141 220 1 858 3
+Indonesia Riyadh Africa 1 504 654 3 1
+Egypt BuenosAires Africa 0 769 24 2 Fall 421 551
+India Stockholm NorthAmerica 0 892 822 3 1
+Japan Nairobi Europe/Asia 0 755 496 1 405 3
+Indonesia Stockholm Europe 1 375 157 2 Summer -455 -523
+Canada Brasilia Europe 1 870 695 2 Spring -133 -586
+Argentina Pretoria Europe 0 987 718 2 Winter -792 -630
+Portugal Riyadh SouthAmerica 0 627 795 3 1
+Philippines Riyadh SouthAmerica 0 758 626 2 Fall -903 541
+Italy London Australia 1 132 189 2 Winter -569 -936
+Greece Paris Europe 0 290 662 2 Summer 119 71
+Poland Lisbon Europe 1 586 703 3 3
+Egypt Pretoria Europe 1 726 409 2 Fall -224 801
+SouthAfrica Lisbon Asia 0 331 628 2 Fall 181 760
+Germany Berlin Europe 0 448 321 2 Winter -425 439
+Spain Brussels Europe 0 969 988 2 Winter -644 -420
+Belgium Paris Europe 1 705 914 1 618 2
+Greece Ankara Europe 0 611 708 2 Summer 1 52
+Australia Berlin Asia 0 284 130 2 Summer -788 -493
+Ukraine Athens Europe 1 382 391 1 287 1
+Sweden Oslo Europe 0 340 482 2 Winter 236 358
+UnitedKingdom Bangkok Asia 0 897 606 3 3
+Germany Tokyo Asia 0 94 805 1 744 2
+Switzerland Beijing NorthAmerica 0 354 35 1 652 2
+Egypt Kyiv Europe 0 790 925 1 927 1
+Denmark Moscow NorthAmerica 0 22 324 3 3
+SouthKorea AddisAbaba Europe 1 956 343 2 Summer -224 -743
+Russia Washington Australia 1 418 672 3 3
+Netherlands Beijing Europe 1 760 397 2 Summer -402 -664
+Spain Brussels Europe 0 632 416 1 893 2
+Ukraine Beijing Asia 1 443 892 2 Summer -342 870
+Poland Amsterdam Europe/Asia 0 1000 235 3 3
+Denmark Hanoi Africa 1 197 839 3 3
+India Seoul Africa 0 486 167 3 2
+SouthAfrica Brussels Europe 0 658 690 1 701 1
+Vietnam Brasilia SouthAmerica 1 869 592 1 160 1
+Mexico Jakarta Europe 0 874 5 2 Winter 773 172
+Thailand Copenhagen Europe 1 954 473 3 1
+SouthAfrica Bern Europe 0 960 980 3 2
+Italy NewDelhi Europe 1 393 113 1 555 1
+Norway Washington Africa 0 481 440 2 Winter -627 -109
+Netherlands Oslo Asia 1 851 791 3 2
+Turkey London Asia 1 344 616 3 1
+Greece MexicoCity Asia 1 820 868 1 551 2
+NewZealand AddisAbaba Europe 0 688 324 1 980 1
+SouthAfrica Riyadh Europe/Asia 1 551 761 1 51 2
+Thailand Nairobi Asia 1 171 838 3 2
+Netherlands Hanoi Africa 1 298 658 1 990 1
+Nigeria Jakarta Europe 1 746 46 3 1
+Canada Moscow Asia 1 88 601 3 3
+Greece Seoul Europe 1 283 984 2 Spring -84 -829
+Greece Rome Asia/Europe 0 912 151 2 Fall 208 413
+China MexicoCity Europe 0 432 583 2 Winter -807 -244
+China AddisAbaba Europe 0 176 73 1 777 2
+UnitedKingdom Beijing Africa 1 875 745 3 3
+Australia Washington Europe 0 589 839 2 Summer 581 -909
+Canada Warsaw Europe 1 546 999 2 Summer -309 -216
+Indonesia Lisbon Asia 0 404 654 2 Fall -864 570
+Kenya Oslo Europe 0 230 541 3 1
+Vietnam Brussels Europe 1 958 44 3 2
+SouthKorea Hanoi Asia 1 215 477 3 2
+Germany Beijing Europe 1 533 122 1 304 2
+Portugal Bern Asia 1 519 77 2 Fall -186 -935
+Indonesia Helsinki Asia 0 714 868 1 306 1
+Thailand Brussels Africa 1 570 724 3 3
+Sweden Copenhagen Africa 0 834 140 3 3
+NewZealand Oslo Australia 0 424 559 3 1
+India NewDelhi Europe 0 981 825 2 Fall -871 -503
+Denmark Berlin Europe 0 721 612 1 639 3
+Ethiopia Canberra Europe 0 836 150 2 Fall 349 -879
+Portugal Rome Africa 0 299 522 2 Fall -193 799
+Turkey NewDelhi Asia 1 791 449 1 183 1
+France Abuja Europe 1 493 270 1 684 2
+Portugal Manila NorthAmerica 0 58 842 1 606 3
+USA Paris Europe 1 75 84 2 Fall 692 379
+Australia Warsaw SouthAmerica 1 617 342 1 810 2
+Brazil Nairobi NorthAmerica 1 327 62 2 Winter 814 858
+SaudiArabia Riyadh Europe 0 287 535 2 Spring -292 -330
+Mexico NewDelhi Australia 0 384 716 2 Fall -500 744
+Thailand Copenhagen Asia 1 575 753 1 396 1
+Nigeria Amsterdam Asia/Europe 1 15 934 3 3
+Turkey Ankara NorthAmerica 1 331 838 2 Fall 614 492
+Vietnam Amsterdam Australia 1 347 85 3 2
+Finland NewDelhi Europe 1 161 206 3 1
+Denmark Helsinki Africa 0 583 563 3 2
+NewZealand Helsinki Africa 0 572 710 1 799 3
+France Manila Europe 0 988 431 2 Fall 297 888
+Greece Lisbon Europe 1 86 471 1 960 2
+Mexico Nairobi NorthAmerica 0 668 733 3 2
+Portugal NewDelhi Africa 1 884 147 3 3
+Nigeria Ankara Africa 1 848 720 3 1
+Italy Kyiv Europe 0 75 585 2 Winter 23 351
+China Wellington Africa 0 66 825 1 611 3
+Greece Stockholm Africa 1 958 163 1 95 3
+China Pretoria NorthAmerica 1 583 241 3 2
+Germany BuenosAires NorthAmerica 0 384 221 1 297 3
+India MexicoCity Europe 1 817 41 1 830 3
+Argentina Brussels Asia 1 467 859 3 3
+Malaysia Oslo Africa 0 992 802 1 890 3
+SaudiArabia Washington Europe 1 149 40 1 388 1
+Greece AddisAbaba Europe 0 533 873 1 449 3
+Canada Helsinki Asia 0 390 81 3 3
+Denmark Manila Africa 0 198 948 3 1
+Brazil Ankara NorthAmerica 1 351 287 3 1
+NewZealand KualaLumpur SouthAmerica 0 341 518 1 524 3
+France Ankara Asia 0 474 882 3 1
+Malaysia Rome Asia 0 173 511 2 Summer -900 948
+Mexico Athens NorthAmerica 0 470 483 3 2
+USA Jakarta Europe 0 730 565 2 Summer -822 -838
+Thailand KualaLumpur Asia 1 361 372 2 Winter 754 68
+Finland Cairo SouthAmerica 1 968 450 2 Spring 574 919
+Canada AddisAbaba Europe 1 819 147 3 1
+UnitedKingdom Lisbon Europe 0 353 287 2 Winter -434 -830
+India BuenosAires Europe 0 904 765 1 800 2
+Philippines BuenosAires Europe 0 962 939 1 229 3
+Philippines Seoul Asia 0 834 734 1 380 1
+Italy Abuja NorthAmerica 0 269 317 3 3
+Italy Brussels Europe 0 192 673 1 721 3
+Finland Rome SouthAmerica 1 709 519 2 Summer -939 312
+France Oslo NorthAmerica 0 510 302 1 92 2
+Norway Oslo Europe 1 457 84 1 114 2
+Philippines Brasilia Australia 0 217 403 1 402 1
+Egypt Tokyo Europe 0 611 398 1 739 2
+Spain Jakarta Asia 0 536 252 2 Spring 896 -14
+Belgium MexicoCity Asia/Europe 0 945 90 2 Winter 321 -932
+Brazil NewDelhi Europe 1 956 881 2 Summer 884 -77
+Japan Wellington Europe 0 763 632 1 678 2
+Philippines Brussels Europe 1 711 90 3 3
+China Pretoria Europe 0 98 852 2 Winter 319 -722
+Canada Amsterdam Africa 1 462 719 2 Winter -205 -342
+Australia Canberra Africa 1 613 975 3 2
+Brazil Bangkok SouthAmerica 1 108 106 2 Fall 820 380
+Brazil Riyadh Africa 0 454 980 3 1
+SouthAfrica Abuja Africa 0 746 48 1 861 1
+Greece AddisAbaba SouthAmerica 1 85 678 2 Summer -358 -457
+Brazil London Europe 1 860 317 3 3
+Malaysia Abuja Asia 0 187 478 2 Winter 447 -298
+Vietnam Abuja Asia 1 393 763 2 Fall -364 228
+Brazil Madrid Europe 0 580 175 1 7 2
+Mexico Rome Asia 1 186 273 3 3
+Kenya Abuja Asia 1 837 914 3 1
+SouthKorea Beijing Asia 0 635 117 3 2
+SouthAfrica London Europe 0 481 675 3 2
+Argentina Paris Africa 1 265 347 3 1
+Australia KualaLumpur SouthAmerica 1 621 87 3 3
+Turkey Beijing Europe 1 720 75 1 492 3
+Australia Athens SouthAmerica 0 939 562 1 229 3
+Finland Pretoria Europe 0 268 751 3 1
+Italy Cairo Europe 1 500 729 2 Summer -664 -407
+Japan Wellington Europe 1 287 745 1 389 2
+Malaysia Nairobi Europe 1 846 914 1 131 3
+Turkey Nairobi Europe 1 855 152 2 Spring -429 -381
+Poland Brussels Europe 0 1000 529 1 472 3
+Argentina Athens NorthAmerica 0 6 499 1 953 3
+Egypt Pretoria Africa 1 148 948 3 1
+Germany AddisAbaba Asia 1 675 303 2 Summer -955 165
+Egypt BuenosAires Africa 0 725 279 1 753 3
+USA MexicoCity Europe/Asia 0 462 24 3 1
+Japan Riyadh Europe 1 681 655 1 868 1
+Denmark Kyiv Europe 0 323 753 1 615 2
+Indonesia Brasilia Europe 0 247 962 3 3
+Vietnam Athens Europe 1 198 466 2 Spring 718 436
+France Washington Asia 0 797 929 1 648 1
+SouthKorea Bern Asia 0 295 883 1 683 2
+Netherlands Pretoria Europe 1 266 550 1 902 2
+Poland NewDelhi Europe 1 978 597 3 1
+UnitedKingdom London NorthAmerica 0 646 429 1 306 1
+Russia Wellington SouthAmerica 0 213 120 1 135 3
+Kenya Pretoria Asia 1 273 222 1 912 1
+Netherlands Washington SouthAmerica 0 485 317 2 Spring 969 316
+SouthAfrica Cairo Australia 0 601 844 3 2
+Argentina Moscow NorthAmerica 1 167 908 3 1
+Denmark Hanoi Europe 0 73 551 1 731 3
+Sweden Jakarta NorthAmerica 0 847 612 2 Spring -874 225
+China Kyiv Australia 0 863 284 2 Spring -429 -673
+Ethiopia Paris Africa 1 810 175 2 Spring -443 -195
+Germany AddisAbaba Africa 1 297 876 1 694 3
+SouthAfrica AddisAbaba Europe 0 12 733 2 Fall -939 -986
+SouthAfrica BuenosAires Europe 1 111 57 1 211 3
+Greece Nairobi Asia/Europe 1 480 752 2 Summer 851 148
+Portugal Cairo Europe 1 934 721 1 538 3
+Finland Stockholm Asia 0 617 334 3 1
+Argentina NewDelhi Asia 1 877 387 2 Fall 620 964
+USA Cairo Europe/Asia 1 960 18 3 1
+SouthAfrica Rome Asia 0 355 152 3 2
+Portugal Washington Europe 0 145 7 3 2
+Vietnam Beijing Asia 0 685 181 1 126 3
+India Hanoi Asia 1 245 516 1 191 3
+France Rome Europe 0 972 859 1 555 3
+Malaysia Athens Asia 0 33 488 2 Winter -544 -142
+NewZealand Bern Europe 0 849 260 2 Summer -544 319
+SouthAfrica Manila Australia 1 527 613 1 706 2
+Vietnam Nairobi Asia 0 155 72 3 1
+SaudiArabia Brussels Asia/Europe 1 207 468 3 2
+Spain Seoul Asia 0 362 17 3 2
+Egypt Amsterdam Africa 0 191 152 2 Summer -241 557
+Canada Canberra Europe 0 17 650 1 819 1
+UnitedKingdom Hanoi SouthAmerica 1 441 747 1 740 3
+Thailand Cairo Africa 1 301 104 2 Spring 120 17
+SouthAfrica Tokyo Europe 0 825 934 3 1
+Japan Abuja Asia 0 164 590 2 Summer 746 -925
+Sweden Copenhagen Europe 0 690 608 1 472 3
+Australia Stockholm Europe 0 295 279 3 1
+India NewDelhi NorthAmerica 0 182 410 1 371 3
+Belgium Lisbon Asia 1 170 152 3 1
+Thailand Brasilia Europe 0 491 165 3 2
+Poland Ankara Asia 1 288 930 1 737 2
+UnitedKingdom Pretoria Europe 0 169 229 3 1
+Philippines Ottawa Europe 1 789 650 2 Summer -632 -718
+Nigeria Oslo Asia 1 627 955 2 Fall -954 181
+SouthKorea AddisAbaba Asia 0 711 981 2 Winter -716 751
+Ukraine Warsaw Europe 0 125 305 3 1
+Philippines Ottawa Asia 1 216 932 3 3
+Russia Berlin Europe 0 946 649 3 1
+SouthKorea Wellington Europe 1 625 145 1 282 1
+SouthKorea Nairobi Africa 0 830 349 1 682 3
+India Helsinki Europe 0 27 497 3 1
+Thailand Wellington Asia 1 108 995 2 Fall 969 983
+Italy Tokyo Africa 1 129 795 3 1
+Portugal Wellington Europe 1 919 18 3 2
+NewZealand Bangkok Europe 1 244 270 3 2
+Spain Moscow Africa 1 563 534 3 2
+Kenya MexicoCity Africa 0 940 847 3 2
+Switzerland Riyadh Europe 0 575 313 1 484 1
+Japan Washington Europe 0 512 780 2 Summer 247 244
+Malaysia Brussels Asia 1 477 980 3 3
+Egypt London Africa 1 269 730 2 Summer 140 437
+Switzerland Paris Australia 0 292 938 3 1
+Turkey Nairobi Australia 1 327 681 1 850 1
+Italy MexicoCity Europe 0 351 578 3 1
+Ethiopia AddisAbaba Europe 1 126 739 3 3
+Ethiopia Ankara Asia 0 741 917 1 396 2
+Belgium Beijing Asia 0 548 277 1 429 2
+France Brussels Europe 0 178 2 3 3
+Kenya Wellington Africa 1 930 364 3 3
+Ukraine Ankara Europe 1 603 871 2 Fall -306 392
+Denmark Bern Asia 1 182 539 3 1
+India Seoul Africa 1 582 790 2 Winter 884 -297
+Switzerland Madrid Europe/Asia 1 979 984 3 3
+Nigeria Helsinki NorthAmerica 0 668 753 1 223 1
+Netherlands Amsterdam Australia 1 320 623 3 2
+Greece Canberra Asia/Europe 0 717 781 2 Winter -750 -180
+Mexico NewDelhi Europe 0 311 337 3 3
+Greece BuenosAires Asia/Europe 1 430 66 3 2
+Ethiopia Brasilia Asia 0 740 638 1 43 3
+Ukraine Manila Australia 0 492 441 2 Fall 368 723
+Netherlands Hanoi NorthAmerica 0 482 880 1 776 2
+SouthAfrica Ottawa Australia 0 526 727 1 163 2
+Brazil Bangkok Europe 0 21 314 2 Summer -199 -5
+Italy Brasilia Asia 0 891 283 1 625 2
+SaudiArabia Manila Europe 0 659 120 3 3
+UnitedKingdom Manila Asia 0 815 812 1 125 3
+Japan Pretoria Asia 1 765 458 3 2
+Egypt Seoul Asia 0 523 106 2 Winter 789 -628
+Portugal Washington Asia 0 772 974 1 510 3
+Kenya Tokyo Europe 1 60 178 1 886 3
+Egypt Berlin Asia/Europe 1 946 248 1 36 3
+UnitedKingdom NewDelhi Africa 0 756 403 1 431 1
+France KualaLumpur Asia 1 546 934 3 3
+SaudiArabia Moscow SouthAmerica 0 846 508 1 759 1
+Portugal Rome Asia 0 387 537 2 Fall 245 -893
+Indonesia Wellington NorthAmerica 0 151 658 1 197 2
+Sweden Madrid Africa 0 334 290 2 Spring -483 -631
+Philippines Amsterdam Africa 1 654 99 3 2
+SouthAfrica Canberra SouthAmerica 0 668 488 1 292 2
+Malaysia Cairo Europe 0 835 192 2 Spring 822 561
+France Manila Europe 1 579 705 3 1
+Turkey Jakarta Europe 1 390 375 3 2
+Kenya Canberra Europe 0 283 55 3 3
+France Copenhagen Europe 1 32 16 2 Summer 425 988
+France Seoul Europe/Asia 1 686 586 1 68 2
+Turkey BuenosAires Asia 0 380 650 3 1
+NewZealand Tokyo Asia 0 506 902 2 Spring -343 246
+Ukraine Canberra SouthAmerica 0 197 612 1 440 3
+Canada London Europe 0 725 165 1 446 2
+Brazil Paris Europe 0 683 892 2 Summer -161 253
+China Oslo Asia 1 907 183 1 286 2
+NewZealand Bern Asia 0 849 271 2 Winter -270 -966
+India BuenosAires Europe 0 542 35 3 3
+Finland Brasilia Africa 1 141 363 1 261 3
+Turkey Jakarta Africa 0 500 847 1 765 3
+Thailand Riyadh Africa 1 526 145 1 295 3
+India Beijing Europe 0 417 531 2 Spring -117 -249
+India Ottawa Europe 0 364 645 1 394 1
+SouthAfrica Berlin Europe 0 565 480 1 553 2
+Switzerland Athens Europe 1 745 291 2 Fall -920 -925
+USA Oslo NorthAmerica 1 61 945 1 408 1
+Switzerland Riyadh Europe/Asia 0 295 942 2 Spring 466 631
+China Seoul Europe 0 79 785 2 Spring 153 850
+Denmark Pretoria Europe 1 248 76 3 3
+Sweden Moscow Africa 1 388 595 1 36 2
+Nigeria Tokyo Europe 0 92 343 1 977 1
+India BuenosAires Asia 0 553 992 1 422 3
+Malaysia Nairobi Asia 1 99 702 2 Summer -978 -885
+Indonesia KualaLumpur NorthAmerica 0 688 483 2 Summer -828 735
+Spain Brasilia Europe 1 282 342 3 3
+Indonesia Manila Europe 1 364 45 3 2
+Malaysia Riyadh Europe/Asia 0 386 825 3 2
+Denmark Kyiv Europe 0 905 958 2 Summer -522 -953
+Norway MexicoCity NorthAmerica 1 560 921 1 306 3
+Greece London Europe 0 376 659 1 483 2
+SouthKorea MexicoCity Asia 1 773 270 2 Spring 170 420
+Poland Kyiv Africa 1 559 706 2 Summer -208 -523
+SouthAfrica Bangkok Europe 0 141 368 1 260 1
+UnitedKingdom Brussels Africa 1 343 491 1 848 2
+Thailand Paris Australia 0 763 456 3 1
+Russia Moscow Europe 1 803 122 2 Winter -985 -981
+Argentina Abuja Europe 1 112 764 3 1
+Brazil MexicoCity Asia 0 179 698 3 1
+Russia NewDelhi Europe 1 108 93 3 1
+Italy Cairo Europe/Asia 0 127 149 1 350 1
+Ukraine London Asia 0 41 413 3 1
+Russia Moscow Europe 0 67 305 2 Spring -111 -961
+Denmark Moscow Africa 0 298 205 2 Spring -988 -818
+Kenya Wellington Africa 1 719 390 1 967 2
+Mexico Bangkok Asia 1 62 965 1 505 1
+Canada Stockholm Europe 1 444 649 1 548 3
+Poland Bangkok Africa 0 400 7 2 Summer -963 47
+Ethiopia MexicoCity Asia 0 334 21 3 3
+Kenya Wellington Europe 1 463 956 1 337 1
+Philippines Jakarta SouthAmerica 0 227 370 3 3
+SaudiArabia London Europe 0 562 286 2 Summer 975 -804
+UnitedKingdom MexicoCity Asia/Europe 1 441 555 2 Spring 78 469
+Australia Washington Europe 1 926 225 2 Spring 744 133
+Turkey Kyiv Asia 0 664 709 3 2
+Germany Brasilia Europe 1 477 733 2 Winter 686 -808
+Malaysia Manila Asia 0 437 393 3 1
+Ukraine Canberra Asia/Europe 0 901 473 3 2
+Nigeria Cairo Europe 0 129 948 1 208 2
+Australia KualaLumpur Europe 0 532 319 3 1
+Malaysia Helsinki Asia 1 159 220 2 Summer 303 931
+Italy Beijing Australia 0 1 324 2 Winter -435 -179
+Kenya Oslo NorthAmerica 0 777 649 3 1
+Finland Bern Asia 1 47 104 3 1
+USA Helsinki Asia 1 403 377 2 Winter 369 783
+UnitedKingdom Brussels Europe 1 461 982 3 3
+Canada Manila Asia 0 538 354 3 2
+India Ottawa Asia 1 353 4 3 3
+Spain Paris Africa 0 659 524 1 309 2
+France Seoul Asia 0 119 868 3 1
+Australia Abuja Asia 0 938 417 3 2
+Australia Warsaw Africa 1 9 209 2 Spring -368 -682
+Russia BuenosAires Europe 0 116 785 2 Spring 236 395
+Thailand Lisbon Europe 1 828 553 2 Fall -136 462
+France Riyadh Europe 0 248 348 3 2
+SouthAfrica BuenosAires Europe 1 224 962 1 954 2
+Finland Athens Asia 0 543 562 1 473 2
+Spain Brasilia Europe 0 915 408 1 134 2
+Spain Abuja Europe 1 933 799 2 Summer 633 -841
+Finland Kyiv NorthAmerica 1 619 130 3 1
+Belgium MexicoCity Europe 1 386 809 2 Fall -998 -405
+Kenya Cairo Africa 1 693 92 1 852 1
+Mexico Pretoria Asia 0 279 675 1 479 3
+Germany Wellington NorthAmerica 0 993 239 3 3
+Ethiopia Kyiv Asia 1 545 664 3 1
+Thailand Seoul NorthAmerica 1 606 854 2 Winter -566 370
+Italy Bangkok Asia 1 691 71 1 798 1
+Mexico Rome Europe 0 436 237 2 Spring -704 -871
+Malaysia Copenhagen Australia 1 434 947 2 Winter -202 239
+Greece Lisbon Asia 1 399 494 3 3
+Nigeria Copenhagen Asia 0 708 340 2 Winter -8 -439
+Japan Manila Europe 0 231 730 3 1
+SouthAfrica Beijing Europe 0 91 25 2 Summer -290 -253
+Spain Riyadh Europe 0 267 609 3 3
+Brazil Lisbon Australia 1 611 793 1 801 3
+Indonesia BuenosAires Europe 0 841 569 2 Fall 313 308
+SouthKorea Paris NorthAmerica 0 319 626 2 Fall -914 -600
+Denmark Riyadh Asia 0 536 443 2 Spring -122 -194
+Egypt Bern Europe 0 797 37 2 Summer 417 -88
+Egypt Warsaw Europe 1 33 872 1 739 3
+Philippines Bern Asia 0 478 244 2 Winter 539 608
+Switzerland Nairobi Europe 1 584 128 2 Fall 755 15
+Vietnam Ottawa Africa 1 830 372 3 2
+Spain Wellington Africa 1 633 348 1 486 2
+Sweden Jakarta Europe 1 852 281 3 1
+Belgium Hanoi Europe 1 832 922 3 2
+USA Helsinki Europe 1 415 637 3 2
+USA Seoul Asia 0 234 368 2 Summer 70 334
+China Nairobi Australia 1 682 808 3 1
+Italy Amsterdam Europe 0 614 550 3 1
+Switzerland Berlin Europe 0 950 103 3 1
+Turkey Ottawa Europe 1 581 623 3 3
+Vietnam Jakarta SouthAmerica 1 275 924 3 3
+Belgium Moscow Europe 0 869 512 2 Winter 413 947
+Spain Cairo NorthAmerica 0 645 111 3 3
+Mexico Moscow Australia 1 952 513 2 Fall -682 838
+India Stockholm Asia 0 792 697 2 Fall -515 884
+Poland Madrid Africa 1 474 751 2 Winter -353 130
+Sweden Beijing NorthAmerica 1 542 920 1 857 3
+Poland Stockholm Europe 0 273 625 1 981 1
+Russia Berlin NorthAmerica 0 400 804 1 451 3
+Poland Nairobi Europe 0 414 109 3 3
+SouthKorea Cairo Asia 0 98 972 1 448 3
+India Tokyo Asia 0 153 331 1 512 2
+India Helsinki Europe 1 875 419 1 198 1
+Sweden Brussels NorthAmerica 0 787 409 3 2
+Vietnam Stockholm Asia 0 781 924 1 846 1
+Norway BuenosAires Europe 1 825 759 2 Winter -80 -980
+Denmark Jakarta Africa 1 712 975 1 181 3
+Egypt Cairo Australia 1 558 262 3 1
+Italy Seoul Europe 0 453 160 3 3
+Australia KualaLumpur Africa 0 885 555 3 1
+Philippines Helsinki Asia 1 705 750 1 956 3
+SaudiArabia Stockholm Europe 0 613 776 2 Summer -179 -872
+Egypt Amsterdam Europe 0 315 734 1 329 1
+Spain AddisAbaba Europe/Asia 0 870 783 2 Fall 504 533
+Russia MexicoCity Asia 0 558 191 2 Fall -256 -244
+Thailand Kyiv Europe 0 167 783 2 Summer -981 144
+Germany Pretoria Asia/Europe 0 366 463 3 2
+UnitedKingdom Manila Africa 1 561 301 1 999 2
+Turkey Cairo Asia 0 457 888 2 Winter 70 -472
+Norway Kyiv SouthAmerica 1 323 1 3 1
+Ukraine Pretoria Europe 1 590 291 3 2
+Philippines Athens Europe 0 588 318 1 764 1
+Malaysia Jakarta Asia 1 24 7 1 354 1
+Egypt Helsinki SouthAmerica 1 368 31 2 Spring 666 448
+Philippines Rome Asia/Europe 1 731 889 2 Spring -347 365
+India Paris NorthAmerica 1 70 657 2 Fall 276 -487
+China Helsinki Africa 1 976 535 3 1
+Sweden Nairobi Africa 1 0 607 1 823 3
+Belgium Oslo Asia 1 826 761 2 Fall 276 97
+Italy Berlin Africa 0 650 379 1 212 1
+Mexico Athens Asia 1 731 446 1 84 1
+NewZealand Oslo Asia 0 463 849 1 973 3
+Egypt Ottawa Asia 1 397 587 1 189 1
+Egypt Warsaw Europe 1 798 981 1 22 3
+Italy Pretoria Europe 1 989 580 2 Summer -913 791
+Finland KualaLumpur Europe 0 263 299 1 462 2
+Switzerland Abuja Europe 1 835 342 3 3
+Ethiopia Canberra Asia 1 219 206 2 Spring -667 -220
+Thailand Amsterdam Asia 1 581 459 2 Spring 994 735
+Turkey Abuja Europe 1 869 845 2 Spring 73 -279
+SouthAfrica Rome Europe 0 152 271 2 Summer 404 -961
+Ukraine Seoul Africa 1 187 718 3 1
+Netherlands Hanoi Europe 1 979 203 2 Summer -299 653
+SaudiArabia Wellington Europe 1 696 933 2 Summer -866 204
+Finland Oslo Asia 1 581 402 3 2
+Switzerland AddisAbaba Europe 1 549 572 1 83 1
+Egypt Jakarta NorthAmerica 0 636 179 3 3
+Germany Amsterdam Europe 1 734 360 1 821 1
+UnitedKingdom Athens Asia 1 266 545 3 1
+Japan Nairobi Africa 1 455 168 2 Spring -547 167
+Sweden Paris Europe 0 810 699 1 739 1
+SouthAfrica Rome Asia 1 911 573 3 3
+Nigeria Pretoria Europe 0 92 669 3 1
+Egypt Manila Asia 1 225 294 3 2
+Spain Madrid Asia 1 978 174 3 1
+Thailand Nairobi Africa 1 136 611 3 1
+Ukraine Bangkok Europe 0 414 357 1 405 3
+France KualaLumpur Asia 1 531 657 3 1
+Poland Wellington Asia 0 74 790 3 1
+Australia Brasilia NorthAmerica 1 715 511 2 Summer 174 -503
+Japan Oslo Europe/Asia 0 137 174 1 874 3
+Turkey Cairo Asia 0 891 751 1 250 3
+Russia Beijing Asia 1 483 114 3 1
+Indonesia Paris Asia 1 523 63 3 1
+Nigeria Rome Europe 1 716 810 2 Spring 760 -308
+UnitedKingdom Berlin Africa 1 551 288 1 779 2
+Canada Canberra SouthAmerica 1 691 62 1 602 1
+Germany Berlin Europe 0 392 491 1 282 2
+Thailand Seoul Asia 0 42 245 1 755 1
+Kenya BuenosAires Europe 1 205 405 1 856 3
+Egypt Pretoria SouthAmerica 1 752 853 1 650 3
+Indonesia Manila Australia 1 116 728 2 Fall -525 -204
+France Moscow Asia/Europe 1 343 874 2 Fall -712 222
+China Oslo Asia 1 245 332 3 1
+SouthAfrica Berlin Europe 1 202 490 2 Spring -823 690
+China Tokyo Europe 0 129 598 1 464 3
+Argentina Ankara SouthAmerica 0 893 761 3 2
+Philippines Wellington Asia 1 991 372 2 Winter -601 -954
+Switzerland Nairobi Europe 1 846 513 2 Winter 793 741
+SouthAfrica Riyadh Europe/Asia 0 264 770 2 Spring -257 -354
+Italy NewDelhi SouthAmerica 1 571 267 1 752 1
+Germany Helsinki NorthAmerica 1 772 395 2 Fall -373 520
+Norway Oslo Africa 1 616 6 3 2
+India Bangkok Africa 0 911 291 1 483 3
+UnitedKingdom Washington Europe 0 32 456 2 Fall -52 -998
+Philippines Riyadh Africa 0 500 355 3 3
+France Abuja Asia 0 892 185 2 Winter 692 956
+Denmark Oslo SouthAmerica 1 529 578 1 633 3
+Netherlands Nairobi Europe 1 874 427 2 Fall 3 -352
+Turkey London Asia 1 178 74 2 Summer -41 -315
+Belgium Nairobi Asia 1 590 104 2 Spring -643 -328
+Vietnam Copenhagen Asia 0 478 259 2 Winter 232 463
+Egypt Moscow Australia 0 22 551 3 1
+Denmark Beijing Europe 1 686 218 1 256 1
+Greece Paris Africa 1 188 577 1 230 1
+Egypt NewDelhi SouthAmerica 0 826 831 3 2
+Netherlands Oslo Asia 0 382 399 2 Winter -740 -163
+NewZealand Brussels SouthAmerica 1 566 84 3 3
+China Canberra Asia 1 103 796 2 Summer -264 103
+Poland Ankara Australia 1 821 444 1 944 2
+Indonesia Warsaw Asia 1 73 902 3 3
+Greece NewDelhi Africa 1 802 312 2 Fall -202 20
+Thailand Brussels Europe 1 841 577 3 1
+Philippines Oslo NorthAmerica 1 249 349 2 Fall 718 -783
+Vietnam Ottawa Europe 1 775 255 1 731 1
+Russia NewDelhi Africa 0 692 495 1 13 2
+SouthAfrica Riyadh Europe 0 670 737 3 1
+Germany Abuja Europe 1 991 873 1 335 2
+Italy Athens Asia 1 708 967 3 2
+France KualaLumpur Africa 1 888 227 2 Fall 158 -346
+Kenya Lisbon Europe 0 294 731 2 Fall 340 944
+Philippines Helsinki Africa 1 461 131 3 1
+Germany Helsinki Asia 1 212 751 3 2
+France Brussels Australia 0 244 707 2 Spring -662 -382
+Norway BuenosAires Europe 1 877 345 1 66 3
+Egypt Wellington Asia/Europe 1 795 291 2 Fall -29 558
+Brazil Canberra NorthAmerica 1 142 734 1 213 2
+UnitedKingdom Manila Asia 1 302 849 2 Winter -612 613
+Finland Pretoria Europe 0 442 167 1 477 2
+NewZealand Cairo Asia 0 616 367 2 Fall -907 99
+Finland Brussels Europe 1 540 632 2 Summer -956 303
+Egypt Ankara SouthAmerica 0 230 277 3 1
+Denmark Nairobi Asia 1 721 732 1 76 3
+USA Nairobi Europe 1 59 169 1 274 1
+Germany Seoul NorthAmerica 0 92 674 2 Summer -973 431
+SouthAfrica MexicoCity Europe 0 663 318 1 987 1
+Nigeria Copenhagen Asia 1 361 939 3 2
+Switzerland AddisAbaba Asia 0 26 779 2 Winter 474 895
+France Madrid Europe 1 367 144 1 144 2
+Mexico Bern SouthAmerica 1 274 149 3 2
+Canada Jakarta Australia 0 877 880 1 694 3
+USA Manila Australia 0 775 751 3 2
+Denmark Abuja Europe 1 818 964 3 1
+Thailand Oslo Australia 0 829 385 2 Spring 60 -525
+SouthKorea Copenhagen NorthAmerica 0 403 705 1 846 1
+Philippines AddisAbaba Australia 0 0 894 2 Winter -350 -747
+Indonesia Stockholm Asia 0 291 491 2 Winter -329 250
+Ethiopia Bangkok Asia 0 163 23 3 3
+SaudiArabia Jakarta Asia/Europe 0 654 32 3 2
+France Ankara Africa 1 33 419 3 1
+Finland KualaLumpur Asia 1 255 701 2 Fall -56 -114
+Vietnam Tokyo Australia 1 534 825 3 2
+France BuenosAires Asia 0 807 750 2 Fall 831 -220
+Russia Jakarta Africa 1 589 397 3 1
+Indonesia Brussels Australia 1 710 185 1 182 3
+Norway MexicoCity Europe 0 290 437 3 2
+Mexico Kyiv NorthAmerica 1 694 535 1 664 1
+Denmark Washington SouthAmerica 1 315 213 1 701 2
+Brazil Bern Asia 1 462 514 2 Spring -882 -934
+Vietnam Ankara Africa 1 786 996 1 54 1
+NewZealand BuenosAires Europe 1 434 793 3 1
+Poland KualaLumpur Africa 0 86 252 1 40 3
+Belgium Stockholm NorthAmerica 0 475 9 2 Winter 66 197
+Poland Brussels Asia 0 765 886 3 1
+Malaysia Canberra Europe 1 760 82 3 2
+Greece Ankara Europe 1 698 252 2 Winter -859 -146
+Netherlands Warsaw Europe 0 689 813 3 2
+Australia Brussels Europe 1 207 900 2 Spring -239 -898
+Australia MexicoCity Europe 1 562 108 1 793 1
+Argentina KualaLumpur Australia 1 397 732 2 Spring 667 620
+Egypt Wellington Europe 1 780 144 1 624 3
+Greece Brasilia Europe 1 275 304 3 2
+SouthKorea Moscow Europe 0 218 610 3 1
+Belgium Copenhagen SouthAmerica 0 422 33 3 1
+Philippines Riyadh NorthAmerica 0 647 791 3 1
+Mexico Manila Africa 0 34 544 3 2
+Vietnam Berlin Africa 0 153 316 2 Summer -646 -373
+Denmark Rome Asia 1 747 478 3 1
+Australia Canberra SouthAmerica 1 583 637 2 Winter -401 16
+Italy Bern Asia 0 625 627 3 3
+Germany Riyadh Europe 0 282 132 2 Fall 872 647
+Philippines Washington Europe 1 847 670 2 Winter 367 -533
+Russia Oslo Europe 0 818 699 3 1
+Australia Washington Europe 1 754 378 1 189 1
+NewZealand Stockholm Europe 1 779 375 1 813 1
+Philippines Wellington Europe 0 505 695 2 Spring 125 261
+Finland Washington Europe 0 252 192 3 2
+Thailand Lisbon Africa 0 225 316 3 2
+Australia Abuja Europe 1 263 951 2 Summer -349 841
+Germany Hanoi Europe 0 246 537 2 Summer -77 902
+Greece Paris Africa 0 728 340 2 Winter -565 429
+SaudiArabia Bangkok Asia 0 498 833 2 Winter 79 324
+Turkey Amsterdam Europe 1 637 269 1 493 2
+UnitedKingdom Brussels Europe 1 862 47 2 Fall 675 -208
+USA Oslo Asia 1 176 998 3 3
+SaudiArabia Stockholm Europe 1 576 365 2 Winter -200 704
+Japan Bangkok Europe 1 37 919 3 3
+Spain AddisAbaba Asia 1 592 689 2 Winter -787 85
+Italy Jakarta Asia 0 375 287 3 3
+Denmark Athens Asia 1 914 136 1 907 2
+Sweden Helsinki Europe 1 228 381 1 275 1
+Thailand Madrid Europe 0 139 87 1 860 3
+SouthKorea Rome Asia 0 755 775 3 3
+Australia Brussels Australia 1 860 963 3 1
+Kenya Washington Europe 0 690 107 2 Winter -937 -310
+Mexico Bangkok Asia 1 376 94 3 1
+Greece Brasilia Africa 1 789 987 1 933 1
+Greece Washington Asia 0 839 294 2 Winter -672 -667
+SouthAfrica Lisbon Europe 0 898 287 3 3
+Indonesia Brasilia Europe 1 793 441 2 Spring -926 -742
+Netherlands Helsinki Europe 0 360 505 1 544 3
+Brazil Rome Asia 1 48 959 3 1
+Ethiopia Madrid Australia 1 569 486 1 792 1
+France Riyadh Africa 1 990 260 2 Winter -67 554
+Argentina Brasilia Australia 0 539 975 1 389 3
+Thailand Cairo Asia 0 165 947 1 159 3
+Ukraine Wellington Europe 0 437 729 1 898 1
+Turkey NewDelhi Australia 0 677 774 2 Spring 434 175
+NewZealand AddisAbaba Europe 1 934 492 3 3
+Kenya Helsinki Europe 1 596 523 2 Winter -613 463
+Mexico Wellington Europe 1 909 584 2 Winter -477 -530
+Italy Bern Australia 1 135 162 2 Summer -713 663
+Greece Hanoi Europe 0 792 394 1 610 2
+Vietnam Jakarta SouthAmerica 1 723 473 3 1
+Kenya KualaLumpur Asia 0 116 178 3 3
+Italy AddisAbaba Europe 1 866 889 1 60 2
+Indonesia Oslo Africa 0 396 975 3 1
+SouthAfrica London Asia 1 914 297 1 927 1
+Poland Copenhagen Europe 0 494 202 1 522 2
+SaudiArabia Stockholm SouthAmerica 1 647 798 1 833 1
+Brazil Tokyo Europe 0 376 6 2 Winter -232 -12
+Nigeria Pretoria Europe 1 166 464 1 358 1
+Thailand Bangkok Africa 1 41 129 3 1
+Ethiopia Kyiv Asia/Europe 1 322 714 2 Winter 370 -654
+Ukraine Brussels Asia 1 285 994 2 Winter 635 117
+Ethiopia Madrid Australia 0 270 686 1 725 2
+Poland Washington Africa 1 988 638 1 734 3
+Portugal Washington Asia 0 489 74 3 2
+USA Athens Africa 0 137 166 1 463 2
+Argentina Bangkok Asia 0 163 668 3 3
+Indonesia Manila Europe/Asia 0 926 959 2 Fall -774 -834
+Ethiopia KualaLumpur Europe 0 680 162 1 534 1
+China Oslo Asia 0 33 51 1 897 3
+Turkey Washington Asia/Europe 1 842 635 3 2
+Nigeria Bern Europe 0 910 776 2 Spring 534 416
+Japan Canberra Asia/Europe 1 66 992 2 Spring -756 455
+UnitedKingdom Paris Europe 0 433 361 2 Winter -613 764
+Thailand Oslo Europe 1 3 575 1 405 3
+Indonesia BuenosAires Europe 1 586 690 3 2
+Brazil Abuja Europe/Asia 0 378 217 3 3
+Canada Washington Africa 0 907 345 2 Spring 967 955
+Norway Washington NorthAmerica 0 527 302 3 2
+Spain London Europe 1 461 926 1 999 2
+India Paris Africa 0 213 497 3 2
+Norway Helsinki Europe 0 252 585 3 1
+Canada Lisbon Europe 0 410 30 3 3
+France Tokyo NorthAmerica 1 36 748 1 495 2
+Netherlands AddisAbaba Europe 1 762 408 2 Fall 467 -321
+Turkey Seoul Europe 1 750 501 3 2
+Argentina London Asia 0 46 939 1 543 3
+Ukraine Warsaw Asia 0 90 872 1 663 3
+Sweden Oslo Europe 1 223 329 2 Summer -684 -994
+Malaysia Bern Asia 1 635 284 1 531 3
+Sweden Abuja Europe/Asia 0 368 11 3 3
+Australia KualaLumpur Europe 1 3 99 1 771 1
+Belgium Oslo Europe 0 927 712 2 Winter 622 -539
+Canada Berlin Asia 0 709 480 2 Fall 7 855
+Philippines Washington Europe 0 111 887 2 Spring -347 -783
+Brazil Cairo Asia 0 815 641 1 926 2
+Switzerland Brasilia Asia 1 147 174 1 483 1
+SouthAfrica Tokyo Europe 0 142 455 3 2
+Nigeria Cairo Europe 1 734 247 1 729 1
+Spain Pretoria NorthAmerica 1 447 705 1 493 3
+France MexicoCity Europe 1 34 815 2 Fall -42 -555
+Germany NewDelhi SouthAmerica 0 427 727 1 278 1
+Norway Athens Europe 0 392 861 2 Winter -271 914
+Indonesia Jakarta Europe 1 410 769 1 993 1
+Canada Ankara Europe 0 689 435 2 Summer -818 297
+Ethiopia Copenhagen SouthAmerica 1 131 746 2 Fall -375 287
+Netherlands Madrid Australia 1 139 763 3 1
+Australia Bern Australia 1 401 432 1 993 3
+USA Kyiv Europe 0 512 459 2 Winter 989 -82
+Philippines Tokyo Europe 1 631 614 1 598 2
+Canada KualaLumpur Asia 1 60 834 3 3
+Belgium Nairobi Australia 0 291 843 1 862 1
+Germany Pretoria Africa 1 276 907 2 Winter 324 -716
+Germany Wellington Asia 0 275 980 3 2
+Denmark Canberra Asia 1 788 454 1 150 3
+Italy Washington Europe 1 823 414 2 Summer -666 -369
+SouthAfrica Riyadh Africa 0 979 553 2 Fall -816 993
+Argentina Brussels Europe 0 204 382 1 953 2
+Spain Abuja Europe 1 867 686 3 2
+Belgium Athens Africa 0 912 551 1 472 3
+France Canberra Asia 0 889 552 1 738 3
+Norway Copenhagen Europe 1 326 806 1 587 1
+Ukraine Helsinki Europe 1 658 891 3 3
+USA Kyiv Europe 1 805 502 1 580 3
+Turkey Lisbon Europe 1 259 0 1 280 2
+Malaysia Seoul Europe 0 544 847 2 Winter -316 483
+Mexico Paris Africa 0 915 271 2 Summer -998 -696
+Turkey Cairo Europe 0 628 511 1 227 2
+Netherlands Copenhagen Asia 0 868 374 3 1
+Denmark Pretoria Europe 0 616 886 3 2
+Malaysia Berlin Asia 1 288 708 2 Fall -859 799
+Italy Cairo Africa 0 762 60 3 1
+SaudiArabia Paris Europe 1 162 644 1 301 2
+SouthKorea NewDelhi Europe 0 547 275 3 3
+Japan Madrid Asia 1 61 590 1 420 3
+Ukraine Bangkok NorthAmerica 0 102 665 2 Summer 361 -685
+SaudiArabia Seoul Europe 0 250 939 2 Summer -740 902
+SaudiArabia Rome Africa 0 744 382 1 517 1
+Ethiopia Berlin NorthAmerica 0 255 768 2 Summer 342 341
+Egypt London SouthAmerica 1 524 674 2 Fall 912 375
+Malaysia Lisbon Africa 0 158 835 1 536 1
+France Berlin Africa 1 617 290 2 Fall -598 -408
+Poland Lisbon Europe 1 763 94 1 742 1
+Italy Beijing Europe/Asia 1 172 991 3 1
+China Brasilia Africa 1 448 871 1 115 3
+Switzerland Copenhagen NorthAmerica 0 368 390 2 Spring -784 716
+Turkey Canberra Africa 0 215 945 1 199 1
+SouthAfrica Tokyo Europe 1 239 445 3 1
+India Stockholm Asia 1 763 348 3 3
+USA Stockholm Europe 1 932 279 3 3
+Mexico AddisAbaba Europe 0 350 539 1 890 2
+USA Madrid SouthAmerica 0 877 190 3 3
+SouthKorea Moscow Asia 1 346 825 2 Summer -659 526
+Canada Washington Asia 1 212 952 2 Winter 39 -354
+France KualaLumpur Asia 0 329 809 3 2
+India AddisAbaba Africa 0 659 339 3 2
+Switzerland Jakarta Europe 1 78 931 3 1
+Indonesia Seoul Africa 0 660 922 2 Winter 298 -799
+Finland Lisbon Europe 1 84 782 3 3
+Russia AddisAbaba Europe 0 798 729 3 2
+China BuenosAires NorthAmerica 1 696 229 3 3
+Greece Canberra Europe 1 849 588 3 2
+NewZealand Nairobi Australia 1 421 933 1 812 1
+Brazil Nairobi Asia 0 568 95 3 1
+Russia KualaLumpur Europe 0 358 518 2 Fall 147 -222
+Sweden Bern Europe 1 273 14 3 2
+Germany Oslo Europe 0 923 905 2 Fall -373 879
+Turkey Paris Europe 1 980 858 3 1
+Malaysia Madrid Europe 1 57 907 2 Summer -819 241
+UnitedKingdom Ankara Europe 1 955 546 1 819 1
+Norway AddisAbaba Asia 0 737 326 2 Winter 641 -210
+Sweden Jakarta Asia/Europe 1 956 728 3 2
+UnitedKingdom NewDelhi Asia 1 360 717 1 934 1
+Poland Manila Africa 0 284 578 2 Summer 846 615
+Argentina Nairobi Asia 1 425 93 2 Summer -625 246
+Egypt Pretoria Australia 1 144 688 2 Winter -927 417
+Greece Athens Australia 0 424 514 3 2
+Switzerland Pretoria Africa 1 565 304 3 2
+SouthKorea Berlin Europe 1 826 976 1 60 1
+NewZealand Pretoria Europe/Asia 1 404 573 1 568 2
+Indonesia Abuja Africa 0 484 499 2 Winter -412 -716
+Spain Beijing Europe 0 123 45 3 2
+Norway Cairo Europe 1 975 508 1 756 1
+Sweden Riyadh Asia 1 276 198 2 Summer -942 -122
+Norway Brasilia Europe 0 306 737 3 2
+Vietnam Brasilia Asia/Europe 1 534 313 3 1
+UnitedKingdom MexicoCity Australia 1 984 336 3 3
+France Brussels Europe 1 787 955 2 Summer 534 -93
+Finland London Europe 0 831 934 2 Summer 906 -226
+Denmark Jakarta Europe 1 89 804 1 679 2
+Japan Manila Europe 0 622 461 1 943 2
+Greece Oslo NorthAmerica 1 3 460 2 Spring 856 356
+China BuenosAires Europe 1 580 278 1 846 2
+Spain Oslo SouthAmerica 0 214 529 2 Winter 202 978
+Philippines Jakarta NorthAmerica 1 528 214 3 2
+Australia Ottawa Africa 0 938 137 2 Summer -249 -685
+SouthAfrica Amsterdam Europe 1 843 101 2 Fall 776 -569
+Indonesia Manila Europe 0 415 504 3 3
+Philippines Brasilia Europe/Asia 1 669 149 3 3
+NewZealand Pretoria Asia 0 462 263 2 Spring -62 635
+Vietnam Athens Africa 1 466 821 2 Spring -711 -601
+Ethiopia Paris Africa 1 682 961 1 609 3
+NewZealand Nairobi Asia 0 866 139 3 3
+Canada Rome Europe 1 229 752 2 Fall -782 332
+Thailand Lisbon Africa 0 508 370 2 Spring -936 -278
+Denmark Copenhagen Australia 0 57 904 1 849 1
+Germany Rome Africa 1 518 476 3 3
+Turkey NewDelhi Asia 0 247 472 2 Fall -791 631
+Finland Brasilia Europe 0 98 923 2 Fall 265 682
+Canada Manila Europe 1 952 922 1 746 3
+Ethiopia Paris Europe 1 149 278 1 891 3
+Poland MexicoCity Europe 1 166 703 3 3
+Denmark Athens Europe 0 570 613 3 3
+Kenya Ankara NorthAmerica 0 468 948 1 219 1
+SaudiArabia Ottawa NorthAmerica 0 952 222 1 511 1
+UnitedKingdom Lisbon Europe 0 411 282 1 582 2
+Netherlands Washington Europe/Asia 1 813 780 3 1
+Canada Hanoi Europe 0 769 316 1 163 1
+SouthKorea Moscow Africa 0 754 630 1 559 2
+Denmark Manila Asia 0 29 817 2 Summer -303 -472
+Mexico Wellington Africa 0 630 984 1 821 2
+India Abuja SouthAmerica 1 58 323 3 1
+Germany Tokyo Europe 0 775 67 3 2
+Denmark Rome Asia 0 205 91 3 1
+Poland Warsaw Asia 0 956 838 2 Summer 23 336
+Japan Athens Europe 0 817 986 1 566 1
+Indonesia Brasilia NorthAmerica 0 311 496 1 119 1
+Denmark Jakarta Asia 1 608 140 1 473 3
+Greece Bangkok Asia 0 35 545 1 274 3
+Norway Manila SouthAmerica 0 0 835 2 Fall -674 -886
+Thailand London Europe 0 658 461 3 2
+Netherlands Paris Asia 1 701 848 1 260 2
+India Manila Asia 0 260 59 3 3
+Portugal NewDelhi Europe/Asia 1 202 791 2 Summer 833 -61
+Poland Paris Australia 0 719 73 1 456 2
+Turkey Nairobi Africa 1 186 850 3 3
+Spain Moscow Europe/Asia 1 99 200 1 809 3
+Mexico Amsterdam Asia 0 178 633 3 1
+SaudiArabia Beijing Europe 1 576 959 3 1
+Russia Nairobi NorthAmerica 0 939 773 3 2
+Denmark Athens Asia 0 576 307 1 285 3
+France Athens SouthAmerica 0 697 658 1 243 3
+France Abuja Europe 1 442 768 3 3
+Ethiopia Beijing Europe 1 471 579 2 Summer -122 -913
+Finland Athens Europe 0 812 239 3 2
+Norway Jakarta Africa 1 711 158 2 Spring -984 -260
+Netherlands Athens Europe 1 948 765 2 Winter -353 -493
+Portugal Canberra Africa 0 926 187 1 446 3
+Greece Brussels Africa 1 548 601 1 765 3
+Italy Kyiv Europe 0 200 497 2 Spring -1000 -81
+SaudiArabia Seoul Africa 1 280 748 1 506 3
+Thailand Tokyo Africa 1 41 912 2 Summer -392 -489
+Portugal BuenosAires Europe 1 766 647 2 Fall -676 720
+Poland Kyiv NorthAmerica 1 364 999 3 3
+Sweden Helsinki Africa 0 905 80 1 506 1
+Indonesia Manila Europe 0 335 878 1 971 2
+Egypt Bangkok Africa 0 499 158 3 1
+Belgium Manila Europe 0 955 444 2 Summer -22 518
+Greece NewDelhi Asia 1 365 394 3 1
+Netherlands Amsterdam NorthAmerica 1 451 324 3 2
+Kenya KualaLumpur Europe/Asia 1 749 347 3 1
+Egypt Ankara SouthAmerica 1 723 854 2 Spring -475 99
+Indonesia Manila NorthAmerica 1 724 655 1 267 3
+Finland Oslo Asia 0 732 451 3 3
+SaudiArabia KualaLumpur Europe 0 787 69 3 1
+China Wellington Asia 0 733 669 2 Fall -775 234
+NewZealand KualaLumpur Asia 1 564 949 2 Winter -945 58
+Thailand Copenhagen Europe/Asia 1 192 880 3 2
+Japan Helsinki Australia 1 898 268 1 895 3
+Argentina BuenosAires Europe 0 355 814 3 1
+Nigeria Jakarta Europe 1 66 192 1 29 3
+Russia Jakarta Australia 1 143 767 2 Summer -450 -904
+SouthKorea Brussels Asia 1 421 398 2 Summer -927 597
+SouthKorea Berlin Asia 1 244 53 1 987 2
+Canada Bangkok Africa 0 410 840 1 110 3
+Nigeria AddisAbaba Europe 1 133 161 2 Winter -833 425
+Ethiopia Riyadh NorthAmerica 1 686 282 2 Summer -545 -479
+Germany Moscow Europe/Asia 1 904 98 1 570 3
+Vietnam Nairobi Asia 0 296 13 3 1
+Italy Brasilia Africa 1 314 834 3 3
+Sweden Nairobi Asia 0 202 597 1 831 3
+USA Bern Europe/Asia 1 645 767 2 Winter 52 -1
+SouthAfrica Athens Europe 1 745 794 1 979 1
+Turkey Athens SouthAmerica 0 888 668 1 183 1
+Switzerland Madrid Europe 0 453 979 2 Spring -775 -51
+Russia Brussels Europe/Asia 1 720 345 3 2
+USA Abuja Europe 0 570 807 1 188 2
+Vietnam Riyadh Africa 0 47 924 3 1
+Canada Beijing Africa 0 887 309 1 497 1
+Vietnam Athens Europe 0 218 293 3 2
+Netherlands Ankara Australia 0 647 345 1 323 2
+Spain Brasilia Australia 0 708 12 1 775 2
+Greece Bern Europe/Asia 1 203 576 3 1
+Indonesia Canberra Africa 1 113 446 2 Winter 798 -749
+Netherlands Abuja Europe 0 557 898 3 2
+Portugal Ottawa SouthAmerica 0 79 83 3 2
+Kenya BuenosAires Asia/Europe 0 464 613 2 Spring 17 542
+Denmark Cairo Europe 1 986 254 1 943 3
+China BuenosAires Europe 0 526 940 1 644 1
+Germany Tokyo Europe 0 111 419 1 991 2
+NewZealand Berlin Europe 0 923 278 2 Summer -563 -781
+Greece Paris NorthAmerica 1 676 418 1 441 3
+India Athens Europe 0 518 161 2 Summer 214 -899
+Canada KualaLumpur Australia 0 545 963 3 3
+Thailand Riyadh Asia 0 423 337 1 102 2
+Malaysia Berlin Asia 0 210 254 2 Summer 655 -544
+India Moscow Africa 0 471 758 1 517 2
+Philippines Brasilia Europe 1 828 635 3 2
+Australia KualaLumpur Asia 0 887 602 1 961 2
+Finland Brussels SouthAmerica 1 789 124 1 146 2
+NewZealand Canberra Europe 0 613 605 3 3
+Mexico Tokyo NorthAmerica 0 991 987 3 3
+Ukraine Ankara Europe 1 664 139 2 Spring 364 648
+SouthKorea Abuja Africa 0 60 353 3 1
+Portugal Tokyo Europe 1 410 420 3 2
+SaudiArabia Brasilia Asia 1 616 767 1 882 2
+Malaysia AddisAbaba Europe 1 62 612 2 Spring 751 -118
+Egypt Hanoi Europe 1 673 977 1 697 2
+Finland Oslo Europe 1 554 753 1 206 3
+Indonesia Athens Asia 0 359 287 3 3
+Philippines Bangkok Asia 1 382 798 3 2
+Indonesia NewDelhi Asia 1 945 712 1 820 2
+NewZealand Canberra Africa 0 347 566 3 3
+Malaysia Rome SouthAmerica 1 616 68 2 Summer 707 545
+Japan BuenosAires Europe 1 565 854 3 1
+Germany Seoul Europe 1 245 284 1 601 2
+Belgium Washington NorthAmerica 0 953 285 3 2
+Philippines Paris Europe 1 847 945 3 3
+Brazil Kyiv Europe 1 988 958 3 1
+Argentina Brussels NorthAmerica 1 475 852 2 Spring -260 817
+Indonesia Moscow Europe 0 769 419 1 973 1
+Vietnam Ankara Australia 0 782 928 1 379 2
+Switzerland NewDelhi Europe 0 388 621 3 1
+Kenya MexicoCity Europe 1 719 222 1 558 3
+Brazil Copenhagen Asia 0 183 159 1 7 3
+India Wellington Africa 0 380 112 3 2
+France Athens Asia 0 391 933 2 Spring -719 -99
+Russia Pretoria Europe 0 193 459 3 1
+NewZealand Amsterdam Africa 1 989 76 1 82 1
+Argentina Rome Asia 0 640 426 3 3
+UnitedKingdom London Europe 1 288 673 2 Winter 986 -5
+UnitedKingdom Beijing Asia/Europe 0 543 254 2 Fall -19 -738
+NewZealand Copenhagen SouthAmerica 1 117 658 3 1
+Italy Berlin Europe 1 778 322 3 3
+Argentina Berlin SouthAmerica 1 612 381 2 Summer 131 -399
+Netherlands Berlin Europe 0 843 55 2 Winter 918 182
+Sweden AddisAbaba Australia 0 918 157 1 41 3
+Vietnam Ottawa Europe 0 781 987 3 3
+Brazil Seoul Asia 0 166 12 3 2
+Belgium Helsinki Europe 1 791 707 2 Spring -256 -849
+Argentina Paris Asia/Europe 1 643 444 2 Fall -723 621
+Nigeria Bern Europe 0 434 861 2 Spring 496 -287
+Denmark Brasilia Asia 0 223 754 1 90 2
+Brazil Moscow Asia 1 868 372 1 241 3
+SaudiArabia Paris Europe 1 914 605 1 9 1
+Denmark KualaLumpur Europe 1 891 813 1 134 1
+Egypt Amsterdam Europe 1 713 885 3 2
+SaudiArabia Jakarta Africa 0 456 654 2 Summer 505 721
+Indonesia Warsaw Asia 0 181 691 2 Fall -28 -676
+Australia Paris Europe 0 170 493 1 63 3
+Argentina Amsterdam Asia 0 562 85 3 3
+Nigeria Ankara NorthAmerica 0 583 933 2 Fall -924 693
+Norway Helsinki Asia 1 4 433 1 451 2
+Kenya Warsaw Asia 0 557 873 1 667 1
+Denmark NewDelhi Europe 0 788 278 1 157 2
+SaudiArabia Ankara Europe 1 288 689 3 1
+Philippines Washington Australia 0 921 86 1 926 2
+France Brasilia Europe 1 430 732 2 Spring -682 878
+Nigeria Athens Africa 0 264 318 2 Summer -46 962
+Italy Berlin NorthAmerica 0 974 799 1 935 1
+Italy Rome Europe 1 671 66 2 Summer -994 629
+Brazil Cairo Asia 1 253 854 2 Spring -791 -909
+Germany Nairobi Europe 0 105 430 2 Winter -427 909
+Greece Athens Asia 0 436 4 2 Fall -314 219
+Norway Tokyo Asia 1 239 899 2 Fall -633 531
+China Moscow Africa 1 266 24 1 736 3
+Poland Beijing Europe 1 982 661 3 2
+UnitedKingdom Beijing Australia 1 171 303 1 164 2
+Indonesia Brasilia Europe 0 412 357 3 1
+Japan Canberra Europe 0 22 59 1 929 3
+SaudiArabia Lisbon Australia 1 580 175 2 Summer -857 -590
+Netherlands Copenhagen Africa 1 693 241 3 3
+NewZealand Athens Europe 1 343 629 2 Summer 584 -237
+Thailand Manila Africa 0 485 158 3 3
+Sweden Seoul NorthAmerica 0 293 602 1 206 3
+Sweden Ankara Africa 1 405 566 2 Summer -402 -596
+Australia Abuja Europe 1 914 860 3 3
+Vietnam Manila Asia 1 784 257 2 Summer -66 -520
+UnitedKingdom Hanoi Europe 0 418 506 3 2
+Turkey Jakarta Africa 1 424 415 3 2
+Canada Jakarta Europe 0 408 283 2 Summer 545 609
+Mexico Helsinki Africa 0 370 333 2 Winter -299 419
+SouthAfrica Helsinki Europe 1 304 262 3 3
+China Canberra Asia/Europe 1 401 836 3 2
+Belgium Amsterdam Asia/Europe 1 915 905 1 537 3
+Malaysia Copenhagen Europe 1 311 870 1 823 2
+Turkey Madrid Africa 0 679 15 1 701 2
+Ukraine Ankara Europe 1 737 285 2 Spring 914 -206
+Germany Stockholm Europe 0 585 617 3 1
+Sweden Athens Europe 1 894 119 1 530 2
+Mexico Canberra Europe 0 60 121 2 Summer -931 -131
+Germany Seoul Europe 0 920 318 3 2
+Norway Oslo Europe 0 864 510 2 Fall 326 494
+Argentina Stockholm NorthAmerica 0 253 761 2 Winter 591 742
+Mexico Bangkok Europe 1 421 552 1 627 3
+Denmark Ottawa Asia 0 983 351 3 3
+SouthAfrica Washington Asia 0 47 902 2 Winter 556 826
+SouthKorea Amsterdam Asia 1 793 362 3 1
+USA London Asia 0 824 812 2 Spring -905 37
+Poland Washington Africa 1 367 745 2 Spring 277 242
+Japan Oslo Africa 1 222 300 2 Fall 439 601
+Spain Wellington Asia 1 209 731 2 Summer -822 371
+India Kyiv Australia 1 680 13 3 2
+Philippines Cairo Africa 1 183 37 2 Summer -447 -109
+China Nairobi Asia 0 112 50 3 3
+Thailand Washington Australia 0 901 738 2 Summer -449 747
+Norway Brasilia Africa 0 629 870 2 Fall -245 403
+Sweden Berlin Asia 1 742 688 1 651 3
+Italy Paris SouthAmerica 1 756 234 2 Winter -596 700
+USA Riyadh Europe 0 556 141 3 2
+NewZealand Nairobi Europe 1 263 483 1 822 3
+Turkey Athens Asia/Europe 0 817 136 2 Winter -801 -162
+Russia Canberra Europe 1 553 925 2 Fall -137 -251
+Brazil Lisbon SouthAmerica 0 936 524 2 Summer 372 -669
+Indonesia Cairo NorthAmerica 1 127 467 2 Winter 623 999
+UnitedKingdom Warsaw Europe 1 386 220 2 Fall 384 524
+Kenya Riyadh Africa 0 107 472 3 1
+SaudiArabia Jakarta Asia 1 284 223 2 Winter -402 128
+Argentina Seoul SouthAmerica 1 800 310 1 897 3
+Denmark Copenhagen NorthAmerica 0 301 158 1 751 2
+Norway Wellington Asia 0 438 344 3 3
+Philippines Pretoria Asia 1 80 835 1 626 1
+Belgium Cairo Europe 1 52 530 1 143 3
+Philippines Jakarta Europe 0 51 60 2 Fall 561 -855
+Thailand Bangkok Europe 1 889 717 2 Winter 957 -65
+Spain Manila Europe/Asia 0 302 910 1 771 1
+Indonesia Brasilia NorthAmerica 0 335 674 2 Fall 438 989
+Germany Bangkok Australia 1 243 344 2 Winter -597 -585
+Malaysia Wellington Asia 1 236 720 1 766 2
+Indonesia Nairobi NorthAmerica 0 511 782 1 154 3
+Philippines Bern Europe 0 484 748 2 Fall 971 -666
+Netherlands Copenhagen Africa 1 444 906 3 2
+Norway Ankara Europe 0 177 558 2 Fall 498 726
+Canada Brussels Australia 0 52 985 1 40 3
+UnitedKingdom Manila Australia 1 200 386 2 Summer -970 408
+SouthKorea Pretoria Europe 0 718 103 3 3
+Ethiopia KualaLumpur Asia 1 772 243 1 155 3
+France Washington Africa 1 802 739 2 Summer -123 -319
+Kenya Paris Europe 1 299 718 2 Summer -955 707
+Argentina Pretoria Asia 1 498 952 1 833 3
+Malaysia Ottawa Europe 0 71 734 1 671 1
+Mexico Berlin Europe 0 476 508 2 Winter 67 -357
+SouthKorea Seoul Asia 0 432 680 2 Fall 608 -409
+Philippines KualaLumpur Europe 1 732 160 3 1
+Philippines Manila SouthAmerica 0 110 710 1 512 3
+Malaysia Moscow Asia 0 596 996 2 Fall 224 370
+Philippines Manila Europe 0 554 380 1 508 1
+France Ottawa Europe 0 83 674 2 Fall 626 284
+Indonesia Bern Africa 1 626 517 2 Spring 722 881
+Thailand Warsaw Australia 0 71 523 2 Summer -532 82
+Turkey Cairo Europe 0 489 278 3 1
+Vietnam Washington SouthAmerica 1 247 424 1 812 3
+SouthKorea Manila Europe/Asia 1 911 776 2 Spring 216 245
+SouthAfrica Paris Australia 0 53 412 3 3
+Turkey Hanoi Africa 0 412 869 3 3
+Philippines Bangkok Asia 1 798 47 2 Summer 793 315
+Australia Pretoria Europe 0 809 618 2 Winter -444 -655
+Finland Ankara Asia 0 454 12 1 765 1
+Poland London Europe/Asia 1 118 350 1 984 3
+Australia Wellington SouthAmerica 1 202 576 1 734 2
+Spain Warsaw Europe 1 474 335 2 Summer -192 718
+Finland Brasilia Africa 1 340 428 1 701 3
+France Brasilia Europe/Asia 1 888 98 1 902 1
+Germany Brasilia Europe 0 374 668 1 977 3
+SaudiArabia Brasilia Asia 1 902 737 3 3
+Turkey Brasilia Europe/Asia 0 440 585 1 731 1
+Russia Athens Asia 1 200 587 2 Summer 685 -38
+Vietnam Tokyo SouthAmerica 1 66 376 1 484 3
+Canada London Africa 0 739 893 3 1
+Australia Stockholm NorthAmerica 1 750 826 2 Winter 885 -617
+Italy Wellington NorthAmerica 0 260 971 2 Winter -533 813
+Portugal Jakarta NorthAmerica 1 428 696 1 115 1
+Finland Washington Australia 0 530 768 2 Summer -598 -225
+Vietnam Ottawa Europe 1 633 315 1 546 1
+Belgium Helsinki Europe 0 616 364 2 Summer 105 343
+Egypt Riyadh Australia 0 991 473 1 185 1
+Mexico Stockholm SouthAmerica 1 814 257 2 Winter 963 819
+India NewDelhi Asia/Europe 0 578 781 3 2
+Switzerland BuenosAires Africa 1 910 391 1 7 2
+Finland Pretoria Africa 1 566 592 1 176 1
+Portugal Berlin Europe/Asia 0 956 1000 1 44 2
+Netherlands Brussels Africa 0 726 743 2 Spring -247 -463
+USA Copenhagen Europe 1 663 85 2 Summer 672 -990
+China Ankara Europe 0 637 185 3 2
+Italy Ottawa Europe 1 170 183 2 Fall -81 -970
+Finland Cairo Europe 1 304 72 3 1
+Canada Warsaw Europe/Asia 1 49 504 1 835 1
+China Copenhagen Asia 0 845 248 1 270 2
+Thailand Washington NorthAmerica 0 339 513 1 207 1
+Brazil Copenhagen Africa 1 495 710 1 519 2
+Ukraine Cairo Africa 1 134 611 1 419 1
+Egypt Wellington Asia 0 694 64 1 473 2
+Netherlands Nairobi Africa 1 908 688 1 53 2
+France Amsterdam Europe 0 937 117 2 Spring -484 -766
+Malaysia KualaLumpur Australia 1 463 647 2 Spring 572 -728
+Canada BuenosAires NorthAmerica 0 618 568 3 3
+Argentina Brussels Europe 0 477 132 1 627 3
+Germany Canberra Europe 1 660 343 3 1
+Denmark Oslo NorthAmerica 1 818 683 1 482 3
+NewZealand Seoul Asia 0 374 997 1 12 2
+Denmark Washington Asia 1 266 288 1 864 1
+Spain Cairo Europe 1 816 920 1 994 3
+Argentina Helsinki Africa 0 759 707 3 3
+USA Bangkok Africa 0 923 525 1 287 1
+Spain Kyiv Asia/Europe 1 967 868 1 42 2
+Poland Hanoi Africa 0 163 867 1 274 2
+Norway Kyiv Europe 0 582 603 3 2
+Canada Ankara Europe 0 466 503 2 Fall 487 725
+Portugal Canberra Europe/Asia 0 471 411 2 Summer 813 634
+Belgium Riyadh Europe 0 568 883 3 3
+Argentina Amsterdam Asia 1 577 700 2 Fall 653 207
+Australia Bern Australia 0 944 138 1 928 1
+Vietnam Warsaw Australia 1 431 957 3 2
+SaudiArabia Amsterdam Europe 1 96 64 2 Fall -543 553
+Malaysia Kyiv Europe 0 23 507 3 3
+Switzerland Athens Europe 0 771 995 3 2
+Indonesia Canberra Europe 0 520 515 2 Fall 509 -476
+Finland AddisAbaba Asia 0 510 162 3 1
+SaudiArabia Jakarta Africa 1 248 982 1 727 1
+Portugal Seoul Asia 1 950 732 1 61 1
+Netherlands Abuja Europe 1 383 491 2 Summer 701 -429
+Portugal Bangkok Europe 0 496 574 1 96 2
+Netherlands Washington Europe 0 259 7 1 245 1
+USA Washington Europe 1 721 432 3 3
+Turkey Riyadh Asia 0 982 450 3 3
+Turkey Paris Europe 0 207 995 1 734 3
+Poland Bern Asia 0 909 832 2 Summer -203 928
+Vietnam KualaLumpur NorthAmerica 0 768 805 1 138 2
+Kenya Jakarta Europe/Asia 1 566 865 3 2
+Switzerland Hanoi Australia 1 417 602 1 408 2
+Kenya Moscow Africa 1 712 733 3 2
+Nigeria Stockholm Europe 0 138 931 2 Spring 481 993
+SouthKorea Pretoria Europe 0 945 18 1 477 3
+Ukraine Wellington Europe 0 126 720 3 1
+SouthAfrica Madrid Europe 0 707 485 1 626 3
+Greece Madrid Europe 1 661 199 3 1
+Australia Amsterdam Australia 0 243 360 1 179 2
+Greece Jakarta Australia 1 123 628 3 2
+Brazil Canberra NorthAmerica 1 959 282 1 205 2
+Italy Seoul Europe 1 476 92 2 Winter -971 373
+Sweden AddisAbaba Europe 1 952 48 3 3
+Germany Lisbon Europe 1 535 958 1 907 1
+SaudiArabia NewDelhi Africa 1 378 100 3 2
+NewZealand Abuja Asia 1 643 30 1 457 3
+Greece Copenhagen Europe 0 538 211 2 Winter 444 279
+NewZealand NewDelhi Australia 0 58 121 2 Fall 461 -973
+Vietnam Washington Asia 0 612 883 3 3
+Turkey Bern Europe 0 852 442 1 711 2
+Indonesia NewDelhi Europe 0 96 659 3 2
+Netherlands Brasilia Europe 0 50 532 3 2
+Kenya Athens Africa 0 621 763 1 650 3
+Netherlands AddisAbaba Asia 0 336 453 2 Spring 136 597
+Malaysia Kyiv Europe 1 821 848 2 Winter 801 -610
+Greece Bangkok Europe 1 615 934 3 3
+Kenya Beijing Asia 1 47 574 1 159 2
+France BuenosAires NorthAmerica 1 401 148 3 1
+Australia BuenosAires Africa 0 944 157 3 3
+Belgium Riyadh Europe 0 784 665 1 747 3
+Switzerland Helsinki Europe 0 661 513 1 576 1
+Australia Jakarta Asia 1 210 747 3 2
+Ukraine Oslo Europe 0 988 218 2 Spring 854 -865
+Japan BuenosAires SouthAmerica 1 382 336 3 2
+Poland Cairo Asia 1 212 373 1 775 1
+SouthAfrica Ottawa Asia 1 164 645 1 73 1
+France Berlin NorthAmerica 1 533 389 3 2
+NewZealand Tokyo NorthAmerica 1 396 728 1 737 3
+Philippines London Asia 1 4 751 2 Summer 400 -410
+Germany Cairo NorthAmerica 1 251 158 3 2
+Turkey MexicoCity SouthAmerica 0 238 739 3 1
+Sweden Riyadh Europe 1 626 355 3 3
+Thailand Rome Europe 1 856 454 2 Summer 356 -784
+Argentina MexicoCity Africa 1 649 378 2 Fall 68 -777
+Nigeria Oslo SouthAmerica 0 169 102 3 2
+Denmark Lisbon Europe/Asia 1 389 385 1 159 3
+SouthAfrica Copenhagen Asia 1 210 969 2 Summer 597 -619
+China BuenosAires Europe 0 918 530 2 Fall 801 -110
+Argentina Brasilia Asia 0 406 987 1 933 3
+India Ottawa Europe 0 748 540 3 1
+Nigeria Bern Europe 1 582 571 3 2
+Vietnam Nairobi SouthAmerica 1 695 970 1 165 2
+Ukraine AddisAbaba Africa 0 690 299 3 3
+Belgium Bern NorthAmerica 0 713 205 1 894 1
+Turkey Rome Europe 1 521 650 1 261 2
+UnitedKingdom Ankara Europe 0 884 407 2 Winter -381 154
+Germany London Africa 1 349 132 3 2
+Italy Ankara Europe/Asia 0 663 807 3 3
+Poland Wellington Asia 1 801 690 1 823 1
+Japan MexicoCity Africa 1 489 681 1 441 3
+Kenya Ankara Asia 1 372 810 2 Winter -497 329
+Germany Stockholm Europe 1 829 583 1 330 1
+Belgium AddisAbaba Asia 1 813 682 2 Fall -642 755
+SouthAfrica Oslo Europe 1 828 707 1 569 3
+Philippines Jakarta Asia 1 420 439 3 2
+UnitedKingdom Hanoi Europe 1 834 20 1 723 1
+Indonesia Amsterdam Asia 1 59 363 3 3
+Spain AddisAbaba Europe 1 942 204 2 Fall 380 -968
+Portugal London NorthAmerica 0 510 302 3 1
+China London Europe 0 636 537 1 452 3
+Australia Hanoi Europe 1 714 890 2 Spring 11 -92
+Greece Amsterdam Asia/Europe 0 474 789 1 857 2
+Thailand Stockholm Africa 0 790 250 3 3
+Ethiopia KualaLumpur Asia 0 179 661 3 2
+Netherlands Pretoria Africa 1 650 63 1 661 2
+Netherlands Washington Europe 0 174 56 3 1
+Malaysia Copenhagen Europe 1 114 352 2 Winter -455 922
+Italy Warsaw Asia 0 583 821 1 605 2
+Ethiopia Amsterdam NorthAmerica 0 362 874 1 289 1
+Nigeria KualaLumpur Asia 1 457 475 3 2
+SaudiArabia Jakarta Europe 0 620 910 2 Fall -483 -130
+Greece Washington Europe 1 551 114 1 396 1
+USA Lisbon Europe 1 338 239 1 499 2
+NewZealand Helsinki NorthAmerica 0 842 102 3 1
+UnitedKingdom Lisbon Asia 1 611 325 1 663 1
+Australia Nairobi Europe 0 449 870 3 3
+SaudiArabia AddisAbaba Europe 1 259 902 2 Summer 64 909
+Nigeria Wellington Asia 1 896 51 3 3
+Ukraine Nairobi Asia 1 611 364 1 962 3
+Canada Riyadh Europe 0 388 698 1 276 1
+Canada Riyadh Europe 0 229 797 3 2
+Mexico Riyadh Asia 0 644 194 2 Winter 73 919
+Finland Lisbon Africa 0 797 552 1 379 2
+Denmark Washington Europe 1 654 200 1 448 1
+Poland NewDelhi Africa 1 581 747 2 Spring -223 378
+Ethiopia Brussels Australia 0 628 113 3 2
+SaudiArabia AddisAbaba Europe 1 713 165 2 Winter -95 -118
+Japan Abuja Europe 0 540 767 1 191 1
+SouthAfrica Ottawa Africa 1 425 832 3 3
+Netherlands Wellington Asia 1 376 960 1 80 2
+Argentina Kyiv NorthAmerica 0 785 833 2 Spring -256 176
+Finland London Asia 0 657 575 2 Winter -26 710
+Nigeria Madrid Europe 0 119 456 2 Winter 756 470
+Portugal Wellington Asia 0 62 87 1 399 3
+NewZealand Madrid Asia 0 352 245 3 3
+Denmark Brasilia Australia 0 728 465 2 Winter 663 -544
+Spain Brasilia Asia/Europe 1 594 477 2 Winter -674 36
+NewZealand Wellington Asia 1 236 795 1 719 2
+Kenya Ankara Europe 0 655 584 3 2
+Spain Bern Asia 1 923 546 3 2
+India MexicoCity Asia 1 402 466 1 459 2
+Finland Canberra Europe/Asia 1 572 609 1 286 3
+Finland Berlin Europe 0 750 861 3 1
+Poland Beijing Asia 1 771 975 1 846 2
+SouthKorea Bern Australia 1 131 435 3 3
+Brazil MexicoCity Europe 1 94 190 2 Spring 145 188
+Italy Helsinki Australia 0 592 593 3 3
+Egypt Athens Europe 1 739 890 3 1
+Brazil Canberra Africa 1 307 505 2 Summer -803 678
+Brazil Abuja Europe 1 786 997 1 983 1
+Philippines Manila Europe 0 677 430 2 Summer -595 -498
+Sweden Madrid Europe 1 736 312 2 Spring 516 387
+Portugal Lisbon Asia 1 186 761 1 79 3
+Germany Athens SouthAmerica 0 181 270 1 343 1
+Indonesia Tokyo Asia 1 10 630 2 Summer 514 -422
+Thailand Brussels Africa 0 528 92 2 Summer 180 203
+SouthKorea Rome Asia 0 658 603 3 3
+Canada Lisbon Asia 1 604 121 3 1
+Sweden Canberra Africa 0 353 156 3 2
+Australia Jakarta Australia 0 687 787 2 Summer -275 -628
+Netherlands MexicoCity Europe 1 681 504 3 2
+USA Pretoria Asia 1 972 786 1 531 1
+Netherlands Brussels Europe 0 716 172 1 80 3
+Australia Warsaw Australia 1 670 545 2 Winter -752 -146
+Egypt Paris Europe 1 598 809 2 Winter 749 -333
+Ukraine Stockholm Europe 0 353 902 3 3
+SaudiArabia Ottawa Europe 0 772 839 1 514 3
+Norway Bern Europe/Asia 0 516 628 1 111 2
+NewZealand Abuja SouthAmerica 0 237 529 3 3
+Ethiopia London Australia 0 438 39 2 Spring -366 160
+Sweden Kyiv Australia 0 416 217 1 623 3
+Belgium Wellington Asia 0 698 618 2 Spring -739 274
+Malaysia Berlin Europe 1 193 53 1 641 1
+UnitedKingdom Moscow Europe 1 441 13 1 729 2
+Philippines Canberra SouthAmerica 1 340 551 2 Spring 309 -681
+Thailand Rome Australia 0 159 731 1 317 1
+Denmark NewDelhi NorthAmerica 0 272 520 3 1
+Norway Riyadh Europe 0 998 73 1 889 1
+Sweden Hanoi Europe/Asia 0 179 617 1 49 2
+Norway MexicoCity Asia 1 11 72 1 235 2
+Denmark Copenhagen Asia 1 828 211 3 2
+Philippines Kyiv Asia/Europe 1 794 639 3 2
+Kenya Warsaw Asia 0 177 67 1 382 2
+Philippines KualaLumpur SouthAmerica 1 543 614 3 1
+SaudiArabia Hanoi Europe 1 274 905 1 383 2
+SaudiArabia KualaLumpur SouthAmerica 0 288 6 1 995 3
+Greece Amsterdam Europe 1 979 46 3 2
+Thailand Kyiv NorthAmerica 0 635 705 2 Summer 431 775
+NewZealand Madrid Asia 1 766 77 2 Spring 864 898
+Vietnam Seoul Asia 1 151 147 1 128 2
+SaudiArabia AddisAbaba NorthAmerica 1 1 955 2 Spring -726 205
+UnitedKingdom Athens Europe 0 761 650 3 2
+Australia Bern NorthAmerica 0 117 657 1 227 3
+Switzerland Hanoi Europe 0 622 322 2 Fall -857 811
+Russia Berlin Asia 1 191 336 1 646 2
+Belgium Ankara Europe 1 495 110 3 1
+Kenya Kyiv Europe 0 693 363 3 3
+Greece Lisbon Europe 0 519 559 1 426 1
+Spain Rome Europe 1 537 492 3 2
+Egypt Manila Europe 1 495 976 2 Spring 66 -994
+Philippines London Asia 0 636 599 1 955 1
+Portugal Seoul Europe 1 975 522 3 2
+Canada London Europe 1 923 27 1 843 1
+SouthAfrica KualaLumpur Africa 0 582 975 3 1
+Turkey Bern SouthAmerica 0 275 476 3 3
+Turkey Rome NorthAmerica 1 853 420 2 Fall 902 683
+Brazil Paris Europe 1 23 421 2 Summer -865 -833
+Philippines Abuja Europe 0 726 534 1 13 2
+Russia Washington NorthAmerica 0 226 333 3 3
+Thailand Washington Asia 0 71 328 1 240 3
+Canada Brussels Europe 0 649 814 2 Fall -703 651
+Finland Pretoria Europe 1 163 293 2 Summer 9 717
+Italy Ottawa Asia 0 12 788 2 Fall 446 407
+SouthKorea Oslo Asia 0 520 129 1 246 2
+Finland Athens Europe 1 719 888 3 2
+India Jakarta Africa 0 468 862 3 1
+Poland NewDelhi Asia 0 842 173 2 Fall 859 -528
+SouthKorea Brasilia Europe 1 943 176 3 1
+USA Warsaw Europe 1 740 28 2 Winter 45 207
+Philippines Cairo Australia 1 66 200 1 62 1
+Ukraine BuenosAires Asia 0 962 836 1 782 1
+Kenya Lisbon Europe 0 261 488 2 Winter -14 -446
+Portugal Paris Asia/Europe 1 951 689 3 1
+SaudiArabia Bangkok Europe 1 681 313 2 Winter -219 15
+Russia Athens Europe 1 494 580 2 Spring -298 -573
+Nigeria KualaLumpur Europe 1 556 544 3 2
+Nigeria Paris Europe 1 309 86 3 2
+Poland Bern Europe/Asia 0 654 219 2 Spring 901 747
+Nigeria Oslo Asia 1 719 493 1 948 1
+SaudiArabia Amsterdam Africa 0 157 48 2 Spring -186 973
+Argentina Stockholm Europe 1 794 198 3 2
+NewZealand Oslo Europe 0 686 31 3 2
+SouthKorea Manila Asia 0 371 541 3 1
+Norway AddisAbaba NorthAmerica 1 135 563 1 481 3
+Indonesia Paris Asia 0 10 577 3 1
+Argentina London NorthAmerica 0 400 255 1 763 1
+Ukraine Wellington Africa 0 727 456 3 2
+Switzerland Amsterdam Australia 1 508 304 1 509 3
+Switzerland Abuja Europe 1 717 388 1 985 3
+Egypt Copenhagen Europe 0 784 81 3 2
+Argentina Riyadh Europe 1 153 172 3 1
+Turkey Ottawa Europe 0 382 160 1 698 1
+Germany Beijing Europe 1 723 411 1 903 3
+Vietnam Nairobi Europe 1 793 227 1 240 2
+Spain Bern Australia 1 270 395 2 Winter 374 653
+Nigeria Abuja Europe 0 814 208 3 2
+Nigeria Manila Africa 1 680 393 2 Summer -966 -506
+Norway AddisAbaba Europe 1 475 939 1 952 1
+Nigeria Berlin Europe 1 610 685 1 960 1
+Ukraine Tokyo Europe 0 731 486 1 889 2
+Indonesia Pretoria SouthAmerica 0 40 198 3 2
+Spain Nairobi Europe 1 718 56 3 2
+Kenya Helsinki Europe 0 480 359 2 Winter -621 -704
+China Brasilia Europe 0 523 578 2 Winter 562 292
+SouthKorea Stockholm Europe 0 334 785 2 Winter -331 -104
+Canada Amsterdam Africa 0 377 879 2 Fall 764 904
+Canada Canberra Asia 1 201 818 1 479 3
+Spain Brussels Asia 0 917 772 1 860 2
+Australia Amsterdam Europe 1 391 578 3 3
+NewZealand Bern Asia 0 852 810 1 14 2
+Nigeria London NorthAmerica 0 606 231 3 1
+Malaysia Hanoi Africa 0 782 279 3 2
+UnitedKingdom Jakarta Europe 0 610 879 2 Spring -276 -13
+Norway Tokyo Europe 1 749 986 2 Summer -645 724
+Finland Warsaw Europe 1 116 409 1 467 3
+Nigeria Helsinki Europe 1 232 605 1 270 1
+USA Washington SouthAmerica 1 220 233 2 Spring -619 -38
+Germany Amsterdam NorthAmerica 1 352 637 3 3
+Vietnam Kyiv Asia 0 912 632 3 1
+Australia MexicoCity Europe/Asia 1 171 151 1 980 2
+Malaysia Bangkok NorthAmerica 1 190 615 2 Spring -871 -495
+Netherlands Nairobi Europe 1 478 358 1 584 3
+Ukraine Helsinki NorthAmerica 0 862 508 1 304 1
+India Helsinki Europe 1 992 251 2 Summer -959 755
+Finland Beijing Europe 0 932 896 2 Fall -287 -191
+Russia Nairobi Europe 1 310 719 3 2
+Poland Athens Australia 0 494 153 3 2
+Denmark AddisAbaba Europe 0 178 901 1 42 3
+Germany KualaLumpur Africa 1 885 559 1 6 1
+China Cairo Europe 1 901 496 3 1
+Egypt Copenhagen Asia 1 529 28 2 Summer 683 -895
+Norway London Asia 0 925 893 2 Fall -169 327
+Argentina Athens Asia 0 628 382 3 3
+SouthKorea Washington Europe 1 32 11 2 Spring -381 -183
+Vietnam Beijing Europe 0 296 708 1 90 1
+Canada Ottawa Europe 1 110 242 3 2
+Italy Ankara Asia 0 3 975 1 839 3
+Turkey Cairo Europe 0 758 198 2 Fall 930 -890
+SouthAfrica London Europe 0 815 598 1 476 3
+SaudiArabia Bern Europe 0 92 912 2 Summer -103 -175
+Poland Seoul Europe 0 632 193 2 Summer 720 -777
+Turkey Athens NorthAmerica 1 10 284 3 1
+Poland Helsinki Europe 1 54 986 2 Winter 801 -438
+SouthKorea Washington Europe 1 793 381 1 429 1
+Australia Warsaw Asia 0 801 717 1 763 2
+NewZealand Rome NorthAmerica 0 132 400 3 3
+Greece Paris Europe 0 290 542 1 500 2
+Poland Amsterdam Africa 0 209 959 1 585 1
+Kenya Moscow Asia 1 244 279 2 Summer -144 515
+Kenya Stockholm Asia 0 492 523 2 Spring -30 -992
+SouthAfrica Hanoi SouthAmerica 0 870 65 1 469 2
+Germany Bangkok Europe 0 664 306 1 373 1
+Norway Hanoi Australia 1 263 686 2 Fall 647 61
+Vietnam Canberra Europe 1 581 861 2 Fall 586 -384
+Philippines Wellington Europe 0 632 873 2 Summer 591 618
+NewZealand Moscow Europe 0 117 215 1 55 3
+Switzerland Abuja Europe 0 919 835 1 202 3
+Norway Moscow Europe 1 243 479 1 353 2
+France Nairobi Asia 0 651 852 2 Spring -140 42
+Switzerland Warsaw Europe 1 326 799 3 3
+France Bangkok Europe 1 953 852 2 Summer 709 -434
+Russia Manila Europe 0 474 969 3 1
+Ethiopia Seoul Europe 1 104 277 2 Summer -740 979
+Italy London Europe 1 429 530 1 168 3
+Ethiopia Rome Europe 0 366 756 3 2
+Brazil Kyiv NorthAmerica 1 501 791 2 Fall 716 -469
+USA Warsaw Europe 1 242 422 2 Winter -752 679
+China BuenosAires Africa 0 66 619 3 1
+Thailand Ottawa Europe 0 323 218 3 1
+Portugal Rome Europe 0 903 825 1 852 3
+SouthKorea Madrid Africa 1 556 193 1 724 2
+Germany Paris Asia 1 707 302 2 Summer -120 -564
+Nigeria London Australia 1 77 761 2 Winter 680 520
+Thailand Canberra Asia 1 39 811 2 Winter 471 385
+Ukraine London NorthAmerica 0 224 839 1 865 2
+Ethiopia MexicoCity Europe 0 697 227 3 2
+NewZealand Pretoria NorthAmerica 1 272 658 3 3
+SaudiArabia Warsaw Europe 1 886 577 2 Winter -978 -261
+Philippines Brussels NorthAmerica 0 553 971 3 2
+Turkey London Asia 0 729 358 1 943 3
+Mexico Washington Europe 0 682 911 3 2
+Indonesia Oslo SouthAmerica 0 567 53 1 383 2
+Brazil Tokyo Europe 1 384 507 2 Winter 252 546
+Japan Wellington Africa 0 542 111 3 1
+Greece Pretoria Asia 0 625 262 1 218 3
+SaudiArabia London Europe 1 715 671 3 1
+Italy Madrid SouthAmerica 1 36 699 1 395 3
+Denmark Washington Europe/Asia 1 616 106 3 1
+China Cairo Africa 0 561 359 3 3
+Australia London Europe 0 155 500 1 85 3
+Indonesia Kyiv Europe 0 343 749 1 511 3
+Indonesia Ankara Europe 0 28 381 2 Spring 781 530
+Australia Pretoria Asia 0 701 594 1 970 2
+Japan KualaLumpur Africa 1 686 495 1 859 1
+France MexicoCity Europe 0 167 951 3 3
+Sweden Bangkok Europe 0 204 367 1 86 3
+Malaysia Berlin Europe 1 877 738 3 2
+Netherlands Abuja Africa 1 488 631 2 Summer 420 -610
+Netherlands Pretoria Asia 0 526 987 2 Winter -10 -494
+USA Moscow Europe 0 414 484 1 849 1
+Kenya Athens Africa 0 260 716 3 3
+SouthAfrica Bangkok Europe 1 425 620 1 579 2
+China Amsterdam Australia 0 141 282 3 2
+India NewDelhi Europe 1 585 385 3 3
+Italy Cairo Australia 1 744 986 3 2
+Greece Seoul Europe 0 201 43 2 Summer 367 -881
+Finland Brussels Asia 1 320 331 2 Summer 321 723
+Finland Hanoi Asia 0 411 561 1 709 1
+Philippines Manila Asia/Europe 1 677 566 1 44 2
+Italy KualaLumpur Asia 0 723 985 3 2
+Germany Athens Australia 1 379 531 2 Spring 657 -945
+SouthAfrica NewDelhi Africa 1 634 629 2 Spring 117 -790
+Switzerland Bangkok Asia 1 158 107 2 Winter 648 658
+USA Warsaw Africa 0 286 669 1 447 2
+Greece Oslo Europe 1 615 508 1 773 2
+Ethiopia Lisbon Asia 1 565 111 3 2
+Mexico BuenosAires Europe 1 838 739 3 1
+Kenya Tokyo Europe 0 292 354 1 37 2
+Vietnam Seoul Europe 0 709 475 2 Spring 154 -927
+NewZealand Bern Europe 1 62 152 1 785 3
+SouthAfrica Copenhagen Asia 0 774 318 2 Spring 780 102
+Belgium Copenhagen Europe 1 216 64 2 Summer 264 -142
+Egypt AddisAbaba Africa 0 483 313 2 Winter -166 618
+Norway Jakarta Europe 0 660 41 2 Summer 379 -699
+Poland Tokyo Europe/Asia 0 310 64 1 172 1
+China Canberra Europe 1 42 337 2 Summer 267 182
+Belgium Oslo Australia 1 288 145 2 Spring 967 -853
+Poland Athens Asia/Europe 0 488 546 2 Summer 355 -358
+SouthAfrica Manila Asia 0 20 911 3 1
+Italy Lisbon Europe 1 738 756 2 Spring -338 926
+Argentina Riyadh Asia 0 930 382 1 73 1
+Germany Nairobi Africa 1 616 976 2 Summer 992 -679
+India Paris Europe 0 152 762 3 3
+Denmark BuenosAires Asia 0 773 233 3 2
+NewZealand London Asia 1 659 338 2 Spring 473 750
+Finland MexicoCity Australia 0 788 51 3 1
+Germany Seoul Asia 0 308 681 2 Summer -357 155
+SaudiArabia BuenosAires Asia 0 810 581 3 3
+Norway Oslo Asia 0 574 988 2 Spring -591 -632
+Turkey Paris NorthAmerica 1 291 634 2 Fall -223 -169
+Portugal NewDelhi Asia 1 918 79 1 495 1
+Denmark NewDelhi NorthAmerica 1 351 407 3 3
+Indonesia AddisAbaba Europe 1 911 966 3 3
+Russia Kyiv Europe 0 329 493 1 553 1
+SouthAfrica Helsinki Europe/Asia 1 343 13 3 1
+India Helsinki Asia 1 937 507 1 295 3
+Kenya Athens Europe 0 412 67 1 917 3
+Italy Pretoria Europe 1 840 284 2 Spring 740 679
+Netherlands Beijing SouthAmerica 0 49 949 1 446 1
+Japan Tokyo Europe 1 986 363 1 620 3
+Australia Beijing Africa 0 298 433 1 671 2
+Germany Beijing Africa 1 67 92 3 2
+Argentina Paris NorthAmerica 0 732 641 2 Fall 757 -57
+SouthAfrica Amsterdam Europe 0 390 903 1 481 3
+India Copenhagen Europe 0 835 673 3 3
+Nigeria Wellington Europe 1 241 964 3 2
+Kenya Paris Europe 1 593 152 3 2
+SaudiArabia Seoul Australia 0 31 101 2 Spring -612 -739
+Japan London NorthAmerica 1 926 814 2 Winter -772 -749
+Belgium Manila Europe 1 427 194 1 826 1
+Egypt Seoul SouthAmerica 0 170 546 3 1
+Canada Bangkok Europe 0 78 859 2 Summer 471 -743
+India Seoul Europe 1 765 938 3 3
+Japan Canberra NorthAmerica 0 481 997 2 Summer -224 -195
+Nigeria Ottawa Europe 1 999 528 1 804 1
+Germany Riyadh Europe 0 372 2 2 Fall -132 -939
+France MexicoCity Asia 0 247 754 2 Fall 955 -122
+Mexico Copenhagen Australia 0 80 512 3 3
+China Washington Asia 0 938 502 2 Winter 740 -3
+USA Moscow Europe 0 735 228 2 Spring -180 -46
+Portugal Brussels Europe 0 504 107 2 Winter -278 -601
+Indonesia Wellington Europe 0 129 89 2 Spring 381 285
+Thailand Tokyo Europe 1 15 48 2 Summer -460 928
+Egypt Stockholm Australia 1 922 370 1 198 2
+Finland Cairo Africa 1 821 445 3 1
+Australia Hanoi Europe 1 177 353 3 2
+Portugal Bern Asia 0 222 595 1 252 3
+Sweden Madrid Europe 1 474 730 2 Spring -983 220
+Portugal Bern Europe/Asia 1 349 649 3 2
+China Warsaw Europe/Asia 0 938 163 3 1
+Brazil Ankara Europe 0 310 451 3 1
+SouthKorea Hanoi Africa 1 172 951 3 3
+Brazil Nairobi Australia 0 623 918 2 Winter -468 926
+Russia Jakarta Asia 1 339 858 2 Spring -678 -194
+Belgium Helsinki Europe 1 460 244 2 Spring -47 -982
+Poland Helsinki Asia 1 53 687 1 571 3
+China Berlin Africa 1 389 38 3 1
+Turkey Beijing Europe 0 287 543 2 Summer 121 -797
+Mexico KualaLumpur Asia 0 414 354 1 409 3
+Kenya Bern Asia 1 672 774 3 3
+Brazil Washington Asia 0 837 257 2 Winter 119 630
+China Amsterdam Africa 0 418 568 2 Fall -337 -895
+Thailand MexicoCity Australia 1 720 269 2 Spring 670 -879
+UnitedKingdom Brussels Asia 1 166 541 1 952 3
+Greece Nairobi Europe 0 754 177 3 3
+Ethiopia Ottawa Australia 1 49 640 1 568 2
+China Canberra Africa 1 120 975 1 344 2
+Norway Madrid Europe 0 923 723 3 3
+Philippines Brasilia Europe 1 888 491 1 499 2
+SouthKorea Lisbon Asia 1 322 452 1 349 2
+Ukraine Brasilia Asia/Europe 1 879 70 3 1
+NewZealand Tokyo Asia 0 820 469 1 131 3
+Finland Tokyo Europe 0 939 977 1 701 3
+Thailand Riyadh Europe 1 872 4 2 Spring -591 174
+Ukraine Warsaw NorthAmerica 0 545 477 3 1
+Ukraine Seoul Asia/Europe 0 771 783 2 Fall 721 -479
+Netherlands Ankara NorthAmerica 1 381 629 3 2
+Ukraine Nairobi Australia 1 70 849 2 Winter -320 146
+Denmark NewDelhi Europe 0 338 242 2 Summer 95 -885
+Mexico Copenhagen Asia 1 462 762 3 3
+Mexico Brasilia Europe 0 30 715 3 2
+Kenya Pretoria Europe 1 744 743 3 3
+Argentina Amsterdam Asia 0 962 214 3 1
+Denmark Berlin Asia 0 157 576 2 Fall 96 -664
+Thailand Brasilia Asia 0 172 68 2 Winter 807 -12
+Norway Cairo Asia/Europe 1 807 0 2 Fall -376 562
+Brazil AddisAbaba Europe 0 424 467 3 2
+Philippines Manila Asia 0 570 915 1 130 1
+Switzerland Wellington Europe 1 21 637 2 Fall 255 -163
+Germany Ankara Africa 1 473 11 1 253 3
+Finland Copenhagen Europe 0 594 497 1 304 2
+Vietnam Berlin Europe 1 922 253 2 Fall -467 748
+India Cairo Asia 0 864 524 3 1
+Italy Athens Asia 1 168 138 1 617 2
+Vietnam Athens Europe 1 773 412 3 1
+Indonesia Oslo Australia 0 341 30 3 2
+Italy Helsinki Europe 0 682 87 2 Winter -511 822
+Australia London Europe 0 323 300 2 Spring -30 -993
+USA Brussels Europe 0 148 140 3 3
+USA Pretoria Asia 1 611 732 1 430 1
+Vietnam Jakarta Asia 0 51 27 3 2
+Germany Kyiv Europe 1 668 454 2 Summer -606 -967
+Indonesia Canberra Australia 1 82 194 2 Summer -899 175
+SaudiArabia Stockholm Europe 1 515 914 1 858 1
+Indonesia Helsinki Asia 1 494 915 2 Fall 311 -382
+Turkey Oslo Europe 0 799 48 2 Winter 206 363
+Philippines Bern Europe 0 626 212 1 880 1
+Belgium Nairobi NorthAmerica 0 973 0 1 672 1
+Japan Tokyo Africa 1 737 823 1 61 1
+Portugal Madrid Europe 1 703 6 1 682 3
+Sweden Canberra Europe 1 281 10 3 1
+SouthAfrica MexicoCity Europe 1 102 11 1 768 1
+Australia Helsinki NorthAmerica 0 622 983 3 2
+Malaysia Rome Europe 1 406 834 2 Spring 490 -745
+Ethiopia MexicoCity Europe 1 483 942 2 Fall 466 170
+Canada Madrid Asia 1 570 631 3 1
+India Amsterdam Europe 1 650 762 2 Winter 379 912
+Finland Jakarta Europe 0 275 621 1 258 3
+Australia Manila Europe 1 1 16 3 1
+Ethiopia Cairo Europe 0 554 841 1 911 2
+Turkey Oslo Europe 1 269 853 3 1
+SouthAfrica Helsinki Asia 1 412 469 1 517 3
+Indonesia Tokyo Asia/Europe 1 285 645 3 3
+Germany Pretoria Europe 0 787 190 1 816 3
+Indonesia Riyadh Asia 1 638 288 2 Summer 516 -975
+Germany Manila Europe 0 757 788 3 1
+Turkey Stockholm Asia 1 209 345 3 1
+NewZealand Berlin Asia 1 843 906 1 949 3
+Philippines Hanoi Europe 1 205 550 1 418 2
+Sweden MexicoCity Africa 1 960 837 3 3
+India Washington Europe 1 973 592 1 138 1
+Germany Lisbon Europe 0 196 348 3 1
+Russia AddisAbaba Europe 1 996 109 1 675 3
+Argentina Bern Asia 1 976 404 2 Spring -326 74
+France KualaLumpur Europe 0 83 856 2 Spring -139 824
+Malaysia Pretoria Europe 0 466 715 2 Winter 224 -440
+Canada Rome SouthAmerica 0 268 616 1 293 3
+Egypt Brussels Africa 0 88 959 3 3
+Japan Pretoria Asia 0 968 586 3 1
+USA Athens Europe 1 285 647 2 Fall 345 958
+China Seoul NorthAmerica 0 921 756 3 2
+Philippines NewDelhi Europe 1 238 863 1 562 3
+Portugal Riyadh Asia 0 493 35 3 3
+SouthAfrica Lisbon Asia 1 225 358 2 Fall 462 -964
+Japan Madrid Asia 0 920 950 1 553 3
+Denmark Oslo Europe 0 677 3 1 902 3
+Poland Lisbon Europe 1 621 772 3 2
+Italy Riyadh SouthAmerica 0 932 921 2 Spring 815 105
+Philippines BuenosAires Europe 1 490 837 2 Winter 362 -183
+Portugal Moscow Asia 0 380 890 2 Winter 783 -229
+Kenya Cairo Africa 1 635 38 3 3
+Norway Ankara Europe 0 565 636 1 846 3
+Finland Cairo Africa 0 272 677 1 631 3
+Belgium Pretoria Europe 0 912 132 3 3
+Greece Amsterdam Asia 1 869 594 3 3
+China Ottawa Europe 1 308 527 3 1
+Turkey Paris Europe 1 774 151 1 276 1
+Nigeria MexicoCity Africa 1 762 498 1 174 2
+SaudiArabia Washington NorthAmerica 1 678 867 2 Summer 423 491
+Belgium Abuja Asia 1 297 623 2 Spring 732 -456
+Philippines Washington Europe 1 842 370 2 Spring -538 24
+Poland Bern SouthAmerica 0 896 295 2 Winter 565 -818
+France Manila Asia 0 709 884 1 732 3
+Turkey Warsaw Asia 1 704 277 3 1
+France Brasilia Asia 0 24 405 3 1
+Brazil Seoul Europe 0 367 162 2 Winter -991 -107
+SaudiArabia Ottawa NorthAmerica 0 868 722 3 1
+SouthKorea London Europe 0 917 289 2 Winter 384 366
+Indonesia London Australia 1 439 184 2 Fall -886 772
+France AddisAbaba Europe 0 823 217 2 Winter -726 429
+Spain Jakarta Asia 0 212 124 1 650 3
+Egypt Bern Asia 1 70 212 3 3
+Argentina Rome Asia 1 459 241 2 Summer -197 -30
+Canada BuenosAires Asia 0 432 988 1 779 2
+Greece Madrid Asia 0 22 392 1 833 2
+Ukraine Ottawa SouthAmerica 1 476 225 1 920 2
+Germany Kyiv Asia 1 340 644 3 1
+Belgium MexicoCity Asia 1 860 711 2 Winter -131 -383
+Ukraine Amsterdam NorthAmerica 1 151 84 2 Fall -783 83
+Kenya KualaLumpur NorthAmerica 0 943 272 2 Fall -581 625
+Ukraine Helsinki Europe 0 61 843 3 3
+NewZealand Wellington SouthAmerica 0 784 859 2 Spring -602 824
+Australia Copenhagen NorthAmerica 0 125 126 1 65 2
+Sweden London Africa 0 764 239 2 Winter 344 -349
+Vietnam Cairo Europe 1 18 165 1 304 3
+NewZealand Warsaw Europe 0 655 377 2 Fall 974 -832
+SouthKorea NewDelhi Europe 0 23 736 2 Winter -497 -102
+Brazil Oslo Europe 1 157 33 1 680 1
+Thailand Oslo Africa 1 48 660 2 Summer 515 -166
+Italy Kyiv Asia 0 938 571 3 2
+Ukraine Helsinki Europe 1 747 141 3 2
+India Moscow NorthAmerica 0 470 379 3 2
+Denmark Wellington Europe/Asia 1 427 365 3 3
+Norway Warsaw Australia 1 199 956 1 7 3
+SouthKorea Beijing Asia 0 164 423 1 125 1
+Norway Rome Europe 0 364 949 3 2
+Egypt Oslo Europe 1 649 556 2 Winter 689 -647
+Poland London Europe 1 998 246 3 1
+Denmark Hanoi Australia 0 699 860 2 Summer -337 953
+SaudiArabia Pretoria Australia 0 807 747 3 1
+Malaysia Abuja Asia 1 500 365 3 2
+Canada Wellington Europe 0 113 690 3 3
+Australia Rome Europe 0 590 190 2 Spring -817 -531
+SouthAfrica Rome Asia 1 380 202 1 740 2
+Germany Oslo Asia/Europe 1 844 508 1 948 3
+Belgium Brussels Europe 0 283 172 2 Spring 549 921
+Mexico Kyiv NorthAmerica 1 762 662 3 2
+Brazil NewDelhi Europe 0 892 107 3 2
+UnitedKingdom Cairo Europe 0 281 901 2 Winter -108 880
+Spain Ottawa Europe 1 198 674 3 3
+Turkey Pretoria Europe 1 269 306 3 3
+Philippines Abuja Europe 0 554 93 2 Winter -899 519
+Malaysia Tokyo Asia 1 102 579 2 Fall 896 -823
+France Helsinki Asia 0 71 493 3 2
+Nigeria Hanoi Asia/Europe 0 127 36 2 Winter 675 262
+Malaysia Berlin Africa 1 975 117 1 812 1
+Denmark Kyiv Europe/Asia 1 391 775 3 3
+Denmark Bangkok Europe 1 352 121 3 2
+Brazil Copenhagen Europe 0 693 492 1 758 2
+Spain Athens Europe 0 392 904 3 1
+Vietnam Paris Australia 0 798 391 1 787 3
+Italy London Europe 1 79 35 1 753 3
+Kenya Tokyo Europe 1 277 960 3 3
+UnitedKingdom Athens Europe 1 365 71 1 20 3
+Mexico AddisAbaba Europe 1 454 833 2 Spring -821 -475
+Netherlands Paris Europe 1 498 456 3 3
+UnitedKingdom Riyadh Asia 1 750 350 2 Winter 126 -316
+Ukraine Oslo SouthAmerica 1 250 555 3 2
+Belgium Seoul Europe 1 903 93 2 Fall 462 -510
+Belgium Seoul Europe 1 584 675 1 4 3
+UnitedKingdom MexicoCity Europe 1 797 641 1 406 2
+Kenya Ottawa Asia 0 333 371 1 210 1
+Kenya Bangkok Asia 0 646 641 3 3
+Australia Stockholm Australia 0 629 672 3 1
+France KualaLumpur Asia 1 913 29 1 403 1
+NewZealand Seoul Europe 0 787 350 2 Winter -784 140
+Turkey Ottawa Asia 0 789 376 1 931 1
+Egypt Stockholm Europe 1 292 565 3 1
+Indonesia NewDelhi Europe 1 641 909 3 2
+China Ottawa Africa 1 737 438 3 1
+USA KualaLumpur Asia/Europe 0 94 860 2 Fall -1000 257
+Belgium Bangkok Europe 0 879 330 2 Winter 153 -575
+Indonesia Ankara Africa 1 398 765 2 Summer -303 -220
+Indonesia NewDelhi Asia 1 823 951 2 Summer 986 -692
+Spain Tokyo Europe 1 198 687 2 Summer -354 972
+Canada Bangkok Europe 1 115 79 2 Winter 704 338
+SaudiArabia Wellington Europe 1 350 21 3 3
+Spain Stockholm Europe 1 599 790 3 3
+Portugal Helsinki SouthAmerica 1 218 303 2 Fall -40 -261
+Ukraine Tokyo Africa 0 887 203 1 694 1
+Philippines Hanoi Asia 1 18 481 1 637 2
+Kenya Moscow SouthAmerica 1 542 912 2 Winter -602 -772
+Portugal Ankara NorthAmerica 0 80 455 2 Spring -520 220
+Japan Ottawa Europe 0 423 178 3 2
+Poland Seoul Asia 0 112 417 3 1
+Germany Tokyo NorthAmerica 0 22 975 3 1
+Argentina BuenosAires Europe 1 977 506 3 1
+France Stockholm Africa 0 722 967 2 Summer -533 884
+Portugal Kyiv Europe 1 951 28 1 718 2
+Nigeria NewDelhi Europe 1 569 242 3 3
+Ukraine Lisbon Australia 0 10 207 2 Winter -962 222
+Portugal Brasilia Europe 0 135 1 2 Fall -451 -681
+Kenya Wellington Europe 1 21 89 2 Fall 281 -440
+NewZealand Pretoria Asia 0 830 880 3 1
+Norway Oslo Asia 1 999 269 1 324 2
+Germany Canberra Australia 0 459 275 1 998 3
+SaudiArabia Paris Africa 0 851 791 2 Winter -569 945
+Belgium London Europe 1 861 720 2 Fall -689 951
+SouthAfrica Canberra Asia 0 692 984 1 592 3
+Norway Lisbon Europe 0 71 238 3 1
+Thailand Copenhagen Europe 1 892 471 2 Fall 271 -151
+Greece Amsterdam Africa 0 955 555 2 Summer 615 3
+Switzerland BuenosAires Africa 1 740 531 2 Spring 30 509
+India Brussels Europe 1 649 765 2 Winter -440 330
+Egypt Beijing SouthAmerica 1 565 809 1 152 3
+Malaysia Pretoria SouthAmerica 1 991 409 1 780 1
+SouthAfrica Ankara Europe 0 269 867 2 Summer 878 769
+Greece KualaLumpur Africa 0 833 340 2 Fall 379 674
+Russia NewDelhi Europe 0 550 642 1 878 2
+Brazil MexicoCity Europe 1 679 914 3 2
+Netherlands Lisbon Europe 0 575 649 1 74 2
+Netherlands Seoul Asia 1 124 890 2 Spring -916 -426
+Turkey Hanoi Asia 0 667 355 3 2
+Ethiopia Madrid Europe 0 281 124 1 274 1
+India Moscow Asia 0 45 580 3 1
+Indonesia Moscow Europe 0 328 785 3 1
+Portugal Amsterdam SouthAmerica 0 221 524 3 1
+Turkey Brasilia Africa 0 27 592 2 Summer -852 593
+Argentina Manila Africa 0 77 977 3 3
+Vietnam Stockholm Asia 1 428 2 2 Summer 9 192
+Belgium KualaLumpur NorthAmerica 1 432 461 3 2
+Thailand Brussels Asia 1 833 464 1 600 1
+Denmark AddisAbaba Australia 0 123 37 1 181 1
+UnitedKingdom Lisbon Asia 1 870 589 1 698 1
+Portugal London Europe 0 151 237 1 53 2
+Switzerland Berlin Australia 1 1000 2 1 440 3
+Japan Berlin Asia 0 860 528 1 363 1
+Thailand Brussels Europe 1 351 514 1 36 2
+Mexico Abuja Europe 1 298 496 1 312 3
+Norway Warsaw Asia 0 916 905 2 Spring 667 -142
+Australia NewDelhi Asia 1 360 235 1 561 1
+Ukraine Riyadh NorthAmerica 0 999 247 1 275 2
+Thailand Ankara SouthAmerica 0 236 150 2 Spring 531 968
+Greece NewDelhi Europe 0 628 46 3 2
+Thailand Cairo Asia 1 595 533 3 3
+Russia Warsaw Europe 0 26 940 2 Fall -592 270
+Mexico Abuja Asia/Europe 1 207 977 3 3
+Mexico Paris Africa 0 125 724 2 Fall -601 736
+Italy Rome Europe 0 785 174 3 3
+Denmark Ankara NorthAmerica 0 253 492 2 Fall -804 465
+SaudiArabia Brasilia Europe 0 457 414 3 1
+Ukraine Abuja Asia 0 291 65 1 108 2
+Russia Washington SouthAmerica 1 571 320 2 Winter 490 586
+Finland BuenosAires Africa 1 628 789 1 870 1
+Philippines KualaLumpur Africa 0 695 313 3 1
+SaudiArabia Ottawa Asia 0 246 815 3 1
+SouthKorea Manila NorthAmerica 0 143 762 2 Spring -723 -294
+Belgium Wellington Asia 0 937 641 1 792 3
+Thailand Abuja Europe/Asia 1 0 101 1 287 1
+NewZealand Paris Europe 0 238 754 1 459 2
+USA Copenhagen Africa 0 774 494 1 998 2
+Argentina Madrid Asia 1 255 326 1 196 3
+Germany Manila Europe 0 617 965 1 277 2
+Portugal Hanoi Asia 1 720 817 2 Winter -255 284
+Finland Beijing Europe 1 787 44 3 2
+Spain Jakarta Europe 0 635 843 1 738 2
+China Lisbon Europe 1 433 912 1 367 1
+Brazil Ankara Europe 1 714 453 3 2
+Norway Hanoi Asia 1 641 478 1 361 3
+Netherlands Riyadh Europe 1 455 371 3 1
+Philippines Brussels NorthAmerica 1 397 462 2 Spring 565 -802
+Ethiopia Pretoria Australia 0 963 524 3 3
+Japan Washington Europe 0 752 399 2 Spring 819 -943
+Kenya Hanoi Asia 0 459 391 1 265 2
+Russia Warsaw Europe 0 403 85 1 61 1
+Poland Riyadh SouthAmerica 0 209 626 1 759 3
+Netherlands Tokyo Europe 1 499 134 2 Spring -669 23
+SouthAfrica Beijing Europe 1 283 514 3 1
+Russia Bangkok Asia 1 217 691 1 471 3
+SouthKorea Jakarta Asia 0 738 151 2 Spring -463 -145
+Kenya Rome Europe 0 40 630 2 Fall -128 -15
+Denmark London Asia 1 765 509 3 3
+Denmark Ottawa Europe 0 21 24 2 Spring -8 -64
+Netherlands Bern Africa 1 880 915 1 212 2
+Mexico Riyadh NorthAmerica 0 508 585 1 500 3
+Philippines Bangkok Australia 1 121 478 3 1
+Russia Ankara Asia 0 157 224 2 Summer -912 427
+Greece Tokyo Africa 0 248 637 2 Spring 345 813
+Italy Beijing Asia 0 123 579 1 276 1
+SouthKorea Wellington Asia 1 728 267 2 Fall 183 -297
+China Paris Asia 1 687 509 2 Summer -354 720
+Ethiopia Stockholm Asia 1 581 463 3 1
+Italy BuenosAires Europe 0 944 459 2 Fall 768 801
+Canada Abuja Europe 0 252 15 1 491 2
+UnitedKingdom Lisbon Africa 1 707 674 3 1
+USA Nairobi Europe 1 458 21 1 587 3
+Mexico Riyadh Europe 1 185 0 3 3
+UnitedKingdom Bangkok Europe 0 336 471 3 2
+Nigeria Athens Asia 1 846 892 3 3
+Brazil Hanoi Africa 1 715 43 1 314 1
+Greece Cairo Europe 0 422 708 1 603 3
+Portugal London SouthAmerica 1 959 520 1 172 2
+Ukraine Moscow NorthAmerica 1 18 789 1 958 1
+Russia Madrid Europe 0 632 778 1 684 1
+France Nairobi Europe 1 477 135 2 Fall -974 -604
+Vietnam BuenosAires NorthAmerica 1 911 237 1 978 3
+Spain Seoul Europe 0 628 322 3 1
+SaudiArabia Abuja Europe 0 687 990 1 299 1
+Finland Wellington Europe 1 868 896 1 872 2
+Australia Brasilia Europe/Asia 1 243 591 2 Fall 25 823
+Netherlands Beijing Asia 0 69 889 3 2
+France Canberra SouthAmerica 0 588 880 2 Spring -282 -254
+Argentina Seoul Europe 0 668 766 3 3
+Denmark Kyiv Asia 1 552 174 1 995 2
+Nigeria Rome Europe 0 945 501 2 Winter -651 904
+USA BuenosAires SouthAmerica 0 653 297 3 3
+UnitedKingdom Kyiv Europe 1 527 805 1 993 1
+Poland Ankara Europe 1 779 954 2 Summer -499 583
+Ukraine Washington Asia 1 439 246 2 Summer -872 330
+Germany KualaLumpur Asia 1 85 114 1 941 1
+India Hanoi Africa 0 154 279 2 Fall 709 -379
+Japan Rome Asia 0 621 477 3 1
+Norway Athens Europe 0 808 316 2 Spring -27 -511
+Japan BuenosAires Asia 0 597 470 1 800 3
+Turkey Hanoi Africa 0 823 873 3 1
+Ukraine Paris Asia/Europe 0 837 394 1 358 3
+Turkey Kyiv Europe 1 340 770 1 358 1
+Egypt MexicoCity Europe 0 777 441 3 3
+Denmark Amsterdam Africa 1 416 905 2 Winter 686 389
+Argentina Ankara Europe 0 65 653 3 3
+SouthKorea Abuja Asia/Europe 0 272 100 2 Spring 139 -850
+Indonesia Berlin Australia 0 922 992 3 3
+Japan Seoul Europe 0 153 478 2 Winter -443 -257
+Italy Brasilia Africa 1 706 459 3 1
+SouthAfrica Beijing Africa 0 270 219 3 1
+Canada Brussels Europe 1 818 258 1 555 2
+Thailand Tokyo Africa 0 343 655 1 30 1
+Netherlands Tokyo Europe 0 13 4 1 914 3
+Philippines Wellington Asia 1 530 48 1 241 3
+SouthAfrica Brasilia NorthAmerica 0 871 592 3 3
+Argentina Seoul Europe 1 89 674 2 Spring 641 349
+Sweden MexicoCity Europe 1 901 493 1 398 3
+Netherlands Paris Europe 0 149 852 3 3
+India Tokyo Europe 0 81 862 3 3
+Germany Wellington Africa 1 974 394 1 603 1
+Poland Lisbon Asia 1 85 787 2 Fall 272 680
+Norway Wellington Africa 0 29 124 3 1
+Netherlands Athens Europe 0 453 204 3 3
+Germany Seoul Africa 0 601 101 1 84 2
+Argentina Jakarta Australia 1 311 886 2 Winter 646 -607
+France Ankara Australia 0 47 863 1 133 2
+Australia Nairobi Africa 0 326 208 2 Fall -549 734
+NewZealand MexicoCity Europe 0 808 75 3 2
+Belgium Ankara Europe 0 881 134 3 3
+Spain Washington NorthAmerica 0 257 1 2 Spring -705 -236
+Brazil Pretoria Asia/Europe 1 950 771 1 877 2
+France Copenhagen Europe 0 559 285 3 2
+India BuenosAires Europe 0 947 815 3 2
+China Riyadh Europe 1 70 233 1 536 2
+Greece Helsinki Asia 0 293 51 3 3
+Portugal Hanoi Europe 0 636 691 1 449 2
+NewZealand Abuja Asia 0 995 304 2 Winter -820 349
+Turkey Brussels Africa 1 241 687 1 540 3
+Denmark Ottawa Europe 0 22 687 3 3
+Malaysia Nairobi Asia 0 825 587 1 166 2
+Poland Brasilia Europe 0 351 755 1 884 1
+Belgium Athens Europe/Asia 0 864 846 3 2
+Brazil Athens SouthAmerica 1 447 946 1 970 2
+NewZealand Helsinki Europe 0 381 123 2 Winter 529 -141
+Thailand Tokyo Africa 1 538 526 1 988 1
+Finland Beijing Asia/Europe 0 746 865 2 Fall 416 -306
+Greece Hanoi Australia 0 375 265 1 801 3
+Ukraine Nairobi Asia 1 771 552 3 1
+India Pretoria Europe 1 744 282 2 Winter -774 -162
+Italy KualaLumpur Europe 0 401 645 2 Fall 248 731
+Japan Washington Asia 0 895 985 2 Fall 704 -623
+NewZealand KualaLumpur Europe 0 321 363 3 3
+Argentina Oslo Africa 1 626 155 2 Spring 679 731
+SouthKorea Ankara Europe 1 613 989 1 870 2
+Brazil Ankara NorthAmerica 0 415 99 2 Summer -992 -17
+Norway Bern Asia 0 891 516 3 1
+Switzerland Abuja Europe 0 631 105 1 256 2
+India Jakarta Europe 0 974 140 1 552 3
+China Berlin SouthAmerica 1 280 643 1 565 3
+UnitedKingdom AddisAbaba Africa 1 878 420 1 622 2
+Indonesia Manila Europe 1 339 147 3 2
+SouthKorea Helsinki Europe 0 554 312 1 301 2
+China Brussels Asia 0 159 478 1 268 1
+Italy Pretoria Europe 0 564 86 1 546 3
+Sweden Kyiv Africa 0 895 79 2 Spring -674 70
+Australia Beijing Europe 1 90 722 3 3
+Poland Warsaw Europe 1 669 310 2 Winter 612 936
+Netherlands Wellington SouthAmerica 1 128 736 1 583 1
+Finland MexicoCity Asia 1 677 513 3 1
+Poland Kyiv Asia 1 810 587 2 Spring -845 -104
+India Pretoria Europe 1 534 733 2 Summer 413 -258
+Ethiopia Tokyo Asia 1 8 63 1 403 3
+SouthAfrica Wellington Asia 0 932 928 1 862 3
+Thailand Madrid Europe 1 400 910 2 Spring -434 971
+Philippines AddisAbaba NorthAmerica 0 5 300 2 Winter 485 655
+Argentina Madrid Africa 1 172 686 2 Spring 416 160
+France Jakarta Europe 0 116 87 1 735 2
+Argentina Washington Europe 1 987 590 3 2
+Poland Moscow Asia 1 677 44 3 3
+Philippines Lisbon NorthAmerica 0 305 461 2 Winter 392 336
+Philippines Madrid Asia 0 853 520 3 3
+Poland Helsinki Africa 0 447 698 3 2
+Kenya Berlin Europe 0 938 786 1 599 2
+Sweden Ankara SouthAmerica 1 877 325 1 507 1
+Turkey Berlin Europe 0 482 957 1 686 3
+Egypt London SouthAmerica 0 112 617 1 758 3
+Kenya Paris Africa 0 590 312 2 Spring -105 -458
+Kenya Brussels Asia 0 872 560 2 Winter 352 278
+Russia Berlin Asia 0 885 417 1 264 1
+Norway Jakarta Europe 1 182 186 2 Summer -609 164
+Ukraine KualaLumpur Europe 1 394 607 1 823 1
+Turkey Beijing Europe 0 319 546 1 196 1
+Japan Paris SouthAmerica 0 31 325 2 Summer 244 -887
+NewZealand Helsinki Europe 0 962 761 3 1
+Brazil Rome SouthAmerica 1 369 775 2 Spring -683 900
+NewZealand London Europe 0 891 171 1 584 2
+Turkey Abuja Asia/Europe 1 890 173 2 Winter 909 -776
+Sweden Wellington Asia 1 805 426 1 348 1
+Ukraine Ankara Asia 1 270 747 1 35 3
+Egypt Washington Europe 1 106 549 3 3
+Ukraine Washington Africa 1 972 183 2 Spring -598 120
+Denmark Oslo Europe 0 795 519 3 2
+Nigeria Hanoi Australia 1 792 655 1 624 3
+Finland Amsterdam Asia 1 706 824 2 Winter 146 398
+Switzerland Moscow NorthAmerica 0 407 183 1 343 1
+Mexico Copenhagen Asia 0 993 124 1 77 2
+Belgium Oslo Asia 1 539 571 3 2
+Argentina Nairobi Europe 0 547 182 1 996 1
+Netherlands Nairobi Asia 0 571 411 1 492 1
+Greece Ankara NorthAmerica 1 142 717 2 Fall 813 -396
+Ukraine Brasilia Africa 0 581 879 2 Summer 836 133
+Netherlands Hanoi SouthAmerica 1 908 16 2 Fall -878 -397
+China Moscow Asia 1 606 149 3 3
+Ethiopia Beijing Europe 1 689 35 1 875 2
+Finland KualaLumpur Asia 1 327 589 2 Summer -110 128
+Argentina Nairobi Europe 1 551 320 1 670 1
+SaudiArabia Bangkok Africa 0 336 497 3 3
+Argentina Hanoi Asia 0 365 360 3 1
+Sweden Rome Africa 1 50 870 2 Spring 706 237
+Vietnam NewDelhi Europe 1 699 834 3 1
+India Amsterdam NorthAmerica 1 993 31 1 639 1
+Japan Warsaw Australia 1 610 141 2 Spring 895 991
+Thailand KualaLumpur NorthAmerica 1 989 777 1 198 2
+France Bern SouthAmerica 0 996 987 3 2
+Sweden Canberra NorthAmerica 1 328 37 2 Spring 695 -713
+Canada Helsinki Africa 1 701 293 2 Summer -256 -46
+Portugal Amsterdam Asia 1 12 490 2 Fall 550 288
+SouthKorea Washington Africa 0 395 303 1 156 1
+India Brasilia Europe 1 381 968 3 2
+Portugal Washington Europe 1 656 941 3 1
+China Lisbon NorthAmerica 1 655 587 1 466 3
+Turkey KualaLumpur SouthAmerica 1 406 762 2 Summer -896 524
+Switzerland Brasilia Europe 1 886 236 1 217 3
+Russia Stockholm Asia 1 792 780 2 Fall -308 538
+Brazil Cairo Europe/Asia 1 144 511 1 866 2
+China Wellington Europe 0 520 802 3 2
+Russia Tokyo NorthAmerica 0 333 296 1 891 3
+Indonesia Jakarta Europe 0 22 227 1 926 2
+Poland Brasilia Europe 0 442 529 1 379 3
+Nigeria Warsaw Africa 1 427 886 2 Fall -266 -331
+UnitedKingdom Kyiv Europe 1 844 609 1 382 3
+Greece Moscow Africa 0 175 822 1 675 3
+Denmark Brasilia Asia 1 348 563 1 837 2
+Vietnam Bangkok Asia 1 320 937 2 Fall 51 832
+Indonesia Stockholm Asia 1 812 41 3 3
+Mexico Amsterdam NorthAmerica 0 836 495 3 1
+India Washington NorthAmerica 0 1 633 3 3
+Japan Pretoria Europe 1 268 556 1 0 3
+NewZealand NewDelhi Asia 0 791 417 2 Spring 583 -678
+China MexicoCity Europe 1 975 273 3 1
+China Rome SouthAmerica 0 952 789 2 Spring -793 -808
+Greece Brussels Europe 1 268 937 3 3
+Denmark Hanoi Asia 1 519 797 2 Winter -982 -401
+NewZealand Kyiv SouthAmerica 0 927 402 2 Summer -767 784
+Brazil Madrid Europe 0 370 808 2 Winter 631 9
+SaudiArabia KualaLumpur Europe 1 21 76 1 661 2
+Japan AddisAbaba Europe 0 674 559 2 Summer 711 377
+NewZealand Riyadh Europe 1 614 299 1 562 1
+SouthKorea BuenosAires Africa 1 184 910 2 Summer 505 -948
+Poland Wellington Asia 1 570 884 2 Summer 872 433
+Malaysia Jakarta NorthAmerica 1 442 986 3 2
+Denmark Washington Europe 1 595 394 2 Winter 216 -849
+India Hanoi Europe 1 848 859 2 Summer -781 12
+China AddisAbaba Asia 0 390 757 3 3
+Norway Beijing NorthAmerica 0 597 878 3 2
+Ukraine Riyadh Europe 0 920 44 2 Fall -756 773
+SouthKorea MexicoCity Europe 0 672 21 1 604 3
+Indonesia Amsterdam Asia 0 270 451 3 2
+Portugal Hanoi SouthAmerica 0 638 800 2 Fall -649 803
+Malaysia Oslo Asia 1 28 874 1 363 3
+Philippines Lisbon Africa 0 632 134 2 Spring -254 -141
+Malaysia Wellington Asia 1 475 192 3 2
+Turkey Hanoi Europe 0 861 134 3 1
+Norway Brasilia Europe 0 840 207 3 2
+Philippines Rome Asia 1 887 241 1 910 1
+Norway Canberra Asia 0 941 644 3 3
+India AddisAbaba Asia 0 493 516 3 2
+Malaysia Cairo Europe 0 166 104 1 425 3
+Greece Helsinki Africa 1 336 47 1 551 1
+Argentina MexicoCity Australia 1 390 13 3 2
+Switzerland MexicoCity Asia 1 536 188 1 736 2
+Switzerland AddisAbaba Europe 0 363 550 2 Winter -574 -439
+Belgium Rome Asia 1 355 448 1 802 2
+SouthKorea Helsinki Africa 0 490 275 2 Fall 180 594
+Switzerland Brussels Europe 0 541 243 1 408 3
+Germany Ottawa Asia 1 159 212 3 2
+China BuenosAires Europe/Asia 1 519 539 2 Summer -911 352
+Portugal Beijing NorthAmerica 1 243 832 2 Spring -469 200
+USA Pretoria Europe 0 277 660 2 Winter -955 873
+Malaysia Berlin Asia 1 921 940 3 3
+Netherlands Berlin Europe 1 967 954 3 1
+Brazil Ankara Europe 0 660 495 1 276 1
+Brazil Warsaw Europe 1 456 118 1 154 1
+Switzerland Lisbon Europe 1 690 190 1 606 1
+Mexico Canberra Europe 1 685 432 2 Summer 440 606
+Russia Warsaw Europe 1 16 84 3 2
+Norway Manila Europe 0 488 466 3 3
+Kenya London Europe 0 768 35 2 Summer 992 -492
+Norway Helsinki Africa 1 875 266 1 5 3
+Italy Seoul Australia 0 576 838 1 738 2
+Indonesia Washington Europe 0 213 555 2 Fall 928 -788
+SouthAfrica Berlin SouthAmerica 1 42 562 3 2
+USA Washington Africa 0 909 490 2 Fall 930 -10
+Philippines Pretoria SouthAmerica 0 753 24 2 Spring 863 821
+Italy Helsinki Africa 1 616 895 2 Winter 793 -497
+Greece Kyiv Asia 0 749 134 3 3
+Philippines Hanoi Asia 1 276 636 2 Spring -910 -169
+Norway Ankara Europe 1 604 476 3 3
+SaudiArabia Jakarta Asia 0 172 776 3 1
+Kenya Amsterdam Europe 0 355 411 3 2
+Greece Seoul Europe 0 817 958 1 544 2
+UnitedKingdom Hanoi Africa 1 712 578 3 1
+Malaysia BuenosAires Australia 1 608 307 3 2
+Egypt Riyadh Europe 1 907 412 2 Summer 24 930
+NewZealand Canberra Europe 0 723 584 3 1
+Turkey Seoul NorthAmerica 0 796 592 1 481 1
+Sweden Nairobi NorthAmerica 0 820 762 3 1
+Greece Tokyo Africa 0 809 996 3 3
+USA Warsaw Europe 1 376 461 2 Fall -849 491
+Kenya Hanoi Asia 1 213 304 2 Winter 854 377
+Norway London Europe 1 37 261 2 Fall -60 10
+USA Nairobi Africa 0 84 569 2 Winter -61 -155
+Germany NewDelhi Asia/Europe 0 680 950 3 2
+Sweden Cairo Asia 1 826 226 3 3
+India Rome Europe 1 306 709 3 3
+NewZealand Riyadh Asia 0 338 371 1 106 2
+Canada Warsaw Europe 0 102 649 2 Spring -506 388
+Nigeria MexicoCity Africa 1 39 40 1 93 1
+Ukraine Brasilia Asia 1 191 98 1 865 3
+Italy Ottawa NorthAmerica 0 70 4 2 Winter -650 -325
+Portugal Warsaw Asia 1 804 241 1 313 3
+Germany Washington NorthAmerica 0 833 144 2 Summer 842 528
+NewZealand Brasilia Africa 0 309 683 3 3
+Mexico Tokyo Europe 1 796 711 3 1
+Argentina KualaLumpur Australia 0 488 884 3 3
+Portugal Cairo Europe 0 767 369 2 Spring 221 234
+Sweden Seoul Asia 1 808 68 1 14 3
+Netherlands Washington Africa 1 903 231 3 2
+Finland AddisAbaba NorthAmerica 1 837 31 1 756 1
+Greece Athens Europe 1 320 383 2 Winter 175 288
+India Rome SouthAmerica 0 809 7 3 2
+Greece Oslo NorthAmerica 1 77 190 1 336 3
+Turkey Bern Europe 1 338 978 1 90 2
+Philippines Kyiv Europe 1 496 470 1 880 2
+Sweden Ankara Europe 0 848 161 1 437 1
+SouthAfrica Berlin Europe 0 468 765 1 259 3
+Finland Athens Asia 0 721 745 1 178 2
+Indonesia London Africa 0 704 116 2 Summer -208 -420
+Australia Cairo Asia 0 745 866 3 3
+USA BuenosAires Australia 1 790 372 3 2
+Vietnam Beijing Africa 0 779 268 2 Spring -953 -680
+Australia Lisbon NorthAmerica 1 156 33 2 Spring -671 -142
+Argentina Ottawa Asia 0 895 894 2 Summer 876 -839
+Spain Copenhagen Europe 0 321 379 1 736 3
+India Ankara Asia 0 568 972 2 Summer 630 -378
+Malaysia Amsterdam Europe 0 46 917 1 306 1
+NewZealand AddisAbaba NorthAmerica 1 276 154 2 Spring 219 156
+Russia Warsaw Europe 1 634 980 2 Spring -348 -995
+Sweden Manila SouthAmerica 1 510 147 2 Fall 747 605
+Ethiopia Cairo Europe 1 434 137 1 862 2
+Canada NewDelhi Asia 1 102 160 2 Spring -970 -431
+Ukraine Tokyo Europe 1 499 471 1 46 1
+Poland Amsterdam Europe 0 24 490 3 3
+Netherlands Madrid Africa 1 373 181 2 Winter 806 -562
+India Manila Europe 1 345 744 1 300 2
+Germany Warsaw Asia 1 199 405 1 566 2
+Philippines Abuja Europe 1 963 95 3 1
+Kenya Brasilia Asia 1 835 776 3 3
+Portugal Hanoi Africa 0 935 642 1 721 1
+UnitedKingdom Lisbon Africa 1 220 880 2 Spring -217 -112
+Switzerland Abuja Europe 0 444 599 3 3
+Denmark Stockholm Europe 1 155 660 3 1
+Germany Amsterdam Australia 0 97 49 3 3
+Egypt Lisbon Europe 1 976 875 1 914 3
+India Hanoi Europe 1 427 437 2 Fall 359 679
+Brazil Nairobi Europe 1 353 573 2 Fall -531 -360
+Vietnam Amsterdam Asia 0 424 776 2 Summer -540 -640
+Sweden AddisAbaba Europe 0 372 686 2 Spring -764 -739
+Indonesia Ankara Africa 1 326 611 1 798 3
+Turkey BuenosAires Europe 0 932 52 3 2
+USA NewDelhi Asia 1 372 697 3 1
+UnitedKingdom Cairo Asia 0 370 259 3 3
+USA Seoul Europe 0 749 218 3 3
+Kenya Abuja Asia 1 458 552 1 331 2
+Nigeria Berlin Africa 0 851 789 3 2
+Belgium Paris Europe 0 955 747 3 1
+Spain MexicoCity NorthAmerica 0 11 205 3 1
+Italy London Europe 1 178 268 1 111 3
+Egypt Moscow Asia 1 235 582 2 Fall -591 348
+Australia Nairobi Asia 0 191 536 3 1
+Switzerland Brasilia NorthAmerica 0 538 672 3 3
+Sweden Ottawa Africa 1 404 987 1 788 1
+Ethiopia London Europe 0 179 199 1 65 2
+Poland Ankara Africa 1 357 350 1 120 1
+Sweden Paris Europe 0 754 503 1 95 3
+UnitedKingdom Brussels Europe 1 773 428 1 361 2
+Australia Paris Africa 0 314 990 3 3
+Japan Pretoria Europe 1 348 168 3 3
+Denmark Moscow Europe 0 711 752 2 Summer -979 200
+Malaysia Berlin Asia 1 688 852 3 3
+Sweden Nairobi Europe/Asia 1 97 935 3 1
+Russia Hanoi Africa 0 665 681 2 Summer 731 -127
+UnitedKingdom Seoul NorthAmerica 1 351 369 3 1
+Brazil Athens Australia 0 474 740 1 564 3
+Malaysia Beijing Africa 1 291 704 3 1
+Mexico Nairobi Europe 1 547 387 2 Summer -817 -299
+Indonesia Amsterdam Europe 1 65 411 1 2 1
+Greece Madrid Europe 0 286 796 2 Spring -719 388
+Sweden Tokyo Europe 1 229 964 1 930 3
+Switzerland London Europe 0 778 372 1 848 3
+Indonesia Athens Europe 0 819 117 1 115 3
+Philippines BuenosAires Asia 0 282 782 2 Fall 40 -844
+Finland Ottawa Asia 1 970 654 1 647 2
+Thailand Rome Asia 0 614 936 1 117 2
+Russia Beijing Europe 1 453 62 3 1
+Belgium Bern Africa 1 885 535 2 Spring 598 411
+Philippines Rome Asia 1 735 217 1 639 2
+China Manila Asia 0 272 597 1 10 2
+Philippines Ottawa Asia 1 400 28 3 1
+SaudiArabia Ankara Asia/Europe 1 382 707 2 Fall 960 434
+Germany Helsinki Asia 1 374 825 2 Spring 741 -148
+France MexicoCity Africa 0 319 418 2 Spring -717 420
+India AddisAbaba Europe 1 356 321 1 78 2
+NewZealand Bern Asia 1 0 511 2 Spring 180 213
+Norway Moscow Asia 0 935 958 1 747 1
+Australia Berlin NorthAmerica 1 942 277 2 Spring 720 499
+Greece Lisbon Europe 1 515 129 3 2
+Canada Riyadh Europe 1 441 8 2 Winter -517 901
+SouthAfrica Berlin Europe 1 76 660 1 893 3
+Switzerland Ankara Australia 0 320 952 2 Spring -696 -760
+Philippines Bangkok Asia 0 991 924 2 Summer 68 949
+SouthKorea Copenhagen Asia 0 43 544 3 1
+Greece KualaLumpur Europe 0 740 307 3 3
+Portugal Warsaw Europe 1 160 722 2 Winter 814 -160
+Ethiopia Moscow Asia 0 44 241 2 Spring 873 -216
+Kenya Bern Africa 0 159 879 3 1
+Germany London Asia 0 669 206 3 2
+Japan Bangkok Asia 1 430 538 1 360 2
+India Copenhagen Europe 1 884 272 3 1
+Australia NewDelhi Asia 1 678 632 3 2
+Norway Berlin Asia/Europe 0 383 542 1 995 2
+China Hanoi Asia 0 280 320 1 591 3
+Argentina Ottawa Asia 1 201 861 2 Winter 449 604
+Finland Rome Asia 0 300 901 2 Fall 955 613
+Australia London Europe 1 458 696 3 2
+Thailand Athens Europe 0 488 79 2 Spring 700 840
+SaudiArabia Pretoria Europe 1 874 135 3 1
+SaudiArabia BuenosAires Asia/Europe 0 452 344 1 483 3
+Indonesia Moscow Asia 0 742 32 1 212 3
+Sweden NewDelhi Asia 0 95 100 2 Spring -181 673
+Germany Kyiv Europe 1 865 532 1 78 1
+SaudiArabia Pretoria Europe 1 421 680 1 586 1
+Malaysia Amsterdam Africa 0 175 342 2 Summer -33 -162
+Belgium Helsinki Europe 1 754 945 3 1
+China Wellington Africa 1 197 710 2 Fall 734 -188
+Greece Kyiv NorthAmerica 1 174 544 2 Summer -377 925
+NewZealand Brussels Australia 1 124 180 2 Fall -515 793
+Egypt BuenosAires Asia 0 839 480 2 Fall 648 -157
+Denmark Manila Africa 1 732 184 1 394 1
+Finland Bern Europe 1 363 771 2 Summer -877 -671
+Finland Wellington Asia 0 481 690 3 2
+Thailand Abuja Africa 1 848 205 1 538 1
+Denmark Oslo NorthAmerica 0 120 211 2 Fall -67 446
+Canada Bangkok Europe 1 527 263 2 Summer -27 -341
+Thailand Manila NorthAmerica 1 896 435 1 168 1
+NewZealand Bern SouthAmerica 0 834 676 2 Winter 406 936
+UnitedKingdom Hanoi Europe 0 9 976 2 Summer 618 -429
+UnitedKingdom Washington Australia 0 91 894 3 2
+Ethiopia Kyiv Asia 1 76 726 1 874 1
+Norway Ottawa Asia 0 445 994 3 1
+SouthKorea Moscow Asia 0 657 249 2 Winter -916 78
+India Rome Asia 1 382 167 3 2
+Russia Ankara Europe 0 655 172 1 755 1
+Mexico Lisbon Asia 0 355 179 3 1
+Nigeria MexicoCity Europe 1 34 87 3 3
+Turkey Moscow Australia 1 897 124 2 Fall -300 -965
+Mexico Hanoi Europe 1 74 512 2 Summer 301 -40
+Thailand Nairobi Europe 1 234 438 3 3
+Australia Amsterdam Asia 0 233 601 2 Spring 932 -913
+Belgium Cairo Africa 0 27 278 1 126 1
+UnitedKingdom Ankara Europe 1 742 761 2 Winter -754 417
+Nigeria Paris Asia 0 378 732 1 257 2
+Russia Rome Africa 0 721 483 3 2
+USA Canberra Europe 0 369 662 3 1
+Greece London Australia 1 211 166 2 Winter 693 994
+Portugal Riyadh Asia 0 521 810 2 Spring -714 139
+Canada Helsinki Europe 0 145 217 1 92 2
+SaudiArabia Ottawa Europe 1 598 853 2 Spring -558 73
+Mexico Wellington Asia 0 667 817 2 Spring -268 108
+Australia Tokyo Europe 1 941 219 2 Summer 329 303
+Portugal Athens Australia 1 716 555 1 351 1
+Italy Kyiv Africa 1 835 733 3 3
+Sweden Washington Europe 0 255 490 1 863 3
+Spain Oslo Africa 0 100 307 3 2
+Kenya Washington Europe 0 160 224 1 599 1
+SouthKorea Rome Asia 0 451 453 3 3
+Greece Manila Africa 0 911 882 3 2
+Egypt Berlin Europe 1 183 32 2 Summer -519 27
+USA Lisbon Asia 0 266 561 1 964 1
+NewZealand Ankara Asia 1 552 3 1 272 3
+Belgium Kyiv NorthAmerica 0 483 456 1 805 3
+Indonesia Canberra Europe 0 593 295 2 Spring -958 -639
+Egypt Wellington SouthAmerica 1 235 69 2 Spring 309 -325
+Ethiopia MexicoCity Asia 1 201 127 2 Fall 426 606
+Vietnam Copenhagen Europe/Asia 0 627 724 3 2
+Brazil Abuja Europe 0 136 62 2 Summer 671 -766
+Germany Ottawa Africa 0 17 915 2 Fall -986 -326
+Brazil Ottawa Australia 0 595 760 1 611 1
+Belgium Canberra Europe 1 54 124 2 Fall -156 888
+Indonesia Warsaw Europe 1 721 44 2 Summer 813 316
+Sweden Paris Europe 0 890 408 3 1
+Denmark Warsaw Asia 1 293 732 1 117 1
+UnitedKingdom Washington Asia 0 574 146 3 1
+Spain Manila Europe 1 658 343 2 Winter -357 157
+India Berlin Africa 0 710 928 2 Summer 81 59
+Portugal Canberra Asia 1 686 411 1 230 2
+Vietnam Madrid Europe 1 48 69 3 3
+Greece Kyiv Europe 0 852 466 3 2
+SaudiArabia Brussels Asia 0 3 954 3 1
+SouthAfrica Brussels Africa 1 893 929 2 Winter 989 -667
+Vietnam Amsterdam Europe 1 663 326 1 594 1
+France Wellington Asia 1 352 977 2 Fall -895 838
+Thailand BuenosAires Europe 0 149 305 1 494 1
+Ukraine Wellington SouthAmerica 1 565 972 2 Winter 589 579
+Malaysia Moscow Asia 1 525 563 3 1
+Ethiopia Moscow Asia 1 713 11 1 591 2
+USA Ottawa Europe 0 973 979 1 22 3
+Ethiopia Tokyo Europe 0 334 623 3 1
+France Warsaw Europe 1 610 38 1 459 3
+Australia KualaLumpur Africa 0 671 452 3 3
+Sweden Cairo Australia 0 278 67 3 1
+Greece Berlin Asia 1 661 953 1 79 1
+USA Pretoria Asia 0 176 4 2 Summer -212 950
+Kenya Beijing Australia 1 345 743 3 1
+Portugal Canberra Australia 1 475 639 3 2
+Argentina Abuja Asia 0 563 80 2 Fall 804 -259
+Norway Copenhagen NorthAmerica 0 709 110 3 2
+Kenya Riyadh Australia 1 919 298 1 985 2
+Finland Beijing Europe 1 184 989 2 Fall 19 -338
+SouthKorea London Asia 0 472 685 2 Summer 937 886
+NewZealand BuenosAires Europe 1 212 419 3 3
+Poland Pretoria Asia 0 520 934 2 Winter -416 -427
+NewZealand Helsinki Asia 0 448 287 1 986 3
+Switzerland KualaLumpur Africa 1 632 751 2 Summer -305 -511
+Belgium Stockholm Europe 1 740 111 1 367 2
+Philippines Ankara Europe 1 282 304 3 3
+Brazil BuenosAires Europe 0 436 924 1 204 1
+Japan Rome Asia 1 49 130 2 Summer -534 -964
+Nigeria Kyiv Asia/Europe 0 640 652 2 Fall 426 7
+Philippines Copenhagen Europe 0 147 477 2 Summer 781 801
+Ethiopia Tokyo Europe/Asia 1 536 539 3 3
+Italy Brasilia Asia 1 479 86 2 Winter 243 -870
+Turkey Madrid SouthAmerica 0 350 967 2 Winter -100 -636
+Italy Wellington Europe 0 124 519 2 Winter -372 144
+Ethiopia Oslo Europe 1 847 993 3 2
+Indonesia Bern Africa 1 255 174 2 Spring -125 642
+Japan NewDelhi Asia 1 810 77 2 Fall 201 -442
+Canada Ottawa Africa 1 858 479 1 386 3
+China Paris Europe 1 128 395 1 934 1
+Norway BuenosAires SouthAmerica 1 211 378 1 867 2
+Nigeria Pretoria Europe 0 983 513 3 3
+Philippines London Africa 0 850 998 3 3
+NewZealand Paris Africa 1 527 728 2 Spring 924 -937
+Malaysia BuenosAires Asia 1 768 73 2 Spring -89 -607
+Germany Ankara Europe 1 906 430 2 Fall -608 -903
+Norway BuenosAires Asia 1 741 970 1 858 3
+Malaysia Warsaw Africa 0 122 333 1 528 1
+Italy Ankara Asia 0 244 887 2 Winter -322 -873
+Thailand Wellington Africa 1 696 691 1 379 2
+Denmark Moscow Europe/Asia 0 575 157 1 29 3
+USA Nairobi Europe 1 427 503 1 385 2
+SaudiArabia Amsterdam NorthAmerica 0 762 955 1 268 2
+Japan Stockholm Africa 1 284 227 2 Spring 507 -457
+Ethiopia Stockholm Africa 1 388 698 3 1
+Netherlands Cairo Asia 1 641 127 1 455 3
+Brazil Abuja NorthAmerica 1 516 840 3 2
+UnitedKingdom Bern NorthAmerica 1 913 597 1 815 2
+Nigeria Ankara NorthAmerica 1 674 486 1 94 1
+Indonesia Oslo Europe/Asia 0 626 605 1 842 3
+Denmark Wellington Asia 1 547 461 1 517 3
+Spain Hanoi Europe 1 941 768 3 3
+China Tokyo Europe 1 744 291 2 Summer 143 -298
+Ethiopia Rome NorthAmerica 1 937 215 2 Summer -866 -666
+Italy Riyadh Asia 0 79 265 2 Spring 177 -650
+SouthAfrica London Europe 0 308 461 1 484 1
+Indonesia Jakarta Europe 1 910 911 1 837 1
+Germany AddisAbaba Asia 1 615 358 1 957 2
+Nigeria Riyadh Europe 0 288 218 3 1
+NewZealand Riyadh Asia 0 503 251 1 498 2
+Sweden Lisbon Europe 1 736 880 3 2
+SouthKorea BuenosAires Asia 1 472 754 1 365 1
+Sweden Copenhagen Africa 1 608 763 3 1
+USA Stockholm Europe 0 560 241 3 2
+Spain Rome Europe 1 905 703 3 1
+SaudiArabia Washington Asia 1 539 436 2 Spring -846 11
+UnitedKingdom Brasilia Europe 1 507 486 2 Fall -204 886
+Vietnam Washington Europe 0 935 924 2 Fall 202 141
+NewZealand Cairo SouthAmerica 1 675 821 1 957 3
+Sweden Brasilia Asia 1 491 594 3 1
+Spain KualaLumpur Asia 0 486 213 3 2
+Russia AddisAbaba Asia 0 586 401 3 1
+Russia Madrid Asia 1 355 715 2 Fall -380 147
+NewZealand Brussels Africa 0 148 646 1 245 2
+Egypt NewDelhi Africa 0 239 349 1 72 2
+Netherlands Beijing Asia 0 548 872 2 Spring -866 499
+Poland Brasilia Europe 1 670 208 3 2
+Mexico Canberra Europe 0 619 59 2 Fall -781 227
+Egypt Amsterdam Asia 0 850 3 3 3
+Germany BuenosAires Europe 0 881 549 3 3
+Brazil Manila Asia 0 142 867 3 2
+Vietnam Moscow Africa 1 656 104 1 46 1
+SouthKorea Manila Europe 0 747 794 1 40 1
+Philippines Riyadh Europe 0 888 376 2 Fall 549 197
+Spain Washington Europe 0 451 574 3 1
+SaudiArabia Oslo Europe 1 667 522 1 166 2
+Nigeria KualaLumpur NorthAmerica 1 958 755 1 994 1
+Sweden Madrid Africa 1 553 673 3 3
+France Moscow Africa 0 787 788 1 600 3
+Netherlands NewDelhi Africa 1 326 513 3 2
+Netherlands Beijing Asia 1 605 352 3 1
+SouthKorea Oslo Europe 0 505 21 1 8 1
+Poland Bangkok Asia/Europe 1 135 626 3 1
+Switzerland Wellington Asia 1 330 367 1 931 3
+Vietnam Beijing Europe 0 721 947 1 648 2
+Sweden Madrid Europe 0 440 968 1 430 3
+Thailand Oslo Africa 0 301 305 3 3
+Netherlands Stockholm Europe 1 620 647 1 322 1
+Ukraine Jakarta Australia 1 117 969 1 601 3
+Russia AddisAbaba Europe 1 621 49 1 7 2
+Ethiopia Paris SouthAmerica 1 35 811 2 Spring -623 583
+Egypt Wellington NorthAmerica 0 52 490 2 Summer -133 -212
+Indonesia Ottawa Australia 0 730 480 1 687 2
+Canada Rome Europe 1 156 848 3 2
+India Riyadh Asia 1 396 329 2 Summer 683 -894
+Canada Cairo Asia 1 338 168 3 3
+Sweden Abuja Europe 1 92 140 1 256 1
+Poland Stockholm Europe 1 978 497 1 932 3
+Denmark BuenosAires Europe/Asia 1 906 152 1 59 3
+Japan Ottawa Europe 0 146 622 1 250 2
+Brazil Pretoria Asia 0 0 879 3 1
+Ukraine MexicoCity Asia 0 788 586 3 1
+Australia Stockholm Asia 1 512 5 1 997 2
+Italy Abuja NorthAmerica 1 634 356 3 1
+Argentina Nairobi Africa 0 749 38 2 Fall -580 -605
+Nigeria Kyiv Africa 1 306 139 1 321 3
+Greece Hanoi Asia 1 896 53 2 Fall -7 854
+Nigeria Pretoria Asia 1 254 78 2 Winter -815 -268
+France AddisAbaba Europe 1 997 362 2 Spring 959 -210
+Vietnam Jakarta Australia 0 845 680 3 2
+Greece Copenhagen Asia 1 807 834 3 3
+Brazil Washington Europe 1 394 583 1 765 2
+Switzerland MexicoCity Europe 0 857 394 2 Spring -402 -169
+Australia Beijing Asia 1 17 53 1 936 1
+Vietnam Stockholm Asia 1 980 123 3 1
+Canada Canberra Asia 0 846 526 1 925 1
+SouthKorea Beijing Europe 0 125 274 2 Summer 21 71
+Malaysia Seoul Africa 1 402 600 3 2
+Italy NewDelhi Europe 0 301 907 2 Fall 312 -156
+UnitedKingdom Pretoria Europe/Asia 1 4 982 1 235 2
+Russia Manila Asia 1 446 961 3 1
+Germany Stockholm Europe 0 525 969 2 Summer 575 69
+Japan London Asia 0 783 469 2 Spring 29 428
+Spain Bangkok Asia 1 187 195 3 3
+Ethiopia London Asia 1 954 978 2 Winter 274 -410
+Argentina Copenhagen Asia/Europe 1 991 202 3 2
+Argentina London Asia 0 232 172 3 1
+Nigeria Athens Europe 0 764 498 3 3
+Italy Paris NorthAmerica 1 953 952 3 1
+Indonesia Brasilia Europe 1 213 902 3 2
+Turkey Lisbon Asia/Europe 0 697 870 2 Summer -818 -341
+SouthAfrica Brasilia Europe 0 812 130 1 733 2
+SouthKorea Madrid Asia 1 629 642 3 3
+SaudiArabia Moscow Europe 1 245 358 2 Summer 990 -495
+Poland Tokyo Africa 0 897 607 1 873 2
+Australia Athens Asia/Europe 0 318 568 1 128 1
+Ethiopia Kyiv Asia 1 267 476 2 Summer -335 -523
+Portugal Pretoria NorthAmerica 1 920 677 3 1
+Vietnam Warsaw Europe 0 916 552 1 860 3
+Netherlands Jakarta Europe 0 839 545 1 532 1
+Norway Lisbon Europe 1 526 334 3 3
+Argentina Tokyo Africa 0 735 171 1 164 3
+India Warsaw Asia 1 148 449 2 Summer -567 -236
+Italy NewDelhi Europe 1 806 101 2 Fall -781 -687
+Poland Ankara Europe 0 385 949 3 1
+SouthAfrica Canberra Asia 0 800 674 2 Spring -905 -262
+Mexico Moscow SouthAmerica 1 311 232 1 53 3
+Greece NewDelhi Asia 0 632 534 3 2
+Canada Athens Australia 1 419 159 3 1
+UnitedKingdom Ankara Asia 0 179 831 2 Summer 463 -905
+USA Brasilia SouthAmerica 1 670 121 3 2
+Japan Warsaw Africa 1 499 409 3 3
+Germany Riyadh Europe 1 284 182 1 840 1
+Japan Warsaw SouthAmerica 0 45 324 3 3
+Kenya Ottawa Africa 1 32 137 2 Spring 544 -734
+Turkey KualaLumpur Africa 1 764 683 1 739 1
+Japan Abuja Europe 1 334 656 2 Spring -812 -985
+Japan Stockholm Australia 0 847 797 3 3
+Mexico Washington Asia 0 94 744 3 1
+Vietnam Wellington Europe 1 999 316 2 Winter -84 -480
+SaudiArabia NewDelhi Asia 0 810 441 2 Fall 554 276
+Italy Oslo Europe 0 137 173 3 2
+Kenya Ankara Asia 1 861 539 3 3
+Greece Copenhagen Australia 1 571 316 2 Fall 720 -859
+Ukraine Helsinki Europe 0 888 31 3 3
+Egypt Brussels Asia 1 577 980 1 126 1
+Japan Jakarta SouthAmerica 1 197 707 2 Fall -413 -45
+India Cairo Europe 1 221 181 2 Fall 340 -423
+Germany Ankara SouthAmerica 0 870 179 3 3
+Kenya Ottawa Europe 0 605 807 2 Winter 150 -952
+Portugal Brussels Asia 0 552 975 1 308 2
+Germany Paris Europe 1 618 435 3 3
+Poland Bangkok Africa 0 301 966 3 3
+Turkey Beijing Africa 1 792 774 1 705 2
+Australia Brussels Europe 1 779 147 2 Fall 878 812
+France AddisAbaba Africa 1 70 611 1 55 2
+Nigeria Pretoria Asia 1 310 934 2 Winter -446 -914
+India Oslo Australia 1 175 379 2 Winter -962 308
+Netherlands NewDelhi Europe 1 269 255 1 762 2
+Vietnam Abuja Europe 0 822 392 2 Fall 980 -537
+Sweden Canberra Asia 0 586 139 2 Fall 837 280
+Malaysia Paris Europe 0 210 930 2 Winter -468 -731
+Indonesia Warsaw Europe 0 272 531 2 Spring 377 883
+Finland Beijing Europe 0 660 996 1 143 3
+Sweden Kyiv Asia 0 104 519 2 Spring 223 -291
+UnitedKingdom Pretoria Asia 1 975 998 3 1
+Japan Brussels NorthAmerica 1 23 674 3 3
+Russia Rome NorthAmerica 1 516 206 1 98 3
+Sweden Berlin Europe 1 165 811 3 3
+Mexico Seoul Asia 1 940 400 1 750 2
+SouthAfrica MexicoCity Asia 0 207 818 2 Spring 78 -742
+Denmark Amsterdam Europe 1 291 756 3 1
+Denmark Brasilia Asia 1 874 445 3 2
+NewZealand Lisbon Australia 0 410 261 2 Summer -418 -698
+Portugal Abuja NorthAmerica 1 204 753 3 3
+Kenya Copenhagen Europe 0 317 905 2 Fall -765 -925
+Australia Hanoi Europe 1 511 925 2 Spring -853 845
+Turkey Cairo Asia 1 195 918 2 Spring -909 583
+Netherlands Berlin Europe 1 353 581 3 1
+NewZealand Brasilia NorthAmerica 0 44 125 2 Winter 576 782
+Greece Paris Africa 0 802 102 3 2
+Ethiopia Ankara Asia/Europe 1 587 33 2 Winter -137 -946
+NewZealand Lisbon SouthAmerica 0 958 258 2 Summer -337 -827
+Kenya Hanoi NorthAmerica 0 880 162 3 2
+Spain Ankara Africa 0 347 184 1 839 3
+SaudiArabia Brasilia SouthAmerica 1 725 923 3 2
+Egypt Beijing Europe 0 824 529 3 2
+Germany Brussels Europe 1 474 113 2 Summer -252 859
+SouthAfrica Paris Africa 1 745 660 2 Winter 531 -890
+Egypt Nairobi Asia/Europe 1 348 800 2 Spring 356 823
+Kenya Pretoria Asia 1 850 736 2 Fall -733 583
+Canada Brussels Asia 0 517 347 2 Summer 798 893
+Japan Beijing Asia 1 137 35 1 656 1
+Turkey Bangkok Asia 0 438 572 1 978 1
+Greece Jakarta Australia 1 782 159 3 3
+Germany Lisbon Asia 1 759 885 3 2
+SouthAfrica Oslo Australia 0 538 260 2 Winter -254 453
+NewZealand Lisbon Europe 1 347 162 1 764 3
+Thailand Athens Asia 0 540 304 3 1
+NewZealand Manila NorthAmerica 1 228 346 3 1
+Portugal Paris Europe 1 956 333 1 13 3
+Indonesia Berlin Africa 0 676 594 1 178 1
+UnitedKingdom NewDelhi Asia 1 401 638 3 2
+Finland Abuja Europe 0 603 721 2 Winter -518 752
+India Wellington Europe 1 115 67 3 2
+SouthAfrica AddisAbaba Asia 0 711 525 3 1
+Indonesia Pretoria Asia 0 823 286 3 1
+Nigeria Ankara Asia 0 857 438 3 3
+Vietnam Rome Africa 1 997 163 2 Summer -75 824
+Germany AddisAbaba Europe 1 133 875 3 2
+Netherlands Abuja SouthAmerica 0 35 626 2 Winter -688 521
+Vietnam NewDelhi NorthAmerica 1 639 708 3 3
+Nigeria Ankara Europe 1 49 710 1 859 3
+Norway BuenosAires Europe 1 300 708 2 Summer 493 606
+Denmark Warsaw Asia 1 362 503 3 2
+USA Helsinki Europe 1 608 717 3 2
+China Lisbon NorthAmerica 1 801 423 1 407 3
+Mexico Moscow Europe 0 369 629 3 3
+Australia Moscow Africa 0 238 223 3 1
+Indonesia Athens Europe/Asia 1 113 747 3 2
+Mexico Helsinki Europe 0 572 585 2 Summer -21 -416
+Denmark Beijing SouthAmerica 0 552 791 2 Fall 232 -858
+Mexico Lisbon Europe 1 849 996 3 1
+Poland Kyiv Europe 1 21 665 1 882 3
+SaudiArabia Madrid Australia 0 318 814 3 1
+Egypt Bern Europe/Asia 0 720 435 3 1
+Indonesia Brussels Asia/Europe 0 443 307 1 992 2
+Brazil Tokyo Europe 1 737 993 1 470 2
+Japan Cairo Asia 1 602 560 1 516 3
+Mexico Tokyo Europe 1 399 921 2 Summer -328 364
+Netherlands Helsinki SouthAmerica 1 425 744 1 964 3
+Kenya Cairo Europe 0 254 880 3 3
+Poland Ottawa Asia 1 488 545 2 Spring 889 319
+Italy Rome Europe 0 252 788 3 1
+Thailand Madrid Europe 0 975 328 2 Summer 600 -962
+Australia Oslo Asia 1 444 836 2 Summer 212 220
+Philippines Canberra Australia 0 452 88 3 2
+SaudiArabia Brussels Europe 1 130 128 3 1
+Netherlands Cairo NorthAmerica 1 51 669 1 649 3
+USA Pretoria Europe 0 922 93 3 1
+Argentina Madrid NorthAmerica 1 97 907 2 Summer -176 39
+Australia Copenhagen Asia 1 861 24 1 351 2
+Vietnam BuenosAires Africa 1 254 307 3 3
+Nigeria Warsaw Asia 0 225 183 3 1
+SouthAfrica Abuja Asia 0 784 28 1 292 3
+Switzerland Athens Asia 1 276 239 3 3
+Ukraine Moscow Asia/Europe 1 673 932 3 3
+Thailand Bern Asia 0 411 328 3 1
+Malaysia Copenhagen Europe 0 242 14 2 Winter -68 853
+SouthAfrica London Europe 0 493 121 1 305 2
+Vietnam Paris Asia 0 581 180 3 2
+Nigeria Brussels Australia 0 826 0 2 Fall -399 -622
+Canada Stockholm Europe 0 656 993 1 200 2
+Sweden Moscow Europe/Asia 1 870 390 1 890 1
+Malaysia Cairo SouthAmerica 0 36 630 3 3
+Belgium Ottawa Europe 0 943 568 2 Spring -938 549
+Mexico Abuja Europe 0 910 305 2 Fall 347 -249
+Netherlands Helsinki NorthAmerica 1 373 297 2 Winter -509 350
+Italy Jakarta Asia 1 29 480 2 Spring 252 370
+India AddisAbaba Europe 1 669 16 2 Summer -413 956
+SouthKorea MexicoCity Asia 1 702 959 3 1
+NewZealand London Africa 0 412 670 1 389 2
+Argentina Ottawa NorthAmerica 1 319 321 1 726 1
+Thailand Manila Europe 0 208 20 2 Summer 963 -541
+Turkey Ottawa Europe/Asia 1 706 177 3 2
+Ethiopia Bangkok Asia 1 520 251 3 3
+SaudiArabia Hanoi Europe 1 925 394 3 1
+Greece Manila Europe 0 631 404 3 1
+SaudiArabia Oslo NorthAmerica 1 420 196 2 Winter -901 -546
+Ukraine Copenhagen SouthAmerica 0 333 964 3 2
+Ukraine Manila Africa 1 480 477 3 2
+SaudiArabia Jakarta Asia/Europe 1 257 380 1 416 1
+Mexico NewDelhi Asia 0 200 870 2 Spring -541 470
+Vietnam Ottawa Europe 1 507 943 3 1
+Mexico Lisbon Europe 1 366 734 3 1
+Argentina Ankara Europe/Asia 0 8 960 3 3
+Argentina Copenhagen NorthAmerica 1 344 757 3 1
+Germany Bangkok Asia 1 584 568 1 206 3
+SaudiArabia Bangkok Africa 1 637 578 1 705 1
+SouthAfrica Manila Asia 0 157 116 2 Fall 253 -416
+Mexico Kyiv Europe 0 130 382 2 Winter -103 -88
+Kenya Seoul Europe 1 620 312 2 Spring -286 -37
+Brazil Nairobi Asia 1 7 624 1 957 1
+Ukraine Cairo Europe 1 810 118 2 Spring 834 791
+Ethiopia Tokyo Europe 0 181 521 1 213 3
+USA Brussels Europe 0 761 867 2 Fall -948 -93
+France MexicoCity Asia 0 161 794 1 672 3
+China Brasilia NorthAmerica 0 853 705 2 Fall -539 155
+Switzerland MexicoCity NorthAmerica 0 352 962 3 1
+SaudiArabia Tokyo Europe 0 230 763 2 Winter 934 435
+Kenya Athens Asia 0 738 638 3 1
+Canada Ankara SouthAmerica 0 845 169 3 3
+Brazil Abuja Europe 0 438 23 2 Spring 71 -591
+Norway Seoul SouthAmerica 0 435 1000 1 884 1
+NewZealand Copenhagen Africa 1 66 293 2 Winter 181 -709
+Australia Seoul Europe 1 772 375 2 Spring 188 -840
+Indonesia Seoul Asia 1 177 490 3 2
+SaudiArabia Warsaw Europe 1 853 772 2 Spring -588 506
+Vietnam Stockholm Europe 0 905 497 3 3
+Poland KualaLumpur Europe 1 854 429 3 2
+Ukraine Pretoria Asia 1 35 574 2 Spring -328 983
+China NewDelhi NorthAmerica 1 549 793 3 3
+Portugal Tokyo Europe 0 555 298 2 Winter -724 -370
+Denmark Manila Europe 1 98 750 3 1
+NewZealand Wellington SouthAmerica 1 968 499 3 2
+Nigeria Tokyo Europe 1 149 35 1 562 2
+Switzerland Bern Africa 1 885 784 3 2
+SouthAfrica Canberra Asia 0 360 83 1 496 2
+Switzerland Bern Europe 0 797 793 3 1
+SouthAfrica Wellington Europe 1 574 986 3 3
+Italy Paris Europe/Asia 0 888 78 2 Spring -162 652
+Germany Lisbon Australia 0 476 758 1 3 1
+Philippines Amsterdam SouthAmerica 0 183 114 2 Fall 535 -482
+France KualaLumpur Asia 0 168 762 3 1
+Argentina Jakarta Europe 0 157 541 3 2
+Portugal Helsinki Europe 0 694 522 3 2
+Switzerland Oslo SouthAmerica 0 29 233 3 2
+Sweden Washington Europe 0 682 371 2 Spring 725 752
+Netherlands Copenhagen Australia 1 65 668 3 2
+SouthAfrica MexicoCity Asia 1 897 189 2 Summer 355 -484
+Australia Riyadh Europe 1 596 569 1 21 3
+UnitedKingdom Brussels NorthAmerica 1 472 836 2 Summer -562 938
+India Stockholm SouthAmerica 1 313 659 1 757 3
+Philippines Ottawa Europe 1 545 306 1 616 1
+France Amsterdam SouthAmerica 1 488 254 2 Summer -367 -37
+Australia London Australia 0 3 373 2 Summer 234 585
+Greece Copenhagen Europe 0 357 608 3 3
+Netherlands Beijing NorthAmerica 1 544 866 1 754 1
+Germany Pretoria Europe 1 427 38 1 718 2
+Spain Bern NorthAmerica 0 359 602 1 379 2
+Nigeria MexicoCity NorthAmerica 1 961 543 3 1
+Poland Beijing Europe 1 332 899 1 384 2
+Norway Wellington Asia 0 141 513 1 944 3
+Argentina Brussels Africa 0 461 149 2 Winter 878 -762
+SaudiArabia Lisbon Asia 0 827 550 2 Spring 995 663
+India Athens Europe 0 645 166 2 Winter 860 582
+Thailand Warsaw Asia/Europe 1 738 763 3 1
+Germany Cairo Asia 1 339 987 3 3
+UnitedKingdom Lisbon NorthAmerica 0 315 167 1 736 3
+SaudiArabia Copenhagen Asia 1 503 549 2 Spring 46 -494
+India Lisbon Europe 1 981 306 3 3
+Australia Ankara Europe 1 534 215 1 612 2
+France Rome Africa 1 864 134 2 Summer 198 -717
+Poland Wellington Asia 1 997 927 1 636 3
+Canada MexicoCity Asia 0 277 688 2 Winter 667 309
+Ukraine MexicoCity Australia 0 562 736 2 Winter 923 331
+Italy Canberra Europe 1 818 219 2 Fall -594 943
+SouthAfrica Riyadh Europe 1 577 867 3 2
+Brazil Helsinki Asia 0 209 968 1 768 1
+Kenya MexicoCity Asia 0 858 358 1 997 1
+Germany Kyiv Asia 0 192 340 1 76 2
+Germany Cairo Europe 1 392 138 1 789 3
+France Copenhagen Asia/Europe 0 715 725 2 Winter -233 -12
+Japan Beijing Europe 1 659 480 3 1
+Australia AddisAbaba NorthAmerica 0 167 406 2 Fall -31 60
+Malaysia Kyiv Europe/Asia 1 814 350 1 97 3
+Nigeria Nairobi Asia 0 770 996 1 500 2
+Netherlands Canberra Europe 0 169 931 1 49 2
+Sweden Stockholm NorthAmerica 0 527 178 1 404 1
+Turkey Beijing Australia 0 395 240 2 Fall 887 597
+SouthAfrica Riyadh Europe 1 977 409 3 2
+Poland Canberra Asia 0 275 76 3 3
+Finland Manila Asia 1 251 6 2 Summer -543 919
+Sweden Bern Europe 1 484 217 2 Spring -350 266
+Finland Warsaw Europe 0 93 417 1 340 3
+Vietnam Wellington SouthAmerica 0 80 924 2 Spring 896 402
+Denmark Wellington Europe 0 879 126 3 2
+Malaysia Athens Australia 1 403 413 3 3
+Malaysia Hanoi Asia 0 113 322 2 Spring -330 200
+NewZealand Stockholm Europe 1 213 401 3 3
+NewZealand Washington Asia 0 711 746 2 Spring -892 -918
+Turkey Jakarta Australia 0 92 488 3 1
+Canada Lisbon NorthAmerica 1 779 19 1 650 2
+Philippines Berlin Asia 0 633 829 2 Summer 502 864
+USA Ottawa Asia 1 897 576 2 Summer -92 -536
+Ethiopia Nairobi Europe 1 882 811 3 2
+Australia London Asia 0 73 624 3 2
+SouthKorea Paris Europe 1 940 820 3 1
+Malaysia Nairobi Africa 0 112 581 1 690 2
+China Hanoi NorthAmerica 1 160 949 1 340 1
+India NewDelhi Europe 1 133 460 2 Winter 10 -234
+Poland Canberra Europe 1 863 396 1 613 3
+SaudiArabia Canberra Africa 1 910 69 2 Summer 389 351
+Poland Beijing Asia 0 84 690 3 2
+Denmark Stockholm Africa 1 442 2 1 131 2
+SouthKorea Paris SouthAmerica 0 732 913 2 Winter -209 848
+Malaysia Moscow Europe/Asia 0 918 331 1 296 3
+India BuenosAires Asia 0 971 885 2 Fall -495 673
+SouthAfrica Rome NorthAmerica 1 54 455 3 1
+SaudiArabia NewDelhi NorthAmerica 1 129 328 1 560 2
+Ukraine Kyiv NorthAmerica 0 358 394 3 2
+Vietnam Beijing Europe 1 511 488 3 3
+France AddisAbaba Europe 1 869 438 2 Spring -570 -352
+Vietnam Riyadh Asia 1 63 462 1 592 1
+Thailand Madrid Africa 0 710 984 3 3
+Portugal Bangkok Africa 1 467 770 3 2
+Nigeria Bangkok Asia 1 82 928 1 259 3
+Finland NewDelhi Africa 0 876 103 1 298 2
+China Ankara Africa 1 927 137 1 778 2
+SaudiArabia Lisbon Africa 0 506 529 1 867 2
+France Warsaw Europe 0 778 990 2 Summer -18 14
+Switzerland Athens Europe 1 231 731 2 Spring -146 131
+Sweden Hanoi Asia 1 901 424 2 Fall 870 -888
+Italy Warsaw Europe 0 467 718 1 507 2
+Norway Paris Europe 1 496 514 1 776 2
+Turkey MexicoCity Africa 1 252 458 1 665 1
+Switzerland AddisAbaba Europe/Asia 0 988 608 1 772 1
+Argentina Berlin Asia 0 494 691 3 2
+Russia Athens Europe 1 786 217 1 83 2
+Mexico London Europe 1 111 391 2 Summer 606 -820
+Egypt London Asia 1 756 420 2 Summer 126 -197
+Belgium Paris Asia 0 706 699 1 194 3
+Brazil Stockholm Asia 1 944 55 1 336 1
+Argentina Cairo Europe 1 887 29 1 696 1
+Malaysia Bangkok Asia 1 184 352 1 203 3
+France MexicoCity Asia 0 954 278 2 Summer 440 -324
+Canada Moscow NorthAmerica 1 653 75 1 745 1
+Turkey KualaLumpur Africa 1 555 124 2 Spring 855 820
+SouthAfrica Canberra Asia 1 427 185 2 Summer 692 -480
+Poland Warsaw Africa 0 436 646 3 3

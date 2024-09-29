@@ -15,7 +15,7 @@
 
 #include <stdio.h>
 
-#define ITERATIONS 10
+#define ITERATIONS 15
 
 void clear_input_buffer(FILE *file);
 int make_research(void);

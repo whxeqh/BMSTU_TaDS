@@ -46,11 +46,11 @@ static void make_stats(const size_t length, const unsigned long long time_countr
     printf("-----------------------------------------------------------------------------------------------------------------------------------------\n");
     printf(BOLD CYAN "Общие данные:\n\n" RESET);
     long memory_diff = size_countries - size_keys;
-    double memory_percent = ((double) memory_diff / size_countries) * 100;
+    double memory_percent = ((double) memory_diff / (double) ((size_countries + size_keys) / 2)) * 100;
     printf(YELLOW "Массив ключей занимает меньше памяти на " RESET BOLD "%ld байт" RESET YELLOW ", что дает выйгрыш в " RESET BOLD "%.2f процентов\n" RESET, memory_diff, memory_percent);
 
     long long time_diff = time_countries - time_keys;
-    double time_percent = ((double) time_diff / time_countries) * 100;
+    double time_percent = ((double) time_diff / (double) ((time_countries + time_keys) / 2)) * 100;
     printf(YELLOW "Массив ключей сортируется быстрее на " RESET BOLD "%lld микросекунд" RESET YELLOW ", что дает выйгрыш в " RESET BOLD "%.2f процентов\n\n" RESET, time_diff, time_percent);
 
     printf(BOLD CYAN "Данные по сортировкам:\n" RESET);
@@ -112,6 +112,8 @@ int make_research(void)
     int reps[] = {100, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000};
     for (size_t i = 0; rc == OK && i < sizeof(reps) / sizeof(reps[0]); ++i)
     {
+        //size_t size_countries = reps[i] * sizeof(country_t);
+        //size_t size_keys = reps[i] * sizeof(key_t);
         length = reps[i];
         unsigned long long total_time_countries = 0;
         unsigned long long total_time_keys = 0;
@@ -152,7 +154,7 @@ int make_research(void)
         char file_name_keys_in[50];
         sprintf(file_name_keys_in, "research/data/keys/%u_in.txt", reps[i]);
         FILE *file_in_keys = fopen(file_name_keys_in, "w");
-        for (size_t  j = 0; j < ITERATIONS; ++j)
+        for (size_t  j = 0; j < ITERATIONS + 2; ++j)
         {
             rewind(file_in_countries);
             rc = fill_countries(countries, file_in_countries);
@@ -165,7 +167,7 @@ int make_research(void)
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg_country);
             bubble_sort_countries(countries, length);
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_country);
-            //if (j > 1)
+            if (j > 1)
                 total_time_countries += calc_elapsed_time(&t_beg_country, &t_end_country);
             //printf("BASE: %lld\n", calc_elapsed_time(&t_beg_country, &t_end_country));
 
@@ -173,7 +175,7 @@ int make_research(void)
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg_key);
             bubble_sort_keys(keys, length);
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_key);
-            //if (j > 1)
+            if (j > 1)
                 total_time_keys += calc_elapsed_time(&t_beg_key, &t_end_key);
 
             rewind(file_in_countries);
@@ -185,14 +187,14 @@ int make_research(void)
             flag_bubble_sort_countries(countries, length);
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_country);
             //printf("FLAG: %lld\n", calc_elapsed_time(&t_beg_country, &t_end_country));
-            //if (j > 1)
+            if (j > 1)
                 total_time_flag_countries += calc_elapsed_time(&t_beg_country, &t_end_country);
 
             // Измерение времени сортировки ключей с флагом
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg_key);
             flag_bubble_sort_keys(keys, length);
             clock_gettime(CLOCK_MONOTONIC_RAW, &t_end_key);
-            //if (j > 1)
+            if (j > 1)
                 total_time_flag_keys += calc_elapsed_time(&t_beg_key, &t_end_key);
         }
         
@@ -218,7 +220,7 @@ int make_research(void)
 
         printf("Среднее время для %u элементов: структуры = " BOLD "%llu" RESET ", ключи = " BOLD "%llu" RESET "\n", reps[i], avg_time_countries, avg_time_keys);
         printf("Среднее время с флагом для %u элементов: структуры = " BOLD "%llu" RESET ", ключи = " BOLD "%llu" RESET "\n\n", reps[i], avg_time_flag_countries, avg_time_flag_keys);
-
+        //printf("countries = %zu, keys = %zu\n\n", size_countries, size_keys);
         // Запись данных в файлы
         fprintf(file_data_countries, "%u %llu\n", reps[i], avg_time_countries);
         fprintf(file_data_keys, "%u %llu\n", reps[i], avg_time_keys);

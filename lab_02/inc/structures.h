@@ -16,41 +16,41 @@
 //Вид туризма
 typedef enum 
 {
-    SIGHTSEEING = 1,         // Экскурсионный
-    BEACH,              // Спортивный
-    SPORT                // Пляжный 
+    SIGHTSEEING = 1,      // Экскурсионный
+    BEACH,                // Пляжный
+    SPORT                 // Спортивный 
 } type_of_tourism;
 
 //Вид объектов
 typedef enum 
 {
-    NATURE = 1,           // История
-    ART,              // Природа
-    HISTORY                  // Искусство 
+    NATURE = 1,            // Природа
+    ART,                   // Искусство
+    HISTORY                // История 
 } type_of_objects;
 
 //Вид спорта
 typedef enum 
 {
-    MOUNTAIN_SKIING = 1,     // Природа
-    SURFING,
-    CLIMBING            // История              // Искусство 
+    MOUNTAIN_SKIING = 1,    // Горные лыжи
+    SURFING,                // Сёрфинг
+    CLIMBING                //Скалолазание
 } type_of_sport;
 
 // Экскурсионный вид отдыха
 typedef struct
 {
-    uint32_t objects_amount;               // Количество объектов
-    type_of_objects objects_type;                  // Вид объекта
+    uint32_t objects_amount;           // Количество объектов
+    type_of_objects objects_type;      // Вид объекта
 } sightseeing_t;   
 
 
 // Пляжный вид отдыха
 typedef struct
 {
-    char season[MAX_SEASON_LENGTH];            // Сезон
-    short water_temperature;                   // Темеература воды
-    short air_temperature;                     // Температура воздуха
+    char season[MAX_SEASON_LENGTH];      // Сезон
+    short water_temperature;             // Темеература воды
+    short air_temperature;               // Температура воздуха
 } beach_t;
 
 // Спорттивный вид отдыха

@@ -1,0 +1,135 @@
+\section{Описание структуры данных}
+
+\begin{lstlisting}[caption={Структура для хранения фильма с вариативным полем}, label={lst:listing1}]
+typedef struct 
+{
+	char name[MAX_COUNTRY_NAME_LENGTH];
+	char capital[MAX_CAPITAL_LENGTH];       // Название столицы
+	char mainland[MAX_MAINLAND_LENGTH];     // Название материка
+	bool visa;                              // Потребность в визу
+	
+	uint32_t flying_time;                   // Время полета в минутах
+	uint32_t min_vacation_price;            // Минимальная цена отдыха
+	
+	type_of_tourism tourism;                // Перечисление туризма
+	type_t type;                            // Объекдинение структур туризма
+} country_t;
+\end{lstlisting}
+
+\noindent\textbf{Объяснение полей:}
+\newline
+\begin{tabular}{|l|l|}
+	\hline
+	\textbf{Поле} & \textbf{Описание} \\
+	\hline
+	\texttt{name} & \makecell{Название страны} \\
+	\hline
+	\texttt{capital} & \makecell{Название столицы} \\
+	\hline
+	\texttt{mainland} & \makecell{Название материка} \\
+	\hline
+	\texttt{visa} & \makecell{потребность в визе}\\%антиссе }\\
+	\hline
+	\texttt{lfying\_time} & \makecell{Время полета} \\
+	\hline
+	\texttt{min\_vacation\_price} & \makecell{Минимальная стоимость\\отдыха} \\
+	\hline
+	\texttt{tourism} & \makecell{Вид туризма} \\
+	\hline
+	\texttt{type} & \makecell{Union туризма}\\%антиссе }\\
+	\hline
+\end{tabular}
+\newpage
+
+\begin{lstlisting}[caption={Объединение видов туризма}, label={lst:listing2}]
+typedef union 
+{
+	sightseeing_t sightseeing;              // Экскурсионный
+	beach_t beach;                          // Пляжный
+	sport_t sport;                          // Спортивный
+} type_t;
+\end{lstlisting}
+
+\noindent\textbf{Объяснение полей:}
+\newline
+\begin{tabular}{|l|l|}
+	\hline
+	\textbf{Поле} & \textbf{Описание} \\
+	\hline
+	\texttt{sightseeing} & \makecell{Структура с экскурсионным\\видом туризма} \\
+	\hline
+	\texttt{beach} & \makecell{Структура с пляжным\\видом туризма} \\
+	\hline
+	\texttt{sport} & \makecell{Структура со спортивным\\видом туризма} \\
+	\hline
+\end{tabular}
+\vspace{2em}
+
+\begin{lstlisting}[caption={Структуры туризма}, label={lst:listing3}]
+	// Экскурсионный вид отдыха
+	typedef struct
+	{
+		uint32_t objects_amount;           // Количество объектов
+		type_of_objects objects_type;      // Вид объекта
+	} sightseeing_t;   
+	
+	// Пляжный вид отдыха
+	typedef struct
+	{
+		char season[MAX_SEASON_LENGTH];      // Сезон
+		short water_temperature;             // Темеература воды
+		short air_temperature;               // Температура воздуха
+	} beach_t;
+	
+	// Спорттивный вид отдыха
+	typedef struct
+	{
+		type_of_sport sport_type;
+	} sport_t;
+\end{lstlisting}
+
+\noindent\textbf{Объяснение полей:}
+\newline
+\begin{tabular}{|l|l|}
+	\hline
+	\textbf{Поле} & \textbf{Описание} \\
+	\hline
+	\texttt{objects\_amount} & Количество объектов \\
+	\hline
+	\texttt{objects\_type} & Вид объекта \\
+	\hline
+	\texttt{season} & Сезон \\
+	\hline
+	\texttt{water\_temperature} & Температура воды \\
+	\hline
+	\texttt{air\_temperature} & Температура воздуха \\
+	\hline
+	\texttt{sport\_type} & Вид спорта \\
+	\hline
+\end{tabular}
+\vspace{2em}
+\begin{lstlisting}[caption={Возможные поля туризма}, label={lst:listing4}]
+	//Вид туризма
+	typedef enum 
+	{
+		SIGHTSEEING = 1,      // Экскурсионный
+		BEACH,                // Пляжный
+		SPORT                 // Спортивный 
+	} type_of_tourism;
+	
+	//Вид объектов
+	typedef enum 
+	{
+		NATURE = 1,            // Природа
+		ART,                   // Искусство
+		HISTORY                // История 
+	} type_of_objects;
+	
+	//Вид спорта
+	typedef enum 
+	{
+		MOUNTAIN_SKIING = 1,    // Горные лыжи
+		SURFING,                // Сёрфинг
+		CLIMBING                //Скалолазание
+	} type_of_sport;
+\end{lstlisting}

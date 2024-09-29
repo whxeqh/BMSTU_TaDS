@@ -47,13 +47,14 @@ static void print_key(FILE *file_out, const key_t *key, const size_t id)
 {
     if (file_out == stdout)
     {
-        printf("        |");
+        printf("            |");
         print_centered_number(id, 8);
         print_centered_number(key->ind, 30);
         print_centered_str(key->capital, MAX_CAPITAL_LENGTH);
+        printf("\n");
     }
     else 
-        fprintf(file_out, "%ld %ld %s", id, key->ind, key->capital);
+        fprintf(file_out, "%ld %ld %s\n", id, key->ind, key->capital);
 }
 
 static void print_country(FILE *file_out, const country_t *country)
@@ -152,7 +153,7 @@ static void print_country(FILE *file_out, const country_t *country)
                 fprintf(file_out, " %d %s %d %d", BEACH, country->type.beach.season, country->type.beach.air_temperature, country->type.beach.water_temperature);
                 break;
             case SPORT:
-                fprintf(file_out, " %d %d", SPORT, country->type.sport.sport_type);
+                fprintf(file_out, " %d %d\n", SPORT, country->type.sport.sport_type);
                 break;
             default:
                 fprintf(stderr, "\033[31mERR COUNTRY TOURISM TYPE\033[0m\n");
@@ -263,10 +264,7 @@ void print_countries_by_keys(const country_t *countries, const size_t length, co
         |________________________________________________________________________________________________________________________________________________|\n\n");
     
     for (size_t i = 0; i < length; ++i)
-    {
         print_country(stdout, &countries[keys[i].ind]);
-        printf("\n");
-    }
             fprintf(stdout, "        |________________________________________________________________________________________________________________________________________________|\n\n");
 
 }
@@ -282,13 +280,10 @@ void print_keys(FILE *file_out, key_t *keys, const size_t keys_length)
 
 
     for (size_t i = 0; i < keys_length; ++i)
-    {
         print_key(file_out, &keys[i], i);
-        if (i != keys_length - 1 || file_out != stdout)
-            fprintf(file_out, "\n");
-    }
+
     if (file_out == stdout)
-        fprintf(stdout, "        |_______________________________________________________|\n\n");
+        fprintf(stdout, "            |_______________________________________________________|\n\n");
 }
 
 

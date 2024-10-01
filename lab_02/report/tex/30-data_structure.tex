@@ -41,6 +41,28 @@ typedef struct
 \end{tabular}
 \newpage
 
+
+\begin{lstlisting}[caption={Структура для хранения ключей}, label={lst:listing1}]
+	typedef struct
+	{
+		size_t ind;
+		char capital[MAX_CAPITAL_LENGTH];
+	} key_t;
+\end{lstlisting}
+\noindent\textbf{Объяснение полей:}
+\newline
+\begin{tabular}{|l|l|}
+	\hline
+	\textbf{Поле} & \textbf{Описание} \\
+	\hline
+	\texttt{ind} & \makecell{Индекс в исходной таблице} \\
+	\hline
+	\texttt{capital} & \makecell{Название столицы} \\
+	\hline
+\end{tabular}
+\vspace{2em}
+
+
 \begin{lstlisting}[caption={Объединение видов туризма}, label={lst:listing2}]
 typedef union 
 {
@@ -87,7 +109,6 @@ typedef union
 		type_of_sport sport_type;
 	} sport_t;
 \end{lstlisting}
-
 \noindent\textbf{Объяснение полей:}
 \newline
 \begin{tabular}{|l|l|}

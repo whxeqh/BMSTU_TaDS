@@ -7,12 +7,12 @@
 	\end{itemize}
 	\item Выбран пункт 2:
 	\begin{itemize}
-		\item Вводится названия файла, из которого будет происходить запись
+		\item Вводится название файла, из которого будет происходить запись
 		\item Список стран из файла загружается в массив структур
 	\end{itemize}
 	\item Выбран пункт 3:
 	\begin{itemize}
-		\item Вводится названия файла, в который будет происходить запись
+		\item Вводится название файла, в который будет происходить запись
 		\item Список стран из массива структур загружается в файл
 	\end{itemize}
 	\item Выбран пункт 4:
@@ -39,5 +39,52 @@
 		\item Производится сортировка фильмов при разном количестве записей
 		\item Выводится статистика сортировки
 		\item При необходимости можно построить графики зависимости времени от количества фильмов
+	\end{itemize}
+\end{enumerate}
+
+\subsection{Основные функции программы}
+\begin{enumerate}
+	\item \texttt{int read\_country(FILE *file\_in, country\_t *country);}
+	\begin{itemize}
+		\item Читает запись страны из файла
+		\item \textbf{file\_in}: Входной файл
+		\item \textbf{*country}: Указатель на страну для записи
+		\item Возвращает код ошибки
+	\end{itemize}
+	\item \texttt{int add\_country\_top(country\_t countries[], const country\_t country, size\_t *length);}
+	\begin{itemize}
+		\item Добавляет запись страны в конец массива структур
+		\item \textbf{countries[]}: Массив структур стран
+		\item \textbf{country}: Страна для добавления
+		\item Возвращает код ошибки
+	\end{itemize}
+	\item \texttt{void delete\_in\_array(country\_t *countries, size\_t *length, const size\_t pos);}
+	\begin{itemize}
+		\item Удаляет запись страны из массива структур
+		\item \textbf{*countries}: Массив структур стран
+		\item \textbf{length}: Количество элементов массива
+		\item \textbf{pos}: Позиция для удаления
+		\item Возвращает код ошибки
+	\end{itemize}
+	\item \texttt{bool find\_in\_array(country\_t *countries, const size\_t length, char *field, size\_t *pos);}
+	\begin{itemize}
+		\item Находит позицию страны в массиве структур по указанному полю
+		\item \textbf{*countries}: Массив структур стран
+		\item \textbf{length}: Количество элементов массива
+		\item \textbf{*field}: Поле для сравнения
+		\item \textbf{pos}: Позиция найденной страны в массиве
+		\item Возвращает код ошибки
+	\end{itemize}
+	\item \texttt{void bubble\_sort\_countries(country\_t *countries, const int len)}
+	\begin{itemize}
+		\item Сортирует массив структур стран
+		\item \textbf{*countries}: Массив структур стран
+		\item \textbf{len}: Количество элементов массива
+	\end{itemize}
+	\item \texttt{void bubble\_sort\_keys(key\_t *keys, const int len)}
+	\begin{itemize}
+		\item Сортирует массив ключей
+		\item \textbf{*countries}: Массив ключей
+		\item \textbf{len}: Количество элементов массива
 	\end{itemize}
 \end{enumerate}

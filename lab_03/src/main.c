@@ -9,7 +9,9 @@ int main(void)
     do
     {
         rc = main_menu();
-    } while (rc != EXIT || rc != OK);
+        if (rc != OK && rc != EXIT)
+            print_error(rc);
+    } while (rc != EXIT);
     
     return rc;
 }

@@ -15,6 +15,7 @@ typedef enum
     ACT_SUM_MATRIX_STANDART,
     ACT_SUM_MATRIX_FAST,
     ACT_MAKE_RESEARCH,
+    ACT_UNKNOWN
 } action_e;
 
 errors_e main_menu(void);

@@ -12,6 +12,7 @@ typedef enum
     ERR_RANGE,
     ERR_FILE,
     ERR_MEMORY,
+    ERR_BUF_TO_BIG,
     ERR_ACT
 } errors_e;
 

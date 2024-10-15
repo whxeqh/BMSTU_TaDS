@@ -18,6 +18,8 @@ typedef enum
     ACT_UNKNOWN
 } action_e;
 
+void clear_stdin_buf(void);
+
 errors_e main_menu(void);
 
 #endif //__UI_H__

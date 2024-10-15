@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include "UI.h"
 #include "errors.h"
+#include "matrix_io.h"
 
 static void print_menu(void)
 {
@@ -10,7 +11,7 @@ static void print_menu(void)
     _____________________________________________________________\n\
     | 0) Выход                                                   |\n\
     | 1) Вывести информацию об авторе                            |\n\
-    | 2) Считать матрицы из файлы                                |\n\
+    | 2) Считать матрицы                                         |\n\
     | 3) Вывести матрицы в консоль                               |\n\
     | 4) Вывести результат сложения матриц в консоль             |\n\
     | 5) Загрузить матрицу в файл                                |\n\
@@ -34,6 +35,8 @@ errors_e main_menu(void)
 {
     errors_e rc = OK;
     action_e act = ACT_UNKNOWN;
+
+    matrix_t matrix;
     
     print_menu();
     printf("\nВведите число от 0 до 9: ");
@@ -51,7 +54,7 @@ errors_e main_menu(void)
             break;
 
         case ACT_READ_MATRIX:
-
+            rc = read_matrix(&matrix);
             break;
             
         case ACT_PRINT_MATRIX:

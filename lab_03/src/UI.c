@@ -14,14 +14,10 @@ static void print_menu(void)
     | 2) Считать матрицы                                         |\n\
     | 3) Вывести матрицы в консоль                               |\n\
     | 4) Вывести результат сложения матриц в консоль             |\n\
-    | 5) Загрузить матрицу в файл                                |\n\
-    | 6) Вывести вектора (A, IA, JA) в консоль                   |\n\
-    | 7) Сложить две матрицы стандартным алгоритмом              |\n\
-    | 8) Сложить две матрицы усовершенствованным алгоритмом      |\n\
-    | 9) Произвести исследование                                 |\n\
-    | 10)                                                        |\n\
-    | 11)                                                        |\n\
-    | 12)                                                        |\n\
+    | 5) Вывести вектора (A, IA, JA) матриц в консоль            |\n\
+    | 6) Сложить две матрицы стандартным алгоритмом              |\n\
+    | 7) Сложить две матрицы усовершенствованным алгоритмом      |\n\
+    | 8) Произвести исследование                                 |\n\
     |____________________________________________________________|\n\n");
 }
 
@@ -36,7 +32,7 @@ errors_e main_menu(void)
     errors_e rc = OK;
     action_e act = ACT_UNKNOWN;
 
-    matrix_t matrix;
+    csc_matrix_t left_csc_matrix, right_csc_matrix;
     
     print_menu();
     printf("\nВведите число от 0 до 9: ");
@@ -54,18 +50,22 @@ errors_e main_menu(void)
             break;
 
         case ACT_READ_MATRIX:
-            rc = read_matrix(&matrix);
+            rc = read_matrix(&left_csc_matrix);
+            if (rc == OK)
+                rc = read_matrix(&right_csc_matrix);
+            if (rc == OK)
+                printf(GREEN "\nМатрицы успешно считаны!\n\n" RESET);
             break;
             
         case ACT_PRINT_MATRIX:
-
+            puts("\nМатрица №1:\n");
+            print_matrix(&left_csc_matrix);
+            puts("Матрица №2:\n");
+            print_matrix(&right_csc_matrix);
+            printf(GREEN "\nМатрицы успешно выведены!\n\n" RESET);
             break;
         
         case ACT_PRINT_SUM_MATRIX:
-
-            break;
-        
-        case ACT_LOAD_MAXTRIX_IN_FILE:
 
             break;
         

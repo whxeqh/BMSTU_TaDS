@@ -13,8 +13,12 @@ typedef enum
     ACT_READ_CONSOLE
 } act_read_e;
 
-errors_e read_matrix(matrix_t *matrix);
+errors_e read_matrix(csc_matrix_t *matrix);
 
-void free_matrix(matrix_t *matrix);
+void print_matrix(csc_matrix_t *matrix);
+
+void csc_free_matrix(csc_matrix_t *matrix);
+
+void free_matrix(int **matrix, const size_t rows);
 
 #endif //__MATRIX_IO_H__

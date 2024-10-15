@@ -3,6 +3,9 @@
 
 #include "errors.h"
 
+#define RESET "\033[0m"
+#define GREEN "\033[32m"
+
 typedef enum 
 {
     ACT_EXIT,
@@ -10,7 +13,6 @@ typedef enum
     ACT_READ_MATRIX,
     ACT_PRINT_MATRIX,
     ACT_PRINT_SUM_MATRIX,
-    ACT_LOAD_MAXTRIX_IN_FILE,
     ACT_PRINT_VECTORS,
     ACT_SUM_MATRIX_STANDART,
     ACT_SUM_MATRIX_FAST,

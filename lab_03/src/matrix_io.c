@@ -78,7 +78,7 @@ static errors_e get_count_nonzero_elements(FILE *file, size_t *nz)
     return rc;
 }
 
-static errors_e matrix_alloc(matrix_t *matrix, FILE *file)
+static errors_e csc_matrix_alloc(csc_matrix_t *matrix, FILE *file)
 {   
     errors_e rc = OK;
 
@@ -157,7 +157,7 @@ static void swap(void *left, void *right, const size_t el_size)
     memcpy(right, tmp, el_size);
 }
 
-static void print_vectors(matrix_t *matrix)
+static void print_vectors(csc_matrix_t *matrix)
 {
     printf("A:  ");
     for (size_t i = 0; i < matrix->len_A; ++i)
@@ -176,7 +176,7 @@ static void print_vectors(matrix_t *matrix)
 }
 
 //Используется только для ввода с консоли
-static void sort_vectors(matrix_t *matrix)
+static void sort_vectors(csc_matrix_t *matrix)
 {
 
     //puts("До сортировки");
@@ -222,14 +222,14 @@ static void sort_vectors(matrix_t *matrix)
 }
 
 
-static errors_e input_matrix(matrix_t *matrix, FILE *file_in)
+static errors_e input_matrix(csc_matrix_t *matrix, FILE *file_in)
 {
     errors_e rc = OK;
-    matrix_t tmp;
+    csc_matrix_t tmp;
 
-    rc = matrix_alloc(&tmp, file_in);
+    rc = csc_matrix_alloc(&tmp, file_in);
     if (rc == ERR_MEMORY)
-        free_matrix(&tmp);
+        csc_free_matrix(&tmp);
     
     if (rc != OK)
         return rc;
@@ -246,7 +246,7 @@ static errors_e input_matrix(matrix_t *matrix, FILE *file_in)
             rc = read_cords(file_in, &row, 1, tmp.rows);
             if (rc != OK)
             {
-                free_matrix(&tmp);
+                csc_free_matrix(&tmp);
                 return rc;
             }
 
@@ -254,7 +254,7 @@ static errors_e input_matrix(matrix_t *matrix, FILE *file_in)
             rc = read_cords(file_in, &column, 1, tmp.columns);
             if (rc != OK)
             {
-                free_matrix(&tmp);
+                csc_free_matrix(&tmp);
                 return rc;
             }
 
@@ -264,7 +264,7 @@ static errors_e input_matrix(matrix_t *matrix, FILE *file_in)
             
             if (rc != OK)
             {
-                free_matrix(&tmp);
+                csc_free_matrix(&tmp);
                 return rc;
             }
 
@@ -286,7 +286,7 @@ static errors_e input_matrix(matrix_t *matrix, FILE *file_in)
             if (cur)
             {
                 tmp.A[j] = cur;
-                tmp.IA[j] = i / tmp.rows;  
+                tmp.IA[j] = i / tmp.columns;  
                 tmp.JA[j] = i % tmp.columns;
                 ++j;
             }
@@ -304,13 +304,13 @@ static errors_e input_matrix(matrix_t *matrix, FILE *file_in)
     
     sort_vectors(matrix);
 
-    size_t *tmp_JA = realloc(matrix->JA, sizeof(size_t) * matrix->columns);
-    if (!tmp_JA)
-    {
-        free_matrix(matrix);
-        return ERR_MEMORY;
-    }
-    matrix->JA = tmp_JA;
+    //size_t *tmp_JA = realloc(matrix->JA, sizeof(size_t) * matrix->columns);
+    //if (!tmp_JA)
+    //{
+    //    free_matrix(matrix);
+    //    return ERR_MEMORY;
+    //}
+    //matrix->JA = tmp_JA;
     //matrix->columns = tmp_columns;
     //matrix->rows = tmp_rows;
 
@@ -324,14 +324,15 @@ static errors_e input_matrix(matrix_t *matrix, FILE *file_in)
     return rc;
 }
 
-errors_e read_matrix(matrix_t *matrix)
+errors_e read_matrix(csc_matrix_t *matrix)
 {
     errors_e rc = OK;
     act_read_e act_read;
     FILE *file_in = NULL;
 
     print_read_matrix_menu();
-    fscanf(stdin, "%u", &act_read);
+    if (fscanf(stdin, "%u", &act_read) != 1)
+        return ERR_IO;
     clear_stdin_buf();
 
     switch (act_read)
@@ -342,12 +343,18 @@ errors_e read_matrix(matrix_t *matrix)
                 return rc;
             rewind(file_in);
             rc = input_matrix(matrix, file_in);
+            if (rc == OK)
+                printf(GREEN "\nМатрица усешно считаны\n" RESET);
             break;
         case ACT_READ_RANDOM:
 
+            if (rc == OK)
+                printf(GREEN "\nМатрицы усешно сформированы\n" RESET);
             break;
         case ACT_READ_CONSOLE:
             rc = input_matrix(matrix, stdin);
+            if (rc == OK)
+                printf(GREEN "\nМатрица усешно считана\n" RESET);
             break;
         default:
             rc = ERR_ACT;
@@ -360,7 +367,62 @@ errors_e read_matrix(matrix_t *matrix)
     return rc;
 }
 
-void free_matrix(matrix_t *matrix)
+void free_matrix(int **matrix, const size_t rows)
+{
+    for (size_t i = 0; i < rows; ++i)    
+        free(matrix[i]);
+    free(matrix);
+}
+
+static int **matrix_alloc(const size_t rows, const size_t columns)
+{   
+    int **matrix = NULL;
+    errors_e rc = OK;
+
+    matrix = calloc(rows, sizeof(int));
+
+    for (size_t i = 0; rc == OK && i < rows; ++i)
+    {
+        matrix[i] = calloc(columns, sizeof(int));
+        if (!matrix[i])
+        {
+            free_matrix(matrix, rows);
+            return NULL;
+        }
+    }
+
+    return matrix;
+}
+
+void print_matrix(csc_matrix_t *matrix)
+{
+    matrix_t cur;
+    cur.rows = matrix->rows;
+    cur.columns = matrix->columns;
+
+    cur.matrix = matrix_alloc(cur.rows, cur.columns);
+    if (!cur.matrix)
+    {
+        printf(RED "\nERROR WHILE ALLOCATE MEMORY FOR BIG MATRIX!\n\n" RESET);
+        exit(ERR_MEMORY);
+    }
+    
+    for (size_t i = 0; i < matrix->columns - 1; ++i)
+    {
+        for (size_t j = matrix->JA[i]; j < matrix->JA[i + 1]; j++)
+            cur.matrix[matrix->IA[j]][j % matrix->columns] = matrix->A[j];
+    }
+
+    for (size_t i = 0; i < cur.rows; ++i)
+    {
+        for (size_t j = 0; j < cur.columns; ++j)
+            printf("%d ", cur.matrix[i][j]);
+        puts("");
+    }
+    puts("");
+}
+
+void csc_free_matrix(csc_matrix_t *matrix)
 {
     free(matrix->A);
     free(matrix->IA);

@@ -14,7 +14,15 @@ typedef struct
     size_t *JA;
     size_t columns;
 
+} csc_matrix_t;
+
+typedef struct 
+{
+    int **matrix;
+    size_t rows;
+    size_t columns;
 } matrix_t;
+
 
 #include "errors.h"
 

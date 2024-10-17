@@ -6,6 +6,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+#define MAX(A, B) ((A) > (B) ? (A) : (B))
+
 static void print_read_matrix_menu(void)
 {
     fprintf(stdout,"\n\
@@ -43,7 +45,7 @@ static errors_e read_filename_and_open_file(FILE **file)
         return rc;
 
     *file = fopen(filename, "r");
-    if (!file)
+    if (!(*file))
         return ERR_FILE;
     
     return rc;
@@ -119,7 +121,9 @@ static errors_e csc_matrix_alloc(csc_matrix_t *matrix, FILE *file)
     matrix->rows = tmp_rows;
     matrix->columns = tmp_columns;
     matrix->len_A = tmp_nonzero;
-    
+
+    printf("\nDBG: rows = %d columns = %d nonzero = %ld\n",tmp_rows, tmp_columns, tmp_nonzero);
+        
     matrix->A = malloc(sizeof(int) * matrix->len_A);
     if (!matrix->A)
         rc = ERR_MEMORY;
@@ -128,7 +132,7 @@ static errors_e csc_matrix_alloc(csc_matrix_t *matrix, FILE *file)
     if (!matrix->IA)
         rc = ERR_MEMORY;
     
-    matrix->JA = malloc(sizeof(size_t) * matrix->len_A);
+    matrix->JA = malloc(sizeof(size_t) * MAX((int) tmp_nonzero, (int) tmp_columns));
     if (!matrix->JA)
         rc = ERR_MEMORY;
 
@@ -157,7 +161,7 @@ static void swap(void *left, void *right, const size_t el_size)
     memcpy(right, tmp, el_size);
 }
 
-static void print_vectors(csc_matrix_t *matrix)
+void print_vectors(csc_matrix_t *matrix)
 {
     printf("A:  ");
     for (size_t i = 0; i < matrix->len_A; ++i)
@@ -259,7 +263,7 @@ static errors_e input_matrix(csc_matrix_t *matrix, FILE *file_in)
             }
 
             printf("elem = ");
-            if (fscanf(file_in, "%d", &elem) != 1)
+            if (fscanf(file_in, "%d\n", &elem) != 1)
                 rc = ERR_IO;
             
             if (rc != OK)
@@ -278,20 +282,19 @@ static errors_e input_matrix(csc_matrix_t *matrix, FILE *file_in)
 
     else
     {
-        size_t i = 0, j = 0;
-        do
+        size_t j = 0;
+        for (size_t i = 0; i < tmp.rows * tmp.columns; i++)
         {
             int cur;
             fscanf(file_in, "%d", &cur);
-            if (cur)
+            if (cur && j < tmp.len_A)
             {
                 tmp.A[j] = cur;
                 tmp.IA[j] = i / tmp.columns;  
                 tmp.JA[j] = i % tmp.columns;
                 ++j;
             }
-            ++i;
-        } while (!feof(file_in));
+        }
     }
     
     memcpy(matrix, &tmp, sizeof(tmp));
@@ -333,7 +336,8 @@ errors_e read_matrix(csc_matrix_t *matrix)
     print_read_matrix_menu();
     if (fscanf(stdin, "%u", &act_read) != 1)
         return ERR_IO;
-    clear_stdin_buf();
+    if (!clear_buf())
+        return ERR_IO;
 
     switch (act_read)
     {
@@ -367,59 +371,19 @@ errors_e read_matrix(csc_matrix_t *matrix)
     return rc;
 }
 
-void free_matrix(int **matrix, const size_t rows)
+void print_matrix(csc_matrix_t *matrix, matrix_t *default_matrix, FILE *f)
 {
-    for (size_t i = 0; i < rows; ++i)    
-        free(matrix[i]);
-    free(matrix);
-}
+    if (default_matrix == NULL)
+        *default_matrix = fill_matrix(matrix);
 
-static int **matrix_alloc(const size_t rows, const size_t columns)
-{   
-    int **matrix = NULL;
-    errors_e rc = OK;
-
-    matrix = calloc(rows, sizeof(int));
-
-    for (size_t i = 0; rc == OK && i < rows; ++i)
+    for (size_t i = 0; i < default_matrix->rows; ++i)
     {
-        matrix[i] = calloc(columns, sizeof(int));
-        if (!matrix[i])
-        {
-            free_matrix(matrix, rows);
-            return NULL;
-        }
-    }
-
-    return matrix;
-}
-
-void print_matrix(csc_matrix_t *matrix)
-{
-    matrix_t cur;
-    cur.rows = matrix->rows;
-    cur.columns = matrix->columns;
-
-    cur.matrix = matrix_alloc(cur.rows, cur.columns);
-    if (!cur.matrix)
-    {
-        printf(RED "\nERROR WHILE ALLOCATE MEMORY FOR BIG MATRIX!\n\n" RESET);
-        exit(ERR_MEMORY);
-    }
-    
-    for (size_t i = 0; i < matrix->columns - 1; ++i)
-    {
-        for (size_t j = matrix->JA[i]; j < matrix->JA[i + 1]; j++)
-            cur.matrix[matrix->IA[j]][j % matrix->columns] = matrix->A[j];
-    }
-
-    for (size_t i = 0; i < cur.rows; ++i)
-    {
-        for (size_t j = 0; j < cur.columns; ++j)
-            printf("%d ", cur.matrix[i][j]);
+        for (size_t j = 0; j < default_matrix->columns; ++j)
+            fprintf(f, "%d ", default_matrix->matrix[i][j]);
         puts("");
     }
     puts("");
+    free_matrix(default_matrix->matrix, default_matrix->rows);
 }
 
 void csc_free_matrix(csc_matrix_t *matrix)

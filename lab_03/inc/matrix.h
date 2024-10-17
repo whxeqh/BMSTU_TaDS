@@ -3,6 +3,8 @@
 
 #include <stddef.h>
 
+#include "errors.h"
+
 typedef struct 
 {
     int *A;
@@ -23,7 +25,10 @@ typedef struct
     size_t columns;
 } matrix_t;
 
+matrix_t fill_matrix(csc_matrix_t *matrix);
 
-#include "errors.h"
+void free_matrix(int **matrix, const size_t rows);
+
+errors_e sum_matrix_standart(matrix_t *summ, csc_matrix_t *pleft, csc_matrix_t *pright);
 
 #endif //__MATRIX_H__

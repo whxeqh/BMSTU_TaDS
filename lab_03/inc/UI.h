@@ -2,6 +2,7 @@
 #define __UI_H__
 
 #include "errors.h"
+#include <stdbool.h>
 
 #define RESET "\033[0m"
 #define GREEN "\033[32m"
@@ -20,7 +21,7 @@ typedef enum
     ACT_UNKNOWN
 } action_e;
 
-void clear_stdin_buf(void);
+bool clear_buf(void);
 
 errors_e main_menu(void);
 

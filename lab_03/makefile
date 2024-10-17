@@ -54,11 +54,6 @@ RESEARCH_EXEC := research.exe
 $(EXEC): $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
 
-# Включение файлов зависимостей
--include $(DEPS)
--include $(UNIT_DEPS) 
--include $(RESEARCH_DEPS)
-
 .PHONY: debug release func func-v clean asan msan ubsan unit coverage research create_dirs valgrind_app valgrind_unit
 
 local: CFLAGS += $(DEBUG) $(LOCAL)
@@ -81,9 +76,9 @@ create_dirs:
 $(RESEARCH_EXEC): $(RESEARCH_OBJS) out/array.o
 	$(CC) $^ -o $@
 
-research: $(RESEARCH_EXEC) create_dirs	
+research: $(RESEARCH_EXEC) create_dirs  
 	./$<
-	$(BASH) $(SCRIPTS_DIR)makeplots.sh
+	@$(BASH) $(SCRIPTS_DIR)makeplots.sh
 
 $(UNIT_EXEC): $(filter-out $(OUT_DIR)main.o, $(OBJS)) $(UNIT_OBJS)
 	$(CC) $^ -o $@ $(UNIT_LDFLAGS)
@@ -115,12 +110,12 @@ func-v: func
 
 valgrind_unit: CFLAGS += $(DEBUG)
 valgrind_unit: $(UNIT_EXEC)
-	valgrind --leak-check=full --show-error-list=yes --quiet ./$(UNIT_EXEC); echo
+	@valgrind --leak-check=full --show-error-list=yes --quiet ./$(UNIT_EXEC)
 
 valgrind_app: CFLAGS += $(DEBUG)
 valgrind_app: FUNC_FLAGS += $(VERBOSE) $(VALGRIND)
 valgrind_app: func
-	
+  
 gcov: CFLAGS += --coverage
 gcov: LDFLAGS += --coverage
 gcov: $(EXEC)
@@ -128,33 +123,25 @@ gcov: $(EXEC)
 coverage: gcov
 coverage: func
 coverage: 
-	mv $(wildcard $(OUT_DIR)*.gcno) $(SRC_DIR)
-	mv $(wildcard $(OUT_DIR)*.gcda) $(SRC_DIR)
+	@mv $(wildcard $(OUT_DIR)*.gcno) $(SRC_DIR)
+	@mv $(wildcard $(OUT_DIR)*.gcda) $(SRC_DIR)
 	@gcov $(SRCS)
 
 $(OUT_DIR)%.o: $(UNIT_DIR)%.c
-	mkdir -p $(OUT_DIR)
-	$(CC) $(CFLAGS) -I$(INC_DIR) -c $< -o $@
+	@mkdir -p $(OUT_DIR)
+	$(CC) $(CFLAGS) -I$(INC_DIR) -c -MMD $< -o $@
 
 $(OUT_DIR)%.o: $(SRC_DIR)%.c
-	mkdir -p $(OUT_DIR)
-	$(CC) $(CFLAGS) -I$(INC_DIR) -c $< -o $@
-
-$(OUT_DIR)%.d: $(SRC_DIR)%.c
-	mkdir -p $(OUT_DIR)
-	$(CC) $(CFLAGS) -I$(INC_DIR) -M $< > $@
-
-$(OUT_DIR)%.d: $(UNIT_DIR)%.c
-	mkdir -p $(OUT_DIR)
-	$(CC) $(CFLAGS) -I$(INC_DIR) -M $< > $@
-
-$(RESEARCH_OUT_DIR)%.d: $(RESEARCH_SRC_DIR)%.c
-	mkdir -p $(RESEARCH_OUT_DIR)
-	$(CC) $(CFLAGS) -I$(INC_DIR) -I$(RESEARCH_INC_DIR) -M $< > $@
+	@mkdir -p $(OUT_DIR)
+	$(CC) $(CFLAGS) -I$(INC_DIR) -c -MMD $< -o $@
 
 $(RESEARCH_OUT_DIR)%.o: $(RESEARCH_SRC_DIR)%.c
-	mkdir -p $(RESEARCH_OUT_DIR)
-	$(CC) $(CFLAGS) -I$(INC_DIR) -I$(RESEARCH_INC_DIR) -c $< -o $@
+	@mkdir -p $(RESEARCH_OUT_DIR)
+	$(CC) $(CFLAGS) -I$(INC_DIR) -I$(RESEARCH_INC_DIR) -c -MMD $< -o $@
+
+
+# Включение файлов зависимостей
+include $(wildcard $(OUT_DIR)*.d)
 
 clean:
 	rm -f $(OUT_DIR)*.txt $(OUT_DIR)*.d $(OUT_DIR)*.o $(OUT_DIR)*.gcno $(OUT_DIR)*.gcda

@@ -3,6 +3,7 @@
 
 #include "errors.h"
 #include "matrix.h"
+#include <stdio.h>
 
 #define MAX_FILENAME_LEN (20 + 1)
 
@@ -15,10 +16,10 @@ typedef enum
 
 errors_e read_matrix(csc_matrix_t *matrix);
 
-void print_matrix(csc_matrix_t *matrix);
+void print_matrix(csc_matrix_t *matrix, matrix_t *default_matrix, FILE *f);
 
 void csc_free_matrix(csc_matrix_t *matrix);
 
-void free_matrix(int **matrix, const size_t rows);
+void print_vectors(csc_matrix_t *matrix);
 
 #endif //__MATRIX_IO_H__

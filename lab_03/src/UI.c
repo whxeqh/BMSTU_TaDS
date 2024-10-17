@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <string.h>
 #include "UI.h"
 #include "errors.h"
 #include "matrix_io.h"
@@ -21,10 +22,17 @@ static void print_menu(void)
     |____________________________________________________________|\n\n");
 }
 
-void clear_stdin_buf(void)
+bool clear_buf(void)
 {
-    int c;
-    while((c = getc(stdin)) != EOF && c != '\n');
+    bool ans = true;
+    char c;
+    while((c = getc(stdin)) != EOF && c != '\n')
+    {
+        //printf("c = %c; isspcace = %d\n", c, isspace(c));
+        if (!isspace(c))
+            ans = false;
+    }
+    return ans;
 }
 
 errors_e main_menu(void)
@@ -33,15 +41,24 @@ errors_e main_menu(void)
     action_e act = ACT_UNKNOWN;
 
     csc_matrix_t left_csc_matrix, right_csc_matrix;
+    matrix_t summ;
+    
+    static bool matrix_entered = false;
+    static bool matrix_summed = false;
     
     print_menu();
     printf("\nВведите число от 0 до 9: ");
     fscanf(stdin, "%u", &act);
-    clear_stdin_buf();
+    if (!clear_buf())
+        return ERR_IO;
 
     switch (act)
     {
         case ACT_EXIT:
+            memset(&left_csc_matrix, 0, sizeof(csc_matrix_t));
+            memset(&right_csc_matrix, 0, sizeof(csc_matrix_t));
+            csc_free_matrix(&left_csc_matrix);
+            csc_free_matrix(&right_csc_matrix);
             rc = EXIT;
             break;
 
@@ -54,27 +71,57 @@ errors_e main_menu(void)
             if (rc == OK)
                 rc = read_matrix(&right_csc_matrix);
             if (rc == OK)
+            {
                 printf(GREEN "\nМатрицы успешно считаны!\n\n" RESET);
+                matrix_entered = true;
+            }
             break;
             
         case ACT_PRINT_MATRIX:
             puts("\nМатрица №1:\n");
-            print_matrix(&left_csc_matrix);
+            print_matrix(&left_csc_matrix, NULL, stdout);
             puts("Матрица №2:\n");
-            print_matrix(&right_csc_matrix);
+            print_matrix(&right_csc_matrix, NULL, stdout);
             printf(GREEN "\nМатрицы успешно выведены!\n\n" RESET);
             break;
         
         case ACT_PRINT_SUM_MATRIX:
-
+            if (!matrix_summed)
+            {
+                printf(RED "\nВы до этого не выполняли сложения матриц, чтобы выводить их)!\n\n" RESET);
+                rc = ERR_ACT;
+            }
+            else
+            {
+                puts("");
+                print_matrix(NULL, &summ, stdout);
+                printf(GREEN "Сумма матриц успешно выведена!\n\n" RESET);
+            }
             break;
         
         case ACT_PRINT_VECTORS:
-
+            puts("\nВекторы для матрицы №1:\n");
+            print_vectors(&left_csc_matrix);
+            puts("Векторы для матрицы №2:\n");
+            print_vectors(&right_csc_matrix);
+            printf(GREEN "\nВекторы матриц успешно выведены!\n\n" RESET);
             break;
 
         case ACT_SUM_MATRIX_STANDART:
-
+            if (!matrix_entered)
+            {
+                printf(RED "\nНе введены две матрицы !\n\n" RESET);
+                rc = ERR_ACT;
+            }
+            else 
+            {
+                rc = sum_matrix_standart(&summ, &left_csc_matrix, &right_csc_matrix);
+                if (rc == OK)
+                {
+                    printf(GREEN "\nМатрицы успешно сложены!\n\n" RESET);
+                    matrix_summed = true;
+                }
+            }
             break;
 
         case ACT_SUM_MATRIX_FAST:
@@ -82,7 +129,6 @@ errors_e main_menu(void)
             break;
 
         case ACT_MAKE_RESEARCH:
-
             break;
 
         default:

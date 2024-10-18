@@ -5,7 +5,7 @@
 #include "matrix.h"
 #include <stdio.h>
 
-#define MAX_FILENAME_LEN (20 + 1)
+#define MAX_FILENAME_LEN (100 + 1)
 
 typedef enum
 {
@@ -15,6 +15,10 @@ typedef enum
 } act_read_e;
 
 errors_e read_matrix(csc_matrix_t *matrix);
+
+errors_e input_random(csc_matrix_t *matrix);
+
+errors_e read_filename_and_open_file(FILE **file, const char *mode);
 
 void print_matrix(csc_matrix_t *matrix, matrix_t *default_matrix, FILE *f);
 

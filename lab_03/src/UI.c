@@ -18,7 +18,8 @@ static void print_menu(void)
     | 5) Вывести вектора (A, IA, JA) матриц в консоль            |\n\
     | 6) Сложить две матрицы стандартным алгоритмом              |\n\
     | 7) Сложить две матрицы усовершенствованным алгоритмом      |\n\
-    | 8) Произвести исследование                                 |\n\
+    | 8) Записать сумму матриц в файл                            |\n\
+    | 9) Произвести исследование                                 |\n\
     |____________________________________________________________|\n\n");
 }
 
@@ -37,14 +38,17 @@ bool clear_buf(void)
 
 errors_e main_menu(void)
 {
+    FILE *f = NULL;
     errors_e rc = OK;
     action_e act = ACT_UNKNOWN;
 
-    csc_matrix_t left_csc_matrix, right_csc_matrix;
-    matrix_t summ;
+    csc_matrix_t left_csc_matrix, right_csc_matrix, summ_fast;
+    matrix_t summ_standart;
     
-    static bool matrix_entered = false;
-    static bool matrix_summed = false;
+    static bool matrix1_entered = false;
+    static bool matrix2_entered = false;
+    static bool matrix_summed_standart = false;
+    static bool matrix_summed_fast = false;
     
     print_menu();
     printf("\nВведите число от 0 до 9: ");
@@ -55,10 +59,15 @@ errors_e main_menu(void)
     switch (act)
     {
         case ACT_EXIT:
-            memset(&left_csc_matrix, 0, sizeof(csc_matrix_t));
-            memset(&right_csc_matrix, 0, sizeof(csc_matrix_t));
-            csc_free_matrix(&left_csc_matrix);
-            csc_free_matrix(&right_csc_matrix);
+            if (matrix1_entered)
+                csc_free_matrix(&left_csc_matrix);
+            if (matrix2_entered)
+                csc_free_matrix(&right_csc_matrix);
+            if (matrix_summed_fast)
+                csc_free_matrix(&summ_fast);
+            if (matrix_summed_standart)
+                free_matrix(summ_standart.matrix, summ_standart.rows);
+
             rc = EXIT;
             break;
 
@@ -67,26 +76,40 @@ errors_e main_menu(void)
             break;
 
         case ACT_READ_MATRIX:
+            if (matrix1_entered)
+                csc_free_matrix(&left_csc_matrix);
+            if (matrix2_entered)
+                csc_free_matrix(&right_csc_matrix);
+            matrix_summed_standart = false;
+            matrix_summed_fast = false;
             rc = read_matrix(&left_csc_matrix);
             if (rc == OK)
+            {
                 rc = read_matrix(&right_csc_matrix);
+                matrix1_entered = true;
+            }
             if (rc == OK)
             {
                 printf(GREEN "\nМатрицы успешно считаны!\n\n" RESET);
-                matrix_entered = true;
+                matrix2_entered = true;
             }
             break;
             
         case ACT_PRINT_MATRIX:
-            puts("\nМатрица №1:\n");
-            print_matrix(&left_csc_matrix, NULL, stdout);
-            puts("Матрица №2:\n");
-            print_matrix(&right_csc_matrix, NULL, stdout);
-            printf(GREEN "\nМатрицы успешно выведены!\n\n" RESET);
+            if (!matrix1_entered || !matrix2_entered)
+                printf(RED "\nДве матрицы не введены!\n\n" RESET);
+            else 
+            {
+                puts("\nМатрица №1:\n");
+                print_matrix(&left_csc_matrix, NULL, stdout);
+                puts("Матрица №2:\n");
+                print_matrix(&right_csc_matrix, NULL, stdout);
+                printf(GREEN "\nМатрицы успешно выведены!\n\n" RESET);
+            }
             break;
         
         case ACT_PRINT_SUM_MATRIX:
-            if (!matrix_summed)
+            if (!matrix_summed_standart && !matrix_summed_fast)
             {
                 printf(RED "\nВы до этого не выполняли сложения матриц, чтобы выводить их)!\n\n" RESET);
                 rc = ERR_ACT;
@@ -94,43 +117,79 @@ errors_e main_menu(void)
             else
             {
                 puts("");
-                print_matrix(NULL, &summ, stdout);
+                print_matrix(NULL, &summ_standart, stdout);
                 printf(GREEN "Сумма матриц успешно выведена!\n\n" RESET);
             }
             break;
         
         case ACT_PRINT_VECTORS:
-            puts("\nВекторы для матрицы №1:\n");
-            print_vectors(&left_csc_matrix);
-            puts("Векторы для матрицы №2:\n");
-            print_vectors(&right_csc_matrix);
-            printf(GREEN "\nВекторы матриц успешно выведены!\n\n" RESET);
+            if (!matrix1_entered || !matrix2_entered)
+                printf(RED "\nДве матрицы не введены!\n\n" RESET);
+            else 
+            {
+                puts("\nВекторы для матрицы №1:\n");
+                print_vectors(&left_csc_matrix);
+                puts("Векторы для матрицы №2:\n");
+                print_vectors(&right_csc_matrix);
+                printf(GREEN "\nВекторы матриц успешно выведены!\n\n" RESET);
+            }
             break;
 
         case ACT_SUM_MATRIX_STANDART:
-            if (!matrix_entered)
+            if (!matrix1_entered && !matrix2_entered)
             {
                 printf(RED "\nНе введены две матрицы !\n\n" RESET);
                 rc = ERR_ACT;
             }
             else 
             {
-                rc = sum_matrix_standart(&summ, &left_csc_matrix, &right_csc_matrix);
+                rc = sum_matrix_standart(&summ_standart, &left_csc_matrix, &right_csc_matrix);
                 if (rc == OK)
                 {
                     printf(GREEN "\nМатрицы успешно сложены!\n\n" RESET);
-                    matrix_summed = true;
+                    matrix_summed_standart = true;
                 }
             }
             break;
 
         case ACT_SUM_MATRIX_FAST:
-
+            if (!matrix1_entered && !matrix2_entered)
+            {
+                printf(RED "\nНе введены две матрицы !\n\n" RESET);
+                rc = ERR_ACT;
+            }
+            else 
+            {
+                rc = sum_matrix_fast(&summ_fast, &left_csc_matrix, &right_csc_matrix);
+                if (rc == OK)
+                {
+                    printf(GREEN "\nМатрицы успешно сложены!\n\n" RESET);
+                    matrix_summed_fast = true;
+                }
+            }
             break;
 
         case ACT_MAKE_RESEARCH:
             break;
 
+        case ACT_PRINT_SUMM_MATRIX_IN_FILE:
+            if (!matrix_summed_standart && !matrix_summed_fast)
+            {
+                printf(RED "\nВы до этого не выполняли сложения матриц, чтобы выводить их)!\n\n" RESET);
+                rc = ERR_ACT;
+            }
+            else
+            {
+                rc = read_filename_and_open_file(&f, "w");
+                if (rc == OK)
+                {
+                    puts("");
+                    print_matrix(NULL, &summ_standart, f);
+                    printf(GREEN "Сумма матриц успешно записана в файл!\n\n" RESET);
+                    fclose(f);
+                }
+            }
+            break;
         default:
             rc = ERR_ACT;
             break;

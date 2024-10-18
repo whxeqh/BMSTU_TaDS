@@ -2,12 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define MAX(A, B) ((A) > (B) ? (A) : (B))
+
 static int **matrix_alloc(const size_t rows, const size_t columns)
 {   
     int **matrix = NULL;
     errors_e rc = OK;
 
-    matrix = calloc(rows, sizeof(int));
+    matrix = calloc(rows, sizeof(int*));
 
     for (size_t i = 0; rc == OK && i < rows; ++i)
     {
@@ -77,4 +79,36 @@ errors_e sum_matrix_standart(matrix_t *summ, csc_matrix_t *pleft, csc_matrix_t *
     }
 
     return OK;
+}
+
+errors_e sum_matrix_fast(csc_matrix_t *summ, csc_matrix_t *pleft, csc_matrix_t *pright)
+{
+    errors_e rc = OK;
+    size_t length = MAX((int) pleft->len_A, (int) pright->len_A);
+    
+
+    if (pleft->columns != pright->columns || pleft->rows != pright->rows)
+        return ERR_RANGE;
+
+    summ->columns = pleft->columns;
+    summ->rows = pleft->rows;
+
+    summ->A = malloc(sizeof(int) * length);
+    if (!summ->A)
+        rc = ERR_MEMORY;
+
+    summ->IA = malloc(sizeof(size_t) * length);
+    if (!summ->IA)
+        rc = ERR_MEMORY;
+    
+    summ->JA = malloc(sizeof(size_t) * summ->columns);
+    if (!summ->JA)
+        rc = ERR_MEMORY;
+
+    /*for (size_t i = 0; i < summ->columns; ++i)
+    {
+        for (size_t)
+    }*/
+
+    return rc;
 }

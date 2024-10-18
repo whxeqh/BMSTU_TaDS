@@ -31,4 +31,6 @@ void free_matrix(int **matrix, const size_t rows);
 
 errors_e sum_matrix_standart(matrix_t *summ, csc_matrix_t *pleft, csc_matrix_t *pright);
 
+errors_e sum_matrix_fast(csc_matrix_t *summ, csc_matrix_t *pleft, csc_matrix_t *pright);
+
 #endif //__MATRIX_H__

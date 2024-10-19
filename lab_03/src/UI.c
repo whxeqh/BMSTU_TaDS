@@ -42,8 +42,8 @@ errors_e main_menu(void)
     errors_e rc = OK;
     action_e act = ACT_UNKNOWN;
 
-    csc_matrix_t left_csc_matrix, right_csc_matrix, summ_fast;
-    matrix_t summ_standart;
+    static csc_matrix_t left_csc_matrix, right_csc_matrix, summ_fast;
+    static matrix_t summ_standart;
     
     static bool matrix1_entered = false;
     static bool matrix2_entered = false;
@@ -117,7 +117,13 @@ errors_e main_menu(void)
             else
             {
                 puts("");
-                print_matrix(NULL, &summ_standart, stdout);
+                //puts("\nМатрица в обычном представлении");
+                if (matrix_summed_fast)
+                    print_matrix(&summ_fast, NULL, stdout);
+                else 
+                    print_matrix(NULL, &summ_standart, stdout);
+                //puts("\nМатрица в разреженном представлении (CSC)");
+                //print_vectors(&summ_standart);
                 printf(GREEN "Сумма матриц успешно выведена!\n\n" RESET);
             }
             break;
@@ -143,6 +149,7 @@ errors_e main_menu(void)
             }
             else 
             {
+                //free_matrix(summ_standart.matrix, summ_standart.rows);
                 rc = sum_matrix_standart(&summ_standart, &left_csc_matrix, &right_csc_matrix);
                 if (rc == OK)
                 {
@@ -160,12 +167,14 @@ errors_e main_menu(void)
             }
             else 
             {
+                //csc_free_matrix(&summ_fast);
                 rc = sum_matrix_fast(&summ_fast, &left_csc_matrix, &right_csc_matrix);
                 if (rc == OK)
                 {
                     printf(GREEN "\nМатрицы успешно сложены!\n\n" RESET);
                     matrix_summed_fast = true;
                 }
+                //print_vectors(&summ_fast);
             }
             break;
 

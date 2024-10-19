@@ -8,7 +8,7 @@
 #include <stdlib.h>
 
 #define MAX(A, B) ((A) > (B) ? (A) : (B))
-#define BASE 107
+#define BASE 9
 
 static void print_read_matrix_menu(void)
 {
@@ -124,7 +124,7 @@ static errors_e csc_matrix_alloc(csc_matrix_t *matrix, FILE *file)
     matrix->columns = tmp_columns + 1;
     matrix->len_A = tmp_nonzero;
 
-    printf("\nDBG: rows = %d columns = %d nonzero = %ld\n",tmp_rows, tmp_columns, tmp_nonzero);
+    //printf("\nDBG: rows = %d columns = %d nonzero = %ld\n",tmp_rows, tmp_columns, tmp_nonzero);
         
     matrix->A = malloc(sizeof(int) * matrix->len_A);
     if (!matrix->A)
@@ -177,7 +177,7 @@ void print_vectors(csc_matrix_t *matrix)
     puts("\n");
 
     printf("JA: ");
-    for (size_t i = 0; i < matrix->columns; ++i)
+    for (size_t i = 0; i < matrix->columns/*MAX(matrix->len_A, matrix->columns)*/; ++i)
         printf("%zu ", matrix->JA[i]);
     puts("\n");
 }
@@ -186,8 +186,8 @@ void print_vectors(csc_matrix_t *matrix)
 static void sort_vectors(csc_matrix_t *matrix)
 {
 
-    //puts("До сортировки");
-    //print_vectors(matrix);
+    puts("До сортировки");
+    print_vectors(matrix);
 
     //Сначала сортирую столбцы
     for (size_t i = 0; i < matrix->len_A; i++)
@@ -199,8 +199,8 @@ static void sort_vectors(csc_matrix_t *matrix)
                 swap(&matrix->A[j], &matrix->A[i], sizeof(matrix->A[j]));
             }
     
-    //puts("После сортировки столбцов");
-    //print_vectors(matrix);
+    puts("После сортировки столбцов");
+    print_vectors(matrix);
     
     //Потом сортирую строки
     for (size_t i = 0; i < matrix->len_A; i++)
@@ -212,8 +212,8 @@ static void sort_vectors(csc_matrix_t *matrix)
                 swap(&matrix->A[j], &matrix->A[i], sizeof(matrix->A[j]));
             }
     
-    //puts("После сортировки строк");
-    //print_vectors(matrix);
+    puts("После сортировки строк");
+    print_vectors(matrix);
 
 
     size_t *tmp_JA = malloc(sizeof(size_t) * matrix->columns);
@@ -233,7 +233,7 @@ static void sort_vectors(csc_matrix_t *matrix)
             {
                 is_column = true;
                 cur = j;
-                next = j;
+                next = matrix->len_A;
             }
         }
         for (size_t k = 0; k < matrix->len_A; k++)
@@ -247,10 +247,15 @@ static void sort_vectors(csc_matrix_t *matrix)
         else 
             tmp_JA[i] = cur;
     }
+
+    //printf("COLUMNS = %zu\n", matrix->columns);
     memcpy(matrix->JA, tmp_JA, sizeof(size_t) * matrix->columns);
     matrix->JA[matrix->columns - 1] = matrix->len_A;
     //matrix->columns = matrix->columns;
     free(tmp_JA);
+
+    puts("В конце:");
+    print_vectors(matrix);
     /*
     for (size_t i = 1; i < matrix->len_A; i++)
     {
@@ -409,7 +414,7 @@ errors_e input_random(csc_matrix_t *matrix)
     printf("Будет заполнено %zu элементов из %d\n\n", count, tmp_columns * tmp_rows);
 
     matrix->rows = tmp_rows;
-    matrix->columns = tmp_columns;
+    matrix->columns = tmp_columns + 1;
     matrix->len_A = count;
 
     //printf("\nDBG: rows = %d columns = %d nonzero = %ld\n",tmp_rows, tmp_columns, count);
@@ -422,13 +427,14 @@ errors_e input_random(csc_matrix_t *matrix)
     if (!matrix->IA)
         rc = ERR_MEMORY;
     
-    matrix->JA = malloc(sizeof(size_t) * MAX((int) count, (int) tmp_columns));
+    matrix->JA = malloc(sizeof(size_t) * MAX((int) (count + 1), (int) (tmp_columns + 1)));
     if (!matrix->JA)
         rc = ERR_MEMORY;
 
+    printf("count = %zu\n", count);
     for (size_t i = 0; rc == OK && i < count; i++)
     {
-        matrix->A[i] = rand() % BASE;
+        matrix->A[i] = rand() % BASE + 1;
         bool flag = true;
         while (flag)
         {
@@ -498,14 +504,14 @@ void print_matrix(csc_matrix_t *matrix, matrix_t *default_matrix, FILE *f)
         default_matrix = &tmp;
         *default_matrix = fill_matrix(matrix);
     }
-    default_matrix->columns--;
+    //default_matrix->columns--;
 
     if (f != stdout)
         fprintf(f, "%zu %zu\n", default_matrix->rows, default_matrix->columns);
 
     for (size_t i = 0; i < default_matrix->rows; ++i)
     {
-        for (size_t j = 0; j < default_matrix->columns; ++j)
+        for (size_t j = 0; j < default_matrix->columns - 1; ++j)
         {
                 fprintf(f, "%d ", default_matrix->matrix[i][j]);
         }

@@ -186,8 +186,8 @@ void print_vectors(csc_matrix_t *matrix)
 static void sort_vectors(csc_matrix_t *matrix)
 {
 
-    puts("До сортировки");
-    print_vectors(matrix);
+    //puts("До сортировки");
+    //print_vectors(matrix);
 
     //Сначала сортирую столбцы
     for (size_t i = 0; i < matrix->len_A; i++)
@@ -199,8 +199,8 @@ static void sort_vectors(csc_matrix_t *matrix)
                 swap(&matrix->A[j], &matrix->A[i], sizeof(matrix->A[j]));
             }
     
-    puts("После сортировки столбцов");
-    print_vectors(matrix);
+    //puts("После сортировки столбцов");
+    //print_vectors(matrix);
     
     //Потом сортирую строки
     for (size_t i = 0; i < matrix->len_A; i++)
@@ -212,8 +212,8 @@ static void sort_vectors(csc_matrix_t *matrix)
                 swap(&matrix->A[j], &matrix->A[i], sizeof(matrix->A[j]));
             }
     
-    puts("После сортировки строк");
-    print_vectors(matrix);
+    //puts("После сортировки строк");
+    //print_vectors(matrix);
 
 
     size_t *tmp_JA = malloc(sizeof(size_t) * matrix->columns);
@@ -254,8 +254,8 @@ static void sort_vectors(csc_matrix_t *matrix)
     //matrix->columns = matrix->columns;
     free(tmp_JA);
 
-    puts("В конце:");
-    print_vectors(matrix);
+    //puts("В конце:");
+    //print_vectors(matrix);
     /*
     for (size_t i = 1; i < matrix->len_A; i++)
     {
@@ -376,9 +376,9 @@ static errors_e input_matrix(csc_matrix_t *matrix, FILE *file_in)
     //realloc(matrix->IA, matrix->rows * sizeof(int));
     //realloc(matrix->JA, matrix->columns * sizeof(int));
 
-    puts("\nDBG vectors start");
-    print_vectors(matrix);
-    puts("DBG vectors end");
+    //puts("\nDBG vectors start");
+    //print_vectors(matrix);
+    //puts("DBG vectors end");
 
     return rc;
 }

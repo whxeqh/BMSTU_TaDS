@@ -119,7 +119,7 @@ errors_e main_menu(void)
                 puts("");
                 //puts("\nМатрица в обычном представлении");
                 if (matrix_summed_fast)
-                    print_matrix(&summ_fast, NULL, stdout);
+                    print_matrix(&summ_fast, &summ_standart, stdout);
                 else 
                     print_matrix(NULL, &summ_standart, stdout);
                 //puts("\nМатрица в разреженном представлении (CSC)");
@@ -135,8 +135,13 @@ errors_e main_menu(void)
             {
                 puts("\nВекторы для матрицы №1:\n");
                 print_vectors(&left_csc_matrix);
-                puts("Векторы для матрицы №2:\n");
+                puts("\nВекторы для матрицы №2:\n");
                 print_vectors(&right_csc_matrix);
+                if (matrix_summed_fast)
+                {
+                    puts("\nВекторы для матрицы сумм:\n");
+                    print_vectors(&summ_fast);
+                }
                 printf(GREEN "\nВекторы матриц успешно выведены!\n\n" RESET);
             }
             break;

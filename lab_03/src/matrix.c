@@ -160,8 +160,8 @@ errors_e sum_matrix_fast(csc_matrix_t *summ, csc_matrix_t *pleft, csc_matrix_t *
         summ->A = tmp_A;
         summ->IA = tmp_IA;
         summ->len_A = cnt_summ;
-        free(tmp_IA);
-        free(tmp_A);
+        //free(tmp_IA);
+        //free(tmp_A);
     }
     else 
         rc = ERR_MEMORY;

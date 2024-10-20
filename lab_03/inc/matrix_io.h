@@ -20,6 +20,8 @@ errors_e input_random(csc_matrix_t *matrix);
 
 errors_e read_filename_and_open_file(FILE **file, const char *mode);
 
+void sort_vectors(csc_matrix_t *matrix);
+
 void print_matrix(csc_matrix_t *matrix, matrix_t *default_matrix, FILE *f);
 
 void csc_free_matrix(csc_matrix_t *matrix);

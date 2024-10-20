@@ -64,21 +64,11 @@ debug: $(EXEC)
 
 release: $(EXEC)
 
-create_dirs:
-	mkdir -p $(RESEARCH_DIR)data/mysort/random_order
-	mkdir -p $(RESEARCH_DIR)data/mysort/reverse_order
-	mkdir -p $(RESEARCH_DIR)data/mysort/sorted_order
-	mkdir -p $(RESEARCH_DIR)data/qsort/random_order
-	mkdir -p $(RESEARCH_DIR)data/qsort/reverse_order
-	mkdir -p $(RESEARCH_DIR)data/qsort/sorted_order
-	mkdir -p $(RESEARCH_DIR)plots
-
-$(RESEARCH_EXEC): $(RESEARCH_OBJS) out/array.o
+$(RESEARCH_EXEC): $(RESEARCH_OBJS)
 	$(CC) $^ -o $@
 
-research: $(RESEARCH_EXEC) create_dirs  
+research: $(RESEARCH_EXEC)
 	./$<
-	@$(BASH) $(SCRIPTS_DIR)makeplots.sh
 
 $(UNIT_EXEC): $(filter-out $(OUT_DIR)main.o, $(OBJS)) $(UNIT_OBJS)
 	$(CC) $^ -o $@ $(UNIT_LDFLAGS)

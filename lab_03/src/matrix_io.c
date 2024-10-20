@@ -183,7 +183,7 @@ void print_vectors(csc_matrix_t *matrix)
 }
 
 //Используется только для ввода с консоли
-static void sort_vectors(csc_matrix_t *matrix)
+void sort_vectors(csc_matrix_t *matrix)
 {
 
     //puts("До сортировки");

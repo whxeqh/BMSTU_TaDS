@@ -1,8 +1,10 @@
 #include "research.h"
 #include "summ.h"
 #include "inits.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-void print_stats(const int *rows, const int *times_standart, const int *times_fast, const size_t length, const size_t percents)
+void print_stats(const int *rows, const unsigned long long *times_standart, const unsigned long long *times_fast, const size_t length, const size_t percents)
 {
     printf("Данные для %zu процентов заполнения\n", percents);
 
@@ -12,7 +14,7 @@ void print_stats(const int *rows, const int *times_standart, const int *times_fa
 
     for (size_t i = 0; i < length; ++i)
     {
-        printf("| %13d | %21d | %19d |\n", rows[i], times_standart[i], times_fast[i]);    
+        printf("| %13d | %21lld | %19lld |\n", rows[i], times_standart[i], times_fast[i]);    
     }
     printf("-------------------------------------------------------------\n\n");
 }
@@ -21,17 +23,17 @@ void print_stats(const int *rows, const int *times_standart, const int *times_fa
 static void build_matrix(matrix_t *matrix, const size_t rows, const size_t columns, const size_t percents)
 {
     size_t count = (double) (columns * rows) * ((double) percents / (double) 100);
-    printf("\nDBG: DEF матрица. Будет заполнено %zu элементов из %zu\n\n", count, columns * rows);
+    printf("\nDBG: DEF матрица. Будет заполнено %zu элементов из %zu. Процент: %zu\n\n", count, columns * rows, percents);
     
-    init_random(&matrix, rows, columns, count);
+    init_random(matrix, rows, columns, count);
 }
 
 static void build_csc_matrix(csc_matrix_t *matrix, const size_t rows, const size_t columns, const size_t percents)
 {
     size_t count = (double) (columns * rows) * ((double) percents / (double) 100);
-    printf("\nDBG: CSC матрица. Будет заполнено %zu элементов из %zu\n\n", count, columns * rows);
+    printf("\nDBG: CSC матрица. Будет заполнено %zu элементов из %zu. Процент: %zu\n\n", count, columns * rows, percents);
     
-    csc_init_random(&matrix, rows, columns, count);
+    csc_init_random(matrix, rows, columns, count);
 }
 
 static unsigned long long clock_time_one_summ_standart(const size_t rows, const size_t columns, const size_t percents)
@@ -77,7 +79,7 @@ static unsigned long long clock_time_one_summ_fast(const size_t rows, const size
     left.rows = rows;
     left.columns = columns;
     left.len_A = count;
-    matrix_alloc(&right);
+    csc_matrix_alloc(&right);
 
     build_csc_matrix(&left, rows, columns, percents);
     build_csc_matrix(&right, rows, columns, percents);

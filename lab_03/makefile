@@ -64,9 +64,10 @@ debug: $(EXEC)
 
 release: $(EXEC)
 
-$(RESEARCH_EXEC): $(RESEARCH_OBJS)
+$(RESEARCH_EXEC): $(RESEARCH_OBJS) $(filter-out $(OUT_DIR)main.o, $(OBJS))
 	$(CC) $^ -o $@
 
+research: CFLAGS += $(DEBUG)
 research: $(RESEARCH_EXEC)
 	./$<
 
@@ -137,4 +138,5 @@ clean:
 	rm -f $(OUT_DIR)*.txt $(OUT_DIR)*.d $(OUT_DIR)*.o $(OUT_DIR)*.gcno $(OUT_DIR)*.gcda
 	rm -f *.o *.exe *.txt *.d *.gcov
 	rm -f $(SRC_DIR)*.gcno $(SRC_DIR)*.gcda
-	$(BASH) $(SCRIPTS_DIR)clean.sh
+	rm -f $(RESEARCH_OUT_DIR)*.txt $(RESEARCH_OUT_DIR)*.d $(RESEARCH_OUT_DIR)*.o $(RESEARCH_OUT_DIR)*.gcno $(RESEARCH_OUT_DIR)*.gcda 
+#	$(BASH) $(SCRIPTS_DIR)clean.sh

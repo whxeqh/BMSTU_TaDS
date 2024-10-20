@@ -5,7 +5,7 @@
 
 #define REPS 7
 
-void print_stats(const int *rows, const int *times_standart, const int *times_fast, const size_t length, const size_t percents);
+void print_stats(const int *rows, const unsigned long long *times_standart, const unsigned long long *times_fast, const size_t length, const size_t percents);
 
 void make_research(const int *rows, const int *columns, const size_t length, const int *persents, const size_t per_length);
 

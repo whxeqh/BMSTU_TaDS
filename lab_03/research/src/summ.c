@@ -1,6 +1,8 @@
 #define _POSIX_C_SOURCE 199309L
 #include "summ.h"
 #include "inits.h"
+#include <time.h>
+#include <stdlib.h>
 
 unsigned long long calc_elapsed_time(const struct timespec *beg, const struct timespec *end)
 {
@@ -24,19 +26,19 @@ unsigned long long clock_time_summ_matrix_standart(matrix_t *pleft, matrix_t *pr
     srand(time(NULL));
     struct timespec t_beg, t_end;
 
-    matrix_t *summ;
-    summ->rows = pleft->rows;
-    summ->columns = pleft->columns;
-    matrix_alloc(summ);
+    matrix_t summ;
+    summ.rows = pleft->rows;
+    summ.columns = pleft->columns;
+    matrix_alloc(&summ);
 
 
     clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg);
-    summ_matrix_standart(summ, pleft, pright);
+    summ_matrix_standart(&summ, pleft, pright);
     clock_gettime(CLOCK_MONOTONIC_RAW, &t_end);
 
     unsigned long long time = calc_elapsed_time(&t_beg, &t_end);
 
-    matrix_clean(summ);
+    matrix_clean(&summ);
 
     return time;
 }
@@ -92,20 +94,20 @@ unsigned long long clock_time_summ_matrix_fast(csc_matrix_t *pleft, csc_matrix_t
     srand(time(NULL));
     struct timespec t_beg, t_end;
 
-    csc_matrix_t *summ;
-    summ->len_A = pleft->len_A;
-    summ->rows = pleft->rows;
-    summ->columns = pleft->columns;
+    csc_matrix_t summ;
+    summ.len_A = pleft->len_A;
+    summ.rows = pleft->rows;
+    summ.columns = pleft->columns;
 
-    csc_matrix_alloc(summ);
+    csc_matrix_alloc(&summ);
 
     clock_gettime(CLOCK_MONOTONIC_RAW, &t_beg);
-    summ_matrix_fast(summ, pleft, pright);
+    summ_matrix_fast(&summ, pleft, pright);
     clock_gettime(CLOCK_MONOTONIC_RAW, &t_end);
 
     unsigned long long time = calc_elapsed_time(&t_beg, &t_end);
 
-    csc_matrix_clean(summ);
+    csc_matrix_clean(&summ);
 
     return time;
 }

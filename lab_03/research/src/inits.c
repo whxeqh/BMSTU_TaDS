@@ -8,6 +8,7 @@
 
 #define MAX(A, B) ((A) > (B) ? (A) : (B))
 
+/*
 static void print_vectorss(int *A, size_t *IA, size_t *JA, size_t len_A, size_t columns)
 {
     printf("A:  ");
@@ -21,7 +22,7 @@ static void print_vectorss(int *A, size_t *IA, size_t *JA, size_t len_A, size_t 
     puts("\n");
 
     printf("JA: ");
-    for (size_t i = 0; i < columns/*MAX(matrix->len_A, matrix->columns)*/; ++i)
+    for (size_t i = 0; i < columns; ++i)
         printf("%zu ", JA[i]);
     puts("\n");
 }
@@ -36,7 +37,7 @@ static void print_matrixx(int **A, size_t rows, size_t columns)
         puts("");
     }
     puts("");
-}
+}*/
 
 static void init_vectors_random(int *A, size_t *IA, size_t *JA, const size_t rows, const size_t columns, const size_t nonzero)
 {
@@ -96,17 +97,17 @@ void csc_matrix_clean(csc_matrix_t *matrix)
 
 void matrix_alloc(matrix_t *matrix)
 {
-    matrix->matrix = calloc(matrix->rows, sizeof(int*));
+    matrix->matrix = calloc(matrix->rows, sizeof(size_t*));
     if (!matrix->matrix)
     {
         printf("Memory allocation error in file: %s\n Line: %d\n", __FILE__, __LINE__);
         exit(ERR_MEMORY);
     }
 
-    for (size_t i = 0; i < matrix->columns; ++i)
+    for (size_t i = 0; i < matrix->rows; ++i)
     {
         matrix->matrix[i] = calloc(matrix->columns, sizeof(int));
-        if (!matrix->matrix)
+        if (!matrix->matrix[i])
         {
             printf("Memory allocation error in file: %s\n Line: %d\n", __FILE__, __LINE__);
             exit(ERR_MEMORY);
@@ -117,16 +118,16 @@ void matrix_alloc(matrix_t *matrix)
 void init_random(matrix_t *matrix, const size_t rows, const size_t columns, const size_t nonzero)
 {
     int *A = malloc(sizeof(int) * nonzero);
-    size_t *IA = malloc(sizeof(int) * nonzero);
-    size_t *JA = malloc(sizeof(int) * columns + 1);
+    size_t *IA = malloc(sizeof(size_t) * nonzero);
+    size_t *JA = malloc(sizeof(size_t) * nonzero);
 
     init_vectors_random(A, IA, JA, rows, columns, nonzero);
-    print_vectorss(A, IA, JA, nonzero, columns);
+    //print_vectorss(A, IA, JA, nonzero, columns);
 
     for (size_t i = 0; i < nonzero; ++i)
         matrix->matrix[IA[i]][JA[i]] = A[i];
 
-    print_matrixx(matrix->matrix, matrix->rows, matrix->columns);
+    //print_matrixx(matrix->matrix, matrix->rows, matrix->columns);
     
     free(A);
     free(IA);

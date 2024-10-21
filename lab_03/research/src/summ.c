@@ -95,7 +95,7 @@ unsigned long long clock_time_summ_matrix_fast(csc_matrix_t *pleft, csc_matrix_t
     struct timespec t_beg, t_end;
 
     csc_matrix_t summ;
-    summ.len_A = pleft->len_A;
+    summ.len_A = pleft->len_A + pright->len_A;
     summ.rows = pleft->rows;
     summ.columns = pleft->columns;
 

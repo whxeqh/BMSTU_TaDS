@@ -1,0 +1,95 @@
+\section{Описание алгоритма}
+\begin{enumerate}
+	\item Выбран пункт 1) "Вывести информацию о программе":
+	\begin{itemize}
+		\item Информация о программе выводится на экран
+	\end{itemize}
+	\item Выбран пункт 2) "Считать матрицы":
+	\begin{enumerate}
+		\item Выбран пункт "Из файла"
+		\begin{itemize}
+			\item Считывается название файла
+			\item Считываются размеры матрицы из файла
+			\item Выделяется память и считываются ненулевые элементы
+			\item Заполняется матрица
+		\end{itemize}
+		\item Выбран пункт "Случайным образом"
+		\begin{itemize}
+			\item Считываются размеры матрицы
+			\item Считывается процент заполнения ненулевыми элементами
+			\item Выделяется память и заполняется матрица
+		\end{itemize}
+		\item Выбран пункт "Из консоли
+		\begin{itemize}
+			\item Считываются размеры матрицы
+			\item Считывается количество ненулевых элементов
+			\item Выделяется память и заполняется матрица
+		\end{itemize}
+	\end{enumerate}
+	\item Выбран пункт 3) "Вывести матрицы в консоль":
+	\begin{itemize}
+		\item Выводится первая матрица в обычном виде
+		\item Выводится вторая матрица в обычном виде
+	\end{itemize}
+	\item Выбран пункт 4) "Вывести результат сложения матриц в консоль":
+	\begin{itemize}
+		\item Вводится матрица в обычном виде
+	\end{itemize}
+	\item Выбран пункт 5) "Вывести вектора ($A$, $IA$, $JA$) матриц в консоль":
+	\begin{itemize}
+		\item Выводятся вектора для первой матрицы
+		\item Выводятся вектора для второй матрицы
+		\item Если до этого было сложение разреженных матриц, то выводятся вектора для суммы матриц
+	\end{itemize}
+	\item Выбран пункт 6) "Сложить две матрицы стандартным алгоритмом ":
+	\begin{itemize}
+		\item Две матрицы складываются стандартным алгоритмом 
+	\end{itemize}
+	\item Выбран пункт 7) "Сложить две матрицы усовершенствованным алгоритмом":
+	\begin{itemize}
+		\item Две матрицы складываются усовершенствованным алгоритмом 
+	\end{itemize}
+	\item Выбран пункт 8) "Записать сумму матриц в файл":
+	\begin{itemize}
+		\item Считывается название файла
+		\item Размеры матрицы и сама матрица записывается в файл
+	\end{itemize}
+\end{enumerate}
+
+\vspace{2em}
+\subsection{Основные функции программы}
+\begin{enumerate}
+	\item \texttt{errors\_e sum\_matrix\_standart(matrix\_t *summ, csc\_matrix\_t *pleft, csc\_matrix\_t *pright);}
+	\begin{itemize}
+		\item Складывает две матрицы в обычном представлении
+		\item \textbf{summ}: Результат суммы
+		\item \textbf{*pleft}: Указатель на первую матрицу
+		\item \textbf{*pright}: Указатель на вторую матрицу
+		\item Возвращает код ошибки
+	\end{itemize}
+	\item \texttt{errors\_e sum\_matrix\_fast(csc\_matrix\_t *summ, csc\_matrix\_t *pleft, csc\_matrix\_t *pright);}
+	\begin{itemize}
+		\item Складывает две матрицы в разреженном представлении (CSC)
+		\item \textbf{summ}: Результат суммы
+		\item \textbf{*pleft}: Указатель на первую матрицу
+		\item \textbf{*pright}: Указатель на вторую матрицу
+		\item Возвращает код ошибки
+	\end{itemize}
+	\item \texttt{void print\_matrix(csc\_matrix\_t *matrix, matrix\_t *default\_matrix, FILE *f);}
+	\begin{itemize}
+		\item Выводит матрицу в обычном представлении в файл
+		\item \textbf{*matrix}: Структура матрицы в разреженном представлении (CSC)
+		\item \textbf{*default\_matrix}: Матрица в обычном представлении 
+		\item \textbf{f}: Файловая переменная
+	\end{itemize}
+	\item \texttt{void print\_vectors(csc\_matrix\_t *matrix);}
+	\begin{itemize}
+		\item Выводит вектора матрицы разреженном представлении (CSC)
+		\item \textbf{*matrix}: Структура матрицы
+	\end{itemize}
+	\item \texttt{errors\_e read\_matrix(csc\_matrix\_t *matrix);}
+	\begin{itemize}
+		\item Чтение матрицы в разреженное представление (CSC)
+		\item \textbf{*matrix}: Структура матрица
+	\end{itemize}
+\end{enumerate}

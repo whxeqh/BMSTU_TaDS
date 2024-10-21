@@ -1,0 +1,40 @@
+\section{Описание структуры данных}
+
+\begin{listing}[H]
+	\begin{minted}[linenos]{c}
+typedef struct 
+{
+    int *A;
+    size_t len_A;
+	
+    size_t *IA;
+    size_t rows;
+
+    size_t *JA;
+    size_t columns;
+} csc_matrix_t;
+	\end{minted}
+	\listingcaption{Структура разреженной матрицы}
+\end{listing}
+
+
+\noindent\textbf{Объяснение полей:}
+\newline
+\begin{tabular}{|l|l|}
+	\hline
+	\textbf{Поле} & \textbf{Описание} \\
+	\hline
+	\texttt{A} & \makecell{Вектор, содержащий значения \\ненулевых элементов матрицы } \\
+	\hline
+	\texttt{len\_A} & \makecell{Количество элементов} \\
+	\hline
+	\texttt{IA} & \makecell{Вектор, содержащий номера строк\\для элементов вектора $A$} \\
+	\hline
+	\texttt{rows} & \makecell{Количество строк в матрице} \\
+	\hline
+	\texttt{JA} & \makecell{Вектор, содержащий индексы\\элементов вектора $A$, с которого\\ начинается столбец $JA_i$ } \\
+	\hline
+	\texttt{columns} & \makecell{Количество столбцов в матрице} \\
+\hline
+\end{tabular}
+\newpage

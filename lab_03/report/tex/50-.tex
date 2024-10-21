@@ -1,0 +1,65 @@
+\section{Тестовые данные}
+
+{\noindent \textbf {Позитивные тесты}}
+\begin{longtable}{|c|c|}
+	\hline
+	\makecell{\textbf{Тест}} &  \makecell{\textbf{Выходные данные}} \\
+	\hline
+	\makecell{Чтение матрицы из файла} &  \makecell{Матрица успешно считана!} \\
+	\hline
+	\makecell{Чтение матрицы из консоли} &  \makecell{Матрица успешно считана!} \\
+	\hline
+	\makecell{Заполнение матрицы\\случайным образом} &  \makecell{Матрица успешно заполнена!} \\
+	\hline
+	\makecell{Вывести матрицы в консоль} &  \makecell{Матрицы успешно выведены!} \\
+	\hline
+	\makecell{Вывести результат сложения\\ матриц в консоль} &  \makecell{Сумма матриц успешно выведена!} \\
+	\hline
+	\makecell{Вывести вектора (A, IA, JA)\\ матриц в консоль} &  \makecell{Вектора успешно выведены!} \\
+	\hline
+	\makecell{Сложить две матрицы\\стандартным алгоритмом} &  \makecell{Матрицы успешно сложены!} \\
+	\hline
+	\makecell{Сложить две матрицы \\усовершенствованным\\алгоритмом} &  \makecell{Матрицы успешно сложены!} \\
+	\hline
+	\makecell{Записать сумму матриц в файл} &  \makecell{Матрицы успешно записана в файл!} \\
+	\hline
+	\makecell{Выход} & \makecell{Пока!} \\
+	\hline
+\end{longtable}
+
+{\noindent \textbf {Негативные тесты}}
+\begin{longtable}{|c|c|}
+	\hline
+	\makecell{\textbf{Тест}} &  \makecell{\textbf{Выходные данные}} \\
+	\hline
+	\makecell{Неверный диапазон значений\\опции меню} & \makecell{ERROR WITH CHOOSING ACT} \\
+	\hline
+	\makecell{Вывод матриц в консоль,\\когда они не введены} & \makecell{Две матрицы не введены!} \\
+	\hline
+	\makecell{Вывод векторов в консоль,\\когда матрицы не введены} & \makecell{Две матрицы не введены!} \\
+	\hline
+	\makecell{Сложение матриц,\\когда они не введены} & \makecell{Две матрицы не введены!} \\
+	\hline
+	\makecell{Запись суммы матриц,\\когда не было сложения} & \makecell{Вы до этого не выполняли\\сложения матриц,\\чтобы выводить их)!} \\
+	\hline
+	\makecell{Отсутствие файла\\для чтения матрицы} & \makecell{ERR WITH FILE} \\
+	\hline
+	\makecell{Некорректные данные в файле} & \makecell{ERR WITH INPUT/OUTPUT} \\
+	\hline
+	\makecell{Количество строк \\или столбцов\\меньше нуля} & \makecell{ERR WITH RANGE} \\
+	\hline
+	\makecell{Количество ненулевых\\элементов меньше нуля} & \makecell{ERR WITH RANGE} \\
+	\hline
+	\makecell{Количество ненулевых\\элементов больше количества\\всех элементов матрицы} & \makecell{ERR WITH RANGE} \\
+	\hline
+	\makecell{Процент заполнения матрицы\\ $< 0$ или $> 100\%$} & \makecell{ERR WITH RANGE} \\
+	\hline
+	\makecell{Сложение матриц с \\ разной размерностью} & \makecell{ERR RANGE} \\
+	\hline
+	\makecell{Некорректные данные в файле} & \makecell{ERR WITH INPUT/OUTPUT} \\
+	\hline
+	\makecell{Отсутствие прав\\на запись в файл} & \makecell{ERR WITH INPUT/OUTPUT} \\
+	\hline
+	\makecell{Отсутствие памяти под\\матрицу на устройстве} & \makecell{ERR MEMORY} \\
+	\hline
+\end{longtable}

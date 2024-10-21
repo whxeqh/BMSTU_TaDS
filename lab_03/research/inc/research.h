@@ -12,7 +12,7 @@
 #define CYAN "\033[36m"
 #define BOLD "\033[1m"
 
-#define REPS 15
+#define REPS 5
 
 void print_stats(const int *rows, const int *columns, const size_t *memory_standart, const size_t *memory_fast, const unsigned long long *times_standart, const unsigned long long *times_fast, const size_t length, const size_t percents);
 

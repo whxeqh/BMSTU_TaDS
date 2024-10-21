@@ -315,13 +315,18 @@ static errors_e input_matrix(csc_matrix_t *matrix, FILE *file_in)
                     if (tmp.IA[j] == row && tmp.JA[j] == column)
                         flag = true;
                 if (flag)
-                    printf("\nКоординаты должны быть разными! Повторите ввод элемента №%zu\n", i + 1);
+                    printf(RED "\nКоординаты должны быть разными! Повторите ввод элемента №%zu\n" RESET, i + 1);
             }
-            
-            printf("elem = ");
-            if (fscanf(file_in, "%d", &elem) != 1)
-                rc = ERR_IO;
-            
+
+            elem = 0;
+            while(elem == 0)
+            {
+                printf("elem = ");
+                if (fscanf(file_in, "%d", &elem) != 1)
+                    rc = ERR_IO;
+                if (elem == 0)
+                    printf(RED "Элемент должен быть отличен от нуля! Повторите ввод элемента\n" RESET);
+            }
             if (rc != OK)
             {
                 csc_free_matrix(&tmp);

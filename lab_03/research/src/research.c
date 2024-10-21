@@ -80,6 +80,12 @@ static unsigned long long clock_time_one_summ_standart(const size_t rows, const 
     for (size_t i = 0; i < REPS + 2; ++i)
     {
         cur_time = clock_time_summ_matrix_standart(&left, &right);
+        
+        //Чтобы обмануть оптимизатор
+        int tmp = left.matrix[0][0];
+        left.matrix[0][0] = right.matrix[0][1];
+        right.matrix[0][1] = tmp;
+
         if (i > 1)
             summ_time += cur_time;
     }
@@ -112,6 +118,20 @@ static unsigned long long clock_time_one_summ_fast(const size_t rows, const size
     for (size_t i = 0; i < REPS + 2; ++i)
     {
         cur_time = clock_time_summ_matrix_fast(&left, &right);
+
+        //Чтобы обмануть оптимизатор
+        int tmp = left.A[0];
+        left.A[0] = right.A[1];
+        right.A[1] = tmp;
+
+        size_t tmp2 = left.IA[0];
+        left.IA[0] = right.IA[1];
+        right.IA[1] = tmp2;
+
+        size_t tmp3 = left.JA[0];
+        left.JA[0] = right.JA[1];
+        right.JA[1] = tmp3;
+
         if (i > 1)
             summ_time += cur_time;
     }

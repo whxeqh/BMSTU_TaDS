@@ -19,7 +19,7 @@ UBSAN_FLAGS := -fno-omit-frame-pointer -fsanitize=undefined
 
 # Ключи для основной программы
 CC := gcc
-CFLAGS := -std=c99 -Wall -Werror -Wpedantic -Wextra -g
+CFLAGS := -std=c99 -Wall -Werror -Wpedantic -Wextra -g -O0
 LDFLAGS := -lm
 UNIT_LDFLAGS := -lcheck -lm
 DEBUG := -g -O0
@@ -66,7 +66,7 @@ release: $(EXEC)
 
 $(RESEARCH_EXEC): $(RESEARCH_OBJS) $(filter-out $(OUT_DIR)main.o, $(OBJS))
 	$(CC) $^ -o $@
-	
+
 research: $(RESEARCH_EXEC)
 	./$<
 

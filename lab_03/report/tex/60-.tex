@@ -1,0 +1,395 @@
+\section{Исследование}
+\setcounter{table}{0}
+Исследование проводилось на основе матриц, содержащих от 50 до 600 чисел с шагом 25 и 50. Количество итераций сложения: 5. Все данные
+были сгенерированы случайным образом. В ходе эксперимента применялись
+два алгоритма сложения: классический, с обычными матрицами и улучшенный, с использованием разреженных матриц. 
+Производились замеры как по потраченному времени, так и по использованной памяти
+
+\vspace{1.5em}
+\textbf{Данные для 1\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50$\times$50         & 12                   & 0                \\ \hline
+		75$\times$75         & 27                   & 1                \\ \hline
+		100$\times$100        & 24                   & 0                \\ \hline
+		150$\times$150        & 54                   & 1                \\ \hline
+		200$\times$200        & 99                   & 3                \\ \hline
+		300$\times$300        & 230                  & 7                \\ \hline
+		400$\times$400        & 396                  & 19               \\ \hline
+		500$\times$500        & 609                  & 27               \\ \hline
+		600$\times$600        & 877                  & 43               \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50$\times$50         & 10000                 & 400              \\ \hline
+		75$\times$75         & 22500                 & 748              \\ \hline
+		100$\times$100        & 40000                 & 1200             \\ \hline
+		150$\times$150        & 90000                 & 2700             \\ \hline
+		200$\times$200        & 160000                & 4800             \\ \hline
+		300$\times$300        & 360000                & 10800            \\ \hline
+		400$\times$400        & 640000                & 19200            \\ \hline
+		500$\times$500        & 1000000               & 30000            \\ \hline
+		600$\times$600        & 1440000               & 43200            \\ \hline
+	\end{tabular}
+\end{table}
+
+\newpage
+\textbf{Данные для 3\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50$\times$50         & 5                    & 0                \\ \hline
+		75$\times$75         & 13                   & 1                \\ \hline
+		100$\times$100        & 24                   & 2                \\ \hline
+		150$\times$150        & 54                   & 5                \\ \hline
+		200$\times$200        & 98                   & 14               \\ \hline
+		300$\times$300        & 220                  & 29               \\ \hline
+		400$\times$400        & 389                  & 56               \\ \hline
+		500$\times$500        & 607                  & 110              \\ \hline
+		600$\times$600        & 872                  & 178              \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50$\times$50         & 10000                 & 900              \\ \hline
+		75$\times$75         & 22500                 & 2016             \\ \hline
+		100$\times$100        & 40000                 & 3600             \\ \hline
+		150$\times$150        & 90000                 & 8100             \\ \hline
+		200$\times$200        & 160000                & 14400            \\ \hline
+		300$\times$300        & 360000                & 32400            \\ \hline
+		400$\times$400        & 640000                & 57600            \\ \hline
+		500$\times$500        & 1000000               & 90000            \\ \hline
+		600$\times$600        & 1440000               & 129600           \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\newpage
+\textbf{Данные для 5\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50$\times$50         & 5                    & 1                \\ \hline
+		75$\times$75         & 13                   & 2                \\ \hline
+		100$\times$100        & 24                   & 4                \\ \hline
+		150$\times$150        & 54                   & 10               \\ \hline
+		200$\times$200        & 96                   & 21               \\ \hline
+		300$\times$300        & 224                  & 54               \\ \hline
+		400$\times$400        & 393                  & 89               \\ \hline
+		500$\times$500        & 554                  & 181              \\ \hline
+		600$\times$600        & 783                  & 289              \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50$\times$50         & 10000                 & 1500             \\ \hline
+		75$\times$75         & 22500                 & 3372             \\ \hline
+		100$\times$100        & 40000                 & 6000             \\ \hline
+		150$\times$150        & 90000                 & 13500            \\ \hline
+		200$\times$200        & 160000                & 24000            \\ \hline
+		300$\times$300        & 360000                & 54000            \\ \hline
+		400$\times$400        & 640000                & 96000            \\ \hline
+		500$\times$500        & 1000000               & 150000           \\ \hline
+		600$\times$600        & 1440000               & 216000           \\ \hline
+	\end{tabular}
+\end{table}
+
+\newpage
+\textbf{Данные для 7\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50$\times$50         & 5                    & 1                \\ \hline
+		75$\times$75         & 12                   & 2                \\ \hline
+		100$\times$100        & 23                   & 4                \\ \hline
+		150$\times$150        & 56                   & 12               \\ \hline
+		200$\times$200        & 96                   & 20               \\ \hline
+		300$\times$300        & 197                  & 71               \\ \hline
+		400$\times$400        & 347                  & 150              \\ \hline
+		500$\times$500        & 547                  & 251              \\ \hline
+		600$\times$600        & 766                  & 404              \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50$\times$50         & 10000                 & 2100             \\ \hline
+		75$\times$75         & 22500                 & 4716             \\ \hline
+		100$\times$100        & 40000                 & 8400             \\ \hline
+		150$\times$150        & 90000                 & 18900            \\ \hline
+		200$\times$200        & 160000                & 33600            \\ \hline
+		300$\times$300        & 360000                & 75600            \\ \hline
+		400$\times$400        & 640000                & 134400           \\ \hline
+		500$\times$500        & 1000000               & 210000           \\ \hline
+		600$\times$600        & 1440000               & 302400           \\ \hline
+	\end{tabular}
+\end{table}
+
+\textbf{Данные для 10\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50  50         & 5                    & 1                \\ \hline
+		75  75         & 12                   & 3                \\ \hline
+		100 100        & 22                   & 9                \\ \hline
+		150 150        & 55                   & 20               \\ \hline
+		200 200        & 97                   & 34               \\ \hline
+		300 300        & 200                  & 102              \\ \hline
+		400 400        & 370                  & 175              \\ \hline
+		500 500        & 542                  & 387              \\ \hline
+		600 600        & 770                  & 573              \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50  50         & 10000                 & 3000             \\ \hline
+		75  75         & 22500                 & 6744             \\ \hline
+		100 100        & 40000                 & 12000            \\ \hline
+		150 150        & 90000                 & 27000            \\ \hline
+		200 200        & 160000                & 48000            \\ \hline
+		300 300        & 360000                & 108000           \\ \hline
+		400 400        & 640000                & 192000           \\ \hline
+		500 500        & 1000000               & 300000           \\ \hline
+		600 600        & 1440000               & 432000           \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\newpage
+\textbf{Данные для 12\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50  50         & 5                    & 2                \\ \hline
+		75  75         & 14                   & 4                \\ \hline
+		100 100        & 22                   & 9                \\ \hline
+		150 150        & 54                   & 22               \\ \hline
+		200 200        & 85                   & 43               \\ \hline
+		300 300        & 196                  & 125              \\ \hline
+		400 400        & 344                  & 209              \\ \hline
+		500 500        & 540                  & 470              \\ \hline
+		600 600        & 779                  & 690              \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50  50         & 10000                 & 3600               \\ \hline
+		75  75         & 22500                 & 8100             \\ \hline
+		100 100        & 40000                 & 14400             \\ \hline
+		150 150        & 90000                 & 32400             \\ \hline
+		200 200        & 160000                & 57600            \\ \hline
+		300 300        & 360000                & 129600            \\ \hline
+		400 400        & 640000                & 230400            \\ \hline
+		500 500        & 1000000               & 360000            \\ \hline
+		600 600        & 1440000               & 518400           \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\newpage
+\textbf{Данные для 15\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50  50         & 5                    & 2                \\ \hline
+		75  75         & 12                   & 6                \\ \hline
+		100 100        & 24                   & 11                \\ \hline
+		150 150        & 54                   & 26               \\ \hline
+		200 200        & 87                   & 49               \\ \hline
+		300 300        & 194                  & 147               \\ \hline
+		400 400        & 393                  & 261               \\ \hline
+		500 500        & 554                  & 560              \\ \hline
+		600 600        & 783                  & 881              \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50  50         & 10000                 & 4500             \\ \hline
+		75  75         & 22500                 & 10116             \\ \hline
+		100 100        & 40000                 & 18000             \\ \hline
+		150 150        & 90000                 & 40500            \\ \hline
+		200 200        & 160000                & 72000            \\ \hline
+		300 300        & 360000                & 162000            \\ \hline
+		400 400        & 640000                & 288000            \\ \hline
+		500 500        & 1000000               & 450000           \\ \hline
+		600 600        & 1440000               & 648000           \\ \hline
+	\end{tabular}
+\end{table}
+
+\newpage
+\textbf{Данные для 20\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50  50         & 5                    & 4                \\ \hline
+		75  75         & 12                   & 9                \\ \hline
+		100 100        & 23                   & 20                \\ \hline
+		150 150        & 56                   & 35               \\ \hline
+		200 200        & 96                   & 71               \\ \hline
+		300 300        & 197                  & 190               \\ \hline
+		400 400        & 347                  & 355              \\ \hline
+		500 500        & 547                  & 791              \\ \hline
+		600 600        & 766                  & 1205              \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50  50         & 10000                 & 6000             \\ \hline
+		75  75         & 22500                 & 13500             \\ \hline
+		100 100        & 40000                 & 24000             \\ \hline
+		150 150        & 90000                 & 54000            \\ \hline
+		200 200        & 160000                & 96000            \\ \hline
+		300 300        & 360000                & 216000            \\ \hline
+		400 400        & 640000                & 384000           \\ \hline
+		500 500        & 1000000               & 600000           \\ \hline
+		600 600        & 1440000               & 864000           \\ \hline
+	\end{tabular}
+\end{table}
+
+\newpage
+\textbf{Данные для 25\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50  50         & 5                    & 5                \\ \hline
+		75  75         & 12                   & 10                \\ \hline
+		100 100        & 23                   & 20                \\ \hline
+		150 150        & 56                   & 50               \\ \hline
+		200 200        & 96                   & 104               \\ \hline
+		300 300        & 197                  & 285               \\ \hline
+		400 400        & 347                  & 458              \\ \hline
+		500 500        & 547                  & 971              \\ \hline
+		600 600        & 766                  & 1381              \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50  50         & 10000                 & 7500             \\ \hline
+		75  75         & 22500                 & 16872             \\ \hline
+		100 100        & 40000                 & 30000             \\ \hline
+		150 150        & 90000                 & 67500            \\ \hline
+		200 200        & 160000                & 120000            \\ \hline
+		300 300        & 360000                & 270000            \\ \hline
+		400 400        & 640000                & 480000           \\ \hline
+		500 500        & 1000000               & 750000           \\ \hline
+		600 600        & 1440000               & 1080000           \\ \hline
+	\end{tabular}
+\end{table}
+
+
+\newpage
+\textbf{Данные для 35\% заполнения матриц}
+\begin{table}[H]
+	\centering
+	\caption{Время сложения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, мкс & CSC матрицы, мкс \\ \hline
+		50$\times$50         & 5                    & 5                \\ \hline
+		75$\times$75         & 12                   & 14                \\ \hline
+		100$\times$100        & 23                   & 24                \\ \hline
+		150$\times$150        & 56                   & 71               \\ \hline
+		200$\times$200        & 96                   & 144               \\ \hline
+		300$\times$300        & 197                  & 305               \\ \hline
+		400$\times$400        & 347                  & 574              \\ \hline
+		500$\times$500        & 547                  & 1417              \\ \hline
+		600$\times$600        & 766                  & 1933              \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\caption{Объём памяти для хранения матриц}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Размер матрицы & Обычные матрицы, байт & CSC матрицы, байт \\ \hline
+		50$\times$50         & 10000                 & 10500             \\ \hline
+		75$\times$75         & 22500                 & 23616             \\ \hline
+		100$\times$100        & 40000                 & 42000	             \\ \hline
+		150$\times$150        & 90000                 & 94488            \\ \hline
+		200$\times$200        & 160000                & 168000            \\ \hline
+		300$\times$300        & 360000                & 377988            \\ \hline
+		400$\times$400        & 640000                & 672000           \\ \hline
+		500$\times$500        & 1000000               & 1050000           \\ \hline
+		600$\times$600        & 1440000               & 1511988           \\ \hline
+	\end{tabular}
+\end{table}
+
+\subsection{Выводы исследования}
+Как видно по полученным данным, использование алгоритма сложения разреженных матриц эффективно, когда содержание ненулевых элементов не больше $15-20\%$ от общего числа элементов в матрице. 
+Хранение разреженной матрицы эффективнее вплоть до $30\%$ содержания ненулевых элементов в матрице

@@ -72,7 +72,7 @@ errors_e main_menu(void)
             break;
 
         case ACT_PRINT_AUTOR_INFO:
-
+            puts("Палладий Евгений. ИУ7-31Б. 16 вариант");
             break;
 
         case ACT_READ_MATRIX:
@@ -184,6 +184,7 @@ errors_e main_menu(void)
             break;
 
         case ACT_MAKE_RESEARCH:
+            printf(GREEN "Напишите в консоль make research и будет чудо!\n" RESET);
             break;
 
         case ACT_PRINT_SUMM_MATRIX_IN_FILE:
